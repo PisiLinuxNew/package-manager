@@ -52,7 +52,7 @@ LIGHTBLUE = QColor('#DEE5F2')
 DARKVIOLET = QColor('#3B414F')
 LIGHTGREEN = QColor('#F1F5EC')
 DARKGREEN = QColor('#32775F')
-CHECK_ICON = 'add'
+CHECK_ICON = 'list-add'      #add
 RECT = QRect()
 DETAIL_LINE_OFFSET = 36
 ICON_PADDING = 0
@@ -161,7 +161,7 @@ class PackageDelegate(QStyledItemDelegate):
         
         rate = int(QVariant.value(index.model().data(index, RateRole))) if QVariant.value(index.model().data(index, RateRole))!= None  else 0
         
-        installed = QVariant.value(index.model().data(index, InstalledRole))
+        installed = True if QVariant.value(index.model().data(index, InstalledRole))=="True" else False
         
         # We need to request update if its not possible to get meta data about the package
         try:
