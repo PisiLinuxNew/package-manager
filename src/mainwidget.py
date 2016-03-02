@@ -116,7 +116,10 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         self.searchButton.clicked.connect(self.searchActivated)
         self.searchLine.textEdited[str].connect(self.searchLineChanged)
         self.searchLine.returnPressed.connect(self.searchActivated)
-        self.searchLine.textChanged[str].connect(self.groupFilter)       
+        
+        #burada hata var 
+        self.searchLine.textChanged[str].connect(self.slotSearchLineClear)       
+        
         self.typeCombo.activated[int].connect(self.typeFilter)
         self.stateTab.currentChanged[int].connect(self.switchState)
         self.groupList.groupChanged.connect(self.groupFilter)
@@ -230,11 +233,13 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
             if not self.state._typeFilter == filter:
                 self.state._typeFilter = filter
                 self.initializeGroupList()
-
-    def groupFilter(self):
+    def slotSearchLineClear(self):
         if self.searchLine.text()!="":
             return
         
+        self.groupFilter()
+    
+    def groupFilter(self):
         waitCursor()
         self.packageList.resetMoreInfoRow()
         packages = self.state.groupPackages(self.groupList.currentGroup())

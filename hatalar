@@ -4,6 +4,7 @@ _______________________________
 -> genel ayarlar kımında hatalar var (uyarı mesajları çıkıyor)
 -> farklı ikonu olan paketlierin olduğu yerlerde yavaşlama var
 -> detaylarda sadece paket dosyaları kısmı var
+=========================================================================
 
 
 
@@ -12,7 +13,7 @@ _______________________________
 
 -> proxy ayarları 
 
-
+=========================================================================
 
 
 
@@ -22,7 +23,7 @@ _______________________________
 -> paket seçimine gecici çözüm bulundu 
     (packageList ile seçim olayı arasındaki iletişimde sorun var!)
 
-
+=========================================================================
 
 
 
