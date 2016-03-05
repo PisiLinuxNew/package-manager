@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-02 13:07+0200\n"
+"POT-Creation-Date: 2016-03-03 11:32+0200\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: Azerbaijani (http://www.transifex.com/projects/p/PiSiLinux/language/az/)\n"
@@ -103,35 +103,35 @@ msgstr ""
 msgid "Package Manager Help"
 msgstr ""
 
-#: src/mainwidget.py:147
+#: src/mainwidget.py:150
 msgid "All packages are up to date"
 msgstr ""
 
-#: src/mainwidget.py:254
+#: src/mainwidget.py:259
 msgid "Searching..."
 msgstr ""
 
-#: src/mainwidget.py:266
+#: src/mainwidget.py:271
 msgid "No results found."
 msgstr ""
 
-#: src/mainwidget.py:427
+#: src/mainwidget.py:432
 msgid "Select packages"
 msgstr ""
 
-#: src/mainwidget.py:428
+#: src/mainwidget.py:433
 msgid "You must select at least one installed package"
 msgstr ""
 
-#: src/mainwidget.py:440
+#: src/mainwidget.py:445
 msgid "All Updates"
 msgstr ""
 
-#: src/mainwidget.py:441
+#: src/mainwidget.py:446
 msgid "Security Updates"
 msgstr ""
 
-#: src/mainwidget.py:442
+#: src/mainwidget.py:447
 msgid "Critical Updates"
 msgstr ""
 
@@ -484,8 +484,8 @@ msgstr ""
 msgid "Package Files"
 msgstr ""
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
 #~ msgid "Gökmen Göksel"
 #~ msgstr "Gökmen Göksel"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"

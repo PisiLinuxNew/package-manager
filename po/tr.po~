@@ -4,293 +4,302 @@
 #
 # Translators:
 # Translators:
-# Philippe Svetoslavsky <philsvet@gmail.com>, 2009
+# Faik Uygur <faik@pardus.org.tr>, 2009-2010
+# Gökmen Göksel <gokmen@pardus.org.tr>, 2010
+# mozen <inactive+mozen@transifex.com>, 2013
+# Necmettin Begiter <necmettin.begiter@gmail.com>, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
-"PO-Revision-Date: 2013-03-24 23:56+0000\n"
-"Last-Translator: circass <erdincgultekin@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/PiSiLinux/language/fr/)\n"
-"Language: fr\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
+"PO-Revision-Date: 2013-04-13 12:51+0000\n"
+"Last-Translator: mozen <inactive+mozen@transifex.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/PiSiLinux/language/tr/)\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: tr_TR\n"
+"X-Source-Language: C\n"
 
 #: data/package-manager.desktop.in.h:1
 #: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
 #: src/progressdialog.py:63
 msgid "Package Manager"
-msgstr "Gestionnaire de paquets"
+msgstr "Paket Yöneticisi"
 
 #: data/package-manager.desktop.in.h:2
 msgid "Add or Remove Software"
-msgstr "Ajouter ou supprimer des logiciels"
+msgstr "Yazılım ekle veya kaldır"
 
 #: data/package-manager.desktop.in.h:3
 msgid "PiSi Package Manager Graphical User Interface"
-msgstr "Interface graphique de PiSi"
+msgstr "PİSİ paket yöneticisinin grafik ara yüzü"
 
 #: data/packagemanager-helper.desktop.in.h:2
 msgid "Add/Remove/Update Packages"
-msgstr "Ajout / Suppression / mise à jour de paquets"
+msgstr "Paket(ler)i Ekle/Kaldır/Güncelle"
 
 #: src/basketdialog.py:55
 msgid "Clear Basket"
-msgstr "Vider le panier"
+msgstr "Sepeti Boşalt"
 
 #: src/basketdialog.py:56
 msgid "Do you want to clear all selections ?"
-msgstr "Voulez-vous effacer toutes les sélections ?"
+msgstr "Tüm seçimlerinizi temizlemek istiyor musunuz ?"
 
 #: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
 #: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:252
 #: src/settingsdialog.py:258
 msgid "Pisi Error"
-msgstr "Erreur de Pisi"
+msgstr "Pisi Hatası"
 
 #: src/basketdialog.py:164
 msgid "You must restart your system for the updates to take effect"
-msgstr "Vous devez redémarrer votre système pour la prise d'effet des mises à jour."
+msgstr "Güncellemelerin geçerli olabilmesi için bilgisayarınızı yeniden başlatmanız gerekiyor"
 
 #: src/basketdialog.py:166 src/basketdialog.py:175
 msgid "Update Requirements"
-msgstr "Requis par la mise à jour"
+msgstr "Güncelleme Gereksinimleri"
 
 #: src/basketdialog.py:167
 msgid "Packages Require System Restart"
-msgstr "Les paquets requièrent le redémarrage du système."
+msgstr "Sistemin Yeniden Başlatılmasını Gerektiren Paketler"
 
 #: src/basketdialog.py:173
 msgid "You must restart related system services for the updated package(s) to take effect"
-msgstr "Vous devez redémarrer les services associés du système  pour la prise d'effet des mises à jour."
+msgstr "Seçili güncellemelerin geçerli olabilmesi için ilişkili sistem servislerini yeniden başlatmanız gerekiyor"
 
 #: src/basketdialog.py:176
 msgid "Packages Require Service Restart"
-msgstr "Les paquets requièrent le redémarrage du service"
+msgstr "Servislerin Yeniden Başlatılmasını Gerektiren Paketler"
 
 #: src/basketdialog.py:187
+#, fuzzy
 msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
-msgstr "Les paquets sélectionnés sont considérés comme critiques pour le système. Leur suppression peut rendre votre système inutilisable."
+msgstr "Seçtiğiniz paketler sistem için önemli paketler içerisinde. Bu paketleri kaldırmak sisteminizi kullanılmaz duruma getirebilir."
 
 #: src/basketdialog.py:190 src/settingsdialog.py:174
 msgid "Warning"
-msgstr "Attention"
+msgstr "Uyarı"
 
 #: src/basketdialog.py:191
+#, fuzzy
 msgid "Critical Packages"
-msgstr "Paquets décisifs"
+msgstr "Önemli Paketler"
 
 #: src/basketdialog.py:202 src/pmwindow.py:135
 msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
-msgstr "Les paquets sélectionnés sont déjà installés.<br>Si vous continuez, les paquets vont être réinstallés"
+msgstr "Seçtiğiniz paketler daha önce sisteme kurulmuş.<br>Eğer devam ederseniz, bu paketler tekrar kurulacak"
 
 #: src/basketdialog.py:204 src/pmwindow.py:137
 msgid "Already Installed Packages"
-msgstr "Paquets déjà installés"
+msgstr "Daha Önce Kurulmuş Paketler"
 
 #: src/basketdialog.py:205 src/mainwindow.py:147 src/mainwindow.py:149
 #: src/pmwindow.py:138
 msgid "Installed Packages"
-msgstr "Paquets installés"
+msgstr "Kurulu Paketler"
 
 #: src/grouplist.py:47
 msgid "All"
-msgstr "Tout"
+msgstr "Tümü"
 
 #: src/helpdialog.py:31
 msgid "Package Manager Help"
-msgstr "Aide du gestionnaire de paquets"
+msgstr "Paket Yöneticisi Yardım"
 
 #: src/mainwidget.py:150
 msgid "All packages are up to date"
-msgstr "Tous les paquets sont à jour"
+msgstr "Tüm paketler güncel"
 
 #: src/mainwidget.py:259
 msgid "Searching..."
-msgstr "Recherche..."
+msgstr "Aranıyor..."
 
 #: src/mainwidget.py:271
 msgid "No results found."
-msgstr "Aucun résultat trouvé."
+msgstr "Sonuç bulunamadı."
 
 #: src/mainwidget.py:432
 msgid "Select packages"
-msgstr "Sélection des paquets"
+msgstr "Paket seçiniz"
 
 #: src/mainwidget.py:433
 msgid "You must select at least one installed package"
-msgstr "Vous devez sélectionner au moins un paquet installé"
+msgstr "En az bir kurulu paketi seçmeniz gerekir"
 
 #: src/mainwidget.py:445
 msgid "All Updates"
-msgstr "Toutes les mises à jour"
+msgstr "Tüm Güncellemeler"
 
 #: src/mainwidget.py:446
 msgid "Security Updates"
-msgstr "Mises à jour de sécurité"
+msgstr "Güvenlik Güncellemeleri"
 
 #: src/mainwidget.py:447
+#, fuzzy
 msgid "Critical Updates"
-msgstr "Mises à jour critiques"
+msgstr "Öneml Güncellemeler"
 
 #: src/mainwindow.py:139 src/mainwindow.py:141
 msgid "All Packages"
-msgstr "Tous les paquets"
+msgstr "Tüm Paketler"
 
 #: src/mainwindow.py:143 src/mainwindow.py:145
 msgid "Installable Packages"
-msgstr "Paquets installables"
+msgstr "Kurulabilir Paketler"
 
 #: src/mainwindow.py:151 src/mainwindow.py:153 src/tray.py:199
 msgid "Updates"
-msgstr "Mises à jour"
+msgstr "Güncellemeler"
 
 #: src/mainwindow.py:155
 msgid "Settings"
-msgstr "Paramètres"
+msgstr "Ayarlar"
 
 #: src/mainwindow.py:158
 #, fuzzy
 msgid "Help"
-msgstr "&Aide"
+msgstr "&Yardım"
 
 #: src/mainwindow.py:162 src/tray.py:195
 msgid "Quit"
-msgstr ""
+msgstr "Çıkış"
 
 #: src/mainwindow.py:192
 msgid "Calculating dependencies..."
-msgstr "Calcul des dépendances..."
+msgstr "Bağımlılıklar hesaplanıyor..."
 
 #: src/mainwindow.py:211
 msgid "Currently your basket is empty."
-msgstr "Votre panier est actuellement vide."
+msgstr "Şu anda sepetiniz boş."
 
 #: src/operationmanager.py:49
 msgid "installing"
-msgstr "installation"
+msgstr "kuruluyor"
 
 #: src/operationmanager.py:50
 msgid "removing"
-msgstr "désinstallation"
+msgstr "kaldırılıyor"
 
 #: src/operationmanager.py:51 src/progressdialog.py:79
 msgid "extracting"
-msgstr "extraction"
+msgstr "çıkarılıyor"
 
 #: src/operationmanager.py:52 src/progressdialog.py:79
 msgid "configuring"
-msgstr "configuration"
+msgstr "yapılandırılıyor"
 
 #: src/operationmanager.py:146
 msgid "downloading"
-msgstr "Téléchargement de "
+msgstr "indiriliyor"
 
 #: src/packagedelegate.py:81
+#, fuzzy
 msgid "critical"
-msgstr "critique"
+msgstr "önemli"
 
 #: src/packagedelegate.py:82
 msgid "security"
-msgstr "sécurité"
+msgstr "güvenlik"
 
 #: src/packagedelegate.py:98
 msgid "Description:"
-msgstr "Description :"
+msgstr "Açıklama:"
 
 #: src/packagedelegate.py:99
 msgid "Website:"
-msgstr "Site Web :"
+msgstr "Web Sayfası:"
 
 #: src/packagedelegate.py:100
 msgid "Release:"
-msgstr "Version :"
+msgstr "Sürüm:"
 
 #: src/packagedelegate.py:101
 msgid "Repository:"
-msgstr "Dépôt"
+msgstr "Depo:"
 
 #: src/packagedelegate.py:102
 msgid "Package Size:"
-msgstr "Taille du paquet :"
+msgstr "Paket Boyutu:"
 
 #: src/packagedelegate.py:103
 msgid "Installed Version:"
-msgstr "Version installée :"
+msgstr "Kurulu Sürüm:"
 
 #: src/packagedelegate.py:317
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmiyor"
 
 #: src/packagedelegate.py:345
 msgid "Details"
-msgstr "Détails"
+msgstr "Detaylar"
 
 #: src/packageview.py:27
 msgid "Select all packages in this group"
-msgstr "Sélectionner tous les paquets de ce groupe"
+msgstr "Bu gruptaki tüm paketleri seç"
 
 #: src/pm-install.py:47
 msgid "%prog packages_to_install"
-msgstr "%prog paquets_à_installer"
+msgstr "%prog kurulacak_paketler"
 
 #: src/pmutils.py:81 src/statemanager.py:247
 msgid "Network Error"
-msgstr "Erreur de réseau"
+msgstr "Ağ Hatası"
 
 #: src/pmutils.py:82 src/statemanager.py:248
 msgid "Please check your network connections and try again."
-msgstr "Vérifiez vos paramètres de connexion réseau et réessayez."
+msgstr "Lütfen ağ ayarlarınızı kontrol edin ve tekrar deneyin."
 
 #: src/pmutils.py:84
 msgid "Authorization Error"
-msgstr "Erreur d'autorisation"
+msgstr "Yetkilendirme Hatası"
 
 #: src/pmutils.py:85
 msgid "You are not authorized for this operation."
-msgstr "Vous n'êtes pas autorisé à faire cette opération."
+msgstr "Bu işlemi gerçekleştirmek için yetkiniz yok."
 
 #: src/pmutils.py:88
 #, python-format
 msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
-msgstr "Paquet <b>%s</b> introuvable. Il peut être mis à jour ou supprimé du dépôt. <br>Essayez de mettre à jour les informations du dépôt."
+msgstr "Paket <b>%s</b> bulunamadı.<br>Depoda güncellenmiş veya depodan kaldırılmış olabilir.<br>Lütfen depo bilgilerini güncellemeyi deneyin."
 
 #: src/pmutils.py:93
 msgid "Mixing file names and package names not supported yet."
-msgstr "Le mélange des noms de fichiers et des noms de paquets n'est pas encore géré."
+msgstr "Dosya ve paket adlarını birlikte kullanmak henüz desteklenmiyor."
 
 #: src/pmutils.py:96
 #, python-format
 msgid "File <b>%s</b> doesn't exists."
-msgstr "Le fichier <b>%s</b> n'existe pas."
+msgstr "<b>%s</b> dosyası bulunamadı."
 
 #: src/pmutils.py:99
 msgid "Another instance of PiSi is running. Only one instance is allowed."
-msgstr "Une autre instance de PiSi est en cours d'exécution. Une seule est autorisée."
+msgstr "Sistemde çalışan bir PiSi mevcut. Aynı anda sadece tek PiSi çalışabilir."
 
 #: src/pmutils.py:133
 msgid "Do you want to continue ?"
-msgstr "Voulez-vous continuer?"
+msgstr "Devam etmek istiyor musunuz ?"
 
 #: src/progressdialog.py:75
 msgid "<p align='right'>%1 %</p>"
-msgstr "<p align='right'>%1 %</p>"
+msgstr "<p align='right'>% %1</p>"
 
 #: src/progressdialog.py:76
 #, python-format
 msgid "Operation - %1%"
-msgstr "Opération -  %1%"
+msgstr "İşlem - %%1"
 
 #: src/progressdialog.py:83
 msgid "Downloading package list of %1"
-msgstr "Téléchargement de la liste de %1"
+msgstr "%1 paket listesi indiriliyor"
 
 #: src/progressdialog.py:85
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr "%2 %1"
 
 #: src/progressdialog.py:90
 msgid "[%1 / %2]"
@@ -302,163 +311,164 @@ msgstr "%1 / %2, %3"
 
 #: src/progressdialog.py:114
 msgid "Preparing PiSi..."
-msgstr "Préparation de PiSi..."
+msgstr "PiSi Hazırlanıyor..."
 
 #: src/progressdialog.py:125
 msgid "<b>Cancelling operation...</b>"
-msgstr "<b>Annulation de l'opération...</b>"
+msgstr "<b>İşlem iptal ediliyor...</b>"
 
 #: src/settingsdialog.py:165
 msgid "Open Directory"
-msgstr "Ouvrir le dossier"
+msgstr "Dizin Aç"
 
 #: src/settingsdialog.py:175
 msgid "All the cached packages will be deleted. Are you sure? "
-msgstr "Êtes-vous sûr de vouloir supprimer tous les paquets du cache ?"
+msgstr "Önbellekteki tüm paketler silinecek. Emin misiniz? "
 
 #: src/settingsdialog.py:253
 msgid "Not a valid repository name"
-msgstr "Nom de dépôt invalide"
+msgstr "Geçerli bir depo ismi değil"
 
 #: src/settingsdialog.py:259
+#, fuzzy
 msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
-msgstr "<qt>L'adresse du dépôt doit se terminer par xml ou xml.bz2 ou xz.<p>Merci de corriger.</qt>"
+msgstr "<qt>Depo adresleri xml, xml.bz2 veya xz.suffix uzantısı ile bitmelidir.<p>Lütfen tekrar deneyin.</qt>"
 
 #: src/statemanager.py:88 src/statemanager.py:89
 msgid "Installing Package(s)"
-msgstr "Installation des paquets"
+msgstr "Paket(ler) Kuruluyor"
 
 #: src/statemanager.py:90
 msgid "Removing Package(s)"
-msgstr "Désinstallation des paquets"
+msgstr "Paket(ler) Kaldırılıyor"
 
 #: src/statemanager.py:91
 msgid "Upgrading Package(s)"
-msgstr "Mise à jour des paquets"
+msgstr "Paket(ler) Güncelleniyor"
 
 #: src/statemanager.py:92
 msgid "Applying Repository Changes"
-msgstr "Valider les modifications des dépôts"
+msgstr "Depo Değişiklikleri Uygulanıyor"
 
 #: src/statemanager.py:93
 msgid "Updating Repository"
-msgstr "Mise à jour du dépôt"
+msgstr "Depo Güncelleniyor"
 
 #: src/statemanager.py:94
 msgid "Updating Repository(s)"
-msgstr "Mise à jour des dépôts"
+msgstr "Depo(lar) Güncelleniyor"
 
 #: src/statemanager.py:97
 msgid "installed"
-msgstr "installé"
+msgstr "kuruldu"
 
 #: src/statemanager.py:98
 msgid "removed"
-msgstr "désinstallé"
+msgstr "kaldırıldı"
 
 #: src/statemanager.py:99
 msgid "upgraded"
-msgstr "mis-à-jour"
+msgstr "güncellendi"
 
 #: src/statemanager.py:100
 msgid "modified"
-msgstr "modifié"
+msgstr "değiştirildi"
 
 #: src/statemanager.py:104
 msgid "Install Package(s)"
-msgstr "Installer les paquets"
+msgstr "Paket(ler)i Kur"
 
 #: src/statemanager.py:105
 msgid "Remove Package(s)"
-msgstr "Désinstaller les paquets"
+msgstr "Paket(ler)i Kaldır"
 
 #: src/statemanager.py:106
 msgid "Upgrade Package(s)"
-msgstr "Mettre à jour les paquets"
+msgstr "Paket(ler)i Güncelle"
 
 #: src/statemanager.py:107
 msgid "Select Operation"
-msgstr "Choisir l'opération"
+msgstr "İşlemi Seçin"
 
 #: src/statemanager.py:117
 msgid "%1 new package(s) have been installed succesfully."
-msgstr "%1 nouveaux paquets ont été installés avec succès."
+msgstr "%1 yeni paket başarılı şekilde kuruldu."
 
 #: src/statemanager.py:118
 msgid "%1 package(s) have been removed succesfully."
-msgstr "%1 nouveaux paquets ont été désinstallés avec succès."
+msgstr "%1 paket başarılı şekilde kaldırıldı."
 
 #: src/statemanager.py:119
 msgid "%1 package(s) have been upgraded succesfully."
-msgstr "%1 nouveaux paquets ont été mis-à-jour avec succès."
+msgstr "%1 paket başarılı şekilde güncellendi."
 
 #: src/statemanager.py:120
 msgid "%1 package(s) have been modified succesfully."
-msgstr "%1 paquets ont été modifiés avec succès."
+msgstr "%1 paket başarılı şekilde değiştirildi."
 
 #: src/statemanager.py:123
 msgid "You have selected the following package(s) to install:"
-msgstr "Vous avez sélectionné les paquets suivants pour installation :"
+msgstr "Aşağıdaki paket(ler)i kurmak üzere seçtiniz:"
 
 #: src/statemanager.py:124
 msgid "You have selected the following package(s) to removal:"
-msgstr "Vous avez sélectionné les paquets suivants pour désinstallation :"
+msgstr "Aşağıdaki paket(ler)i kaldırmak üzere seçtiniz:"
 
 #: src/statemanager.py:125
 msgid "You have selected the following package(s) to upgrade:"
-msgstr "Vous avez sélectionné les paquets suivants pour mise à jour :"
+msgstr "Aşağıdaki paket(ler)i güncellemek üzere seçtiniz:"
 
 #: src/statemanager.py:126
 msgid "You have selected the following package(s) to modify:"
-msgstr "Vous avez sélectionné les paquets suivants à modifier :"
+msgstr "Aşağıdaki paket(ler)i kaldırmak/kurmak üzere seçtiniz:"
 
 #: src/statemanager.py:129
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-msgstr "Des paquets dépendants de ceux que vous avez choisis vont également être installés :"
+msgstr "Seçili paketlerin ayrıca kurulacak olan ek bağımlılıkları:"
 
 #: src/statemanager.py:130
 msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
-msgstr "Des paquets dépendants de ceux que vous avez choisis vont être également désinstallés :"
+msgstr "Seçili paket(ler)in ayrıca kaldırılacak olan ters bağımlılıkları:"
 
 #: src/statemanager.py:131
 msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
-msgstr "Des paquets dépendants de ceux que vous avez choisis vont être également mis-à-jour :"
+msgstr "Seçili paket(ler)in ayrıca güncellenecek olan ek bağımlılıkları:"
 
 #: src/statemanager.py:132
 msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
-msgstr "Des paquets dépendants de ceux que vous avez choisis vont être également modifiés :"
+msgstr "Seçili paket(ler)in ayrıca kurulacak/kaldırılacak olan ek bağımlılıkları:"
 
 #: src/statemanager.py:172
 msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
-msgstr "Actuellement, il y a <b>%1</b> paquets sélectionnés pour une taille totale de <b>%2</b>"
+msgstr "Şu an sepetinizde toplam <b>%2</b> boyutunda seçilmiş <b>%1</b> paket"
 
 #: src/statemanager.py:175
 msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
-msgstr " avec <b>%1</b> de dépendances inverses pour une taille de <b>%2</b>"
+msgstr "ile toplam <b>%2</b> boyutunda <b>%1</b> ters bağımlılık "
 
 #: src/statemanager.py:177
 msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
-msgstr " avec <b>%1</b> de dépendances supplémentaires pour une taille de <b>%2</b>"
+msgstr "ile toplam <b>%2</b> boyutunda <b>%1</b> ek bağımlılık "
 
 #: src/statemanager.py:178
 msgid "in your basket."
-msgstr "dans votre panier."
+msgstr "bulunuyor."
 
 #: src/statemanager.py:213
 msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
-msgstr "Les paquets sélectionnés [%1] sont en conflit les uns avec les autres. Ils ne peuvent être installés ensemble."
+msgstr "Seçili paketler [%1] birbirleriyle çakışıyor. Bu paketler birlikte kurulamaz."
 
 #: src/statemanager.py:214 src/statemanager.py:222
 msgid "Conflict Error"
-msgstr "Erreur de conflit"
+msgstr "Çakışma Hatası"
 
 #: src/statemanager.py:218
 msgid "The following packages conflicts:\n"
-msgstr "Les paquets suivants sont en conflit :\n"
+msgstr "Aşağıdaki paketler çakışıyor:\n"
 
 #: src/statemanager.py:220
 msgid "%1 conflicts with: [%2]\n"
-msgstr "%1 est en conflit avec :[%2]\n"
+msgstr "%1 %2 ile çakışıyor\n"
 
 #: src/statemanager.py:221
 msgid ""
@@ -466,30 +476,30 @@ msgid ""
 "Remove the conflicting packages from the system?"
 msgstr ""
 "\n"
-"Désinstaller les paquets conflictuels ?"
+"Çakışan paketler sistemden kaldırılsın mı?"
 
 #: src/tray.py:185
 msgid "Update"
-msgstr "Mise à jour"
+msgstr "Güncelle"
 
 #: src/tray.py:191
 #, fuzzy
 msgid "Update %1 repository"
-msgstr "Mise à jour du dépôt"
+msgstr "Depo Güncelleniyor"
 
 #: src/tray.py:192
 #, fuzzy
 msgid "Update All Repositories"
-msgstr "Mise à jour du dépôt"
+msgstr "Depo Güncelleniyor"
 
 #: src/tray.py:199
 #, fuzzy
 msgid "There are %1 updates available!"
-msgstr "Il y a <b>%1</b> mises à jour disponibles !"
+msgstr "Mevcut <b>%1</b> güncelleme bulunuyor!"
 
 #: src/webdialog.py:122
 msgid "Package Files"
-msgstr " Fichiers des paquets"
+msgstr "Paket Dosyaları"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
 #~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
@@ -498,234 +508,235 @@ msgstr " Fichiers des paquets"
 #~ msgstr "Gökmen Göksel"
 
 #~ msgid "Developer"
-#~ msgstr "Développeur"
+#~ msgstr "Geliştirici"
 
 #~ msgid "Faik Uygur"
 #~ msgstr "Faik Uygur"
 
 #~ msgid "First Author"
-#~ msgstr "Premier auteur"
+#~ msgstr "İlk Geliştirici"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
-#~ msgstr "Votre nom"
+#~ msgstr "Faik Uygur, Necmettin Begiter, Gökmen Göksel"
 
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
-#~ msgstr "Votre courriel"
+#~ msgstr "faik@pardus.org.tr, necmettin.begiter@gmail.com, gokmen@pardus.org.tr"
 
 #~ msgid "Show main window"
-#~ msgstr "Afficher la fenêtre principale"
+#~ msgstr "Ana pencereyi göster"
 
 #~ msgid "Hide summary screen"
-#~ msgstr "Masquer l'écran récapitulatif"
+#~ msgstr "Özet ekranını gösterme"
 
 #~ msgid "Show Updates"
-#~ msgstr "Montrer les mises à jour"
+#~ msgstr "Güncellemeleri Göster"
 
 #~ msgid "Ignore"
-#~ msgstr "Ignorer"
+#~ msgstr "Yoksay"
 
 #~ msgid "Application"
-#~ msgstr "Application"
+#~ msgstr "Uygulama"
 
 #~ msgid "Web Tarayıcı"
-#~ msgstr "Navigateur web"
+#~ msgstr "Web Tarayıcı"
 
 #~ msgid "Firefox"
 #~ msgstr "Firefox"
 
 #~ msgid "Basket"
-#~ msgstr "Panier"
+#~ msgstr "Sepet"
 
 #~ msgid "Selected package(s) for install:"
-#~ msgstr "Paquets sélectionnés pour installation :"
+#~ msgstr "Kurulmak üzere seçilmiş paket(ler):"
 
 #~ msgid "Total Size:"
-#~ msgstr "Taille totale :"
+#~ msgstr "Toplam Boyut:"
 
 #~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2,2 Mo</b>"
+#~ msgstr "<b>2.2 MB</b>"
 
 #~ msgid "Download Size:"
-#~ msgstr "Taille de téléchargement :"
+#~ msgstr "İndirme Boyutu:"
 
 #~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2 Mo</b>"
+#~ msgstr "<b>2.0 MB</b>"
 
 #~ msgid "Form"
 #~ msgstr "Form"
 
 #~ msgid "Search Bar"
-#~ msgstr "Barre de recherche"
+#~ msgstr "Arama Çubuğu"
 
 #~ msgid "Click to search"
-#~ msgstr "Cliquez pour rechercher"
+#~ msgstr "Aramak için tıklayın"
 
 #~ msgid "Update Types"
-#~ msgstr "Types de mise à jour "
+#~ msgstr "Güncelleme Tipleri"
 
 #~ msgid "Category Panel"
-#~ msgstr "Groupe de catégories"
+#~ msgstr "Kategori Paneli"
 
 #~ msgid "Package List"
-#~ msgstr "Liste des paquets"
+#~ msgstr "Paket Listesi"
 
 #~ msgid "Show Basket"
-#~ msgstr "Voir le panier"
+#~ msgstr "Sepeti Göster"
 
 #~ msgid "Check for Updates"
-#~ msgstr "Rechercher des mises à jour"
+#~ msgstr "Güncellemeleri Kontrol Et"
 
 #~ msgid "Package Manager Quick Install"
-#~ msgstr "Installation rapide"
+#~ msgstr "Paket Yöneticisi Hızlı Kurulum"
 
 #~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Les paquets suivants sont sélectionnés pour installation. Voulez-vous installer ces paquets ?"
+#~ msgstr "Aşağıdaki paketler kurulmak üzere seçildi. Bu paketleri kurmak istiyor musunuz ?"
 
 #~ msgid "Install"
-#~ msgstr "Installer"
+#~ msgstr "Kur"
 
 #~ msgid "Cancel"
-#~ msgstr "Annuler"
+#~ msgstr "İptal"
 
 #~ msgid "Preview"
-#~ msgstr "Aperçu"
+#~ msgstr "Önizleme"
 
 #~ msgid "Alt+C"
 #~ msgstr "Alt+C"
 
 #~ msgid "Add New Repository"
-#~ msgstr "Ajouter un nouveau dépôt"
+#~ msgstr "Yeni Depo Ekle"
 
 #~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Nom du dépôt, p.ex. <b>pardus-devel</b>"
+#~ msgstr "Deponun adı, örneğin <b>pisilinux-devel<b>"
 
 #~ msgid "Repository Name"
-#~ msgstr "Nom du dépôt"
+#~ msgstr "Depo İsmi"
 
 #~ msgid "Repository Address"
-#~ msgstr "Adresse du dépôt"
+#~ msgstr "Depo Adresi"
 
 #~ msgid "Package Manager Settings"
-#~ msgstr "Réglages du gestionnaire de paquets"
+#~ msgstr "Paket Yöneticisi Ayarları"
 
 #~ msgid "Package list"
-#~ msgstr "Liste des paquets"
+#~ msgstr "Paket listesi"
 
 #~ msgid "&Show only desktop applications"
-#~ msgstr "&Montrer uniquement les applications de bureau"
+#~ msgstr "&Sadece masaüstü uygulamalarını göster"
 
 #~ msgid "Show Component information "
-#~ msgstr "Afficher l'information sur le composant"
+#~ msgstr "Bileşen bilgisini göster"
 
 #~ msgid "Show package type tags"
-#~ msgstr "Afficher les étiquettes de type de paquet"
+#~ msgstr "Paket tipi etiketlerini göster"
 
 #~ msgid "System tray icon"
-#~ msgstr "Icône dans le tableau de bord"
+#~ msgstr "Sistem çekmecesi"
 
+#, fuzzy
 #~ msgid "Enable system tray icon"
-#~ msgstr "Afficher l'icône dans le tableau de bord"
+#~ msgstr "Sistem çekmecesi simgesini etkinleştir"
 
 #~ msgid "Hide system tray if there is no update."
-#~ msgstr "Cacher barre d'état système s'il n'y a pas de mise à jour."
+#~ msgstr "Güncelleme olmadığında sistem çekmecesini gizle"
 
 #~ msgid "Enable &periodic update check"
-#~ msgstr "Autoriser la vérification &périodique des mises à jour"
+#~ msgstr "Aralıklı &güncelleme kontrolünü aç"
 
 #~ msgid "Check interval :"
-#~ msgstr "Intervalle de vérification :"
+#~ msgstr "Kontrol aralığı :"
 
 #~ msgid " min"
-#~ msgstr "minutes"
+#~ msgstr " dk"
 
 #~ msgid "Install updates automatically"
-#~ msgstr "Installer les mises à jour automatiquement"
+#~ msgstr "Güncellemeleri otomatik kur"
 
-#~ msgid "&General Settings"
-#~ msgstr "&Paramètres généraux"
+msgid "&General Settings"
+msgstr "Genel &Ayarlar"
 
 #~ msgid "Cache Limit"
-#~ msgstr "Limite de cache"
+#~ msgstr "Önbellek Boyutu"
 
 #~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Utiliser le cache du disque dur pour les logiciels téléchargés"
+#~ msgstr "İndirilen yazılımlar için sabit disk önbelleği &kullan"
 
 #~ msgid "Maximum cache size:"
-#~ msgstr "Taille maximal de cache :"
+#~ msgstr "Azami önbellek boyutu:"
 
 #~ msgid "Unlimited"
-#~ msgstr "Illimité"
+#~ msgstr "Sınırsız"
 
 #~ msgid " Mib"
-#~ msgstr "Mo"
+#~ msgstr " Mib"
 
 #~ msgid "Current cache dir:"
-#~ msgstr "Dossier de cache actuel :"
+#~ msgstr "Seçili önbellek dizini:"
 
 #~ msgid "Select..."
-#~ msgstr "Choisissez..."
+#~ msgstr "Seç..."
 
 #~ msgid "Open"
-#~ msgstr "Ouvrir"
+#~ msgstr "Aç"
 
 #~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Effacer le cache du disque supprimera tous les logiciels téléchargés. Cela n'effacera pas les logiciels installés ni n'affectera la stabilité de votre système."
+#~ msgstr "Sabit disk önbelleğinin temizlenmesi ile indirilen ve depolanan tüm paketler silinecektir. Bu işlem sistemde kurulu olan paketleri silmeyecek veya bilgisayarınızın çalışmasını etkilemeyecektir."
 
 #~ msgid "C&lean disk cache now"
-#~ msgstr "&Effacer le cache du disque maintenant"
+#~ msgstr "Önbelleği şimdi &temizle"
 
 #~ msgid "Bandwidth limit"
-#~ msgstr "Limite de la bande passante"
+#~ msgstr "Bant genişliği sınırı"
 
 #~ msgid "Use bandwidth limit :"
-#~ msgstr "Utilisez la limite de bande passante :"
+#~ msgstr "Bant genişliği kullanımını sınırlandır :"
 
 #~ msgid " kB/s"
-#~ msgstr "ko/s"
+#~ msgstr " kB/s"
 
 #~ msgid "C&ache"
-#~ msgstr "C&ache"
+#~ msgstr "&Önbellek"
 
 #~ msgid "&Add New Repository"
-#~ msgstr "&Ajouter un nouveau dépôt"
+#~ msgstr "Yeni Depo &Ekle"
 
 #~ msgid "Remove Repository"
-#~ msgstr "Supprimer un dépôt"
+#~ msgstr "Depoyu Kaldır"
 
 #~ msgid "Move &Up"
-#~ msgstr "Déplacer vers le &haut"
+#~ msgstr "&Yukarı Taşı"
 
 #~ msgid "Move &Down"
-#~ msgstr "Déplacer vers le &bas"
+#~ msgstr "&Aşağı Taşı"
 
 #~ msgid "&Repositories"
-#~ msgstr "&Dépôts"
+#~ msgstr "&Depolar"
 
 #~ msgid "Use Proxy"
-#~ msgstr "Utiliser le proxy"
+#~ msgstr "&Vekil Sunucu Kullan"
 
 #~ msgid "HTTP proxy server:"
-#~ msgstr "Serveur proxy HTTP"
+#~ msgstr "HTTP vekil sunucu:"
 
 #~ msgid "Port:"
-#~ msgstr "Port :"
+#~ msgstr "Port:"
 
 #~ msgid "HTTPS proxy server:"
-#~ msgstr "Serveur proxy HTTPS"
+#~ msgstr "HTTPS vekil sunucu:"
 
 #~ msgid "FTP proxy server:"
-#~ msgstr "Serveur proxy FTP"
+#~ msgstr "FTP vekil sunucu:"
 
 #~ msgid "Domain:"
-#~ msgstr "Domaine :"
+#~ msgstr "Etki alanı:"
 
 #~ msgid "Username:"
-#~ msgstr "Nom d'utilisateur :"
+#~ msgstr "Kullanıcı Adı:"
 
 #~ msgid "Password:"
-#~ msgstr "Mot de passe :"
+#~ msgstr "Parola:"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -738,38 +749,38 @@ msgstr " Fichiers des paquets"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Les paramètres de proxy sont disponibles dans KDE, cliquez <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">ici</span></a> pour les obtenir</p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">KDE'de tanımlanmış vekil sunucu ayarları bulunuyor, <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">buraya</span></a> tıklayarak bu ayarları kullanabilirsiniz</p></body></html>"
 
 #~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Utiliser ce serveur proxy pour tous les protocoles</a>"
+#~ msgstr "<a href=#>Tüm protokoller için bu vekil sunucuyu kullan</a>"
 
 #~ msgid "&Proxy"
-#~ msgstr "&Proxy"
+#~ msgstr "&Vekil sunucu"
 
 #~ msgid "&OK"
-#~ msgstr "&OK"
+#~ msgstr "&Tamam"
 
 #~ msgid "&Cancel"
-#~ msgstr "&Annuler"
+#~ msgstr "&İptal"
 
 #~ msgid "Operation Summary"
-#~ msgstr "Résumé des opérations"
+#~ msgstr "İşlem Özeti"
 
 #~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Vous pouvez lancer l'application que vous venez d'installer en double-cliquant dans la liste ci-dessous ou plus tard, à partir du menu général."
+#~ msgstr "Yeni kurulan uygulamayı aşağıdaki listeden çift-tıklayarak veya daha sonra uygulama menüsünden çalıştırabilirsiniz."
 
 #~ msgid "&Ok"
-#~ msgstr "&Ok"
+#~ msgstr "&Tamam"
 
 #~ msgid "Type to filter files"
-#~ msgstr "Tapez pour filtrer les fichiers"
+#~ msgstr "Hızlı arama"
 
 #~ msgid ""
 #~ "AppInfo Server is not reachable\n"
 #~ "Please check your network connection"
 #~ msgstr ""
-#~ "AppInfo Server n'est pas accessible\n"
-#~ "Veuillez vérifier votre connexion réseau"
+#~ "AppInfo Sunucusuna ulaşılamıyor\n"
+#~ "Lütfen ağ ayarlarınızı kontrol edin"
 
 #~ msgid "Package Details"
-#~ msgstr "Détails des paquets"
+#~ msgstr "Paket Detayı"

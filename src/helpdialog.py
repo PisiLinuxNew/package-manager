@@ -25,8 +25,9 @@ help_files = {
 }
 
 class HelpDialog(QDialog):
-    def __init__(self, parent, help):
-        QDialog.__init__(self, parent)
+    def __init__(self, parent, help_file):
+        super(HelpDialog, self).__init__(parent)
+        #QDialog.__init__(self, parent)
 
         self.setWindowTitle(i18n("Package Manager Help"))
         self.resize(700,500)
@@ -41,11 +42,13 @@ class HelpDialog(QDialog):
         if locale in ["tr", "es", "en", "fr", "nl", "de", "sv"]:
             self.htmlPart.setSource(
                     QUrl("/usr/share/package-manager/help/%s/%s" %
-                        (locale, help_files[help])))
+                        (locale, help_files[help_file])))
 
         else:
             self.htmlPart.setSource(
                     QUrl("/usr/share/package-manager/help/en/%s" %
-                        help_files[help]))
+                        help_files[help_file]))
+                    
+        self.show()
 
 

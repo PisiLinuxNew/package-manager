@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
 "PO-Revision-Date: 2013-03-28 13:33+0000\n"
 "Last-Translator: andrasf <foldi.andras@yahoo.ie>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/PiSiLinux/language/hu/)\n"
@@ -493,241 +493,39 @@ msgstr "<b>%1</b> frissítés elérhető!"
 msgid "Package Files"
 msgstr "Csomagfájlok"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Csomag részletei"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "Az AppInfo szerver nem elérhető\n"
+#~ "Ellenőrizze a hálózati kapcsolatot és próbálja újra"
 
-#~ msgid "Developer"
-#~ msgstr "Fejlesztő"
+#~ msgid "Type to filter files"
+#~ msgstr "Írjon be szűrőfeltételt"
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
 
-#~ msgid "First Author"
-#~ msgstr "Első szerző"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Az újonnan telepített alkalmazásokat az alábbi listán található ikonjára duplán kattintva is elindíthatja, vagy megteheti ezt később, a menüből."
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Daniel Kovács, Attila Siposs"
+#~ msgid "Operation Summary"
+#~ msgstr "Műveletek összegzése"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "bicskas9323@gmail.com, sipiatti@gmail.com"
+#~ msgid "&Cancel"
+#~ msgstr "&Mégsem"
 
-#~ msgid "Show main window"
-#~ msgstr "Főablak megjelenítése"
+#~ msgid "&OK"
+#~ msgstr "&OK"
 
-#~ msgid "Hide summary screen"
-#~ msgstr "Összegzés elrejtése"
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
 
-#~ msgid "Show Updates"
-#~ msgstr "Frissítések megjelenítése"
-
-#~ msgid "Ignore"
-#~ msgstr "Mellőzés"
-
-#~ msgid "Application"
-#~ msgstr "Alkalmazás"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Webböngésző"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Kosár"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Telepítésre kiválasztott csomagok:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Teljes méret:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Letöltendő méret:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</"
-
-#~ msgid "Form"
-#~ msgstr "Űrlap"
-
-#~ msgid "Search Bar"
-#~ msgstr "Keresősáv"
-
-#~ msgid "Click to search"
-#~ msgstr "Kattintson ide a kereséshez"
-
-#~ msgid "Update Types"
-#~ msgstr "Frissítés típusok"
-
-#~ msgid "Category Panel"
-#~ msgstr "Kategória panel"
-
-#~ msgid "Package List"
-#~ msgstr "Csomaglista"
-
-#~ msgid "Show Basket"
-#~ msgstr "Kosár megjelenítése"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Frissítések ellenőrzése"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Csomagkezelő gyorstelepítés"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Az alábbi csomagok telepítésre lettek kijelölve. Telepíteni akarja őket?"
-
-#~ msgid "Install"
-#~ msgstr "Telepítés"
-
-#~ msgid "Cancel"
-#~ msgstr "Mégsem"
-
-#~ msgid "Preview"
-#~ msgstr "Előnézet"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Új tároló hozzáadása"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "A tároló neve, pl. <b>pardus-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Tároló neve"
-
-#~ msgid "Repository Address"
-#~ msgstr "Tároló címe"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Csomagkezelő beállításai"
-
-#~ msgid "Package list"
-#~ msgstr "Csomaglista"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "Csak az asztali alkalmazások &megjelenítése"
-
-#~ msgid "Show Component information "
-#~ msgstr "Komponens információk megjelenítése"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Csomagtípus címkék megjelenítése"
-
-#~ msgid "System tray icon"
-#~ msgstr "Rendszertálca ikon"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Rendszertálca ikon engedélyezése"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Tálca ikon elrejtése, ha nincs elérhető frissítés"
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "&Ütemezett frissítés engedélyezése"
-
-#~ msgid "Check interval :"
-#~ msgstr "Frissítés gyakorisága:"
-
-#~ msgid " min"
-#~ msgstr "perc"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Frissítések automatikus telepítése"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Általános beállítások"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Gyorsírótár korlát"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Gyorsítótár használata a letöltött programokhoz"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Maximális gyorsítótár méret:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Nincs korlát"
-
-#~ msgid " Mib"
-#~ msgstr "Mib"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Gyorsítótár helye:"
-
-#~ msgid "Select..."
-#~ msgstr "Kiválasztás..."
-
-#~ msgid "Open"
-#~ msgstr "Megnyitás"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "A gyorsítótár törlése eltávolítja az összes letöltött csomagfájlt. Ez a művelet nincs hatással a telepített alkalmazásokra, vagy a rendszer stabilitására"
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "A gyorsítótár k&iürítése"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Sávszélesség korlát"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Sávszélesség korlát:"
-
-#~ msgid " kB/s"
-#~ msgstr " kB/s"
-
-#~ msgid "C&ache"
-#~ msgstr "G&yorsítótár"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "Új tároló &hozzáadása"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Tároló eltávolítása"
-
-#~ msgid "Move &Up"
-#~ msgstr "&Fel"
-
-#~ msgid "Move &Down"
-#~ msgstr "&Le"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Tárolók"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Proxy használata"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP proxy szerver:"
-
-#~ msgid "Port:"
-#~ msgstr "Port:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS proxy szerver:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP proxy szerver:"
-
-#~ msgid "Domain:"
-#~ msgstr "Domain-név:"
-
-#~ msgid "Username:"
-#~ msgstr "Felhasználói név:"
-
-#~ msgid "Password:"
-#~ msgstr "Jelszó:"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "Használja ezt a proxy szervert az összes protokollhoz"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -737,36 +535,238 @@ msgstr "Csomagfájlok"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
 #~ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">⏎ <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">⏎ p, li { white-space: pre-wrap; }⏎ </style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">⏎ <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">A proxy beállítások elérhetők a KDE beáállító-moduljában. <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">Kattintson ide</span></a> a beállításokhoz.</p></body></html>"
 
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "Használja ezt a proxy szervert az összes protokollhoz"
+#~ msgid "Password:"
+#~ msgstr "Jelszó:"
 
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
+#~ msgid "Username:"
+#~ msgstr "Felhasználói név:"
 
-#~ msgid "&OK"
-#~ msgstr "&OK"
+#~ msgid "Domain:"
+#~ msgstr "Domain-név:"
 
-#~ msgid "&Cancel"
-#~ msgstr "&Mégsem"
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP proxy szerver:"
 
-#~ msgid "Operation Summary"
-#~ msgstr "Műveletek összegzése"
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS proxy szerver:"
 
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Az újonnan telepített alkalmazásokat az alábbi listán található ikonjára duplán kattintva is elindíthatja, vagy megteheti ezt később, a menüből."
+#~ msgid "Port:"
+#~ msgstr "Port:"
 
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP proxy szerver:"
 
-#~ msgid "Type to filter files"
-#~ msgstr "Írjon be szűrőfeltételt"
+#~ msgid "Use Proxy"
+#~ msgstr "Proxy használata"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "Az AppInfo szerver nem elérhető\n"
-#~ "Ellenőrizze a hálózati kapcsolatot és próbálja újra"
+#~ msgid "&Repositories"
+#~ msgstr "&Tárolók"
 
-#~ msgid "Package Details"
-#~ msgstr "Csomag részletei"
+#~ msgid "Move &Down"
+#~ msgstr "&Le"
+
+#~ msgid "Move &Up"
+#~ msgstr "&Fel"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Tároló eltávolítása"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "Új tároló &hozzáadása"
+
+#~ msgid "C&ache"
+#~ msgstr "G&yorsítótár"
+
+#~ msgid " kB/s"
+#~ msgstr " kB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Sávszélesség korlát:"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Sávszélesség korlát"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "A gyorsítótár k&iürítése"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "A gyorsítótár törlése eltávolítja az összes letöltött csomagfájlt. Ez a művelet nincs hatással a telepített alkalmazásokra, vagy a rendszer stabilitására"
+
+#~ msgid "Open"
+#~ msgstr "Megnyitás"
+
+#~ msgid "Select..."
+#~ msgstr "Kiválasztás..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Gyorsítótár helye:"
+
+#~ msgid " Mib"
+#~ msgstr "Mib"
+
+#~ msgid "Unlimited"
+#~ msgstr "Nincs korlát"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maximális gyorsítótár méret:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Gyorsítótár használata a letöltött programokhoz"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Gyorsírótár korlát"
+
+#~ msgid "&General Settings"
+#~ msgstr "&Általános beállítások"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Frissítések automatikus telepítése"
+
+#~ msgid " min"
+#~ msgstr "perc"
+
+#~ msgid "Check interval :"
+#~ msgstr "Frissítés gyakorisága:"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "&Ütemezett frissítés engedélyezése"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Tálca ikon elrejtése, ha nincs elérhető frissítés"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Rendszertálca ikon engedélyezése"
+
+#~ msgid "System tray icon"
+#~ msgstr "Rendszertálca ikon"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Csomagtípus címkék megjelenítése"
+
+#~ msgid "Show Component information "
+#~ msgstr "Komponens információk megjelenítése"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "Csak az asztali alkalmazások &megjelenítése"
+
+#~ msgid "Package list"
+#~ msgstr "Csomaglista"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Csomagkezelő beállításai"
+
+#~ msgid "Repository Address"
+#~ msgstr "Tároló címe"
+
+#~ msgid "Repository Name"
+#~ msgstr "Tároló neve"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "A tároló neve, pl. <b>pardus-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Új tároló hozzáadása"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Előnézet"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Install"
+#~ msgstr "Telepítés"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Az alábbi csomagok telepítésre lettek kijelölve. Telepíteni akarja őket?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Csomagkezelő gyorstelepítés"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Frissítések ellenőrzése"
+
+#~ msgid "Show Basket"
+#~ msgstr "Kosár megjelenítése"
+
+#~ msgid "Package List"
+#~ msgstr "Csomaglista"
+
+#~ msgid "Category Panel"
+#~ msgstr "Kategória panel"
+
+#~ msgid "Update Types"
+#~ msgstr "Frissítés típusok"
+
+#~ msgid "Click to search"
+#~ msgstr "Kattintson ide a kereséshez"
+
+#~ msgid "Search Bar"
+#~ msgstr "Keresősáv"
+
+#~ msgid "Form"
+#~ msgstr "Űrlap"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Letöltendő méret:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Teljes méret:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Telepítésre kiválasztott csomagok:"
+
+#~ msgid "Basket"
+#~ msgstr "Kosár"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Webböngésző"
+
+#~ msgid "Application"
+#~ msgstr "Alkalmazás"
+
+#~ msgid "Ignore"
+#~ msgstr "Mellőzés"
+
+#~ msgid "Show Updates"
+#~ msgstr "Frissítések megjelenítése"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Összegzés elrejtése"
+
+#~ msgid "Show main window"
+#~ msgstr "Főablak megjelenítése"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "bicskas9323@gmail.com, sipiatti@gmail.com"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Daniel Kovács, Attila Siposs"
+
+#~ msgid "First Author"
+#~ msgstr "Első szerző"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Fejlesztő"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-02 13:07+0200\n"
+"POT-Creation-Date: 2016-03-03 11:32+0200\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/PiSiLinux/language/uk/)\n"
@@ -104,35 +104,35 @@ msgstr "Усі"
 msgid "Package Manager Help"
 msgstr "Довідка керування пакунками"
 
-#: src/mainwidget.py:147
+#: src/mainwidget.py:150
 msgid "All packages are up to date"
 msgstr "Усі пакунки оновлено"
 
-#: src/mainwidget.py:254
+#: src/mainwidget.py:259
 msgid "Searching..."
 msgstr "Пошук…"
 
-#: src/mainwidget.py:266
+#: src/mainwidget.py:271
 msgid "No results found."
 msgstr "Нічого не знайдено."
 
-#: src/mainwidget.py:427
+#: src/mainwidget.py:432
 msgid "Select packages"
 msgstr "Вибрати пакунки"
 
-#: src/mainwidget.py:428
+#: src/mainwidget.py:433
 msgid "You must select at least one installed package"
 msgstr "Потрібно вибрати щонайменше один установлений пакунок"
 
-#: src/mainwidget.py:440
+#: src/mainwidget.py:445
 msgid "All Updates"
 msgstr "Усі оновлення"
 
-#: src/mainwidget.py:441
+#: src/mainwidget.py:446
 msgid "Security Updates"
 msgstr "Оновлення безпеки"
 
-#: src/mainwidget.py:442
+#: src/mainwidget.py:447
 msgid "Critical Updates"
 msgstr "Критичні оновлення"
 
@@ -491,39 +491,241 @@ msgstr "<b>%1</b> оновлень доступно!"
 msgid "Package Files"
 msgstr "Файли пакунка"
 
-#~ msgid "Package Details"
-#~ msgstr "Подробиці про пакунок"
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "© 2009–2010 TUBITAK/UEKAE"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "Сервер AppInfo недоступний\n"
-#~ "Будь ласка, перевірте мережеве з'єднання"
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
 
-#~ msgid "Type to filter files"
-#~ msgstr "Уведіть для фільтрування файлів"
+#~ msgid "Developer"
+#~ msgstr "Розробник"
 
-#~ msgid "&Ok"
-#~ msgstr "&Гаразд"
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
 
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Можете запустити встановлену програму подвійник кліком у списку нижче або пізніше через меню програм."
+#~ msgid "First Author"
+#~ msgstr "Засновник"
 
-#~ msgid "Operation Summary"
-#~ msgstr "Підсумок дій"
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Daniel Korostil"
 
-#~ msgid "&Cancel"
-#~ msgstr "&Скасувати"
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "ted.korostiled@gmail.com"
 
-#~ msgid "&OK"
-#~ msgstr "&Гаразд"
+#~ msgid "Show main window"
+#~ msgstr "Показати головне вікно"
 
-#~ msgid "&Proxy"
-#~ msgstr "&Проксі"
+#~ msgid "Hide summary screen"
+#~ msgstr "Сховати екран підсумків"
 
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Використовувати проксі-сервер для всіх протоколів</a>"
+#~ msgid "Show Updates"
+#~ msgstr "Показати оновлення"
+
+#~ msgid "Ignore"
+#~ msgstr "Ігнорувати"
+
+#~ msgid "Application"
+#~ msgstr "Програми"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Tarayıcı"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Basket"
+#~ msgstr "Кошик"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Вибрані пакунки для встановлення:"
+
+#~ msgid "Total Size:"
+#~ msgstr "Загальний розмір:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 МБ</b>"
+
+#~ msgid "Download Size:"
+#~ msgstr "Розмір звантаження:"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 МБ</"
+
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#~ msgid "Search Bar"
+#~ msgstr "Панель пошуку"
+
+#~ msgid "Click to search"
+#~ msgstr "Натисніть для пошуку"
+
+#~ msgid "Update Types"
+#~ msgstr "Оновити типи"
+
+#~ msgid "Category Panel"
+#~ msgstr "Панель категорій"
+
+#~ msgid "Package List"
+#~ msgstr "Перелік пакунків"
+
+#~ msgid "Show Basket"
+#~ msgstr "Показати кошик"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Перевірити на оновлення"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Швидке встановлення керування пакунками "
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Ці пакунки вибрано для встановлення. Встановити їх?"
+
+#~ msgid "Install"
+#~ msgstr "Встановити"
+
+#~ msgid "Cancel"
+#~ msgstr "Скасувати"
+
+#~ msgid "Preview"
+#~ msgstr "Перегляд"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Додати нове сховище"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Назва сховища, наприклад, <b>pardus-devel</b>"
+
+#~ msgid "Repository Name"
+#~ msgstr "Назва сховища"
+
+#~ msgid "Repository Address"
+#~ msgstr "Адреса сховища"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Налаштування керування пакунками"
+
+#~ msgid "Package list"
+#~ msgstr "Перелік пакунків"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Показати лише стільничні програми"
+
+#~ msgid "Show Component information "
+#~ msgstr "Показати інформацію про компоненти"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Показати мітки типу пакунка"
+
+#~ msgid "System tray icon"
+#~ msgstr "Піктограма системного лотка"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Увімкнути піктограму системного лотка"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Сховати системний лоток, якщо нема оновлень."
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Увімкнути &періодичну перевірку оновлень"
+
+#~ msgid "Check interval :"
+#~ msgstr "Проміжок перевірки :"
+
+#~ msgid " min"
+#~ msgstr " хв."
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Установлювати оновлення автоматично"
+
+#~ msgid "&General Settings"
+#~ msgstr "&Загальні налаштування"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Обмеження кешу"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Використати кеш твердого диска для звантажених програм"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Максимальний розмір кешу:"
+
+#~ msgid "Unlimited"
+#~ msgstr "Необмежено"
+
+#~ msgid " Mib"
+#~ msgstr " Міб"
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Теперішня тека кешу:"
+
+#~ msgid "Select..."
+#~ msgstr "Вибрати…"
+
+#~ msgid "Open"
+#~ msgstr "Відкрити"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Очищення кешу диска вилучить всі звантажені програми. Це не вилучить встановлені програми і не вплине на стабільність системи."
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "&Очистити кеш диска зараз же"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Обмеження пропускної здатності"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Використовувати обмеження пропускної здатності :"
+
+#~ msgid " kB/s"
+#~ msgstr " кБ/сек"
+
+#~ msgid "C&ache"
+#~ msgstr "&Кеш"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Додати нове сховище"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Вилучити сховище"
+
+#~ msgid "Move &Up"
+#~ msgstr "Підняти &уверх"
+
+#~ msgid "Move &Down"
+#~ msgstr "Опустити &вниз"
+
+#~ msgid "&Repositories"
+#~ msgstr "&Сховища"
+
+#~ msgid "Use Proxy"
+#~ msgstr "Використовувати проксі"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "Проксі-сервер HTTP:"
+
+#~ msgid "Port:"
+#~ msgstr "Порт:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "Проксі-сервер HTTPS:"
+
+#~ msgid "FTP proxy server:"
+#~ msgstr "Проксі-сервер FTP:"
+
+#~ msgid "Domain:"
+#~ msgstr "Домен:"
+
+#~ msgid "Username:"
+#~ msgstr "Псевдонім:"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -538,238 +740,36 @@ msgstr "Файли пакунка"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Налаштування проксі доступні в  KDE, ви можете натиснути <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">тут</span></a> для переходу до них</p></body></html>"
 
-#~ msgid "Password:"
-#~ msgstr "Пароль:"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Використовувати проксі-сервер для всіх протоколів</a>"
 
-#~ msgid "Username:"
-#~ msgstr "Псевдонім:"
+#~ msgid "&Proxy"
+#~ msgstr "&Проксі"
 
-#~ msgid "Domain:"
-#~ msgstr "Домен:"
+#~ msgid "&OK"
+#~ msgstr "&Гаразд"
 
-#~ msgid "FTP proxy server:"
-#~ msgstr "Проксі-сервер FTP:"
+#~ msgid "&Cancel"
+#~ msgstr "&Скасувати"
 
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "Проксі-сервер HTTPS:"
+#~ msgid "Operation Summary"
+#~ msgstr "Підсумок дій"
 
-#~ msgid "Port:"
-#~ msgstr "Порт:"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Можете запустити встановлену програму подвійник кліком у списку нижче або пізніше через меню програм."
 
-#~ msgid "HTTP proxy server:"
-#~ msgstr "Проксі-сервер HTTP:"
+#~ msgid "&Ok"
+#~ msgstr "&Гаразд"
 
-#~ msgid "Use Proxy"
-#~ msgstr "Використовувати проксі"
+#~ msgid "Type to filter files"
+#~ msgstr "Уведіть для фільтрування файлів"
 
-#~ msgid "&Repositories"
-#~ msgstr "&Сховища"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "Сервер AppInfo недоступний\n"
+#~ "Будь ласка, перевірте мережеве з'єднання"
 
-#~ msgid "Move &Down"
-#~ msgstr "Опустити &вниз"
-
-#~ msgid "Move &Up"
-#~ msgstr "Підняти &уверх"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Вилучити сховище"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Додати нове сховище"
-
-#~ msgid "C&ache"
-#~ msgstr "&Кеш"
-
-#~ msgid " kB/s"
-#~ msgstr " кБ/сек"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Використовувати обмеження пропускної здатності :"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Обмеження пропускної здатності"
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "&Очистити кеш диска зараз же"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Очищення кешу диска вилучить всі звантажені програми. Це не вилучить встановлені програми і не вплине на стабільність системи."
-
-#~ msgid "Open"
-#~ msgstr "Відкрити"
-
-#~ msgid "Select..."
-#~ msgstr "Вибрати…"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Теперішня тека кешу:"
-
-#~ msgid " Mib"
-#~ msgstr " Міб"
-
-#~ msgid "Unlimited"
-#~ msgstr "Необмежено"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Максимальний розмір кешу:"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Використати кеш твердого диска для звантажених програм"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Обмеження кешу"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Загальні налаштування"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Установлювати оновлення автоматично"
-
-#~ msgid " min"
-#~ msgstr " хв."
-
-#~ msgid "Check interval :"
-#~ msgstr "Проміжок перевірки :"
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Увімкнути &періодичну перевірку оновлень"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Сховати системний лоток, якщо нема оновлень."
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Увімкнути піктограму системного лотка"
-
-#~ msgid "System tray icon"
-#~ msgstr "Піктограма системного лотка"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Показати мітки типу пакунка"
-
-#~ msgid "Show Component information "
-#~ msgstr "Показати інформацію про компоненти"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Показати лише стільничні програми"
-
-#~ msgid "Package list"
-#~ msgstr "Перелік пакунків"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Налаштування керування пакунками"
-
-#~ msgid "Repository Address"
-#~ msgstr "Адреса сховища"
-
-#~ msgid "Repository Name"
-#~ msgstr "Назва сховища"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Назва сховища, наприклад, <b>pardus-devel</b>"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Додати нове сховище"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Preview"
-#~ msgstr "Перегляд"
-
-#~ msgid "Cancel"
-#~ msgstr "Скасувати"
-
-#~ msgid "Install"
-#~ msgstr "Встановити"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Ці пакунки вибрано для встановлення. Встановити їх?"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Швидке встановлення керування пакунками "
-
-#~ msgid "Check for Updates"
-#~ msgstr "Перевірити на оновлення"
-
-#~ msgid "Show Basket"
-#~ msgstr "Показати кошик"
-
-#~ msgid "Package List"
-#~ msgstr "Перелік пакунків"
-
-#~ msgid "Category Panel"
-#~ msgstr "Панель категорій"
-
-#~ msgid "Update Types"
-#~ msgstr "Оновити типи"
-
-#~ msgid "Click to search"
-#~ msgstr "Натисніть для пошуку"
-
-#~ msgid "Search Bar"
-#~ msgstr "Панель пошуку"
-
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 МБ</"
-
-#~ msgid "Download Size:"
-#~ msgstr "Розмір звантаження:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 МБ</b>"
-
-#~ msgid "Total Size:"
-#~ msgstr "Загальний розмір:"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Вибрані пакунки для встановлення:"
-
-#~ msgid "Basket"
-#~ msgstr "Кошик"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Tarayıcı"
-
-#~ msgid "Application"
-#~ msgstr "Програми"
-
-#~ msgid "Ignore"
-#~ msgstr "Ігнорувати"
-
-#~ msgid "Show Updates"
-#~ msgstr "Показати оновлення"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Сховати екран підсумків"
-
-#~ msgid "Show main window"
-#~ msgstr "Показати головне вікно"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "ted.korostiled@gmail.com"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Daniel Korostil"
-
-#~ msgid "First Author"
-#~ msgstr "Засновник"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Developer"
-#~ msgstr "Розробник"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "© 2009–2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Подробиці про пакунок"

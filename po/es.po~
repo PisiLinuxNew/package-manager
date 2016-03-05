@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
 "PO-Revision-Date: 2013-12-27 03:25+0000\n"
 "Last-Translator: megatotoro <jratlsv2@racsa.co.cr>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/PiSiLinux/language/es/)\n"
@@ -503,241 +503,39 @@ msgstr "¡Hay <b>%1</b> actualizaciones disponibles!"
 msgid "Package Files"
 msgstr "Archivos de Paquetes"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Detalles de Paquetes"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "Servidor AppInfo no está accesible\n"
+#~ "Por favor verifique su conexión de red"
 
-#~ msgid "Developer"
-#~ msgstr "Desarrollador"
+#~ msgid "Type to filter files"
+#~ msgstr "Escriba para filtrar los archivos"
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
 
-#~ msgid "First Author"
-#~ msgstr "Autor inicial"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Puede ejecutar los programas recientemente instalados con un doble-clic en la lista abajo, o desde el menú del sistema."
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Sus nombres"
+#~ msgid "Operation Summary"
+#~ msgstr "Resumen de la operación"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Sus emails"
+#~ msgid "&Cancel"
+#~ msgstr "&Cancelar"
 
-#~ msgid "Show main window"
-#~ msgstr "Mostrar Ventana principal"
+#~ msgid "&OK"
+#~ msgstr "&OK"
 
-#~ msgid "Hide summary screen"
-#~ msgstr "Ocultar pantalla de resumen"
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
 
-#~ msgid "Show Updates"
-#~ msgstr "Mostrar actualizaciones"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignorar"
-
-#~ msgid "Application"
-#~ msgstr "Aplicación"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Scanner"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Carrito"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Paquetes a instalar:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Tamaño Total:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Tamaño de descarga:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</b>"
-
-#~ msgid "Form"
-#~ msgstr "Forma"
-
-#~ msgid "Search Bar"
-#~ msgstr "Barra de búsqueda"
-
-#~ msgid "Click to search"
-#~ msgstr "Escriba aquí para buscar"
-
-#~ msgid "Update Types"
-#~ msgstr "Tipos de actualizaciones"
-
-#~ msgid "Category Panel"
-#~ msgstr "Panel de categorías"
-
-#~ msgid "Package List"
-#~ msgstr "Lista de paquetes"
-
-#~ msgid "Show Basket"
-#~ msgstr "Mostrar Carrito"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Comprobar Actualizaciones"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Instalación rápida del Administrador de Paquetes"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Los siguientes paquetes están seleccionados para instalarse. ¿Desea instalar todos los paquetes seleccionados ?"
-
-#~ msgid "Install"
-#~ msgstr "instalar"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
-
-#~ msgid "Preview"
-#~ msgstr "Previsualización"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Añadir Repositorio"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Nombre del repositorio, p.ej. <b>pisilinux-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Nombre de Repositorio"
-
-#~ msgid "Repository Address"
-#~ msgstr "Dirección de Repositorio"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Configuración del Administrador de Paquetes"
-
-#~ msgid "Package list"
-#~ msgstr "Lista de paquetes"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Mostrar solamente programas de escritorio"
-
-#~ msgid "Show Component information "
-#~ msgstr "Mostrar información de componente"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Mostrar indicadores de tipos de paquetes"
-
-#~ msgid "System tray icon"
-#~ msgstr "Icono en la barra del sistema"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Habilitar ícono en la barra del sistema"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Ocultar ícono en barra del sistema, si no hay actualizaciones pendientes"
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr " &Habilitar comprobación periódica de actualizaciones"
-
-#~ msgid "Check interval :"
-#~ msgstr "Intervalo de comprobación :"
-
-#~ msgid " min"
-#~ msgstr " min"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Instalar actualizaciones automáticamente"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Configuración General"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Límite de cache"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Usar cache en disco para los paquetes descargados"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Tamaño máximo del cache:"
-
-#~ msgid "Unlimited"
-#~ msgstr "ilimitado"
-
-#~ msgid " Mib"
-#~ msgstr "Mib"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Directorio actual de cache:"
-
-#~ msgid "Select..."
-#~ msgstr "Seleccionar..."
-
-#~ msgid "Open"
-#~ msgstr "Abrir"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Al vaciar el cache en disco se eliminarán todos los paquetes descargados. Esto no eliminará los programas instalados y no afectará la estabilidad del sistema."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "&Vaciar cache ahora"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Limitar ancho de banda"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Usar el límite de ancho de banda :"
-
-#~ msgid " kB/s"
-#~ msgstr "kB/s"
-
-#~ msgid "C&ache"
-#~ msgstr "C&ache"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Añadir Repositorio"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Remover Repositorio"
-
-#~ msgid "Move &Up"
-#~ msgstr "Mover &Arriba"
-
-#~ msgid "Move &Down"
-#~ msgstr "Mover &Abajo"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Repositorios"
-
-#~ msgid "Use Proxy"
-#~ msgstr "usar proxy"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "Servidor proxy HTTP:"
-
-#~ msgid "Port:"
-#~ msgstr "Puerto:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "Servidor proxy HTTPS:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "Servidor proxy FTP:"
-
-#~ msgid "Domain:"
-#~ msgstr "Dominio:"
-
-#~ msgid "Username:"
-#~ msgstr "Usuario:"
-
-#~ msgid "Password:"
-#~ msgstr "Contraseña:"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Usar este servidor proxy para todos los protocolos</a>"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -752,36 +550,238 @@ msgstr "Archivos de Paquetes"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Existe una configuración proxy en KDE, puede presionar <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">aquí</span></a> para obtener los parametros</p></body></html>"
 
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Usar este servidor proxy para todos los protocolos</a>"
+#~ msgid "Password:"
+#~ msgstr "Contraseña:"
 
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
+#~ msgid "Username:"
+#~ msgstr "Usuario:"
 
-#~ msgid "&OK"
-#~ msgstr "&OK"
+#~ msgid "Domain:"
+#~ msgstr "Dominio:"
 
-#~ msgid "&Cancel"
-#~ msgstr "&Cancelar"
+#~ msgid "FTP proxy server:"
+#~ msgstr "Servidor proxy FTP:"
 
-#~ msgid "Operation Summary"
-#~ msgstr "Resumen de la operación"
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "Servidor proxy HTTPS:"
 
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Puede ejecutar los programas recientemente instalados con un doble-clic en la lista abajo, o desde el menú del sistema."
+#~ msgid "Port:"
+#~ msgstr "Puerto:"
 
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
+#~ msgid "HTTP proxy server:"
+#~ msgstr "Servidor proxy HTTP:"
 
-#~ msgid "Type to filter files"
-#~ msgstr "Escriba para filtrar los archivos"
+#~ msgid "Use Proxy"
+#~ msgstr "usar proxy"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "Servidor AppInfo no está accesible\n"
-#~ "Por favor verifique su conexión de red"
+#~ msgid "&Repositories"
+#~ msgstr "&Repositorios"
 
-#~ msgid "Package Details"
-#~ msgstr "Detalles de Paquetes"
+#~ msgid "Move &Down"
+#~ msgstr "Mover &Abajo"
+
+#~ msgid "Move &Up"
+#~ msgstr "Mover &Arriba"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Remover Repositorio"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Añadir Repositorio"
+
+#~ msgid "C&ache"
+#~ msgstr "C&ache"
+
+#~ msgid " kB/s"
+#~ msgstr "kB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Usar el límite de ancho de banda :"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Limitar ancho de banda"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "&Vaciar cache ahora"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Al vaciar el cache en disco se eliminarán todos los paquetes descargados. Esto no eliminará los programas instalados y no afectará la estabilidad del sistema."
+
+#~ msgid "Open"
+#~ msgstr "Abrir"
+
+#~ msgid "Select..."
+#~ msgstr "Seleccionar..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Directorio actual de cache:"
+
+#~ msgid " Mib"
+#~ msgstr "Mib"
+
+#~ msgid "Unlimited"
+#~ msgstr "ilimitado"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Tamaño máximo del cache:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Usar cache en disco para los paquetes descargados"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Límite de cache"
+
+#~ msgid "&General Settings"
+#~ msgstr "&Configuración General"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Instalar actualizaciones automáticamente"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Intervalo de comprobación :"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr " &Habilitar comprobación periódica de actualizaciones"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Ocultar ícono en barra del sistema, si no hay actualizaciones pendientes"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Habilitar ícono en la barra del sistema"
+
+#~ msgid "System tray icon"
+#~ msgstr "Icono en la barra del sistema"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Mostrar indicadores de tipos de paquetes"
+
+#~ msgid "Show Component information "
+#~ msgstr "Mostrar información de componente"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Mostrar solamente programas de escritorio"
+
+#~ msgid "Package list"
+#~ msgstr "Lista de paquetes"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Configuración del Administrador de Paquetes"
+
+#~ msgid "Repository Address"
+#~ msgstr "Dirección de Repositorio"
+
+#~ msgid "Repository Name"
+#~ msgstr "Nombre de Repositorio"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Nombre del repositorio, p.ej. <b>pisilinux-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Añadir Repositorio"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Previsualización"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Install"
+#~ msgstr "instalar"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Los siguientes paquetes están seleccionados para instalarse. ¿Desea instalar todos los paquetes seleccionados ?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Instalación rápida del Administrador de Paquetes"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Comprobar Actualizaciones"
+
+#~ msgid "Show Basket"
+#~ msgstr "Mostrar Carrito"
+
+#~ msgid "Package List"
+#~ msgstr "Lista de paquetes"
+
+#~ msgid "Category Panel"
+#~ msgstr "Panel de categorías"
+
+#~ msgid "Update Types"
+#~ msgstr "Tipos de actualizaciones"
+
+#~ msgid "Click to search"
+#~ msgstr "Escriba aquí para buscar"
+
+#~ msgid "Search Bar"
+#~ msgstr "Barra de búsqueda"
+
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</b>"
+
+#~ msgid "Download Size:"
+#~ msgstr "Tamaño de descarga:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Tamaño Total:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Paquetes a instalar:"
+
+#~ msgid "Basket"
+#~ msgstr "Carrito"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Scanner"
+
+#~ msgid "Application"
+#~ msgstr "Aplicación"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorar"
+
+#~ msgid "Show Updates"
+#~ msgstr "Mostrar actualizaciones"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Ocultar pantalla de resumen"
+
+#~ msgid "Show main window"
+#~ msgstr "Mostrar Ventana principal"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Sus emails"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Sus nombres"
+
+#~ msgid "First Author"
+#~ msgstr "Autor inicial"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Desarrollador"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"

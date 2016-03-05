@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
 "PO-Revision-Date: 2013-12-03 21:10+0000\n"
 "Last-Translator: tribunal <tribunal2000@mail.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/language/ru/)\n"
@@ -490,241 +490,37 @@ msgstr "Доступно <b>%1</b> обновлений!"
 msgid "Package Files"
 msgstr "Файлы пакета"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Описание пакета"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr "Проверьте сетевые подключения и повторите попытку."
 
-#~ msgid "Developer"
-#~ msgstr "Разработчик"
+#~ msgid "Type to filter files"
+#~ msgstr "По типу файлов"
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
+#~ msgid "&Ok"
+#~ msgstr "Ок"
 
-#~ msgid "First Author"
-#~ msgstr "Первый автор"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Вы можете запустить новое установленное приложение дважды щелкнув по его названию в меню прямо сейчас или позже."
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Алексей Иванов, Семенов Николай, Щербаков Александр,  Ясыров Василий"
+#~ msgid "Operation Summary"
+#~ msgstr "Итоги"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "alexey.ivanes@gmail.com, tribunal2000@gmail.com, neocrust@gmail.com, zag@vspu.ru,"
-
-#~ msgid "Show main window"
-#~ msgstr "Показать главное окно"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Скрыть окно итогов"
-
-#~ msgid "Show Updates"
-#~ msgstr "Показать обновления"
-
-#~ msgid "Ignore"
-#~ msgstr "Игнорировать"
-
-#~ msgid "Application"
-#~ msgstr "Приложение"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Tarayıcı"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Корзина"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Выбранные пакеты для установки:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Общий объем:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Размер загрузки:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</"
-
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#~ msgid "Search Bar"
-#~ msgstr "Строка поиска"
-
-#~ msgid "Click to search"
-#~ msgstr "Введите имя пакета, затем нажмите на значок поиска справа"
-
-#~ msgid "Update Types"
-#~ msgstr "Типы обновлений"
-
-#~ msgid "Category Panel"
-#~ msgstr "Панель категории"
-
-#~ msgid "Package List"
-#~ msgstr "Список пакетов"
-
-#~ msgid "Show Basket"
-#~ msgstr "Показать корзину"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Проверить наличие обновлений"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Быстрая установка пакетов"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Следующие пакеты выбран для установки. Вы хотите установить эти пакеты?"
-
-#~ msgid "Install"
-#~ msgstr "Установить"
-
-#~ msgid "Cancel"
+#~ msgid "&Cancel"
 #~ msgstr "Отменить"
 
-#~ msgid "Preview"
-#~ msgstr "Обзор"
+#~ msgid "&OK"
+#~ msgstr "ОК"
 
-#~ msgid "Alt+C"
-#~ msgstr "Alt+С"
+#~ msgid "&Proxy"
+#~ msgstr "Прокси-сервер"
 
-#~ msgid "Add New Repository"
-#~ msgstr "Добавить репозиторий"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Название репозитория, например <b>pardus-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Название"
-
-#~ msgid "Repository Address"
-#~ msgstr "Адрес репозитория"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Настройка менеджера пакетов"
-
-#~ msgid "Package list"
-#~ msgstr "Список пакетов"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "Показывать только графические приложения для рабочего стола"
-
-#~ msgid "Show Component information "
-#~ msgstr "Показывать информацию о компонентах"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Показать теги типов пакетов"
-
-#~ msgid "System tray icon"
-#~ msgstr "Настройка поведения в системном трее"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Включить значок в системном лотке"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Спрятать значок в системном лотке, если нет обновлений"
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Включить и периодически проверять обновления"
-
-#~ msgid "Check interval :"
-#~ msgstr "Интервал проверки:"
-
-#~ msgid " min"
-#~ msgstr " мин"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Устанавливать обновления автоматически"
-
-#~ msgid "&General Settings"
-#~ msgstr "Основные"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Кеш пакетов"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "Создавать на жестком диске кэш загруженных пакетов"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Максимальный объем кэша:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Неограниченный"
-
-#~ msgid " Mib"
-#~ msgstr " мб"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Текущий каталог кэша:"
-
-#~ msgid "Select..."
-#~ msgstr "Выбрать..."
-
-#~ msgid "Open"
-#~ msgstr "Открыть"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Очистка кэша удалит все загруженное ПО. Это не удалит установленные пакеты и не повлияет на стабильность работы системы."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "Очистить кэш на диске."
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Ограничение нагрузки интернет соединения"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Использовать ограничение скорости:"
-
-#~ msgid " kB/s"
-#~ msgstr "Кб/с"
-
-#~ msgid "C&ache"
-#~ msgstr "Кэш"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Добавить репозиторий"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Удалить"
-
-#~ msgid "Move &Up"
-#~ msgstr "Приоритет &выше"
-
-#~ msgid "Move &Down"
-#~ msgstr "Приоритет &ниже"
-
-#~ msgid "&Repositories"
-#~ msgstr "Репозитории"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Использовать прокси-сервер"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP прокси-сервер:"
-
-#~ msgid "Port:"
-#~ msgstr "Порт:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS прокси-сервер:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP прокси-сервер:"
-
-#~ msgid "Domain:"
-#~ msgstr "Домен:"
-
-#~ msgid "Username:"
-#~ msgstr "Имя пользователя:"
-
-#~ msgid "Password:"
-#~ msgstr "Пароль:"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Использовать этот прокси-сервер для всех протоколов</a>"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -739,34 +535,238 @@ msgstr "Файлы пакета"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Настройки прокси доступны в KDE, нажмите <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">здесь</span></a>, чтобы открыть диалог настроек.</p></body></html>"
 
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Использовать этот прокси-сервер для всех протоколов</a>"
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
 
-#~ msgid "&Proxy"
-#~ msgstr "Прокси-сервер"
+#~ msgid "Username:"
+#~ msgstr "Имя пользователя:"
 
-#~ msgid "&OK"
-#~ msgstr "ОК"
+#~ msgid "Domain:"
+#~ msgstr "Домен:"
 
-#~ msgid "&Cancel"
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP прокси-сервер:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS прокси-сервер:"
+
+#~ msgid "Port:"
+#~ msgstr "Порт:"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP прокси-сервер:"
+
+#~ msgid "Use Proxy"
+#~ msgstr "Использовать прокси-сервер"
+
+#~ msgid "&Repositories"
+#~ msgstr "Репозитории"
+
+#~ msgid "Move &Down"
+#~ msgstr "Приоритет &ниже"
+
+#~ msgid "Move &Up"
+#~ msgstr "Приоритет &выше"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Удалить"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Добавить репозиторий"
+
+#~ msgid "C&ache"
+#~ msgstr "Кэш"
+
+#~ msgid " kB/s"
+#~ msgstr "Кб/с"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Использовать ограничение скорости:"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Ограничение нагрузки интернет соединения"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "Очистить кэш на диске."
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Очистка кэша удалит все загруженное ПО. Это не удалит установленные пакеты и не повлияет на стабильность работы системы."
+
+#~ msgid "Open"
+#~ msgstr "Открыть"
+
+#~ msgid "Select..."
+#~ msgstr "Выбрать..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Текущий каталог кэша:"
+
+#~ msgid " Mib"
+#~ msgstr " мб"
+
+#~ msgid "Unlimited"
+#~ msgstr "Неограниченный"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Максимальный объем кэша:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "Создавать на жестком диске кэш загруженных пакетов"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Кеш пакетов"
+
+#~ msgid "&General Settings"
+#~ msgstr "Основные"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Устанавливать обновления автоматически"
+
+#~ msgid " min"
+#~ msgstr " мин"
+
+#~ msgid "Check interval :"
+#~ msgstr "Интервал проверки:"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Включить и периодически проверять обновления"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Спрятать значок в системном лотке, если нет обновлений"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Включить значок в системном лотке"
+
+#~ msgid "System tray icon"
+#~ msgstr "Настройка поведения в системном трее"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Показать теги типов пакетов"
+
+#~ msgid "Show Component information "
+#~ msgstr "Показывать информацию о компонентах"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "Показывать только графические приложения для рабочего стола"
+
+#~ msgid "Package list"
+#~ msgstr "Список пакетов"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Настройка менеджера пакетов"
+
+#~ msgid "Repository Address"
+#~ msgstr "Адрес репозитория"
+
+#~ msgid "Repository Name"
+#~ msgstr "Название"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Название репозитория, например <b>pardus-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Добавить репозиторий"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+С"
+
+#~ msgid "Preview"
+#~ msgstr "Обзор"
+
+#~ msgid "Cancel"
 #~ msgstr "Отменить"
 
-#~ msgid "Operation Summary"
-#~ msgstr "Итоги"
+#~ msgid "Install"
+#~ msgstr "Установить"
 
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Вы можете запустить новое установленное приложение дважды щелкнув по его названию в меню прямо сейчас или позже."
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Следующие пакеты выбран для установки. Вы хотите установить эти пакеты?"
 
-#~ msgid "&Ok"
-#~ msgstr "Ок"
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Быстрая установка пакетов"
 
-#~ msgid "Type to filter files"
-#~ msgstr "По типу файлов"
+#~ msgid "Check for Updates"
+#~ msgstr "Проверить наличие обновлений"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr "Проверьте сетевые подключения и повторите попытку."
+#~ msgid "Show Basket"
+#~ msgstr "Показать корзину"
 
-#~ msgid "Package Details"
-#~ msgstr "Описание пакета"
+#~ msgid "Package List"
+#~ msgstr "Список пакетов"
+
+#~ msgid "Category Panel"
+#~ msgstr "Панель категории"
+
+#~ msgid "Update Types"
+#~ msgstr "Типы обновлений"
+
+#~ msgid "Click to search"
+#~ msgstr "Введите имя пакета, затем нажмите на значок поиска справа"
+
+#~ msgid "Search Bar"
+#~ msgstr "Строка поиска"
+
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Размер загрузки:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Общий объем:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Выбранные пакеты для установки:"
+
+#~ msgid "Basket"
+#~ msgstr "Корзина"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
+
+#~ msgid "Application"
+#~ msgstr "Приложение"
+
+#~ msgid "Ignore"
+#~ msgstr "Игнорировать"
+
+#~ msgid "Show Updates"
+#~ msgstr "Показать обновления"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Скрыть окно итогов"
+
+#~ msgid "Show main window"
+#~ msgstr "Показать главное окно"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "alexey.ivanes@gmail.com, tribunal2000@gmail.com, neocrust@gmail.com, zag@vspu.ru,"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Алексей Иванов, Семенов Николай, Щербаков Александр,  Ясыров Василий"
+
+#~ msgid "First Author"
+#~ msgstr "Первый автор"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Разработчик"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"

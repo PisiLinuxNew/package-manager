@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
 "PO-Revision-Date: 2014-07-30 18:15+0200\n"
 "Last-Translator: Stefan Gronewold <groni3427@gmail.com>\n"
 "Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
@@ -494,241 +494,39 @@ msgstr "Er zijn <b>%1</b> opwaarderingen beschikbaar!"
 msgid "Package Files"
 msgstr "Pakketbestanden"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Pakketdetails"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "AppInfo-server is niet bereikbaar\n"
+#~ "Controleer de netwerkverbinding"
 
-#~ msgid "Developer"
-#~ msgstr "Ontwikkelaar"
+#~ msgid "Type to filter files"
+#~ msgstr "Type om bestanden te filteren"
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
 
-#~ msgid "First Author"
-#~ msgstr "Eerste auteur"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "De nieuw geïnstalleerde toepassing kan door dubbelklikken op onderstaande lijst gestart worden of later via het toepassingenmenu."
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Antoon Tolboom, Richard de Bruin, Stefan Gronewold"
+#~ msgid "Operation Summary"
+#~ msgstr "Samenvatting van bewerking"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "atolboo@gmail.com, rr.debruin@gmail.com, groni@pisilinux.org"
+#~ msgid "&Cancel"
+#~ msgstr "&Annuleren"
 
-#~ msgid "Show main window"
-#~ msgstr "Hoofdvenster tonen"
+#~ msgid "&OK"
+#~ msgstr "&OK"
 
-#~ msgid "Hide summary screen"
-#~ msgstr "Samenvatting verbergen"
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
 
-#~ msgid "Show Updates"
-#~ msgstr "Opwaarderingen tonen"
-
-#~ msgid "Ignore"
-#~ msgstr "Negeren"
-
-#~ msgid "Application"
-#~ msgstr "Toepassing"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Webbrowser"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Mandje"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Geselecteerde pakket(ten) om te installeren:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Totale grootte:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2,2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Downloadgrootte:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2,0 MB</"
-
-#~ msgid "Form"
-#~ msgstr "Formulier"
-
-#~ msgid "Search Bar"
-#~ msgstr "Zoekbalk"
-
-#~ msgid "Click to search"
-#~ msgstr "Klik om te zoeken"
-
-#~ msgid "Update Types"
-#~ msgstr "Opwaardeertypen"
-
-#~ msgid "Category Panel"
-#~ msgstr "Categoriepaneel"
-
-#~ msgid "Package List"
-#~ msgstr "Pakketlijst"
-
-#~ msgid "Show Basket"
-#~ msgstr "Mandje tonen"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Controleren op opwaarderingen"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Snel-Installeren Pakketbeheer"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "De volgende pakketten zijn geselecteerd om geïnstalleerd te worden. Wilt u deze pakketten installeren?"
-
-#~ msgid "Install"
-#~ msgstr "Installeer"
-
-#~ msgid "Cancel"
-#~ msgstr "Annuleren"
-
-#~ msgid "Preview"
-#~ msgstr "Voorbeeld"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Nieuwe softwarebron toevoegen"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Naam van de softwarebron, bv. <b>pisilinux-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Naam softwarebron"
-
-#~ msgid "Repository Address"
-#~ msgstr "Adres Softwarebron"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Pakketbeheer Instellingen"
-
-#~ msgid "Package list"
-#~ msgstr "Pakketlijst"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "Alleen desktop toepassingen &tonen"
-
-#~ msgid "Show Component information "
-#~ msgstr "Componentinformatie tonen"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Pakkettype tags tonen"
-
-#~ msgid "System tray icon"
-#~ msgstr "Systeemvak pictogram"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Systeemvak pictogram inschakelen"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Systeemvak pictogram verbergen indien er geen opwaarderingen zijn."
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "&Periodieke controle van opwaarderingen inschakelen"
-
-#~ msgid "Check interval :"
-#~ msgstr "Interval controle:"
-
-#~ msgid " min"
-#~ msgstr " min"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Opwaarderingen automatisch installeren"
-
-#~ msgid "&General Settings"
-#~ msgstr "Al&gemene instellingen"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Bufferlimiet"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "Gebr&uik harde schijfbuffer voor gedownloade software"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Maximum buffergrootte:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Onbeperkt"
-
-#~ msgid " Mib"
-#~ msgstr " Mib"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Huidige buffermap:"
-
-#~ msgid "Select..."
-#~ msgstr "Selecteren..."
-
-#~ msgid "Open"
-#~ msgstr "Openen"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Leeg maken van het schijfbuffer zal alle gedownloade software verwijderen. Het zal geen geïnstalleerde software verwijderen of de stabiliteit van uw systeem beïnvloeden."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "Schijf&buffer nu opruimen"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Bandbreedte limiet"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Bandbreedte limiet gebruiken:"
-
-#~ msgid " kB/s"
-#~ msgstr " kB/s"
-
-#~ msgid "C&ache"
-#~ msgstr "B&uffer"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "Nieuwe softwarebron &toevoegen"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Softwarebron verwijderen"
-
-#~ msgid "Move &Up"
-#~ msgstr "&Omhoog"
-
-#~ msgid "Move &Down"
-#~ msgstr "Om&laag"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Softwarebronnen"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Proxy gebruiken"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP-proxyserver:"
-
-#~ msgid "Port:"
-#~ msgstr "Poort:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS-proxyserver:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP-proxyserver:"
-
-#~ msgid "Domain:"
-#~ msgstr "Domein:"
-
-#~ msgid "Username:"
-#~ msgstr "Gebruikersnaam:"
-
-#~ msgid "Password:"
-#~ msgstr "Wachtwoord:"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Gebruik deze proxyserver voor alle protocollen</a>"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -743,36 +541,238 @@ msgstr "Pakketbestanden"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Er is een proxy-instelling in KDE beschikbaar, klik op <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">hier</span></a> om deze instellingen te verkrijgen</p></body></html>"
 
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Gebruik deze proxyserver voor alle protocollen</a>"
+#~ msgid "Password:"
+#~ msgstr "Wachtwoord:"
 
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
+#~ msgid "Username:"
+#~ msgstr "Gebruikersnaam:"
 
-#~ msgid "&OK"
-#~ msgstr "&OK"
+#~ msgid "Domain:"
+#~ msgstr "Domein:"
 
-#~ msgid "&Cancel"
-#~ msgstr "&Annuleren"
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP-proxyserver:"
 
-#~ msgid "Operation Summary"
-#~ msgstr "Samenvatting van bewerking"
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS-proxyserver:"
 
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "De nieuw geïnstalleerde toepassing kan door dubbelklikken op onderstaande lijst gestart worden of later via het toepassingenmenu."
+#~ msgid "Port:"
+#~ msgstr "Poort:"
 
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP-proxyserver:"
 
-#~ msgid "Type to filter files"
-#~ msgstr "Type om bestanden te filteren"
+#~ msgid "Use Proxy"
+#~ msgstr "Proxy gebruiken"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "AppInfo-server is niet bereikbaar\n"
-#~ "Controleer de netwerkverbinding"
+#~ msgid "&Repositories"
+#~ msgstr "&Softwarebronnen"
 
-#~ msgid "Package Details"
-#~ msgstr "Pakketdetails"
+#~ msgid "Move &Down"
+#~ msgstr "Om&laag"
+
+#~ msgid "Move &Up"
+#~ msgstr "&Omhoog"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Softwarebron verwijderen"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "Nieuwe softwarebron &toevoegen"
+
+#~ msgid "C&ache"
+#~ msgstr "B&uffer"
+
+#~ msgid " kB/s"
+#~ msgstr " kB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Bandbreedte limiet gebruiken:"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Bandbreedte limiet"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "Schijf&buffer nu opruimen"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Leeg maken van het schijfbuffer zal alle gedownloade software verwijderen. Het zal geen geïnstalleerde software verwijderen of de stabiliteit van uw systeem beïnvloeden."
+
+#~ msgid "Open"
+#~ msgstr "Openen"
+
+#~ msgid "Select..."
+#~ msgstr "Selecteren..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Huidige buffermap:"
+
+#~ msgid " Mib"
+#~ msgstr " Mib"
+
+#~ msgid "Unlimited"
+#~ msgstr "Onbeperkt"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maximum buffergrootte:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "Gebr&uik harde schijfbuffer voor gedownloade software"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Bufferlimiet"
+
+#~ msgid "&General Settings"
+#~ msgstr "Al&gemene instellingen"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Opwaarderingen automatisch installeren"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Interval controle:"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "&Periodieke controle van opwaarderingen inschakelen"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Systeemvak pictogram verbergen indien er geen opwaarderingen zijn."
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Systeemvak pictogram inschakelen"
+
+#~ msgid "System tray icon"
+#~ msgstr "Systeemvak pictogram"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Pakkettype tags tonen"
+
+#~ msgid "Show Component information "
+#~ msgstr "Componentinformatie tonen"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "Alleen desktop toepassingen &tonen"
+
+#~ msgid "Package list"
+#~ msgstr "Pakketlijst"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Pakketbeheer Instellingen"
+
+#~ msgid "Repository Address"
+#~ msgstr "Adres Softwarebron"
+
+#~ msgid "Repository Name"
+#~ msgstr "Naam softwarebron"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Naam van de softwarebron, bv. <b>pisilinux-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Nieuwe softwarebron toevoegen"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Voorbeeld"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Install"
+#~ msgstr "Installeer"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "De volgende pakketten zijn geselecteerd om geïnstalleerd te worden. Wilt u deze pakketten installeren?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Snel-Installeren Pakketbeheer"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Controleren op opwaarderingen"
+
+#~ msgid "Show Basket"
+#~ msgstr "Mandje tonen"
+
+#~ msgid "Package List"
+#~ msgstr "Pakketlijst"
+
+#~ msgid "Category Panel"
+#~ msgstr "Categoriepaneel"
+
+#~ msgid "Update Types"
+#~ msgstr "Opwaardeertypen"
+
+#~ msgid "Click to search"
+#~ msgstr "Klik om te zoeken"
+
+#~ msgid "Search Bar"
+#~ msgstr "Zoekbalk"
+
+#~ msgid "Form"
+#~ msgstr "Formulier"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2,0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Downloadgrootte:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2,2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Totale grootte:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Geselecteerde pakket(ten) om te installeren:"
+
+#~ msgid "Basket"
+#~ msgstr "Mandje"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Webbrowser"
+
+#~ msgid "Application"
+#~ msgstr "Toepassing"
+
+#~ msgid "Ignore"
+#~ msgstr "Negeren"
+
+#~ msgid "Show Updates"
+#~ msgstr "Opwaarderingen tonen"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Samenvatting verbergen"
+
+#~ msgid "Show main window"
+#~ msgstr "Hoofdvenster tonen"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "atolboo@gmail.com, rr.debruin@gmail.com, groni@pisilinux.org"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Antoon Tolboom, Richard de Bruin, Stefan Gronewold"
+
+#~ msgid "First Author"
+#~ msgstr "Eerste auteur"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Ontwikkelaar"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"

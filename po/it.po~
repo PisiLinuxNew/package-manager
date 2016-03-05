@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
 "PO-Revision-Date: 2013-09-15 09:13+0000\n"
 "Last-Translator: ddave <ddave090@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/language/it/)\n"
@@ -494,243 +494,39 @@ msgstr "Ci sono <b>%1</b> aggiornamenti disponibili!"
 msgid "Package Files"
 msgstr "File dei Pacchetti"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Dettagli Pacchetto"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "Developer"
-#~ msgstr "Sviluppatore"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "First Author"
-#~ msgstr "Primo Autore"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Tuo nome"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Vostri messaggi di posta elettronica"
-
-#~ msgid "Show main window"
-#~ msgstr "Mostra finestra principale"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Nascondi schermata di riepilogo"
-
-#~ msgid "Show Updates"
-#~ msgstr "Mostra aggiornamenti"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignora"
-
-#~ msgid "Application"
-#~ msgstr "Applicazione"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Scanner"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Cestino"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Seleziona il/i pacchetto/i per l'installazione:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Dimensione totale:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Dimensione dei file da scaricare:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</b>"
-
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgid "Search Bar"
-#~ msgstr "Barra di ricerca"
-
-#~ msgid "Click to search"
-#~ msgstr "Clicca per cercare"
-
-#~ msgid "Update Types"
-#~ msgstr "Tipi di Aggiornamento"
-
-#~ msgid "Category Panel"
-#~ msgstr "Pannello Categoria"
-
-#~ msgid "Package List"
-#~ msgstr "Lista pacchetti"
-
-#~ msgid "Show Basket"
-#~ msgstr "Mostra il Cestino"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Controlla gli Aggiornamenti"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Gestore dei Pacchetti Installazione Rapida"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "I seguenti pacchetti sono stati selezionati per l'installazione. Vuoi installare questi pacchetti?"
-
-#~ msgid "Install"
-#~ msgstr "Installa"
-
-#~ msgid "Cancel"
-#~ msgstr "Annulla"
-
-#~ msgid "Preview"
-#~ msgstr "Anteprima"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Aggiungi nuovo repository"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Nome del repository, es. <b>pardus-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Nome repository"
-
-#~ msgid "Repository Address"
-#~ msgstr "Indirizzo repository"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Impostazioni package manager"
-
-#~ msgid "Package list"
-#~ msgstr "Lista pacchetti"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Mostra solo le applicazioni desktop"
-
-#~ msgid "Show Component information "
-#~ msgstr "Visualizza informazioni componente "
-
-#~ msgid "Show package type tags"
-#~ msgstr "Mostra tipo di  etichette del pacchetto"
-
-#~ msgid "System tray icon"
-#~ msgstr "Icona nel vassoio di sistema."
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Abilita icona nel vassoio di sistema."
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Nascondi l'icona di sistema se non ci sono aggiornamenti."
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Abilita controllo &periodico aggiornamenti"
-
-#~ msgid "Check interval :"
-#~ msgstr "Intervallo di controllo:"
-
-#~ msgid " min"
-#~ msgstr " min"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Installa aggiornamenti automaticamente"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Impostazioni Generali"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Limite di Cache"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Usa cache hard disk per il software scaricato"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Dimensione massima cache:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Illimitato"
-
-#~ msgid " Mib"
-#~ msgstr " Mb"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Directory cache corrente:"
-
-#~ msgid "Select..."
-#~ msgstr "Seleziona..."
-
-#~ msgid "Open"
-#~ msgstr "Apri"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
 #~ msgstr ""
-#~ "Svuotare la cache sul disco rimuoverà tutti i pacchetti dei software scaricati. \n"
-#~ "Questa operazione non rimuoverà il software installato e non influenzerà la stabilità del sistema."
+#~ "AppInfo Server non è raggiungibile\n"
+#~ "Per favore controllare la connessione di rete"
 
-#~ msgid "C&lean disk cache now"
-#~ msgstr "&Pulisci cache su disco ora"
+#~ msgid "Type to filter files"
+#~ msgstr "Digita per filtrare i file"
 
-#~ msgid "Bandwidth limit"
-#~ msgstr "Limite di banda"
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
 
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Usa limite di banda"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Puoi avviare l' applicazione appena installata facendo doppio click sulla lista qui sotto o scegliendola dal menù."
 
-#~ msgid " kB/s"
-#~ msgstr "kB/s"
+#~ msgid "Operation Summary"
+#~ msgstr "Riepilogo operazioni"
 
-#~ msgid "C&ache"
-#~ msgstr "&Cache"
+#~ msgid "&Cancel"
+#~ msgstr "&Annulla"
 
-#~ msgid "&Add New Repository"
-#~ msgstr "&Aggiungi nuovo repository"
+#~ msgid "&OK"
+#~ msgstr "&OK"
 
-#~ msgid "Remove Repository"
-#~ msgstr "Rimuovi Repository"
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
 
-#~ msgid "Move &Up"
-#~ msgstr "Sposta &Su"
-
-#~ msgid "Move &Down"
-#~ msgstr "Sposta &Giù"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Repository"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Usa Proxy"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "Proxy HTTP:"
-
-#~ msgid "Port:"
-#~ msgstr "Porta:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "Proxy HTTPS:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "Proxy FTP:"
-
-#~ msgid "Domain:"
-#~ msgstr "Dominio:"
-
-#~ msgid "Username:"
-#~ msgstr "Nome utente:"
-
-#~ msgid "Password:"
-#~ msgstr "Password:"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Usa questo proxy server per tutti i protocolli</a>"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -740,36 +536,240 @@ msgstr "File dei Pacchetti"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
 #~ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">⏎ <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">⏎ p, li { white-space: pre-wrap; }⏎ </style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">⏎ <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
 
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Usa questo proxy server per tutti i protocolli</a>"
+#~ msgid "Password:"
+#~ msgstr "Password:"
 
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
+#~ msgid "Username:"
+#~ msgstr "Nome utente:"
 
-#~ msgid "&OK"
-#~ msgstr "&OK"
+#~ msgid "Domain:"
+#~ msgstr "Dominio:"
 
-#~ msgid "&Cancel"
-#~ msgstr "&Annulla"
+#~ msgid "FTP proxy server:"
+#~ msgstr "Proxy FTP:"
 
-#~ msgid "Operation Summary"
-#~ msgstr "Riepilogo operazioni"
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "Proxy HTTPS:"
 
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Puoi avviare l' applicazione appena installata facendo doppio click sulla lista qui sotto o scegliendola dal menù."
+#~ msgid "Port:"
+#~ msgstr "Porta:"
 
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
+#~ msgid "HTTP proxy server:"
+#~ msgstr "Proxy HTTP:"
 
-#~ msgid "Type to filter files"
-#~ msgstr "Digita per filtrare i file"
+#~ msgid "Use Proxy"
+#~ msgstr "Usa Proxy"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
+#~ msgid "&Repositories"
+#~ msgstr "&Repository"
+
+#~ msgid "Move &Down"
+#~ msgstr "Sposta &Giù"
+
+#~ msgid "Move &Up"
+#~ msgstr "Sposta &Su"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Rimuovi Repository"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Aggiungi nuovo repository"
+
+#~ msgid "C&ache"
+#~ msgstr "&Cache"
+
+#~ msgid " kB/s"
+#~ msgstr "kB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Usa limite di banda"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Limite di banda"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "&Pulisci cache su disco ora"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
 #~ msgstr ""
-#~ "AppInfo Server non è raggiungibile\n"
-#~ "Per favore controllare la connessione di rete"
+#~ "Svuotare la cache sul disco rimuoverà tutti i pacchetti dei software scaricati. \n"
+#~ "Questa operazione non rimuoverà il software installato e non influenzerà la stabilità del sistema."
 
-#~ msgid "Package Details"
-#~ msgstr "Dettagli Pacchetto"
+#~ msgid "Open"
+#~ msgstr "Apri"
+
+#~ msgid "Select..."
+#~ msgstr "Seleziona..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Directory cache corrente:"
+
+#~ msgid " Mib"
+#~ msgstr " Mb"
+
+#~ msgid "Unlimited"
+#~ msgstr "Illimitato"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Dimensione massima cache:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Usa cache hard disk per il software scaricato"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Limite di Cache"
+
+#~ msgid "&General Settings"
+#~ msgstr "&Impostazioni Generali"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Installa aggiornamenti automaticamente"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Intervallo di controllo:"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Abilita controllo &periodico aggiornamenti"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Nascondi l'icona di sistema se non ci sono aggiornamenti."
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Abilita icona nel vassoio di sistema."
+
+#~ msgid "System tray icon"
+#~ msgstr "Icona nel vassoio di sistema."
+
+#~ msgid "Show package type tags"
+#~ msgstr "Mostra tipo di  etichette del pacchetto"
+
+#~ msgid "Show Component information "
+#~ msgstr "Visualizza informazioni componente "
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Mostra solo le applicazioni desktop"
+
+#~ msgid "Package list"
+#~ msgstr "Lista pacchetti"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Impostazioni package manager"
+
+#~ msgid "Repository Address"
+#~ msgstr "Indirizzo repository"
+
+#~ msgid "Repository Name"
+#~ msgstr "Nome repository"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Nome del repository, es. <b>pardus-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Aggiungi nuovo repository"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Anteprima"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "Install"
+#~ msgstr "Installa"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "I seguenti pacchetti sono stati selezionati per l'installazione. Vuoi installare questi pacchetti?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Gestore dei Pacchetti Installazione Rapida"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Controlla gli Aggiornamenti"
+
+#~ msgid "Show Basket"
+#~ msgstr "Mostra il Cestino"
+
+#~ msgid "Package List"
+#~ msgstr "Lista pacchetti"
+
+#~ msgid "Category Panel"
+#~ msgstr "Pannello Categoria"
+
+#~ msgid "Update Types"
+#~ msgstr "Tipi di Aggiornamento"
+
+#~ msgid "Click to search"
+#~ msgstr "Clicca per cercare"
+
+#~ msgid "Search Bar"
+#~ msgstr "Barra di ricerca"
+
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</b>"
+
+#~ msgid "Download Size:"
+#~ msgstr "Dimensione dei file da scaricare:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Dimensione totale:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Seleziona il/i pacchetto/i per l'installazione:"
+
+#~ msgid "Basket"
+#~ msgstr "Cestino"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Scanner"
+
+#~ msgid "Application"
+#~ msgstr "Applicazione"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignora"
+
+#~ msgid "Show Updates"
+#~ msgstr "Mostra aggiornamenti"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Nascondi schermata di riepilogo"
+
+#~ msgid "Show main window"
+#~ msgstr "Mostra finestra principale"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Vostri messaggi di posta elettronica"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Tuo nome"
+
+#~ msgid "First Author"
+#~ msgstr "Primo Autore"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Sviluppatore"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
