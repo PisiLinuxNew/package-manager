@@ -84,8 +84,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.cw.state.repositoriesChanged.connect(self.tray.populateRepositoryMenu)
         self.cw.repositoriesUpdated.connect(self.tray.updateTrayUnread)
         
-        #buraya dikkat
-        #qApp.quit.connect(self.slotQuit)
 
     def moveTab(self, direction):
         new_index = self.cw.stateTab.currentIndex() - 1
@@ -194,12 +192,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def showHelp(self):
         self.Pds = pds.Pds()
         self.lang = localedata.setSystemLocale(justGet = True)
-
+        
         if self.lang in os.listdir("/usr/share/package-manager/help"):
             pass
         else:
             self.lang = "en"
 
+        
         if self.Pds.session == pds.Kde3 :
             os.popen("khelpcenter /usr/share/package-manager/help/%s/main_help.html" %(self.lang))
         else:

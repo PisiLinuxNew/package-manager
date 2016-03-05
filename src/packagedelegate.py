@@ -182,6 +182,7 @@ class PackageDelegate(QStyledItemDelegate):
             if not pix.isNull():
                 icon = QIcon(pix.scaled(QSize(32, 32), Qt.KeepAspectRatio, Qt.SmoothTransformation))
             KIconLoader._forceCache = False
+               
 
         if not icon:
             icon = self.defaultIcon if not installed else self.defaultInstalledIcon

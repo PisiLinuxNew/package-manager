@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -490,285 +490,285 @@ msgstr "There are <b>%1</b> updates available!"
 msgid "Package Files"
 msgstr "Package Files"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Package Details"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
 
-#~ msgid "Developer"
-#~ msgstr "Developer"
+#~ msgid "Type to filter files"
+#~ msgstr "Type to filter files"
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
 
-#~ msgid "First Author"
-#~ msgstr "First Author"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "You can start the new installed application by double-clicking on the list below or later from the applications menu."
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Your names"
+#~ msgid "Operation Summary"
+#~ msgstr "Operation Summary"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Cancel"
+
+#~ msgid "&OK"
+#~ msgstr "&OK"
+
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
+
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Use this proxy server for all protocols</a>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+
+#~ msgid "Password:"
+#~ msgstr "Password:"
+
+#~ msgid "Username:"
+#~ msgstr "Username:"
+
+#~ msgid "Domain:"
+#~ msgstr "Domain:"
+
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP proxy server:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS proxy server:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP proxy server:"
+
+#~ msgid "Use Proxy"
+#~ msgstr "Use Proxy"
+
+#~ msgid "&Repositories"
+#~ msgstr "&Repositories"
+
+#~ msgid "Move &Down"
+#~ msgstr "Move &Down"
+
+#~ msgid "Move &Up"
+#~ msgstr "Move &Up"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Remove Repository"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Add New Repository"
+
+#~ msgid "C&ache"
+#~ msgstr "C&ache"
+
+#~ msgid " kB/s"
+#~ msgstr " kB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Use bandwidth limit :"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Bandwidth limit"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "C&lean disk cache now"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+
+#~ msgid "Open"
+#~ msgstr "Open"
+
+#~ msgid "Select..."
+#~ msgstr "Select..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Current cache dir:"
+
+#~ msgid " Mib"
+#~ msgstr " Mib"
+
+#~ msgid "Unlimited"
+#~ msgstr "Unlimited"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maximum cache size:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Use hard disk cache for downloaded software"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Cache Limit"
+
+#~ msgid "&General Settings"
+#~ msgstr "&General Settings"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Install updates automatically"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Check interval :"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Enable &periodic update check"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Hide system tray if there is no update."
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Enable system tray icon"
+
+#~ msgid "System tray icon"
+#~ msgstr "System tray icon"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Show package type tags"
+
+#~ msgid "Show Component information "
+#~ msgstr "Show Component information "
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Show only desktop applications"
+
+#~ msgid "Package list"
+#~ msgstr "Package list"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Package Manager Settings"
+
+#~ msgid "Repository Address"
+#~ msgstr "Repository Address"
+
+#~ msgid "Repository Name"
+#~ msgstr "Repository Name"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Name of the repository, e.g <b>pisilinux-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Add New Repository"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Preview"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Install"
+#~ msgstr "Install"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Following packages are selected to install. Do you want to install these packages ?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Package Manager Quick Install"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Check for Updates"
+
+#~ msgid "Show Basket"
+#~ msgstr "Show Basket"
+
+#~ msgid "Package List"
+#~ msgstr "Package List"
+
+#~ msgid "Category Panel"
+#~ msgstr "Category Panel"
+
+#~ msgid "Update Types"
+#~ msgstr "Update Types"
+
+#~ msgid "Click to search"
+#~ msgstr "Click to search"
+
+#~ msgid "Search Bar"
+#~ msgstr "Search Bar"
+
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Download Size:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Total Size:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Selected package(s) for install:"
+
+#~ msgid "Basket"
+#~ msgstr "Basket"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
+
+#~ msgid "Application"
+#~ msgstr "Application"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignore"
+
+#~ msgid "Show Updates"
+#~ msgstr "Show Updates"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Hide summary screen"
+
+#~ msgid "Show main window"
+#~ msgstr "Show main window"
 
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
 #~ msgstr "Your emails"
 
-#~ msgid "Show main window"
-#~ msgstr "Show main window"
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Your names"
 
-#~ msgid "Hide summary screen"
-#~ msgstr "Hide summary screen"
+#~ msgid "First Author"
+#~ msgstr "First Author"
 
-#~ msgid "Show Updates"
-#~ msgstr "Show Updates"
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
 
-#~ msgid "Ignore"
-#~ msgstr "Ignore"
+#~ msgid "Developer"
+#~ msgstr "Developer"
 
-#~ msgid "Application"
-#~ msgstr "Application"
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
 
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Tarayıcı"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Basket"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Selected package(s) for install:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Total Size:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Download Size:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</"
-
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgid "Search Bar"
-#~ msgstr "Search Bar"
-
-#~ msgid "Click to search"
-#~ msgstr "Click to search"
-
-#~ msgid "Update Types"
-#~ msgstr "Update Types"
-
-#~ msgid "Category Panel"
-#~ msgstr "Category Panel"
-
-#~ msgid "Package List"
-#~ msgstr "Package List"
-
-#~ msgid "Show Basket"
-#~ msgstr "Show Basket"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Check for Updates"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Package Manager Quick Install"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Following packages are selected to install. Do you want to install these packages ?"
-
-#~ msgid "Install"
-#~ msgstr "Install"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancel"
-
-#~ msgid "Preview"
-#~ msgstr "Preview"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Add New Repository"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Name of the repository, e.g <b>pisilinux-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Repository Name"
-
-#~ msgid "Repository Address"
-#~ msgstr "Repository Address"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Package Manager Settings"
-
-#~ msgid "Package list"
-#~ msgstr "Package list"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Show only desktop applications"
-
-#~ msgid "Show Component information "
-#~ msgstr "Show Component information "
-
-#~ msgid "Show package type tags"
-#~ msgstr "Show package type tags"
-
-#~ msgid "System tray icon"
-#~ msgstr "System tray icon"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Enable system tray icon"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Hide system tray if there is no update."
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Enable &periodic update check"
-
-#~ msgid "Check interval :"
-#~ msgstr "Check interval :"
-
-#~ msgid " min"
-#~ msgstr " min"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Install updates automatically"
-
-#~ msgid "&General Settings"
-#~ msgstr "&General Settings"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Cache Limit"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Use hard disk cache for downloaded software"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Maximum cache size:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Unlimited"
-
-#~ msgid " Mib"
-#~ msgstr " Mib"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Current cache dir:"
-
-#~ msgid "Select..."
-#~ msgstr "Select..."
-
-#~ msgid "Open"
-#~ msgstr "Open"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "C&lean disk cache now"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Bandwidth limit"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Use bandwidth limit :"
-
-#~ msgid " kB/s"
-#~ msgstr " kB/s"
-
-#~ msgid "C&ache"
-#~ msgstr "C&ache"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Add New Repository"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Remove Repository"
-
-#~ msgid "Move &Up"
-#~ msgstr "Move &Up"
-
-#~ msgid "Move &Down"
-#~ msgstr "Move &Down"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Repositories"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Use Proxy"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP proxy server:"
-
-#~ msgid "Port:"
-#~ msgstr "Port:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS proxy server:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP proxy server:"
-
-#~ msgid "Domain:"
-#~ msgstr "Domain:"
-
-#~ msgid "Username:"
-#~ msgstr "Username:"
-
-#~ msgid "Password:"
-#~ msgstr "Password:"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Use this proxy server for all protocols</a>"
-
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
-
-#~ msgid "&OK"
-#~ msgstr "&OK"
-
-#~ msgid "&Cancel"
-#~ msgstr "&Cancel"
-
-#~ msgid "Operation Summary"
-#~ msgstr "Operation Summary"
-
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Type to filter files"
-
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-
-#~ msgid "Package Details"
-#~ msgstr "Package Details"
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"

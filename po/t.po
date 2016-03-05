@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-02 13:07+0200\n"
+"POT-Creation-Date: 2016-03-03 11:32+0200\n"
 "PO-Revision-Date: 2014-01-12 16:38+0000\n"
 "Last-Translator: klaipedetis <romangalina@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/PiSiLinux/language/lt/)\n"
@@ -104,35 +104,35 @@ msgstr "Visi"
 msgid "Package Manager Help"
 msgstr "Paketų menadžerio pagalba"
 
-#: src/mainwidget.py:147
+#: src/mainwidget.py:150
 msgid "All packages are up to date"
 msgstr "Visi paketai aktualios busenos"
 
-#: src/mainwidget.py:254
+#: src/mainwidget.py:259
 msgid "Searching..."
 msgstr "Paješka... "
 
-#: src/mainwidget.py:266
+#: src/mainwidget.py:271
 msgid "No results found."
 msgstr "Nieko ne rasta "
 
-#: src/mainwidget.py:427
+#: src/mainwidget.py:432
 msgid "Select packages"
 msgstr "pasirinkti paketus"
 
-#: src/mainwidget.py:428
+#: src/mainwidget.py:433
 msgid "You must select at least one installed package"
 msgstr "Jūs turite pasirinkti bent viena paketą "
 
-#: src/mainwidget.py:440
+#: src/mainwidget.py:445
 msgid "All Updates"
 msgstr "visi naujinimai"
 
-#: src/mainwidget.py:441
+#: src/mainwidget.py:446
 msgid "Security Updates"
 msgstr "Saugumo naujinimai"
 
-#: src/mainwidget.py:442
+#: src/mainwidget.py:447
 msgid "Critical Updates"
 msgstr "Kritinė naujinimai"
 
@@ -491,8 +491,265 @@ msgstr "Yra <b>%1</b>atnaujinimų!"
 msgid "Package Files"
 msgstr "Paketo bylos"
 
-#~ msgid "Package Details"
-#~ msgstr "Paketo detales"
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel "
+
+#~ msgid "Developer"
+#~ msgstr "Kūrėjas "
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur "
+
+#~ msgid "First Author"
+#~ msgstr "Pirmas autorius "
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Jūsų vardas "
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Jūsų e-paštas "
+
+#~ msgid "Show main window"
+#~ msgstr "Rodyti pagrindinė langą "
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Paslepti bendrinimo ekrana"
+
+#~ msgid "Show Updates"
+#~ msgstr "Rodyti naujinimų"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignuoroti"
+
+#~ msgid "Application"
+#~ msgstr "Aplikacija"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Basket"
+#~ msgstr "krepšis "
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Pažimeti paketai įdegymui:"
+
+#~ msgid "Total Size:"
+#~ msgstr "bendras dydis: "
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2Mb<b>"
+
+#~ msgid "Download Size:"
+#~ msgstr "Parsisiuntymų dydis:"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0Mb</"
+
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#~ msgid "Search Bar"
+#~ msgstr "Paieškos laukas"
+
+#~ msgid "Click to search"
+#~ msgstr "paspausti kad ieškoti"
+
+#~ msgid "Update Types"
+#~ msgstr "atnaujinti tipą"
+
+#~ msgid "Category Panel"
+#~ msgstr "Kategorijų panele "
+
+#~ msgid "Package List"
+#~ msgstr "Paketų sąrašas"
+
+#~ msgid "Show Basket"
+#~ msgstr "rodyti krepšį"
+
+#~ msgid "Check for Updates"
+#~ msgstr "patikrinti ar yra atnaujinimai"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "greitas įdegymas paketo menadžerio"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "sekančios paketai pažimeti įdegimui. jūs norite įdegti šių paketų?"
+
+#~ msgid "Install"
+#~ msgstr "Įdegimas"
+
+#~ msgid "Cancel"
+#~ msgstr "Atsisakyti"
+
+#~ msgid "Preview"
+#~ msgstr "Peržiura"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Pridėti nauja saugykla"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Saugyklos vardas, pav. <b>"
+
+#~ msgid "Repository Name"
+#~ msgstr "Saugyklos pavadinimas"
+
+#~ msgid "Repository Address"
+#~ msgstr "Saugyklos adresas"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr " paketų menadžerio nustatimai"
+
+#~ msgid "Package list"
+#~ msgstr "Paketų sąrašas"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Rodyti tik darbastalio aplikacijų"
+
+#~ msgid "Show Component information "
+#~ msgstr "Rodyti informaciją apie komponentus"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Rodyti paketo tipo tagus"
+
+#~ msgid "System tray icon"
+#~ msgstr "Ikona sistemos lauko"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "leidžiamos sistemos juostos ikonos"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Slepti sistemos juosta jei ji ne atnaujinta"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "leisti &periodine atnaujinimų patikra "
+
+#~ msgid "Check interval :"
+#~ msgstr "Patikros tarpas:"
+
+#~ msgid " min"
+#~ msgstr "min"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Degti naujinimus automatiškai"
+
+#~ msgid "&General Settings"
+#~ msgstr "&Bendri nustatymai"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Kešo ribojimas"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&nauduoti standujį disko programoms parsisiusti"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maksimalus kešo dydis:"
+
+#~ msgid "Unlimited"
+#~ msgstr "Be limito"
+
+#~ msgid " Mib"
+#~ msgstr "Mib"
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Dabartinis kešo direktorija"
+
+#~ msgid "Select..."
+#~ msgstr "Pasirinkti..."
+
+#~ msgid "Open"
+#~ msgstr "Atverti"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Išvalyti disko kešo po programų parsisiuntimo. Tai ne pašalins jūsų įdegtų programų ar kažkaip paveiks sistemos stabilumui"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "V&alyti disko kešo dabar"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "praleidumo rybojimas "
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "naudoti pralaidumo limito:"
+
+#~ msgid " kB/s"
+#~ msgstr "kB/s"
+
+#~ msgid "C&ache"
+#~ msgstr "K&ešas"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&pridėti nauja saugykla "
+
+#~ msgid "Remove Repository"
+#~ msgstr "pašalinti saugykla"
+
+#~ msgid "Move &Up"
+#~ msgstr "Kelti &į viršų"
+
+#~ msgid "Move &Down"
+#~ msgstr "leisti &į apačia"
+
+#~ msgid "&Repositories"
+#~ msgstr "&Saugyklos"
+
+#~ msgid "Use Proxy"
+#~ msgstr "naudoti proxy"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP proxy serveris:"
+
+#~ msgid "Port:"
+#~ msgstr "Portas:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS proxy serveris:"
+
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP proxy serveris:"
+
+#~ msgid "Domain:"
+#~ msgstr "Domain:"
+
+#~ msgid "Username:"
+#~ msgstr "Vartotojo vardas:"
+
+#~ msgid "Password:"
+#~ msgstr "Slaptažodis:"
+
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Naudoti šį proxy serverį visiems protokolams</a>"
+
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
+
+#~ msgid "&OK"
+#~ msgstr "&gerai"
+
+#~ msgid "&Cancel"
+#~ msgstr "&atsisakyti"
+
+#~ msgid "Operation Summary"
+#~ msgstr "operacijų suvestynė "
+
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Jūs galite paleist naujai įdegta programa 2kart paspaudus ant juos sąraše arba veliau iš aplikacijų menių"
+
+#~ msgid "&Ok"
+#~ msgstr "&Gerai"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Tipas bylų filtrui"
 
 #~ msgid ""
 #~ "AppInfo Server is not reachable\n"
@@ -501,262 +758,5 @@ msgstr "Paketo bylos"
 #~ "AppInfo Serveris nepasiekiamas.\n"
 #~ "Prašom patikrinti jūsų ryšį"
 
-#~ msgid "Type to filter files"
-#~ msgstr "Tipas bylų filtrui"
-
-#~ msgid "&Ok"
-#~ msgstr "&Gerai"
-
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Jūs galite paleist naujai įdegta programa 2kart paspaudus ant juos sąraše arba veliau iš aplikacijų menių"
-
-#~ msgid "Operation Summary"
-#~ msgstr "operacijų suvestynė "
-
-#~ msgid "&Cancel"
-#~ msgstr "&atsisakyti"
-
-#~ msgid "&OK"
-#~ msgstr "&gerai"
-
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
-
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Naudoti šį proxy serverį visiems protokolams</a>"
-
-#~ msgid "Password:"
-#~ msgstr "Slaptažodis:"
-
-#~ msgid "Username:"
-#~ msgstr "Vartotojo vardas:"
-
-#~ msgid "Domain:"
-#~ msgstr "Domain:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP proxy serveris:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS proxy serveris:"
-
-#~ msgid "Port:"
-#~ msgstr "Portas:"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP proxy serveris:"
-
-#~ msgid "Use Proxy"
-#~ msgstr "naudoti proxy"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Saugyklos"
-
-#~ msgid "Move &Down"
-#~ msgstr "leisti &į apačia"
-
-#~ msgid "Move &Up"
-#~ msgstr "Kelti &į viršų"
-
-#~ msgid "Remove Repository"
-#~ msgstr "pašalinti saugykla"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&pridėti nauja saugykla "
-
-#~ msgid "C&ache"
-#~ msgstr "K&ešas"
-
-#~ msgid " kB/s"
-#~ msgstr "kB/s"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "naudoti pralaidumo limito:"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "praleidumo rybojimas "
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "V&alyti disko kešo dabar"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Išvalyti disko kešo po programų parsisiuntimo. Tai ne pašalins jūsų įdegtų programų ar kažkaip paveiks sistemos stabilumui"
-
-#~ msgid "Open"
-#~ msgstr "Atverti"
-
-#~ msgid "Select..."
-#~ msgstr "Pasirinkti..."
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Dabartinis kešo direktorija"
-
-#~ msgid " Mib"
-#~ msgstr "Mib"
-
-#~ msgid "Unlimited"
-#~ msgstr "Be limito"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Maksimalus kešo dydis:"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&nauduoti standujį disko programoms parsisiusti"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Kešo ribojimas"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Bendri nustatymai"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Degti naujinimus automatiškai"
-
-#~ msgid " min"
-#~ msgstr "min"
-
-#~ msgid "Check interval :"
-#~ msgstr "Patikros tarpas:"
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "leisti &periodine atnaujinimų patikra "
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Slepti sistemos juosta jei ji ne atnaujinta"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "leidžiamos sistemos juostos ikonos"
-
-#~ msgid "System tray icon"
-#~ msgstr "Ikona sistemos lauko"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Rodyti paketo tipo tagus"
-
-#~ msgid "Show Component information "
-#~ msgstr "Rodyti informaciją apie komponentus"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Rodyti tik darbastalio aplikacijų"
-
-#~ msgid "Package list"
-#~ msgstr "Paketų sąrašas"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr " paketų menadžerio nustatimai"
-
-#~ msgid "Repository Address"
-#~ msgstr "Saugyklos adresas"
-
-#~ msgid "Repository Name"
-#~ msgstr "Saugyklos pavadinimas"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Saugyklos vardas, pav. <b>"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Pridėti nauja saugykla"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Preview"
-#~ msgstr "Peržiura"
-
-#~ msgid "Cancel"
-#~ msgstr "Atsisakyti"
-
-#~ msgid "Install"
-#~ msgstr "Įdegimas"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "sekančios paketai pažimeti įdegimui. jūs norite įdegti šių paketų?"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "greitas įdegymas paketo menadžerio"
-
-#~ msgid "Check for Updates"
-#~ msgstr "patikrinti ar yra atnaujinimai"
-
-#~ msgid "Show Basket"
-#~ msgstr "rodyti krepšį"
-
-#~ msgid "Package List"
-#~ msgstr "Paketų sąrašas"
-
-#~ msgid "Category Panel"
-#~ msgstr "Kategorijų panele "
-
-#~ msgid "Update Types"
-#~ msgstr "atnaujinti tipą"
-
-#~ msgid "Click to search"
-#~ msgstr "paspausti kad ieškoti"
-
-#~ msgid "Search Bar"
-#~ msgstr "Paieškos laukas"
-
-#~ msgid "Form"
-#~ msgstr "Forma"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0Mb</"
-
-#~ msgid "Download Size:"
-#~ msgstr "Parsisiuntymų dydis:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2Mb<b>"
-
-#~ msgid "Total Size:"
-#~ msgstr "bendras dydis: "
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Pažimeti paketai įdegymui:"
-
-#~ msgid "Basket"
-#~ msgstr "krepšis "
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Tarayıcı"
-
-#~ msgid "Application"
-#~ msgstr "Aplikacija"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignuoroti"
-
-#~ msgid "Show Updates"
-#~ msgstr "Rodyti naujinimų"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Paslepti bendrinimo ekrana"
-
-#~ msgid "Show main window"
-#~ msgstr "Rodyti pagrindinė langą "
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Jūsų e-paštas "
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Jūsų vardas "
-
-#~ msgid "First Author"
-#~ msgstr "Pirmas autorius "
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur "
-
-#~ msgid "Developer"
-#~ msgstr "Kūrėjas "
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel "
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Paketo detales"

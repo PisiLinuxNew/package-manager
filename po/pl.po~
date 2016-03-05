@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/PiSiLinux/language/pl/)\n"
@@ -490,262 +490,8 @@ msgstr "Dostępnych jest <b>%1</b>  aktualizacji!"
 msgid "Package Files"
 msgstr "Pliki pakietu"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "Developer"
-#~ msgstr "Wykonawca"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "First Author"
-#~ msgstr "Pierwszy Autor"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Nazwy"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Adresy e-mail"
-
-#~ msgid "Show main window"
-#~ msgstr "Pokaż główne okno."
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Ukryj ekran podsumowania"
-
-#~ msgid "Show Updates"
-#~ msgstr "Pokaż aktualizacje"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignoruj"
-
-#~ msgid "Application"
-#~ msgstr "Aplikacja"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox<b>2.2 MB</b>"
-
-#~ msgid "Basket"
-#~ msgstr "Kosz"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Wybrane pakiety do instalacji:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Całkowity rozmiar"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Rozmiar do pobrania"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</b>"
-
-#~ msgid "Form"
-#~ msgstr "Formularz"
-
-#~ msgid "Search Bar"
-#~ msgstr "Pasek wyszukiwania"
-
-#~ msgid "Click to search"
-#~ msgstr "Kliknij by wyszukać"
-
-#~ msgid "Update Types"
-#~ msgstr "Typ aktualizacji"
-
-#~ msgid "Category Panel"
-#~ msgstr "Panel kategorii"
-
-#~ msgid "Package List"
-#~ msgstr "Lista pakietów"
-
-#~ msgid "Show Basket"
-#~ msgstr "Pokarz kosz"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Zaznacz do aktualizacji"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Menadżer Pakietów szybka instalacja"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Następujące pakiety są wybrane do instalacji. Chcesz zainstalować te pakiety ?"
-
-#~ msgid "Install"
-#~ msgstr "Zainstaluj"
-
-#~ msgid "Cancel"
-#~ msgstr "Koniec"
-
-#~ msgid "Preview"
-#~ msgstr "Podgląd"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Dodaj nowe repozytorium"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Nazwa repozytorium, na przykład <b>pardus-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Nazwa repozytorium"
-
-#~ msgid "Repository Address"
-#~ msgstr "Adres repozytorium"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Ustawienia Menadżera Pakietów"
-
-#~ msgid "Package list"
-#~ msgstr "Lista pakietów"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Pokaż tylko aplikacje z GUI"
-
-#~ msgid "Show Component information "
-#~ msgstr "Pokaż komponent z informacjami"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Pokaż tagi typów pakietu"
-
-#~ msgid "System tray icon"
-#~ msgstr "Ikona systemowa"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Włącz ikonę systemową"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Ukryj ikonę systemową jeżeli nie ma aktualizacji."
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Włącz &okresowe sprawdzanie aktualizacji"
-
-#~ msgid "Check interval :"
-#~ msgstr "Przedział sprawdzania :"
-
-#~ msgid " min"
-#~ msgstr " min"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Zainstaluj aktualizacje automatycznie"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Główne ustawienia"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Limit Cache "
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Użyj pamięci podręcznej dla pobierania oprogramowania"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Maksymalny rozmiar pamięci podręcznej:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Bez limitu"
-
-#~ msgid " Mib"
-#~ msgstr " Mib"
-
-#~ msgid "Current cache dir:"
-#~ msgstr " Obecny katalog pamięci podręcznej:"
-
-#~ msgid "Select..."
-#~ msgstr "Wybierz..."
-
-#~ msgid "Open"
-#~ msgstr "Otwórz"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Wyczyść pobrane pliki z pamięci podręcznej. Nie usunie to zainstalowanego oprogramowania i nie wpłynie na stabilność systemu."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "W&yczyść teraz pamięć podręczną"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Limit pobierania"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Użyj limit pobierania :"
-
-#~ msgid " kB/s"
-#~ msgstr " kB/s"
-
-#~ msgid "C&ache"
-#~ msgstr "P&amięć podręczna"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Dodaj nowe repozytorium"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Usuń repozytorium"
-
-#~ msgid "Move &Up"
-#~ msgstr "Przenieś w &górę"
-
-#~ msgid "Move &Down"
-#~ msgstr "Przeni&eś w dół"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Repozytoria"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Użyj serwerów proxy"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP serwer proxy:"
-
-#~ msgid "Port:"
-#~ msgstr "Port:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS serwer proxy:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP serwer proxy:"
-
-#~ msgid "Domain:"
-#~ msgstr "Domena:"
-
-#~ msgid "Username:"
-#~ msgstr "Nazwa użytkownika:"
-
-#~ msgid "Password:"
-#~ msgstr "Hasło:"
-
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Użyj tego serwera proxy dla wszystkich protokołów</a>"
-
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
-
-#~ msgid "&OK"
-#~ msgstr "&OK"
-
-#~ msgid "&Cancel"
-#~ msgstr "&Koniec"
-
-#~ msgid "Operation Summary"
-#~ msgstr "Podsumowanie pracy"
-
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Możesz uruchomić nowo zainstalowane aplikacje poprzez podwójne kliknięciena liście lub później uruchomić aplikacje z menu."
-
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Typ filtru plików"
+#~ msgid "Package Details"
+#~ msgstr "Szczegóły pakietu"
 
 #~ msgid ""
 #~ "AppInfo Server is not reachable\n"
@@ -754,5 +500,259 @@ msgstr "Pliki pakietu"
 #~ "Serwer informacji aplikacji jest nieosiągalny\n"
 #~ "Spróbuj sprawdzić swoje połączenie internetowe."
 
-#~ msgid "Package Details"
-#~ msgstr "Szczegóły pakietu"
+#~ msgid "Type to filter files"
+#~ msgstr "Typ filtru plików"
+
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
+
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Możesz uruchomić nowo zainstalowane aplikacje poprzez podwójne kliknięciena liście lub później uruchomić aplikacje z menu."
+
+#~ msgid "Operation Summary"
+#~ msgstr "Podsumowanie pracy"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Koniec"
+
+#~ msgid "&OK"
+#~ msgstr "&OK"
+
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
+
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Użyj tego serwera proxy dla wszystkich protokołów</a>"
+
+#~ msgid "Password:"
+#~ msgstr "Hasło:"
+
+#~ msgid "Username:"
+#~ msgstr "Nazwa użytkownika:"
+
+#~ msgid "Domain:"
+#~ msgstr "Domena:"
+
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP serwer proxy:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS serwer proxy:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP serwer proxy:"
+
+#~ msgid "Use Proxy"
+#~ msgstr "Użyj serwerów proxy"
+
+#~ msgid "&Repositories"
+#~ msgstr "&Repozytoria"
+
+#~ msgid "Move &Down"
+#~ msgstr "Przeni&eś w dół"
+
+#~ msgid "Move &Up"
+#~ msgstr "Przenieś w &górę"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Usuń repozytorium"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Dodaj nowe repozytorium"
+
+#~ msgid "C&ache"
+#~ msgstr "P&amięć podręczna"
+
+#~ msgid " kB/s"
+#~ msgstr " kB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Użyj limit pobierania :"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Limit pobierania"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "W&yczyść teraz pamięć podręczną"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Wyczyść pobrane pliki z pamięci podręcznej. Nie usunie to zainstalowanego oprogramowania i nie wpłynie na stabilność systemu."
+
+#~ msgid "Open"
+#~ msgstr "Otwórz"
+
+#~ msgid "Select..."
+#~ msgstr "Wybierz..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr " Obecny katalog pamięci podręcznej:"
+
+#~ msgid " Mib"
+#~ msgstr " Mib"
+
+#~ msgid "Unlimited"
+#~ msgstr "Bez limitu"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maksymalny rozmiar pamięci podręcznej:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Użyj pamięci podręcznej dla pobierania oprogramowania"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Limit Cache "
+
+#~ msgid "&General Settings"
+#~ msgstr "&Główne ustawienia"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Zainstaluj aktualizacje automatycznie"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Przedział sprawdzania :"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Włącz &okresowe sprawdzanie aktualizacji"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Ukryj ikonę systemową jeżeli nie ma aktualizacji."
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Włącz ikonę systemową"
+
+#~ msgid "System tray icon"
+#~ msgstr "Ikona systemowa"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Pokaż tagi typów pakietu"
+
+#~ msgid "Show Component information "
+#~ msgstr "Pokaż komponent z informacjami"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Pokaż tylko aplikacje z GUI"
+
+#~ msgid "Package list"
+#~ msgstr "Lista pakietów"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Ustawienia Menadżera Pakietów"
+
+#~ msgid "Repository Address"
+#~ msgstr "Adres repozytorium"
+
+#~ msgid "Repository Name"
+#~ msgstr "Nazwa repozytorium"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Nazwa repozytorium, na przykład <b>pardus-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Dodaj nowe repozytorium"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Podgląd"
+
+#~ msgid "Cancel"
+#~ msgstr "Koniec"
+
+#~ msgid "Install"
+#~ msgstr "Zainstaluj"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Następujące pakiety są wybrane do instalacji. Chcesz zainstalować te pakiety ?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Menadżer Pakietów szybka instalacja"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Zaznacz do aktualizacji"
+
+#~ msgid "Show Basket"
+#~ msgstr "Pokarz kosz"
+
+#~ msgid "Package List"
+#~ msgstr "Lista pakietów"
+
+#~ msgid "Category Panel"
+#~ msgstr "Panel kategorii"
+
+#~ msgid "Update Types"
+#~ msgstr "Typ aktualizacji"
+
+#~ msgid "Click to search"
+#~ msgstr "Kliknij by wyszukać"
+
+#~ msgid "Search Bar"
+#~ msgstr "Pasek wyszukiwania"
+
+#~ msgid "Form"
+#~ msgstr "Formularz"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</b>"
+
+#~ msgid "Download Size:"
+#~ msgstr "Rozmiar do pobrania"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Całkowity rozmiar"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Wybrane pakiety do instalacji:"
+
+#~ msgid "Basket"
+#~ msgstr "Kosz"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox<b>2.2 MB</b>"
+
+#~ msgid "Application"
+#~ msgstr "Aplikacja"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignoruj"
+
+#~ msgid "Show Updates"
+#~ msgstr "Pokaż aktualizacje"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Ukryj ekran podsumowania"
+
+#~ msgid "Show main window"
+#~ msgstr "Pokaż główne okno."
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Adresy e-mail"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Nazwy"
+
+#~ msgid "First Author"
+#~ msgstr "Pierwszy Autor"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Wykonawca"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"

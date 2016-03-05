@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
 "PO-Revision-Date: 2013-11-25 10:05+0000\n"
 "Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/PiSiLinux/language/hr/)\n"
@@ -492,241 +492,36 @@ msgstr "Dostupne <b>%1</b> su nadogradnje!"
 msgid "Package Files"
 msgstr "Datoteke paketa"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgid "Package Details"
+#~ msgstr "Detalji paketa"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "AppInfo poslužitelj nije dostupan\n"
+#~ "Molimo provjerite svoje mrežne veze"
 
-#~ msgid "Developer"
-#~ msgstr "Razvijatelj"
+#~ msgid "&Ok"
+#~ msgstr "&U redu"
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Možete pokrenuti novoinstalirani program dvostrukim klikom na donju listu ili kasnije iz izbornika programa."
 
-#~ msgid "First Author"
-#~ msgstr "Prvi autor"
+#~ msgid "Operation Summary"
+#~ msgstr "Sažetak operacije"
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Ivica Kolić"
+#~ msgid "&Cancel"
+#~ msgstr "&Odgodi"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "ikoli@yahoo.com"
+#~ msgid "&OK"
+#~ msgstr "&U redu"
 
-#~ msgid "Show main window"
-#~ msgstr "Pokaži glavni prozor"
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
 
-#~ msgid "Hide summary screen"
-#~ msgstr "Sakrij zaslon sažetaka"
-
-#~ msgid "Show Updates"
-#~ msgstr "Pokaži dopune"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignoriraj"
-
-#~ msgid "Application"
-#~ msgstr "Program"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Tarayıcı"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Košara"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Odabrani paket(i) za instaliranje:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Ukupna veličina:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Veličina preuzimanja:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</"
-
-#~ msgid "Form"
-#~ msgstr "Forma"
-
-#~ msgid "Search Bar"
-#~ msgstr "Traka traženja"
-
-#~ msgid "Click to search"
-#~ msgstr "Klikni za traženje"
-
-#~ msgid "Update Types"
-#~ msgstr " Vrste dopuna"
-
-#~ msgid "Category Panel"
-#~ msgstr "Ploča kategorija"
-
-#~ msgid "Package List"
-#~ msgstr "Lista paketa"
-
-#~ msgid "Show Basket"
-#~ msgstr "Pokaži košaru"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Provjeri za dopune"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Upravitelj paketa brza instalacija"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Slijedeći paketi su izabrani za instalaciju.Želite li instalirati te pakete?"
-
-#~ msgid "Install"
-#~ msgstr "Instaliraj"
-
-#~ msgid "Cancel"
-#~ msgstr "Odgodi"
-
-#~ msgid "Preview"
-#~ msgstr "Pregled"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Dodaj novi repozitorij"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Ime repozitorija,npr. <b>pisilinux-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Ime repozitorija"
-
-#~ msgid "Repository Address"
-#~ msgstr "Adresa repozitorija"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Postavke upravitelja paketa"
-
-#~ msgid "Package list"
-#~ msgstr "Lista paketa"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Spokaži samo programe radne površine"
-
-#~ msgid "Show Component information "
-#~ msgstr "Prikaži informacije o komponenti"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Prikaži oznake vrste paketa"
-
-#~ msgid "System tray icon"
-#~ msgstr "Ikona trake sustava"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Omogući traku sustava"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Sakrij traku sustava ako nema dopuna"
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Omogući &povremenu provjeru dopuna"
-
-#~ msgid "Check interval :"
-#~ msgstr "Interval provjere:"
-
-#~ msgid " min"
-#~ msgstr " min"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Instaliraj dopune automatski"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Osnovne postavke"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Ograničenje međuspremnika"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Koristi privremenu memoriju tvrdog diska za preuzeti software"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Maksimalna veličina predmemorije:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Neograničeno"
-
-#~ msgid " Mib"
-#~ msgstr " Mib"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Trenutni direktorij predmemorije:"
-
-#~ msgid "Select..."
-#~ msgstr "Odaberi..."
-
-#~ msgid "Open"
-#~ msgstr "Otvori"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Čišćenje predmemorije diska će ukloniti sav preuzeti softwere. To se neće izbrisati instalirani softwere ili utjecati na stablinost vašeg sustava."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "O&čisti predmemoriju diska sada"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Ograničenje propusnosti"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Koristi ograničenje propusnosti:"
-
-#~ msgid " kB/s"
-#~ msgstr " kB/s"
-
-#~ msgid "C&ache"
-#~ msgstr "C&predmemorija"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Dodaj novi repozitorij"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Ukloni repozitorij"
-
-#~ msgid "Move &Up"
-#~ msgstr "Pomakni &gore"
-
-#~ msgid "Move &Down"
-#~ msgstr "Pomakni &dolje"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Repozitoriji"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Koristi proxy"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP proxy poslužitelj:"
-
-#~ msgid "Port:"
-#~ msgstr "Port:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS proxy poslužitelj:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP proxy poslužitelj:"
-
-#~ msgid "Domain:"
-#~ msgstr "Domena:"
-
-#~ msgid "Username:"
-#~ msgstr "Korisničko ime:"
-
-#~ msgid "Password:"
-#~ msgstr "Lozinka:"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Koristi ovaj proxy poslužitelj za sve protokole</a>"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -741,33 +536,238 @@ msgstr "Datoteke paketa"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Dostupne su proxy postavke u KDE-u,možete kliknuti <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> da biste dobili te postavke</p></body></html>"
 
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Koristi ovaj proxy poslužitelj za sve protokole</a>"
+#~ msgid "Password:"
+#~ msgstr "Lozinka:"
 
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
+#~ msgid "Username:"
+#~ msgstr "Korisničko ime:"
 
-#~ msgid "&OK"
-#~ msgstr "&U redu"
+#~ msgid "Domain:"
+#~ msgstr "Domena:"
 
-#~ msgid "&Cancel"
-#~ msgstr "&Odgodi"
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP proxy poslužitelj:"
 
-#~ msgid "Operation Summary"
-#~ msgstr "Sažetak operacije"
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS proxy poslužitelj:"
 
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Možete pokrenuti novoinstalirani program dvostrukim klikom na donju listu ili kasnije iz izbornika programa."
+#~ msgid "Port:"
+#~ msgstr "Port:"
 
-#~ msgid "&Ok"
-#~ msgstr "&U redu"
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP proxy poslužitelj:"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "AppInfo poslužitelj nije dostupan\n"
-#~ "Molimo provjerite svoje mrežne veze"
+#~ msgid "Use Proxy"
+#~ msgstr "Koristi proxy"
 
-#~ msgid "Package Details"
-#~ msgstr "Detalji paketa"
+#~ msgid "&Repositories"
+#~ msgstr "&Repozitoriji"
+
+#~ msgid "Move &Down"
+#~ msgstr "Pomakni &dolje"
+
+#~ msgid "Move &Up"
+#~ msgstr "Pomakni &gore"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Ukloni repozitorij"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Dodaj novi repozitorij"
+
+#~ msgid "C&ache"
+#~ msgstr "C&predmemorija"
+
+#~ msgid " kB/s"
+#~ msgstr " kB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Koristi ograničenje propusnosti:"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Ograničenje propusnosti"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "O&čisti predmemoriju diska sada"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Čišćenje predmemorije diska će ukloniti sav preuzeti softwere. To se neće izbrisati instalirani softwere ili utjecati na stablinost vašeg sustava."
+
+#~ msgid "Open"
+#~ msgstr "Otvori"
+
+#~ msgid "Select..."
+#~ msgstr "Odaberi..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Trenutni direktorij predmemorije:"
+
+#~ msgid " Mib"
+#~ msgstr " Mib"
+
+#~ msgid "Unlimited"
+#~ msgstr "Neograničeno"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maksimalna veličina predmemorije:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Koristi privremenu memoriju tvrdog diska za preuzeti software"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Ograničenje međuspremnika"
+
+#~ msgid "&General Settings"
+#~ msgstr "&Osnovne postavke"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Instaliraj dopune automatski"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Interval provjere:"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Omogući &povremenu provjeru dopuna"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Sakrij traku sustava ako nema dopuna"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Omogući traku sustava"
+
+#~ msgid "System tray icon"
+#~ msgstr "Ikona trake sustava"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Prikaži oznake vrste paketa"
+
+#~ msgid "Show Component information "
+#~ msgstr "Prikaži informacije o komponenti"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Spokaži samo programe radne površine"
+
+#~ msgid "Package list"
+#~ msgstr "Lista paketa"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Postavke upravitelja paketa"
+
+#~ msgid "Repository Address"
+#~ msgstr "Adresa repozitorija"
+
+#~ msgid "Repository Name"
+#~ msgstr "Ime repozitorija"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Ime repozitorija,npr. <b>pisilinux-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Dodaj novi repozitorij"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Pregled"
+
+#~ msgid "Cancel"
+#~ msgstr "Odgodi"
+
+#~ msgid "Install"
+#~ msgstr "Instaliraj"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Slijedeći paketi su izabrani za instalaciju.Želite li instalirati te pakete?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Upravitelj paketa brza instalacija"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Provjeri za dopune"
+
+#~ msgid "Show Basket"
+#~ msgstr "Pokaži košaru"
+
+#~ msgid "Package List"
+#~ msgstr "Lista paketa"
+
+#~ msgid "Category Panel"
+#~ msgstr "Ploča kategorija"
+
+#~ msgid "Update Types"
+#~ msgstr " Vrste dopuna"
+
+#~ msgid "Click to search"
+#~ msgstr "Klikni za traženje"
+
+#~ msgid "Search Bar"
+#~ msgstr "Traka traženja"
+
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Veličina preuzimanja:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Ukupna veličina:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Odabrani paket(i) za instaliranje:"
+
+#~ msgid "Basket"
+#~ msgstr "Košara"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
+
+#~ msgid "Application"
+#~ msgstr "Program"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignoriraj"
+
+#~ msgid "Show Updates"
+#~ msgstr "Pokaži dopune"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Sakrij zaslon sažetaka"
+
+#~ msgid "Show main window"
+#~ msgstr "Pokaži glavni prozor"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "ikoli@yahoo.com"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Ivica Kolić"
+
+#~ msgid "First Author"
+#~ msgstr "Prvi autor"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Razvijatelj"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"

@@ -13,7 +13,7 @@ Requirements
 - Python 2.7 or higher 
 - PyQt 5.5 or higher -->  python-qt5, python-qt5-devel, python-sip
 - Pds (lasted)       -->  https://github.com/PisiLinuxNew/pds
-
+- docutils paketi
 
 Installation
 ------------

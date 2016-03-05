@@ -117,7 +117,6 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         self.searchLine.textEdited[str].connect(self.searchLineChanged)
         self.searchLine.returnPressed.connect(self.searchActivated)
         
-        #burada hata var 
         self.searchLine.textChanged[str].connect(self.slotSearchLineClear)       
         
         self.typeCombo.activated[int].connect(self.typeFilter)
@@ -253,8 +252,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         if self.currentState == self.state.UPGRADE:
             if self.groupList.count() == 0 and not self.searchUsed:
                 return
-        
-            
+                
         if not self.searchLine.text() == '':
             self.pdsMessageBox.showMessage(i18n("Searching..."), busy = True)
             self.groupList.lastSelected = None

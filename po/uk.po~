@@ -4,302 +4,293 @@
 #
 # Translators:
 # Translators:
-# Faik Uygur <faik@pardus.org.tr>, 2009-2010
-# Gökmen Göksel <gokmen@pardus.org.tr>, 2010
-# mozen <inactive+mozen@transifex.com>, 2013
-# Necmettin Begiter <necmettin.begiter@gmail.com>, 2009
+# Данило Коростіль <ted.korostiled@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
-"PO-Revision-Date: 2013-04-13 12:51+0000\n"
-"Last-Translator: mozen <inactive+mozen@transifex.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/PiSiLinux/language/tr/)\n"
-"Language: tr\n"
+"POT-Creation-Date: 2016-03-03 11:31+0200\n"
+"PO-Revision-Date: 2013-03-24 23:56+0000\n"
+"Last-Translator: circass <erdincgultekin@gmail.com>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/projects/p/PiSiLinux/language/uk/)\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Language: tr_TR\n"
-"X-Source-Language: C\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: data/package-manager.desktop.in.h:1
 #: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
 #: src/progressdialog.py:63
 msgid "Package Manager"
-msgstr "Paket Yöneticisi"
+msgstr "Керування пакунками"
 
 #: data/package-manager.desktop.in.h:2
 msgid "Add or Remove Software"
-msgstr "Yazılım ekle veya kaldır"
+msgstr "Встановлення та вилучення програм"
 
 #: data/package-manager.desktop.in.h:3
 msgid "PiSi Package Manager Graphical User Interface"
-msgstr "PİSİ paket yöneticisinin grafik ara yüzü"
+msgstr "Графічний інтефейс керування пакунками PiSi"
 
 #: data/packagemanager-helper.desktop.in.h:2
 msgid "Add/Remove/Update Packages"
-msgstr "Paket(ler)i Ekle/Kaldır/Güncelle"
+msgstr "Встановити/вилучити/оновити пакунки"
 
 #: src/basketdialog.py:55
 msgid "Clear Basket"
-msgstr "Sepeti Boşalt"
+msgstr "Очистити кошик"
 
 #: src/basketdialog.py:56
 msgid "Do you want to clear all selections ?"
-msgstr "Tüm seçimlerinizi temizlemek istiyor musunuz ?"
+msgstr "Очистити все вибране ?"
 
 #: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
 #: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:252
 #: src/settingsdialog.py:258
 msgid "Pisi Error"
-msgstr "Pisi Hatası"
+msgstr "Помилка Pisi"
 
 #: src/basketdialog.py:164
 msgid "You must restart your system for the updates to take effect"
-msgstr "Güncellemelerin geçerli olabilmesi için bilgisayarınızı yeniden başlatmanız gerekiyor"
+msgstr "Щоб оновлення набрало чинності, потрібно перезавантажити систему"
 
 #: src/basketdialog.py:166 src/basketdialog.py:175
 msgid "Update Requirements"
-msgstr "Güncelleme Gereksinimleri"
+msgstr "Оновлення вимог"
 
 #: src/basketdialog.py:167
 msgid "Packages Require System Restart"
-msgstr "Sistemin Yeniden Başlatılmasını Gerektiren Paketler"
+msgstr "Пакунки потребують перезапуску системи"
 
 #: src/basketdialog.py:173
 msgid "You must restart related system services for the updated package(s) to take effect"
-msgstr "Seçili güncellemelerin geçerli olabilmesi için ilişkili sistem servislerini yeniden başlatmanız gerekiyor"
+msgstr "Потрібно перезапустити пов'язані системні служби для оновлення пакунків, щоб ті набрали чинності."
 
 #: src/basketdialog.py:176
 msgid "Packages Require Service Restart"
-msgstr "Servislerin Yeniden Başlatılmasını Gerektiren Paketler"
+msgstr "Пакунки потребують перезапуску служб"
 
 #: src/basketdialog.py:187
-#, fuzzy
 msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
-msgstr "Seçtiğiniz paketler sistem için önemli paketler içerisinde. Bu paketleri kaldırmak sisteminizi kullanılmaz duruma getirebilir."
+msgstr "Вибрані пакунки вважаються критичними для системи. Їхнє вилучення може призвести до її непрацездатності."
 
 #: src/basketdialog.py:190 src/settingsdialog.py:174
 msgid "Warning"
-msgstr "Uyarı"
+msgstr "Попередження"
 
 #: src/basketdialog.py:191
-#, fuzzy
 msgid "Critical Packages"
-msgstr "Önemli Paketler"
+msgstr "Критичні пакунки"
 
 #: src/basketdialog.py:202 src/pmwindow.py:135
 msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
-msgstr "Seçtiğiniz paketler daha önce sisteme kurulmuş.<br>Eğer devam ederseniz, bu paketler tekrar kurulacak"
+msgstr "Вибрані пакунки встановлено.<br>Якщо продовжите, пакунки буде перевстановлено"
 
 #: src/basketdialog.py:204 src/pmwindow.py:137
 msgid "Already Installed Packages"
-msgstr "Daha Önce Kurulmuş Paketler"
+msgstr "Уже встановлені пакунки"
 
 #: src/basketdialog.py:205 src/mainwindow.py:147 src/mainwindow.py:149
 #: src/pmwindow.py:138
 msgid "Installed Packages"
-msgstr "Kurulu Paketler"
+msgstr "Установлені пакунки"
 
 #: src/grouplist.py:47
 msgid "All"
-msgstr "Tümü"
+msgstr "Усі"
 
 #: src/helpdialog.py:31
 msgid "Package Manager Help"
-msgstr "Paket Yöneticisi Yardım"
+msgstr "Довідка керування пакунками"
 
 #: src/mainwidget.py:150
 msgid "All packages are up to date"
-msgstr "Tüm paketler güncel"
+msgstr "Усі пакунки оновлено"
 
 #: src/mainwidget.py:259
 msgid "Searching..."
-msgstr "Aranıyor..."
+msgstr "Пошук…"
 
 #: src/mainwidget.py:271
 msgid "No results found."
-msgstr "Sonuç bulunamadı."
+msgstr "Нічого не знайдено."
 
 #: src/mainwidget.py:432
 msgid "Select packages"
-msgstr "Paket seçiniz"
+msgstr "Вибрати пакунки"
 
 #: src/mainwidget.py:433
 msgid "You must select at least one installed package"
-msgstr "En az bir kurulu paketi seçmeniz gerekir"
+msgstr "Потрібно вибрати щонайменше один установлений пакунок"
 
 #: src/mainwidget.py:445
 msgid "All Updates"
-msgstr "Tüm Güncellemeler"
+msgstr "Усі оновлення"
 
 #: src/mainwidget.py:446
 msgid "Security Updates"
-msgstr "Güvenlik Güncellemeleri"
+msgstr "Оновлення безпеки"
 
 #: src/mainwidget.py:447
-#, fuzzy
 msgid "Critical Updates"
-msgstr "Öneml Güncellemeler"
+msgstr "Критичні оновлення"
 
 #: src/mainwindow.py:139 src/mainwindow.py:141
 msgid "All Packages"
-msgstr "Tüm Paketler"
+msgstr "Усі пакунки"
 
 #: src/mainwindow.py:143 src/mainwindow.py:145
 msgid "Installable Packages"
-msgstr "Kurulabilir Paketler"
+msgstr "Установчі пакунки"
 
 #: src/mainwindow.py:151 src/mainwindow.py:153 src/tray.py:199
 msgid "Updates"
-msgstr "Güncellemeler"
+msgstr "Оновлення"
 
 #: src/mainwindow.py:155
 msgid "Settings"
-msgstr "Ayarlar"
+msgstr "Параметри"
 
 #: src/mainwindow.py:158
 #, fuzzy
 msgid "Help"
-msgstr "&Yardım"
+msgstr "&Довідка"
 
 #: src/mainwindow.py:162 src/tray.py:195
 msgid "Quit"
-msgstr "Çıkış"
+msgstr ""
 
 #: src/mainwindow.py:192
 msgid "Calculating dependencies..."
-msgstr "Bağımlılıklar hesaplanıyor..."
+msgstr "Розрахунок залежностей…"
 
 #: src/mainwindow.py:211
 msgid "Currently your basket is empty."
-msgstr "Şu anda sepetiniz boş."
+msgstr "Натепер ваш кшик порожній."
 
 #: src/operationmanager.py:49
 msgid "installing"
-msgstr "kuruluyor"
+msgstr "установлення"
 
 #: src/operationmanager.py:50
 msgid "removing"
-msgstr "kaldırılıyor"
+msgstr "вилучення"
 
 #: src/operationmanager.py:51 src/progressdialog.py:79
 msgid "extracting"
-msgstr "çıkarılıyor"
+msgstr "розпакування"
 
 #: src/operationmanager.py:52 src/progressdialog.py:79
 msgid "configuring"
-msgstr "yapılandırılıyor"
+msgstr "налаштування"
 
 #: src/operationmanager.py:146
 msgid "downloading"
-msgstr "indiriliyor"
+msgstr "звантаження"
 
 #: src/packagedelegate.py:81
-#, fuzzy
 msgid "critical"
-msgstr "önemli"
+msgstr "критичне"
 
 #: src/packagedelegate.py:82
 msgid "security"
-msgstr "güvenlik"
+msgstr "безпека"
 
 #: src/packagedelegate.py:98
 msgid "Description:"
-msgstr "Açıklama:"
+msgstr "Опис:"
 
 #: src/packagedelegate.py:99
 msgid "Website:"
-msgstr "Web Sayfası:"
+msgstr "Сайт:"
 
 #: src/packagedelegate.py:100
 msgid "Release:"
-msgstr "Sürüm:"
+msgstr "Випуск:"
 
 #: src/packagedelegate.py:101
 msgid "Repository:"
-msgstr "Depo:"
+msgstr "Сховище:"
 
 #: src/packagedelegate.py:102
 msgid "Package Size:"
-msgstr "Paket Boyutu:"
+msgstr "Розмір пакунка:"
 
 #: src/packagedelegate.py:103
 msgid "Installed Version:"
-msgstr "Kurulu Sürüm:"
+msgstr "Версія встановленої:"
 
 #: src/packagedelegate.py:317
 msgid "Unknown"
-msgstr "Bilinmiyor"
+msgstr ""
 
 #: src/packagedelegate.py:345
 msgid "Details"
-msgstr "Detaylar"
+msgstr "Подробиці"
 
 #: src/packageview.py:27
 msgid "Select all packages in this group"
-msgstr "Bu gruptaki tüm paketleri seç"
+msgstr "Вибрати всі пакунки у цій групі"
 
 #: src/pm-install.py:47
 msgid "%prog packages_to_install"
-msgstr "%prog kurulacak_paketler"
+msgstr "%prog packages_to_install"
 
 #: src/pmutils.py:81 src/statemanager.py:247
 msgid "Network Error"
-msgstr "Ağ Hatası"
+msgstr "Помилка мережі"
 
 #: src/pmutils.py:82 src/statemanager.py:248
 msgid "Please check your network connections and try again."
-msgstr "Lütfen ağ ayarlarınızı kontrol edin ve tekrar deneyin."
+msgstr "Будь ласка, перевірте ваше мережеве з'єднання та спробуйте знову. "
 
 #: src/pmutils.py:84
 msgid "Authorization Error"
-msgstr "Yetkilendirme Hatası"
+msgstr "Помилка авторизації"
 
 #: src/pmutils.py:85
 msgid "You are not authorized for this operation."
-msgstr "Bu işlemi gerçekleştirmek için yetkiniz yok."
+msgstr "Ви не авторизовані для цією дії."
 
 #: src/pmutils.py:88
 #, python-format
 msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
-msgstr "Paket <b>%s</b> bulunamadı.<br>Depoda güncellenmiş veya depodan kaldırılmış olabilir.<br>Lütfen depo bilgilerini güncellemeyi deneyin."
+msgstr "Не знайдено пакунка <b>%s</b> у сховищах.<br>Він міг бути оновленим або вилученим зі сховища.<br>Будь ласка, спробуйте оновити інформацію про сховище."
 
 #: src/pmutils.py:93
 msgid "Mixing file names and package names not supported yet."
-msgstr "Dosya ve paket adlarını birlikte kullanmak henüz desteklenmiyor."
+msgstr "Змішування назв файлів і назв пакунків не підтримується поки що."
 
 #: src/pmutils.py:96
 #, python-format
 msgid "File <b>%s</b> doesn't exists."
-msgstr "<b>%s</b> dosyası bulunamadı."
+msgstr "Файл <b>%s</b> не існує."
 
 #: src/pmutils.py:99
 msgid "Another instance of PiSi is running. Only one instance is allowed."
-msgstr "Sistemde çalışan bir PiSi mevcut. Aynı anda sadece tek PiSi çalışabilir."
+msgstr "PiSi вже запущено деінде. Дозволено лише одну одночасно."
 
 #: src/pmutils.py:133
 msgid "Do you want to continue ?"
-msgstr "Devam etmek istiyor musunuz ?"
+msgstr "Продовжити?"
 
 #: src/progressdialog.py:75
 msgid "<p align='right'>%1 %</p>"
-msgstr "<p align='right'>% %1</p>"
+msgstr "<p align='right'>%1 %</p>"
 
 #: src/progressdialog.py:76
 #, python-format
 msgid "Operation - %1%"
-msgstr "İşlem - %%1"
+msgstr "Дія — %1%"
 
 #: src/progressdialog.py:83
 msgid "Downloading package list of %1"
-msgstr "%1 paket listesi indiriliyor"
+msgstr "Звантаження переліку пакунків %1"
 
 #: src/progressdialog.py:85
 msgid "%1 %2"
-msgstr "%2 %1"
+msgstr "%1 %2"
 
 #: src/progressdialog.py:90
 msgid "[%1 / %2]"
@@ -311,164 +302,163 @@ msgstr "%1 / %2, %3"
 
 #: src/progressdialog.py:114
 msgid "Preparing PiSi..."
-msgstr "PiSi Hazırlanıyor..."
+msgstr "Підготовлення PiSi…"
 
 #: src/progressdialog.py:125
 msgid "<b>Cancelling operation...</b>"
-msgstr "<b>İşlem iptal ediliyor...</b>"
+msgstr "<b>Скасування дії…</b>"
 
 #: src/settingsdialog.py:165
 msgid "Open Directory"
-msgstr "Dizin Aç"
+msgstr "Відкрити теку"
 
 #: src/settingsdialog.py:175
 msgid "All the cached packages will be deleted. Are you sure? "
-msgstr "Önbellekteki tüm paketler silinecek. Emin misiniz? "
+msgstr "Всі кешовані пакунки буде вилучено. Впевнені?"
 
 #: src/settingsdialog.py:253
 msgid "Not a valid repository name"
-msgstr "Geçerli bir depo ismi değil"
+msgstr "Неправильна назва сховища"
 
 #: src/settingsdialog.py:259
-#, fuzzy
 msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
-msgstr "<qt>Depo adresleri xml, xml.bz2 veya xz.suffix uzantısı ile bitmelidir.<p>Lütfen tekrar deneyin.</qt>"
+msgstr "<qt>Адреса сховища повинна закінчувати або на суфікс «xml», або «xml.bz2», або «xz» .<p>Спробуйте ще раз.</qt>"
 
 #: src/statemanager.py:88 src/statemanager.py:89
 msgid "Installing Package(s)"
-msgstr "Paket(ler) Kuruluyor"
+msgstr "Установлення пакунків"
 
 #: src/statemanager.py:90
 msgid "Removing Package(s)"
-msgstr "Paket(ler) Kaldırılıyor"
+msgstr "Вилучення пакунків"
 
 #: src/statemanager.py:91
 msgid "Upgrading Package(s)"
-msgstr "Paket(ler) Güncelleniyor"
+msgstr "Оновлення пакунків"
 
 #: src/statemanager.py:92
 msgid "Applying Repository Changes"
-msgstr "Depo Değişiklikleri Uygulanıyor"
+msgstr "Застосування змін щодо сховищ"
 
 #: src/statemanager.py:93
 msgid "Updating Repository"
-msgstr "Depo Güncelleniyor"
+msgstr "Оновлення сховища"
 
 #: src/statemanager.py:94
 msgid "Updating Repository(s)"
-msgstr "Depo(lar) Güncelleniyor"
+msgstr "Оновлення сховищ"
 
 #: src/statemanager.py:97
 msgid "installed"
-msgstr "kuruldu"
+msgstr "встановлено"
 
 #: src/statemanager.py:98
 msgid "removed"
-msgstr "kaldırıldı"
+msgstr "вилучено"
 
 #: src/statemanager.py:99
 msgid "upgraded"
-msgstr "güncellendi"
+msgstr "оновлено"
 
 #: src/statemanager.py:100
 msgid "modified"
-msgstr "değiştirildi"
+msgstr "змінено"
 
 #: src/statemanager.py:104
 msgid "Install Package(s)"
-msgstr "Paket(ler)i Kur"
+msgstr "Установити пакунки"
 
 #: src/statemanager.py:105
 msgid "Remove Package(s)"
-msgstr "Paket(ler)i Kaldır"
+msgstr "Вилучити пакунки"
 
 #: src/statemanager.py:106
 msgid "Upgrade Package(s)"
-msgstr "Paket(ler)i Güncelle"
+msgstr "Оновити пакунки"
 
 #: src/statemanager.py:107
 msgid "Select Operation"
-msgstr "İşlemi Seçin"
+msgstr "Вибрати дію"
 
 #: src/statemanager.py:117
 msgid "%1 new package(s) have been installed succesfully."
-msgstr "%1 yeni paket başarılı şekilde kuruldu."
+msgstr "%1 пакунків успішно встановлено."
 
 #: src/statemanager.py:118
 msgid "%1 package(s) have been removed succesfully."
-msgstr "%1 paket başarılı şekilde kaldırıldı."
+msgstr "%1 пакунків успішно вилучено."
 
 #: src/statemanager.py:119
 msgid "%1 package(s) have been upgraded succesfully."
-msgstr "%1 paket başarılı şekilde güncellendi."
+msgstr "%1 пакунків успішно оновлено."
 
 #: src/statemanager.py:120
 msgid "%1 package(s) have been modified succesfully."
-msgstr "%1 paket başarılı şekilde değiştirildi."
+msgstr "%1 пакунків успішно змінено."
 
 #: src/statemanager.py:123
 msgid "You have selected the following package(s) to install:"
-msgstr "Aşağıdaki paket(ler)i kurmak üzere seçtiniz:"
+msgstr "Ви вибрали такі пакунки для встановлення:"
 
 #: src/statemanager.py:124
 msgid "You have selected the following package(s) to removal:"
-msgstr "Aşağıdaki paket(ler)i kaldırmak üzere seçtiniz:"
+msgstr "Ви вибрали такі пакунки для вилучення:"
 
 #: src/statemanager.py:125
 msgid "You have selected the following package(s) to upgrade:"
-msgstr "Aşağıdaki paket(ler)i güncellemek üzere seçtiniz:"
+msgstr "Ви вибрали такі пакунки для оновлення:"
 
 #: src/statemanager.py:126
 msgid "You have selected the following package(s) to modify:"
-msgstr "Aşağıdaki paket(ler)i kaldırmak/kurmak üzere seçtiniz:"
+msgstr "Ви вибрали такі пакунки для зміни:"
 
 #: src/statemanager.py:129
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-msgstr "Seçili paketlerin ayrıca kurulacak olan ek bağımlılıkları:"
+msgstr "Обов'язкові залежності вибраних пакунків також буде встановлено:"
 
 #: src/statemanager.py:130
 msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
-msgstr "Seçili paket(ler)in ayrıca kaldırılacak olan ters bağımlılıkları:"
+msgstr "Непотрібні залежності вибраних пакунків також буде вилучено:"
 
 #: src/statemanager.py:131
 msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
-msgstr "Seçili paket(ler)in ayrıca güncellenecek olan ek bağımlılıkları:"
+msgstr "Обов'язкові залежності вибраних пакунків також буде оновлено:"
 
 #: src/statemanager.py:132
 msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
-msgstr "Seçili paket(ler)in ayrıca kurulacak/kaldırılacak olan ek bağımlılıkları:"
+msgstr "Обов'язкові залежності вибраних пакунків також буде змінено:"
 
 #: src/statemanager.py:172
 msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
-msgstr "Şu an sepetinizde toplam <b>%2</b> boyutunda seçilmiş <b>%1</b> paket"
+msgstr "Вибрано <b>%1</b> пакунків із загальним розміром <b>%2</b>"
 
 #: src/statemanager.py:175
 msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
-msgstr "ile toplam <b>%2</b> boyutunda <b>%1</b> ters bağımlılık "
+msgstr "з <b>%1</b> розміром непотрібних залежностей із загальним розміром <b>%2</b>"
 
 #: src/statemanager.py:177
 msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
-msgstr "ile toplam <b>%2</b> boyutunda <b>%1</b> ek bağımlılık "
+msgstr "з <b>%1</b> розміром обов'язкових залежностей із загальним розміром <b>%2</b>"
 
 #: src/statemanager.py:178
 msgid "in your basket."
-msgstr "bulunuyor."
+msgstr "у кошику."
 
 #: src/statemanager.py:213
 msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
-msgstr "Seçili paketler [%1] birbirleriyle çakışıyor. Bu paketler birlikte kurulamaz."
+msgstr "Вибрані пакунки [%1] конфліктують одне з одним. Ці пакунки неможливо встановити разом."
 
 #: src/statemanager.py:214 src/statemanager.py:222
 msgid "Conflict Error"
-msgstr "Çakışma Hatası"
+msgstr "Помилка конфліктів"
 
 #: src/statemanager.py:218
 msgid "The following packages conflicts:\n"
-msgstr "Aşağıdaki paketler çakışıyor:\n"
+msgstr "Такі пакунки конфліктують:\n"
 
 #: src/statemanager.py:220
 msgid "%1 conflicts with: [%2]\n"
-msgstr "%1 %2 ile çakışıyor\n"
+msgstr "%1 конфліктує з: [%2]\n"
 
 #: src/statemanager.py:221
 msgid ""
@@ -476,64 +466,64 @@ msgid ""
 "Remove the conflicting packages from the system?"
 msgstr ""
 "\n"
-"Çakışan paketler sistemden kaldırılsın mı?"
+"Вилучити конфліктний пакунок із системи?"
 
 #: src/tray.py:185
 msgid "Update"
-msgstr "Güncelle"
+msgstr "Оновити"
 
 #: src/tray.py:191
 #, fuzzy
 msgid "Update %1 repository"
-msgstr "Depo Güncelleniyor"
+msgstr "Оновлення сховища"
 
 #: src/tray.py:192
 #, fuzzy
 msgid "Update All Repositories"
-msgstr "Depo Güncelleniyor"
+msgstr "Оновлення сховища"
 
 #: src/tray.py:199
 #, fuzzy
 msgid "There are %1 updates available!"
-msgstr "Mevcut <b>%1</b> güncelleme bulunuyor!"
+msgstr "<b>%1</b> оновлень доступно!"
 
 #: src/webdialog.py:122
 msgid "Package Files"
-msgstr "Paket Dosyaları"
+msgstr "Файли пакунка"
 
 #~ msgid "Package Details"
-#~ msgstr "Paket Detayı"
+#~ msgstr "Подробиці про пакунок"
 
 #~ msgid ""
 #~ "AppInfo Server is not reachable\n"
 #~ "Please check your network connection"
 #~ msgstr ""
-#~ "AppInfo Sunucusuna ulaşılamıyor\n"
-#~ "Lütfen ağ ayarlarınızı kontrol edin"
+#~ "Сервер AppInfo недоступний\n"
+#~ "Будь ласка, перевірте мережеве з'єднання"
 
 #~ msgid "Type to filter files"
-#~ msgstr "Hızlı arama"
+#~ msgstr "Уведіть для фільтрування файлів"
 
 #~ msgid "&Ok"
-#~ msgstr "&Tamam"
+#~ msgstr "&Гаразд"
 
 #~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Yeni kurulan uygulamayı aşağıdaki listeden çift-tıklayarak veya daha sonra uygulama menüsünden çalıştırabilirsiniz."
+#~ msgstr "Можете запустити встановлену програму подвійник кліком у списку нижче або пізніше через меню програм."
 
 #~ msgid "Operation Summary"
-#~ msgstr "İşlem Özeti"
+#~ msgstr "Підсумок дій"
 
 #~ msgid "&Cancel"
-#~ msgstr "&İptal"
+#~ msgstr "&Скасувати"
 
 #~ msgid "&OK"
-#~ msgstr "&Tamam"
+#~ msgstr "&Гаразд"
 
 #~ msgid "&Proxy"
-#~ msgstr "&Vekil sunucu"
+#~ msgstr "&Проксі"
 
 #~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Tüm protokoller için bu vekil sunucuyu kullan</a>"
+#~ msgstr "<a href=#>Використовувати проксі-сервер для всіх протоколів</a>"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -546,241 +536,240 @@ msgstr "Paket Dosyaları"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">KDE'de tanımlanmış vekil sunucu ayarları bulunuyor, <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">buraya</span></a> tıklayarak bu ayarları kullanabilirsiniz</p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Налаштування проксі доступні в  KDE, ви можете натиснути <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">тут</span></a> для переходу до них</p></body></html>"
 
 #~ msgid "Password:"
-#~ msgstr "Parola:"
+#~ msgstr "Пароль:"
 
 #~ msgid "Username:"
-#~ msgstr "Kullanıcı Adı:"
+#~ msgstr "Псевдонім:"
 
 #~ msgid "Domain:"
-#~ msgstr "Etki alanı:"
+#~ msgstr "Домен:"
 
 #~ msgid "FTP proxy server:"
-#~ msgstr "FTP vekil sunucu:"
+#~ msgstr "Проксі-сервер FTP:"
 
 #~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS vekil sunucu:"
+#~ msgstr "Проксі-сервер HTTPS:"
 
 #~ msgid "Port:"
-#~ msgstr "Port:"
+#~ msgstr "Порт:"
 
 #~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP vekil sunucu:"
+#~ msgstr "Проксі-сервер HTTP:"
 
 #~ msgid "Use Proxy"
-#~ msgstr "&Vekil Sunucu Kullan"
+#~ msgstr "Використовувати проксі"
 
 #~ msgid "&Repositories"
-#~ msgstr "&Depolar"
+#~ msgstr "&Сховища"
 
 #~ msgid "Move &Down"
-#~ msgstr "&Aşağı Taşı"
+#~ msgstr "Опустити &вниз"
 
 #~ msgid "Move &Up"
-#~ msgstr "&Yukarı Taşı"
+#~ msgstr "Підняти &уверх"
 
 #~ msgid "Remove Repository"
-#~ msgstr "Depoyu Kaldır"
+#~ msgstr "Вилучити сховище"
 
 #~ msgid "&Add New Repository"
-#~ msgstr "Yeni Depo &Ekle"
+#~ msgstr "&Додати нове сховище"
 
 #~ msgid "C&ache"
-#~ msgstr "&Önbellek"
+#~ msgstr "&Кеш"
 
 #~ msgid " kB/s"
-#~ msgstr " kB/s"
+#~ msgstr " кБ/сек"
 
 #~ msgid "Use bandwidth limit :"
-#~ msgstr "Bant genişliği kullanımını sınırlandır :"
+#~ msgstr "Використовувати обмеження пропускної здатності :"
 
 #~ msgid "Bandwidth limit"
-#~ msgstr "Bant genişliği sınırı"
+#~ msgstr "Обмеження пропускної здатності"
 
 #~ msgid "C&lean disk cache now"
-#~ msgstr "Önbelleği şimdi &temizle"
+#~ msgstr "&Очистити кеш диска зараз же"
 
 #~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Sabit disk önbelleğinin temizlenmesi ile indirilen ve depolanan tüm paketler silinecektir. Bu işlem sistemde kurulu olan paketleri silmeyecek veya bilgisayarınızın çalışmasını etkilemeyecektir."
+#~ msgstr "Очищення кешу диска вилучить всі звантажені програми. Це не вилучить встановлені програми і не вплине на стабільність системи."
 
 #~ msgid "Open"
-#~ msgstr "Aç"
+#~ msgstr "Відкрити"
 
 #~ msgid "Select..."
-#~ msgstr "Seç..."
+#~ msgstr "Вибрати…"
 
 #~ msgid "Current cache dir:"
-#~ msgstr "Seçili önbellek dizini:"
+#~ msgstr "Теперішня тека кешу:"
 
 #~ msgid " Mib"
-#~ msgstr " Mib"
+#~ msgstr " Міб"
 
 #~ msgid "Unlimited"
-#~ msgstr "Sınırsız"
+#~ msgstr "Необмежено"
 
 #~ msgid "Maximum cache size:"
-#~ msgstr "Azami önbellek boyutu:"
+#~ msgstr "Максимальний розмір кешу:"
 
 #~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "İndirilen yazılımlar için sabit disk önbelleği &kullan"
+#~ msgstr "&Використати кеш твердого диска для звантажених програм"
 
 #~ msgid "Cache Limit"
-#~ msgstr "Önbellek Boyutu"
+#~ msgstr "Обмеження кешу"
 
 #~ msgid "&General Settings"
-#~ msgstr "Genel &Ayarlar"
+#~ msgstr "&Загальні налаштування"
 
 #~ msgid "Install updates automatically"
-#~ msgstr "Güncellemeleri otomatik kur"
+#~ msgstr "Установлювати оновлення автоматично"
 
 #~ msgid " min"
-#~ msgstr " dk"
+#~ msgstr " хв."
 
 #~ msgid "Check interval :"
-#~ msgstr "Kontrol aralığı :"
+#~ msgstr "Проміжок перевірки :"
 
 #~ msgid "Enable &periodic update check"
-#~ msgstr "Aralıklı &güncelleme kontrolünü aç"
+#~ msgstr "Увімкнути &періодичну перевірку оновлень"
 
 #~ msgid "Hide system tray if there is no update."
-#~ msgstr "Güncelleme olmadığında sistem çekmecesini gizle"
+#~ msgstr "Сховати системний лоток, якщо нема оновлень."
 
-#, fuzzy
 #~ msgid "Enable system tray icon"
-#~ msgstr "Sistem çekmecesi simgesini etkinleştir"
+#~ msgstr "Увімкнути піктограму системного лотка"
 
 #~ msgid "System tray icon"
-#~ msgstr "Sistem çekmecesi"
+#~ msgstr "Піктограма системного лотка"
 
 #~ msgid "Show package type tags"
-#~ msgstr "Paket tipi etiketlerini göster"
+#~ msgstr "Показати мітки типу пакунка"
 
 #~ msgid "Show Component information "
-#~ msgstr "Bileşen bilgisini göster"
+#~ msgstr "Показати інформацію про компоненти"
 
 #~ msgid "&Show only desktop applications"
-#~ msgstr "&Sadece masaüstü uygulamalarını göster"
+#~ msgstr "&Показати лише стільничні програми"
 
 #~ msgid "Package list"
-#~ msgstr "Paket listesi"
+#~ msgstr "Перелік пакунків"
 
 #~ msgid "Package Manager Settings"
-#~ msgstr "Paket Yöneticisi Ayarları"
+#~ msgstr "Налаштування керування пакунками"
 
 #~ msgid "Repository Address"
-#~ msgstr "Depo Adresi"
+#~ msgstr "Адреса сховища"
 
 #~ msgid "Repository Name"
-#~ msgstr "Depo İsmi"
+#~ msgstr "Назва сховища"
 
 #~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Deponun adı, örneğin <b>pisilinux-devel<b>"
+#~ msgstr "Назва сховища, наприклад, <b>pardus-devel</b>"
 
 #~ msgid "Add New Repository"
-#~ msgstr "Yeni Depo Ekle"
+#~ msgstr "Додати нове сховище"
 
 #~ msgid "Alt+C"
 #~ msgstr "Alt+C"
 
 #~ msgid "Preview"
-#~ msgstr "Önizleme"
+#~ msgstr "Перегляд"
 
 #~ msgid "Cancel"
-#~ msgstr "İptal"
+#~ msgstr "Скасувати"
 
 #~ msgid "Install"
-#~ msgstr "Kur"
+#~ msgstr "Встановити"
 
 #~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Aşağıdaki paketler kurulmak üzere seçildi. Bu paketleri kurmak istiyor musunuz ?"
+#~ msgstr "Ці пакунки вибрано для встановлення. Встановити їх?"
 
 #~ msgid "Package Manager Quick Install"
-#~ msgstr "Paket Yöneticisi Hızlı Kurulum"
+#~ msgstr "Швидке встановлення керування пакунками "
 
 #~ msgid "Check for Updates"
-#~ msgstr "Güncellemeleri Kontrol Et"
+#~ msgstr "Перевірити на оновлення"
 
 #~ msgid "Show Basket"
-#~ msgstr "Sepeti Göster"
+#~ msgstr "Показати кошик"
 
 #~ msgid "Package List"
-#~ msgstr "Paket Listesi"
+#~ msgstr "Перелік пакунків"
 
 #~ msgid "Category Panel"
-#~ msgstr "Kategori Paneli"
+#~ msgstr "Панель категорій"
 
 #~ msgid "Update Types"
-#~ msgstr "Güncelleme Tipleri"
+#~ msgstr "Оновити типи"
 
 #~ msgid "Click to search"
-#~ msgstr "Aramak için tıklayın"
+#~ msgstr "Натисніть для пошуку"
 
 #~ msgid "Search Bar"
-#~ msgstr "Arama Çubuğu"
+#~ msgstr "Панель пошуку"
 
 #~ msgid "Form"
-#~ msgstr "Form"
+#~ msgstr "Форма"
 
 #~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</b>"
+#~ msgstr "<b>2.0 МБ</"
 
 #~ msgid "Download Size:"
-#~ msgstr "İndirme Boyutu:"
+#~ msgstr "Розмір звантаження:"
 
 #~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 МБ</b>"
 
 #~ msgid "Total Size:"
-#~ msgstr "Toplam Boyut:"
+#~ msgstr "Загальний розмір:"
 
 #~ msgid "Selected package(s) for install:"
-#~ msgstr "Kurulmak üzere seçilmiş paket(ler):"
+#~ msgstr "Вибрані пакунки для встановлення:"
 
 #~ msgid "Basket"
-#~ msgstr "Sepet"
+#~ msgstr "Кошик"
 
 #~ msgid "Firefox"
 #~ msgstr "Firefox"
 
 #~ msgid "Web Tarayıcı"
-#~ msgstr "Web Tarayıcı"
+#~ msgstr "Tarayıcı"
 
 #~ msgid "Application"
-#~ msgstr "Uygulama"
+#~ msgstr "Програми"
 
 #~ msgid "Ignore"
-#~ msgstr "Yoksay"
+#~ msgstr "Ігнорувати"
 
 #~ msgid "Show Updates"
-#~ msgstr "Güncellemeleri Göster"
+#~ msgstr "Показати оновлення"
 
 #~ msgid "Hide summary screen"
-#~ msgstr "Özet ekranını gösterme"
+#~ msgstr "Сховати екран підсумків"
 
 #~ msgid "Show main window"
-#~ msgstr "Ana pencereyi göster"
+#~ msgstr "Показати головне вікно"
 
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
-#~ msgstr "faik@pardus.org.tr, necmettin.begiter@gmail.com, gokmen@pardus.org.tr"
+#~ msgstr "ted.korostiled@gmail.com"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
-#~ msgstr "Faik Uygur, Necmettin Begiter, Gökmen Göksel"
+#~ msgstr "Daniel Korostil"
 
 #~ msgid "First Author"
-#~ msgstr "İlk Geliştirici"
+#~ msgstr "Засновник"
 
 #~ msgid "Faik Uygur"
 #~ msgstr "Faik Uygur"
 
 #~ msgid "Developer"
-#~ msgstr "Geliştirici"
+#~ msgstr "Розробник"
 
 #~ msgid "Gökmen Göksel"
 #~ msgstr "Gökmen Göksel"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "© 2009–2010 TUBITAK/UEKAE"
