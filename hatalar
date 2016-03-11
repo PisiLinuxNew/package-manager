@@ -1,9 +1,9 @@
 Hatalar 
 _______________________________
 
--> genel ayarlar kımında hatalar var (uyarı mesajları çıkıyor)
--> farklı ikonu olan paketlierin olduğu yerlerde yavaşlama var
+-> ayarlar kısmında hata var yeniden başlatınca seçilen ayar aktif oluyor
 -> detaylarda sadece paket dosyaları kısmı var
+-> ikinci ve daha sonraki aramalarda bir önceki arama sonuçları üzerinden arama yapılıyor
 =========================================================================
 
 
@@ -34,3 +34,4 @@ _______________________________
 -> depo eklenip kaldırılabiliyor
 -> arama yapılabiliyor
 -> geçici çözümle paket seçimi yaılabiliyor
+-> paket yüklenip kaldırılabiliyor

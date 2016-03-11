@@ -185,10 +185,11 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
                 self.groupList.setCurrentItem(self.groupList._list[component])
                 self.groupFilter()
 
-    def updateSettings(self):
+    def updateSettings(self):   # pmconfig ikinci kez okunmuyor
         self.packageList.showComponents = PMConfig().showComponents()
         self.packageList.showIsA = PMConfig().showIsA()
         self.packageList.setFocus()
+        self.initialize()
 
     def searchLineChanged(self, text):
         self.searchButton.setEnabled(bool(text))

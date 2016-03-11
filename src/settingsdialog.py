@@ -79,7 +79,7 @@ class GeneralSettings(SettingsTab):
         self.settings.intervalSpin.setValue(self.config.updateCheckInterval())
         self.settings.systemTray.setChecked(self.config.systemTray())
         self.settings.hideIfNoUpdate.setChecked(self.config.hideTrayIfThereIsNoUpdate())
-
+        
     def connectSignals(self):
         self.settings.onlyGuiApp.toggled[bool].connect(self.markChanged)
         self.settings.showComponents.toggled[bool].connect(self.markChanged)
@@ -91,17 +91,19 @@ class GeneralSettings(SettingsTab):
         self.settings.hideIfNoUpdate.toggled[bool].connect(self.markChanged)
 
     def save(self):
+        #kayıt yapılıyor ama ikinci seferde okunmuyor.
+        print self.config.showComponents(),self.settings.showComponents.isChecked()
         if not self.settings.onlyGuiApp.isChecked() == self.config.showOnlyGuiApp():
             self.config.setShowOnlyGuiApp(self.settings.onlyGuiApp.isChecked())
-            self.settings.packagesChanged.emit()
+            self.packagesChanged.emit()
 
         if not self.settings.showComponents.isChecked() == self.config.showComponents():
             self.config.setShowComponents(self.settings.showComponents.isChecked())
-            self.settings.packageViewChanged.emit()
+            self.packageViewChanged.emit()
 
         if not self.settings.showIsA.isChecked() == self.config.showIsA():
             self.config.setShowIsA(self.settings.showIsA.isChecked())
-            self.settings.packageViewChanged.emit()
+            self.packageViewChanged.emit()
 
         if not self.settings.systemTray.isChecked() == self.config.systemTray() or \
            not self.settings.intervalSpin.value() == self.config.updateCheckInterval() or \
@@ -111,7 +113,7 @@ class GeneralSettings(SettingsTab):
             self.config.setUpdateCheck(self.settings.intervalCheck.isChecked())
             self.config.setUpdateCheckInterval(self.settings.intervalSpin.value())
             self.config.setHideTrayIfThereIsNoUpdate(self.settings.hideIfNoUpdate.isChecked())
-            self.settings.traySettingChanged.emit()
+            self.traySettingChanged.emit()
 
         self.config.setInstallUpdatesAutomatically(self.settings.installUpdates.isChecked())
 
@@ -192,6 +194,7 @@ class RepositorySettings(SettingsTab):
         self.settings.repoListView.horizontalHeader().setStretchLastSection(True)
         self.settings.repoListView.verticalHeader().hide()
         self.settings.repoListView.setColumnWidth(0, 32)
+        self.settings.repoListView.setColumnWidth(1, 150)
         self.initialize(firstRun = True)
 
     def connectSignals(self):
@@ -449,7 +452,12 @@ class SettingsDialog(QDialog, Ui_SettingsDialog):
         self.setupUi(self)
         self.connectSignals()
         self.parent = parent
+        
+        
+        self.initialize()
 
+
+    def initialize(self):
         self.generalSettings = GeneralSettings(self)
         self.cacheSettings = CacheSettings(self)
         self.repositorySettings = RepositorySettings(self)
@@ -478,8 +486,12 @@ class SettingsDialog(QDialog, Ui_SettingsDialog):
                     settings.initialize()
                 settings.changed = False
         self.config = config.PMConfig()
-
+        
     def showHelp(self):
         helpDialog = helpdialog.HelpDialog(self, helpdialog.PREFERENCES)
         helpDialog.show()
+        
+    def show_(self):
+        self.initialize()
+        self.show()
 
