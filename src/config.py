@@ -38,7 +38,7 @@ class Config:
 
     def getBoolValue(self, option):
         default = self._initValue(option, False)
-        return self.config.value(option, QVariant(default)) == "true"
+        return True if (self.config.value(option, QVariant(default)) == "true" or self.config.value(option, QVariant(default)) == "True")  else False
 
     def getNumValue(self, option):
         default = self._initValue(option, 0)
@@ -51,7 +51,7 @@ class Config:
 
 class PMConfig(Config):
     def __init__(self):
-        Config.__init__(self, "Pardus", "Package-Manager")
+        Config.__init__(self, "Pisi", "Package-Manager")
 
     def showOnlyGuiApp(self):
         return self.getBoolValue("ShowOnlyGuiApp")
@@ -100,4 +100,4 @@ class PMConfig(Config):
 
     def setShowIsA(self, enabled):
         self.setValue("ShowIsA", enabled)
-
+        

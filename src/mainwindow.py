@@ -151,7 +151,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.cw.stateTab.addTab(QWidget(), KIcon(("system-software-update", "gear")), i18n("Updates"))
 
         self.showPreferences = QAction(KIcon(("preferences-system", "package_settings")), i18n("Settings"), self)
-        self.showPreferences.triggered.connect(self.settingsDialog.show)
+        self.showPreferences.triggered.connect(self.settingsDialog.exec_)
 
         self.actionHelp = QAction(KIcon("help"), i18n("Help"), self)
         self.actionHelp.setShortcuts(QKeySequence.HelpContents)

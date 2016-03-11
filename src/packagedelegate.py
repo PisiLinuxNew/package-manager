@@ -263,11 +263,11 @@ class PackageDelegate(QStyledItemDelegate):
 
         buttonStyle = None
         if self.rowAnimator.currentRow() == index.row():
-            description = QVariant.value(index.model().data(index, DescriptionRole))
-            size = QVariant.value(index.model().data(index, SizeRole))
-            homepage = QVariant.value(index.model().data(index, HomepageRole))
+            description = str(QVariant.value(index.model().data(index, DescriptionRole)))
+            size = str(QVariant.value(index.model().data(index, SizeRole)))
+            homepage = str(QVariant.value(index.model().data(index, HomepageRole)))
             installedVersion = str(QVariant.value(index.model().data(index, InstalledVersionRole)))
-            version = QVariant.value(index.model().data(index, VersionRole))
+            version = str(QVariant.value(index.model().data(index, VersionRole)))
 
             # Package Detail Label
             position = top + ROW_HEIGHT
@@ -302,7 +302,7 @@ class PackageDelegate(QStyledItemDelegate):
             rect = self.normalDetailFontFM.boundingRect(option.rect, Qt.TextWordWrap, version)
             p.drawText(left + self._titleFM['release'], position, width, rect.height(), Qt.TextWordWrap, version)
 
-            if not installedVersion == '':
+            if not installedVersion == '' or not installedVersion == None:
                 position += rect.height()
 
                 p.setFont(self.boldDetailFont)

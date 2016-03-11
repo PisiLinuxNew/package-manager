@@ -46,7 +46,7 @@ class BasketDialog(PAbstractBox, Ui_BasketDialog):
 
         self.actionButton.clicked.connect(self.action)
         self.cancelButton.clicked.connect(self._hide)
-        self.cancelButton.setIcon(KIcon("cancel"))
+        self.cancelButton.setIcon(KIcon("dialog-close"))
 
         self.clearButton.clicked.connect(self.clearSelections)
         self.clearButton.setIcon(KIcon("trashcan_empty"))
