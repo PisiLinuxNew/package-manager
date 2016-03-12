@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-12 13:34+0200\n"
 "PO-Revision-Date: 2013-12-03 21:10+0000\n"
 "Last-Translator: tribunal <tribunal2000@mail.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/language/ru/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: data/package-manager.desktop.in.h:1
 #: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
-#: src/progressdialog.py:63
+#: src/progressdialog.py:63 ui/ui_mainwindow.py:27
 msgid "Package Manager"
 msgstr "Менеджер пакетов"
 
@@ -36,7 +36,7 @@ msgstr "Графический пользовательский интерфей
 msgid "Add/Remove/Update Packages"
 msgstr "Добавить/удалить/обновить пакеты"
 
-#: src/basketdialog.py:55
+#: src/basketdialog.py:55 ui/ui_basketdialog.py:186
 msgid "Clear Basket"
 msgstr "Очистить"
 
@@ -45,8 +45,8 @@ msgid "Do you want to clear all selections ?"
 msgstr "Вы хотите очистить выбор пакетов?"
 
 #: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
-#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:252
-#: src/settingsdialog.py:258
+#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:255
+#: src/settingsdialog.py:261
 msgid "Pisi Error"
 msgstr "Ошибка PiSi "
 
@@ -74,7 +74,7 @@ msgstr "Пакеты требуют перезапуска службы"
 msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
 msgstr "Выбранные пакеты являются критическими для системы. Их удаление может сделать вашу систему неработоспособной."
 
-#: src/basketdialog.py:190 src/settingsdialog.py:174
+#: src/basketdialog.py:190 src/settingsdialog.py:176
 msgid "Warning"
 msgstr "Предупреждение"
 
@@ -90,7 +90,7 @@ msgstr "Выбранные пакеты уже установлены.<br>Есл
 msgid "Already Installed Packages"
 msgstr "Уже установленные пакеты"
 
-#: src/basketdialog.py:205 src/mainwindow.py:147 src/mainwindow.py:149
+#: src/basketdialog.py:205 src/mainwindow.py:145 src/mainwindow.py:147
 #: src/pmwindow.py:138
 msgid "Installed Packages"
 msgstr "Удалить пакеты"
@@ -99,72 +99,72 @@ msgstr "Удалить пакеты"
 msgid "All"
 msgstr "Все"
 
-#: src/helpdialog.py:31
+#: src/helpdialog.py:32
 msgid "Package Manager Help"
 msgstr "Краткая справка о менеджере пактов"
 
-#: src/mainwidget.py:150
+#: src/mainwidget.py:149
 msgid "All packages are up to date"
 msgstr "Все пакеты в актуальном состоянии"
 
-#: src/mainwidget.py:259
+#: src/mainwidget.py:258
 msgid "Searching..."
 msgstr "Поиск..."
 
-#: src/mainwidget.py:271
+#: src/mainwidget.py:270
 msgid "No results found."
 msgstr "Ничего не найдено."
 
-#: src/mainwidget.py:432
+#: src/mainwidget.py:431
 msgid "Select packages"
 msgstr "Выберите пакеты"
 
-#: src/mainwidget.py:433
+#: src/mainwidget.py:432
 msgid "You must select at least one installed package"
 msgstr "Вы должны выбрать хотя бы один установленный пакет"
 
-#: src/mainwidget.py:445
+#: src/mainwidget.py:444
 msgid "All Updates"
 msgstr "Все обновления"
 
-#: src/mainwidget.py:446
+#: src/mainwidget.py:445
 msgid "Security Updates"
 msgstr "Обновления безопасности"
 
-#: src/mainwidget.py:447
+#: src/mainwidget.py:446
 msgid "Critical Updates"
 msgstr "Критические обновления"
 
-#: src/mainwindow.py:139 src/mainwindow.py:141
+#: src/mainwindow.py:137 src/mainwindow.py:139
 msgid "All Packages"
 msgstr "Все пакеты"
 
-#: src/mainwindow.py:143 src/mainwindow.py:145
+#: src/mainwindow.py:141 src/mainwindow.py:143
 msgid "Installable Packages"
 msgstr "Установить пакеты"
 
-#: src/mainwindow.py:151 src/mainwindow.py:153 src/tray.py:199
+#: src/mainwindow.py:149 src/mainwindow.py:151 src/tray.py:199
 msgid "Updates"
 msgstr "Обновление"
 
-#: src/mainwindow.py:155
+#: src/mainwindow.py:153 ui/ui_mainwidget_v3.py:160
 msgid "Settings"
 msgstr "Настройки"
 
-#: src/mainwindow.py:158
+#: src/mainwindow.py:156
 #, fuzzy
 msgid "Help"
 msgstr "Сп&равка"
 
-#: src/mainwindow.py:162 src/tray.py:195
+#: src/mainwindow.py:160 src/tray.py:195
 msgid "Quit"
 msgstr ""
 
-#: src/mainwindow.py:192
+#: src/mainwindow.py:190
 msgid "Calculating dependencies..."
 msgstr "Расчет зависимостей..."
 
-#: src/mainwindow.py:211
+#: src/mainwindow.py:210
 msgid "Currently your basket is empty."
 msgstr "В настоящее время Ваша корзина пуста."
 
@@ -220,11 +220,11 @@ msgstr "Размер пакета:"
 msgid "Installed Version:"
 msgstr "Установленная версия:"
 
-#: src/packagedelegate.py:317
+#: src/packagedelegate.py:318
 msgid "Unknown"
 msgstr ""
 
-#: src/packagedelegate.py:345
+#: src/packagedelegate.py:346
 msgid "Details"
 msgstr "Подробнее"
 
@@ -307,19 +307,19 @@ msgstr "Подготовка PiSi ..."
 msgid "<b>Cancelling operation...</b>"
 msgstr "<b>Отмена операции...</b>"
 
-#: src/settingsdialog.py:165
+#: src/settingsdialog.py:167
 msgid "Open Directory"
 msgstr "Открыть директорию"
 
-#: src/settingsdialog.py:175
+#: src/settingsdialog.py:177
 msgid "All the cached packages will be deleted. Are you sure? "
 msgstr "Все кэшированные пакеты будут удалены. Вы уверены?"
 
-#: src/settingsdialog.py:253
+#: src/settingsdialog.py:256
 msgid "Not a valid repository name"
 msgstr "Не верное имя репозитория"
 
-#: src/settingsdialog.py:259
+#: src/settingsdialog.py:262
 msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
 msgstr "<qt>Адресс репозитория должен оканчиваться суффиксом xml или xml.bz2.<p>Пожалуйста, попробуйте еще раз.</qt>"
 
@@ -363,7 +363,7 @@ msgstr "обновлено"
 msgid "modified"
 msgstr "изменено"
 
-#: src/statemanager.py:104
+#: src/statemanager.py:104 ui/ui_basketdialog.py:187 ui/ui_mainwidget_v3.py:167
 msgid "Install Package(s)"
 msgstr "Установить"
 
@@ -411,7 +411,7 @@ msgstr "Вы выбрали следующий(е) пакет(ы) для обн�
 msgid "You have selected the following package(s) to modify:"
 msgstr "Вы выбрали следующий(е) пакет(ы) для изменения:"
 
-#: src/statemanager.py:129
+#: src/statemanager.py:129 ui/ui_basketdialog.py:183
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 msgstr "Дополнительные зависимости выбранных пакетов также будут установлены:"
 
@@ -486,9 +486,429 @@ msgstr "Обновление репозитория"
 msgid "There are %1 updates available!"
 msgstr "Доступно <b>%1</b> обновлений!"
 
-#: src/webdialog.py:122
+#: src/webdialog.py:122 ui/ui_webdialog.py:154
 msgid "Package Files"
 msgstr "Файлы пакета"
+
+#: ui/ui_appitem.py:54
+#, fuzzy
+msgid "Application"
+msgstr "Приложение"
+
+#: ui/ui_appitem.py:55
+#, fuzzy
+msgid "Web Tarayıcı"
+msgstr "Web Tarayıcı"
+
+#: ui/ui_appitem.py:56
+#, fuzzy
+msgid "Firefox"
+msgstr "Firefox"
+
+#: ui/ui_basketdialog.py:181 ui/ui_webdialog.py:153
+#, fuzzy
+msgid "Basket"
+msgstr "Показать корзину"
+
+#: ui/ui_basketdialog.py:182
+#, fuzzy
+msgid "Selected package(s) for install:"
+msgstr "Выбранные пакеты для установки:"
+
+#: ui/ui_basketdialog.py:184
+#, fuzzy
+msgid "Total Size:"
+msgstr "Общий объем:"
+
+#: ui/ui_basketdialog.py:185
+#, fuzzy
+msgid "<b>2.2 MB</b>"
+msgstr "<b>2.2 MB</b>"
+
+#: ui/ui_basketdialog.py:188
+#, fuzzy
+msgid "Download Size:"
+msgstr "Размер загрузки:"
+
+#: ui/ui_basketdialog.py:189
+#, fuzzy
+msgid "<b>2.0 MB</"
+msgstr "<b>2.0 MB</"
+
+#: ui/ui_mainwidget_v3.py:159 ui/ui_message.py:38
+#: ui/ui_progressdialog_v4.py:220
+#, fuzzy
+msgid "Form"
+msgstr "Форма"
+
+#: ui/ui_mainwidget_v3.py:161
+#, fuzzy
+msgid "Type to search..."
+msgstr "Введите имя пакета, затем нажмите на значок поиска справа"
+
+#: ui/ui_mainwidget_v3.py:162
+#, fuzzy
+msgid "Update Types"
+msgstr "Типы обновлений"
+
+#: ui/ui_mainwidget_v3.py:163
+#, fuzzy
+msgid "Category Panel"
+msgstr "Панель категории"
+
+#: ui/ui_mainwidget_v3.py:164 ui/ui_pminstall.py:82
+#, fuzzy
+msgid "Package List"
+msgstr "Список пакетов"
+
+#: ui/ui_mainwidget_v3.py:165
+#, fuzzy
+msgid "Show Basket"
+msgstr "Показать корзину"
+
+#: ui/ui_mainwidget_v3.py:166
+#, fuzzy
+msgid "Check for Updates"
+msgstr "Проверить наличие обновлений"
+
+#: ui/ui_pminstall.py:80
+#, fuzzy
+msgid "Package Manager Quick Install"
+msgstr "Быстрая установка пакетов"
+
+#: ui/ui_pminstall.py:81
+#, fuzzy
+msgid "Following packages are selected to install. Do you want to install these packages ?"
+msgstr "Следующие пакеты выбран для установки. Вы хотите установить эти пакеты?"
+
+#: ui/ui_pminstall.py:83
+#, fuzzy
+msgid "Install"
+msgstr "Установить"
+
+#: ui/ui_pminstall.py:84
+#, fuzzy
+msgid "Cancel"
+msgstr "Отменить"
+
+#: ui/ui_preview.py:48
+#, fuzzy
+msgid "Preview"
+msgstr "Обзор"
+
+#: ui/ui_progressdialog_v4.py:221
+#, fuzzy
+msgid "Alt+C"
+msgstr "Alt+С"
+
+#: ui/ui_repodialog.py:50
+#, fuzzy
+msgid "Add New Repository"
+msgstr "Добавить репозиторий"
+
+#: ui/ui_repodialog.py:51
+#, fuzzy
+msgid "Name of the repository, e.g <b>pardus-devel</b>"
+msgstr "Название репозитория, например <b>pardus-devel</b>"
+
+#: ui/ui_repodialog.py:52 ui/ui_settingsdialog.py:422
+#, fuzzy
+msgid "Repository Name"
+msgstr "Название"
+
+#: ui/ui_repodialog.py:53 ui/ui_settingsdialog.py:424
+#, fuzzy
+msgid "Repository Address"
+msgstr "Адрес репозитория"
+
+#: ui/ui_settingsdialog.py:394
+#, fuzzy
+msgid "Package Manager Settings"
+msgstr "Настройка менеджера пакетов"
+
+#: ui/ui_settingsdialog.py:395
+#, fuzzy
+msgid "Package list"
+msgstr "Список пакетов"
+
+#: ui/ui_settingsdialog.py:396
+#, fuzzy
+msgid "&Show only desktop applications"
+msgstr "Показывать только графические приложения для рабочего стола"
+
+#: ui/ui_settingsdialog.py:397
+#, fuzzy
+msgid "Show Component information "
+msgstr "Показывать информацию о компонентах"
+
+#: ui/ui_settingsdialog.py:398
+#, fuzzy
+msgid "Show package type tags"
+msgstr "Показать теги типов пакетов"
+
+#: ui/ui_settingsdialog.py:399
+#, fuzzy
+msgid "System tray icon"
+msgstr "Настройка поведения в системном трее"
+
+#: ui/ui_settingsdialog.py:400
+#, fuzzy
+msgid "Enable system tray icon"
+msgstr "Включить значок в системном лотке"
+
+#: ui/ui_settingsdialog.py:401
+#, fuzzy
+msgid "Hide system tray if there is no update."
+msgstr "Спрятать значок в системном лотке, если нет обновлений"
+
+#: ui/ui_settingsdialog.py:402
+#, fuzzy
+msgid "Enable &periodic update check"
+msgstr "Включить и периодически проверять обновления"
+
+#: ui/ui_settingsdialog.py:403
+#, fuzzy
+msgid "Check interval :"
+msgstr "Интервал проверки:"
+
+#: ui/ui_settingsdialog.py:404
+#, fuzzy
+msgid " min"
+msgstr " мин"
+
+#: ui/ui_settingsdialog.py:405
+#, fuzzy
+msgid "Install updates automatically"
+msgstr "Устанавливать обновления автоматически"
+
+#: ui/ui_settingsdialog.py:406
+#, fuzzy
+msgid "&General Settings"
+msgstr "Основные"
+
+#: ui/ui_settingsdialog.py:407
+#, fuzzy
+msgid "Cache Limit"
+msgstr "Кеш пакетов"
+
+#: ui/ui_settingsdialog.py:408
+#, fuzzy
+msgid "&Use hard disk cache for downloaded software"
+msgstr "Создавать на жестком диске кэш загруженных пакетов"
+
+#: ui/ui_settingsdialog.py:409
+#, fuzzy
+msgid "Maximum cache size:"
+msgstr "Максимальный объем кэша:"
+
+#: ui/ui_settingsdialog.py:410
+#, fuzzy
+msgid "Unlimited"
+msgstr "Неограниченный"
+
+#: ui/ui_settingsdialog.py:411
+#, fuzzy
+msgid " Mib"
+msgstr " мб"
+
+#: ui/ui_settingsdialog.py:412
+#, fuzzy
+msgid "Current cache dir:"
+msgstr "Текущий каталог кэша:"
+
+#: ui/ui_settingsdialog.py:413
+#, fuzzy
+msgid "Select..."
+msgstr "Выбрать..."
+
+#: ui/ui_settingsdialog.py:414
+#, fuzzy
+msgid "Open"
+msgstr "Открыть"
+
+#: ui/ui_settingsdialog.py:415
+#, fuzzy
+msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+msgstr "Очистка кэша удалит все загруженное ПО. Это не удалит установленные пакеты и не повлияет на стабильность работы системы."
+
+#: ui/ui_settingsdialog.py:416
+#, fuzzy
+msgid "C&lean disk cache now"
+msgstr "Очистить кэш на диске."
+
+#: ui/ui_settingsdialog.py:417
+#, fuzzy
+msgid "Bandwidth limit"
+msgstr "Ограничение нагрузки интернет соединения"
+
+#: ui/ui_settingsdialog.py:418
+#, fuzzy
+msgid "Use bandwidth limit :"
+msgstr "Использовать ограничение скорости:"
+
+#: ui/ui_settingsdialog.py:419
+#, fuzzy
+msgid " kB/s"
+msgstr "Кб/с"
+
+#: ui/ui_settingsdialog.py:420
+#, fuzzy
+msgid "C&ache"
+msgstr "Кэш"
+
+#: ui/ui_settingsdialog.py:425
+#, fuzzy
+msgid "&Add New Repository"
+msgstr "&Добавить репозиторий"
+
+#: ui/ui_settingsdialog.py:426
+#, fuzzy
+msgid "Remove Repository"
+msgstr "Удалить"
+
+#: ui/ui_settingsdialog.py:427
+#, fuzzy
+msgid "Move &Up"
+msgstr "Приоритет &выше"
+
+#: ui/ui_settingsdialog.py:428
+#, fuzzy
+msgid "Move &Down"
+msgstr "Приоритет &ниже"
+
+#: ui/ui_settingsdialog.py:429
+#, fuzzy
+msgid "&Repositories"
+msgstr "Репозитории"
+
+#: ui/ui_settingsdialog.py:430
+#, fuzzy
+msgid "Use Proxy"
+msgstr "Использовать прокси-сервер"
+
+#: ui/ui_settingsdialog.py:431
+#, fuzzy
+msgid "HTTP proxy server:"
+msgstr "HTTP прокси-сервер:"
+
+#: ui/ui_settingsdialog.py:432 ui/ui_settingsdialog.py:434
+#: ui/ui_settingsdialog.py:436
+#, fuzzy
+msgid "Port:"
+msgstr "Порт:"
+
+#: ui/ui_settingsdialog.py:433
+#, fuzzy
+msgid "HTTPS proxy server:"
+msgstr "HTTPS прокси-сервер:"
+
+#: ui/ui_settingsdialog.py:435
+#, fuzzy
+msgid "FTP proxy server:"
+msgstr "FTP прокси-сервер:"
+
+#: ui/ui_settingsdialog.py:437
+#, fuzzy
+msgid "Domain:"
+msgstr "Домен:"
+
+#: ui/ui_settingsdialog.py:438
+#, fuzzy
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: ui/ui_settingsdialog.py:439
+#, fuzzy
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ui/ui_settingsdialog.py:440
+#, fuzzy
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Настройки прокси доступны в KDE, нажмите <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">здесь</span></a>, чтобы открыть диалог настроек.</p></body></html>"
+
+#: ui/ui_settingsdialog.py:445
+#, fuzzy
+msgid "<a href=#>Use this proxy server for all protocols</a>"
+msgstr "<a href=#>Использовать этот прокси-сервер для всех протоколов</a>"
+
+#: ui/ui_settingsdialog.py:446
+#, fuzzy
+msgid "&Proxy"
+msgstr "Прокси-сервер"
+
+#: ui/ui_settingsdialog.py:447
+#, fuzzy
+msgid "&Help"
+msgstr "Сп&равка"
+
+#: ui/ui_settingsdialog.py:448
+#, fuzzy
+msgid "&OK"
+msgstr "ОК"
+
+#: ui/ui_settingsdialog.py:449
+#, fuzzy
+msgid "&Cancel"
+msgstr "Отменить"
+
+#: ui/ui_summarydialog.py:60
+#, fuzzy
+msgid "Operation Summary"
+msgstr "Итоги"
+
+#: ui/ui_summarydialog.py:61
+#, fuzzy
+msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+msgstr "Вы можете запустить новое установленное приложение дважды щелкнув по его названию в меню прямо сейчас или позже."
+
+#: ui/ui_summarydialog.py:62
+#, fuzzy
+msgid "&Ok"
+msgstr "Ок"
+
+#: ui/ui_webdialog.py:155
+#, fuzzy
+msgid ""
+"AppInfo Server is not reachable\n"
+"Please check your network connection"
+msgstr "Проверьте сетевые подключения и повторите попытку."
+
+#: ui/ui_webdialog.py:157 ui/ui_webdialog.py:158
+#, fuzzy
+msgid "Package Details"
+msgstr "Описание пакета"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Корзина"
+#~ msgstr[1] "Корзина"
+#~ msgstr[2] "Корзина"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Показать главное окно"
+#~ msgstr[1] "Показать главное окно"
+#~ msgstr[2] "Показать главное окно"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Настройки"
+#~ msgstr[1] "Настройки"
+#~ msgstr[2] "Настройки"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
 #~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
@@ -513,9 +933,6 @@ msgstr "Файлы пакета"
 #~ msgid "Your emails"
 #~ msgstr "alexey.ivanes@gmail.com, tribunal2000@gmail.com, neocrust@gmail.com, zag@vspu.ru,"
 
-#~ msgid "Show main window"
-#~ msgstr "Показать главное окно"
-
 #~ msgid "Hide summary screen"
 #~ msgstr "Скрыть окно итогов"
 
@@ -525,248 +942,73 @@ msgstr "Файлы пакета"
 #~ msgid "Ignore"
 #~ msgstr "Игнорировать"
 
-#~ msgid "Application"
-#~ msgstr "Приложение"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Tarayıcı"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Корзина"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Выбранные пакеты для установки:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Общий объем:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Размер загрузки:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</"
-
-#~ msgid "Form"
-#~ msgstr "Форма"
-
 #~ msgid "Search Bar"
 #~ msgstr "Строка поиска"
-
-#~ msgid "Click to search"
-#~ msgstr "Введите имя пакета, затем нажмите на значок поиска справа"
-
-#~ msgid "Update Types"
-#~ msgstr "Типы обновлений"
-
-#~ msgid "Category Panel"
-#~ msgstr "Панель категории"
-
-#~ msgid "Package List"
-#~ msgstr "Список пакетов"
-
-#~ msgid "Show Basket"
-#~ msgstr "Показать корзину"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Проверить наличие обновлений"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Быстрая установка пакетов"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Следующие пакеты выбран для установки. Вы хотите установить эти пакеты?"
-
-#~ msgid "Install"
-#~ msgstr "Установить"
-
-#~ msgid "Cancel"
-#~ msgstr "Отменить"
-
-#~ msgid "Preview"
-#~ msgstr "Обзор"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+С"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Добавить репозиторий"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Название репозитория, например <b>pardus-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Название"
-
-#~ msgid "Repository Address"
-#~ msgstr "Адрес репозитория"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Настройка менеджера пакетов"
-
-#~ msgid "Package list"
-#~ msgstr "Список пакетов"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "Показывать только графические приложения для рабочего стола"
-
-#~ msgid "Show Component information "
-#~ msgstr "Показывать информацию о компонентах"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Показать теги типов пакетов"
-
-#~ msgid "System tray icon"
-#~ msgstr "Настройка поведения в системном трее"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Включить значок в системном лотке"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Спрятать значок в системном лотке, если нет обновлений"
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Включить и периодически проверять обновления"
-
-#~ msgid "Check interval :"
-#~ msgstr "Интервал проверки:"
-
-#~ msgid " min"
-#~ msgstr " мин"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Устанавливать обновления автоматически"
-
-#~ msgid "&General Settings"
-#~ msgstr "Основные"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Кеш пакетов"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "Создавать на жестком диске кэш загруженных пакетов"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Максимальный объем кэша:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Неограниченный"
-
-#~ msgid " Mib"
-#~ msgstr " мб"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Текущий каталог кэша:"
-
-#~ msgid "Select..."
-#~ msgstr "Выбрать..."
-
-#~ msgid "Open"
-#~ msgstr "Открыть"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Очистка кэша удалит все загруженное ПО. Это не удалит установленные пакеты и не повлияет на стабильность работы системы."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "Очистить кэш на диске."
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Ограничение нагрузки интернет соединения"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Использовать ограничение скорости:"
-
-#~ msgid " kB/s"
-#~ msgstr "Кб/с"
-
-#~ msgid "C&ache"
-#~ msgstr "Кэш"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Добавить репозиторий"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Удалить"
-
-#~ msgid "Move &Up"
-#~ msgstr "Приоритет &выше"
-
-#~ msgid "Move &Down"
-#~ msgstr "Приоритет &ниже"
-
-#~ msgid "&Repositories"
-#~ msgstr "Репозитории"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Использовать прокси-сервер"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP прокси-сервер:"
-
-#~ msgid "Port:"
-#~ msgstr "Порт:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS прокси-сервер:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP прокси-сервер:"
-
-#~ msgid "Domain:"
-#~ msgstr "Домен:"
-
-#~ msgid "Username:"
-#~ msgstr "Имя пользователя:"
-
-#~ msgid "Password:"
-#~ msgstr "Пароль:"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Настройки прокси доступны в KDE, нажмите <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">здесь</span></a>, чтобы открыть диалог настроек.</p></body></html>"
-
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Использовать этот прокси-сервер для всех протоколов</a>"
-
-#~ msgid "&Proxy"
-#~ msgstr "Прокси-сервер"
-
-#~ msgid "&OK"
-#~ msgstr "ОК"
-
-#~ msgid "&Cancel"
-#~ msgstr "Отменить"
-
-#~ msgid "Operation Summary"
-#~ msgstr "Итоги"
-
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Вы можете запустить новое установленное приложение дважды щелкнув по его названию в меню прямо сейчас или позже."
-
-#~ msgid "&Ok"
-#~ msgstr "Ок"
 
 #~ msgid "Type to filter files"
 #~ msgstr "По типу файлов"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr "Проверьте сетевые подключения и повторите попытку."
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Файлы пакета"
 
-#~ msgid "Package Details"
-#~ msgstr "Описание пакета"
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Показать корзину"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Адрес репозитория"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Название"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Список пакетов"
+
+#, fuzzy
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Менеджер пакетов"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Установить"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Установить"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Очистить"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Дополнительные зависимости выбранных пакетов также будут установлены:"

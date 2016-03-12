@@ -38,11 +38,11 @@ if __name__ == '__main__':
 
     # Create a dbus mainloop if its not exists
     if not dbus.get_default_main_loop():
-        from dbus.mainlooppyqt5 import DBusQtMainLoop
+        from dbus.mainloop.pyqt5 import DBusQtMainLoop
         DBusQtMainLoop(set_as_default = True)
 
     # Use raster to make it faster
-    QApplication.setGraphicsSystem('raster')
+    #QApplication.setGraphicsSystem('raster')
 
     usage = unicode(i18n("%prog packages_to_install"))
     parser = OptionParser(usage=usage)

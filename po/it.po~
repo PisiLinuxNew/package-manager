@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:31+0200\n"
+"POT-Creation-Date: 2016-03-12 13:33+0200\n"
 "PO-Revision-Date: 2013-09-15 09:13+0000\n"
 "Last-Translator: ddave <ddave090@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/PiSiLinux/language/it/)\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: data/package-manager.desktop.in.h:1
 #: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
-#: src/progressdialog.py:63
+#: src/progressdialog.py:63 ui/ui_mainwindow.py:27
 msgid "Package Manager"
 msgstr "Gestore dei Pacchetti"
 
@@ -40,7 +40,7 @@ msgstr "Interfaccia grafica per il gestore di pacchetti PiSi"
 msgid "Add/Remove/Update Packages"
 msgstr "Aggiungi/Rimuovi/Aggiorna i Pacchetti"
 
-#: src/basketdialog.py:55
+#: src/basketdialog.py:55 ui/ui_basketdialog.py:186
 msgid "Clear Basket"
 msgstr "Svuota Cestino"
 
@@ -49,8 +49,8 @@ msgid "Do you want to clear all selections ?"
 msgstr "Vuoi cancellare tutte le selezioni?"
 
 #: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
-#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:252
-#: src/settingsdialog.py:258
+#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:255
+#: src/settingsdialog.py:261
 msgid "Pisi Error"
 msgstr "Errore PiSi"
 
@@ -78,7 +78,7 @@ msgstr "I pacchetti richiedono un riavvio dei servizi"
 msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
 msgstr "I pacchetti selezionati sono considerati critici per il sistema. La rimozione può rendere il sistema inutilizzabile."
 
-#: src/basketdialog.py:190 src/settingsdialog.py:174
+#: src/basketdialog.py:190 src/settingsdialog.py:176
 msgid "Warning"
 msgstr "Attenzione"
 
@@ -94,7 +94,7 @@ msgstr "I pacchetti selezionati sono già installati. <br>Se continui, i pacchet
 msgid "Already Installed Packages"
 msgstr "Pacchetti Già Installati"
 
-#: src/basketdialog.py:205 src/mainwindow.py:147 src/mainwindow.py:149
+#: src/basketdialog.py:205 src/mainwindow.py:145 src/mainwindow.py:147
 #: src/pmwindow.py:138
 msgid "Installed Packages"
 msgstr "Pacchetti Installati"
@@ -103,72 +103,72 @@ msgstr "Pacchetti Installati"
 msgid "All"
 msgstr "Tutti"
 
-#: src/helpdialog.py:31
+#: src/helpdialog.py:32
 msgid "Package Manager Help"
 msgstr "Guida del Gestore dei Pacchetti"
 
-#: src/mainwidget.py:150
+#: src/mainwidget.py:149
 msgid "All packages are up to date"
 msgstr "Tutti i pacchetti sono aggiornati"
 
-#: src/mainwidget.py:259
+#: src/mainwidget.py:258
 msgid "Searching..."
 msgstr "Ricerca..."
 
-#: src/mainwidget.py:271
+#: src/mainwidget.py:270
 msgid "No results found."
 msgstr "Nessun risultato trovato."
 
-#: src/mainwidget.py:432
+#: src/mainwidget.py:431
 msgid "Select packages"
 msgstr "Selezionare i pacchetti"
 
-#: src/mainwidget.py:433
+#: src/mainwidget.py:432
 msgid "You must select at least one installed package"
 msgstr "È necessario selezionare almeno un pacchetto installato"
 
-#: src/mainwidget.py:445
+#: src/mainwidget.py:444
 msgid "All Updates"
 msgstr "Tutti gli Aggiornamenti"
 
-#: src/mainwidget.py:446
+#: src/mainwidget.py:445
 msgid "Security Updates"
 msgstr "Aggiornamenti di Sicurezza"
 
-#: src/mainwidget.py:447
+#: src/mainwidget.py:446
 msgid "Critical Updates"
 msgstr "Aggiornamenti Critici"
 
-#: src/mainwindow.py:139 src/mainwindow.py:141
+#: src/mainwindow.py:137 src/mainwindow.py:139
 msgid "All Packages"
 msgstr "Tutti Pacchetti"
 
-#: src/mainwindow.py:143 src/mainwindow.py:145
+#: src/mainwindow.py:141 src/mainwindow.py:143
 msgid "Installable Packages"
 msgstr "Pacchetti Installabili"
 
-#: src/mainwindow.py:151 src/mainwindow.py:153 src/tray.py:199
+#: src/mainwindow.py:149 src/mainwindow.py:151 src/tray.py:199
 msgid "Updates"
 msgstr "Aggiornamenti"
 
-#: src/mainwindow.py:155
+#: src/mainwindow.py:153 ui/ui_mainwidget_v3.py:160
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: src/mainwindow.py:158
+#: src/mainwindow.py:156
 #, fuzzy
 msgid "Help"
 msgstr "&Aiuto"
 
-#: src/mainwindow.py:162 src/tray.py:195
+#: src/mainwindow.py:160 src/tray.py:195
 msgid "Quit"
 msgstr ""
 
-#: src/mainwindow.py:192
+#: src/mainwindow.py:190
 msgid "Calculating dependencies..."
 msgstr "Calcolo delle dipendenze..."
 
-#: src/mainwindow.py:211
+#: src/mainwindow.py:210
 msgid "Currently your basket is empty."
 msgstr "Il tuo cestino è vuoto."
 
@@ -224,11 +224,11 @@ msgstr "Dimensione pacchetto:"
 msgid "Installed Version:"
 msgstr "Versione Installata:"
 
-#: src/packagedelegate.py:317
+#: src/packagedelegate.py:318
 msgid "Unknown"
 msgstr ""
 
-#: src/packagedelegate.py:345
+#: src/packagedelegate.py:346
 msgid "Details"
 msgstr "Dettagli"
 
@@ -311,19 +311,19 @@ msgstr "Preparazione di PiSi..."
 msgid "<b>Cancelling operation...</b>"
 msgstr "<b>Annullamento operazione...</b>"
 
-#: src/settingsdialog.py:165
+#: src/settingsdialog.py:167
 msgid "Open Directory"
 msgstr "Apri Cartella"
 
-#: src/settingsdialog.py:175
+#: src/settingsdialog.py:177
 msgid "All the cached packages will be deleted. Are you sure? "
 msgstr "Tutti i pacchetti nella cache verranno eliminati. Sei sicuro?"
 
-#: src/settingsdialog.py:253
+#: src/settingsdialog.py:256
 msgid "Not a valid repository name"
 msgstr "Nome repository non valido"
 
-#: src/settingsdialog.py:259
+#: src/settingsdialog.py:262
 msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
 msgstr "<qt>L'indirizzo del repositorio deve finire con il suffisso xml o xml.bz2 o xz.<p>Prova di nuovo.</qt>"
 
@@ -367,7 +367,7 @@ msgstr "aggiornato"
 msgid "modified"
 msgstr "modificato"
 
-#: src/statemanager.py:104
+#: src/statemanager.py:104 ui/ui_basketdialog.py:187 ui/ui_mainwidget_v3.py:167
 msgid "Install Package(s)"
 msgstr "Installa pacchetto/i"
 
@@ -415,7 +415,7 @@ msgstr "Hai selezionato i seguenti pacchetti per l'aggiornamento:"
 msgid "You have selected the following package(s) to modify:"
 msgstr "Hai selezionato i seguenti pacchetti per la modifica:"
 
-#: src/statemanager.py:129
+#: src/statemanager.py:129 ui/ui_basketdialog.py:183
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 msgstr "Verranno installate anche delle dipendenze extra per il/i pacchetto/i selezionato/i:"
 
@@ -490,254 +490,478 @@ msgstr "Aggiornamento repository"
 msgid "There are %1 updates available!"
 msgstr "Ci sono <b>%1</b> aggiornamenti disponibili!"
 
-#: src/webdialog.py:122
+#: src/webdialog.py:122 ui/ui_webdialog.py:154
 msgid "Package Files"
 msgstr "File dei Pacchetti"
 
-#~ msgid "Package Details"
-#~ msgstr "Dettagli Pacchetto"
+#: ui/ui_appitem.py:54
+#, fuzzy
+msgid "Application"
+msgstr "Applicazione"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "AppInfo Server non è raggiungibile\n"
-#~ "Per favore controllare la connessione di rete"
+#: ui/ui_appitem.py:55
+#, fuzzy
+msgid "Web Tarayıcı"
+msgstr "Web Scanner"
+
+#: ui/ui_appitem.py:56
+#, fuzzy
+msgid "Firefox"
+msgstr "Firefox"
+
+#: ui/ui_basketdialog.py:181 ui/ui_webdialog.py:153
+#, fuzzy
+msgid "Basket"
+msgstr "Mostra il Cestino"
+
+#: ui/ui_basketdialog.py:182
+#, fuzzy
+msgid "Selected package(s) for install:"
+msgstr "Seleziona il/i pacchetto/i per l'installazione:"
+
+#: ui/ui_basketdialog.py:184
+#, fuzzy
+msgid "Total Size:"
+msgstr "Dimensione totale:"
+
+#: ui/ui_basketdialog.py:185
+#, fuzzy
+msgid "<b>2.2 MB</b>"
+msgstr "<b>2.2 MB</b>"
+
+#: ui/ui_basketdialog.py:188
+#, fuzzy
+msgid "Download Size:"
+msgstr "Dimensione dei file da scaricare:"
+
+#: ui/ui_basketdialog.py:189
+#, fuzzy
+msgid "<b>2.0 MB</"
+msgstr "<b>2.0 MB</b>"
+
+#: ui/ui_mainwidget_v3.py:159 ui/ui_message.py:38
+#: ui/ui_progressdialog_v4.py:220
+#, fuzzy
+msgid "Form"
+msgstr "Form"
+
+#: ui/ui_mainwidget_v3.py:161
+#, fuzzy
+msgid "Type to search..."
+msgstr "Clicca per cercare"
+
+#: ui/ui_mainwidget_v3.py:162
+#, fuzzy
+msgid "Update Types"
+msgstr "Tipi di Aggiornamento"
+
+#: ui/ui_mainwidget_v3.py:163
+#, fuzzy
+msgid "Category Panel"
+msgstr "Pannello Categoria"
+
+#: ui/ui_mainwidget_v3.py:164 ui/ui_pminstall.py:82
+#, fuzzy
+msgid "Package List"
+msgstr "Lista pacchetti"
+
+#: ui/ui_mainwidget_v3.py:165
+#, fuzzy
+msgid "Show Basket"
+msgstr "Mostra il Cestino"
+
+#: ui/ui_mainwidget_v3.py:166
+#, fuzzy
+msgid "Check for Updates"
+msgstr "Controlla gli Aggiornamenti"
+
+#: ui/ui_pminstall.py:80
+#, fuzzy
+msgid "Package Manager Quick Install"
+msgstr "Gestore dei Pacchetti Installazione Rapida"
+
+#: ui/ui_pminstall.py:81
+#, fuzzy
+msgid "Following packages are selected to install. Do you want to install these packages ?"
+msgstr "I seguenti pacchetti sono stati selezionati per l'installazione. Vuoi installare questi pacchetti?"
+
+#: ui/ui_pminstall.py:83
+#, fuzzy
+msgid "Install"
+msgstr "Installa"
+
+#: ui/ui_pminstall.py:84
+#, fuzzy
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ui/ui_preview.py:48
+#, fuzzy
+msgid "Preview"
+msgstr "Anteprima"
+
+#: ui/ui_progressdialog_v4.py:221
+#, fuzzy
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#: ui/ui_repodialog.py:50
+#, fuzzy
+msgid "Add New Repository"
+msgstr "Aggiungi nuovo repository"
+
+#: ui/ui_repodialog.py:51
+#, fuzzy
+msgid "Name of the repository, e.g <b>pardus-devel</b>"
+msgstr "Nome del repository, es. <b>pardus-devel</b>"
+
+#: ui/ui_repodialog.py:52 ui/ui_settingsdialog.py:422
+#, fuzzy
+msgid "Repository Name"
+msgstr "Nome repository"
+
+#: ui/ui_repodialog.py:53 ui/ui_settingsdialog.py:424
+#, fuzzy
+msgid "Repository Address"
+msgstr "Indirizzo repository"
+
+#: ui/ui_settingsdialog.py:394
+#, fuzzy
+msgid "Package Manager Settings"
+msgstr "Impostazioni package manager"
+
+#: ui/ui_settingsdialog.py:395
+#, fuzzy
+msgid "Package list"
+msgstr "Lista pacchetti"
+
+#: ui/ui_settingsdialog.py:396
+#, fuzzy
+msgid "&Show only desktop applications"
+msgstr "&Mostra solo le applicazioni desktop"
+
+#: ui/ui_settingsdialog.py:397
+#, fuzzy
+msgid "Show Component information "
+msgstr "Visualizza informazioni componente "
+
+#: ui/ui_settingsdialog.py:398
+#, fuzzy
+msgid "Show package type tags"
+msgstr "Mostra tipo di  etichette del pacchetto"
+
+#: ui/ui_settingsdialog.py:399
+#, fuzzy
+msgid "System tray icon"
+msgstr "Icona nel vassoio di sistema."
+
+#: ui/ui_settingsdialog.py:400
+#, fuzzy
+msgid "Enable system tray icon"
+msgstr "Abilita icona nel vassoio di sistema."
+
+#: ui/ui_settingsdialog.py:401
+#, fuzzy
+msgid "Hide system tray if there is no update."
+msgstr "Nascondi l'icona di sistema se non ci sono aggiornamenti."
+
+#: ui/ui_settingsdialog.py:402
+#, fuzzy
+msgid "Enable &periodic update check"
+msgstr "Abilita controllo &periodico aggiornamenti"
+
+#: ui/ui_settingsdialog.py:403
+#, fuzzy
+msgid "Check interval :"
+msgstr "Intervallo di controllo:"
+
+#: ui/ui_settingsdialog.py:404
+#, fuzzy
+msgid " min"
+msgstr " min"
+
+#: ui/ui_settingsdialog.py:405
+#, fuzzy
+msgid "Install updates automatically"
+msgstr "Installa aggiornamenti automaticamente"
+
+#: ui/ui_settingsdialog.py:406
+#, fuzzy
+msgid "&General Settings"
+msgstr "&Impostazioni Generali"
+
+#: ui/ui_settingsdialog.py:407
+#, fuzzy
+msgid "Cache Limit"
+msgstr "Limite di Cache"
+
+#: ui/ui_settingsdialog.py:408
+#, fuzzy
+msgid "&Use hard disk cache for downloaded software"
+msgstr "&Usa cache hard disk per il software scaricato"
+
+#: ui/ui_settingsdialog.py:409
+#, fuzzy
+msgid "Maximum cache size:"
+msgstr "Dimensione massima cache:"
+
+#: ui/ui_settingsdialog.py:410
+#, fuzzy
+msgid "Unlimited"
+msgstr "Illimitato"
+
+#: ui/ui_settingsdialog.py:411
+#, fuzzy
+msgid " Mib"
+msgstr " Mb"
+
+#: ui/ui_settingsdialog.py:412
+#, fuzzy
+msgid "Current cache dir:"
+msgstr "Directory cache corrente:"
+
+#: ui/ui_settingsdialog.py:413
+#, fuzzy
+msgid "Select..."
+msgstr "Seleziona..."
+
+#: ui/ui_settingsdialog.py:414
+#, fuzzy
+msgid "Open"
+msgstr "Apri"
+
+#: ui/ui_settingsdialog.py:415
+#, fuzzy
+msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+msgstr ""
+"Svuotare la cache sul disco rimuoverà tutti i pacchetti dei software scaricati. \n"
+"Questa operazione non rimuoverà il software installato e non influenzerà la stabilità del sistema."
+
+#: ui/ui_settingsdialog.py:416
+#, fuzzy
+msgid "C&lean disk cache now"
+msgstr "&Pulisci cache su disco ora"
+
+#: ui/ui_settingsdialog.py:417
+#, fuzzy
+msgid "Bandwidth limit"
+msgstr "Limite di banda"
+
+#: ui/ui_settingsdialog.py:418
+#, fuzzy
+msgid "Use bandwidth limit :"
+msgstr "Usa limite di banda"
+
+#: ui/ui_settingsdialog.py:419
+#, fuzzy
+msgid " kB/s"
+msgstr "kB/s"
+
+#: ui/ui_settingsdialog.py:420
+#, fuzzy
+msgid "C&ache"
+msgstr "&Cache"
+
+#: ui/ui_settingsdialog.py:425
+#, fuzzy
+msgid "&Add New Repository"
+msgstr "&Aggiungi nuovo repository"
+
+#: ui/ui_settingsdialog.py:426
+#, fuzzy
+msgid "Remove Repository"
+msgstr "Rimuovi Repository"
+
+#: ui/ui_settingsdialog.py:427
+#, fuzzy
+msgid "Move &Up"
+msgstr "Sposta &Su"
+
+#: ui/ui_settingsdialog.py:428
+#, fuzzy
+msgid "Move &Down"
+msgstr "Sposta &Giù"
+
+#: ui/ui_settingsdialog.py:429
+#, fuzzy
+msgid "&Repositories"
+msgstr "&Repository"
+
+#: ui/ui_settingsdialog.py:430
+#, fuzzy
+msgid "Use Proxy"
+msgstr "Usa Proxy"
+
+#: ui/ui_settingsdialog.py:431
+#, fuzzy
+msgid "HTTP proxy server:"
+msgstr "Proxy HTTP:"
+
+#: ui/ui_settingsdialog.py:432 ui/ui_settingsdialog.py:434
+#: ui/ui_settingsdialog.py:436
+#, fuzzy
+msgid "Port:"
+msgstr "Porta:"
+
+#: ui/ui_settingsdialog.py:433
+#, fuzzy
+msgid "HTTPS proxy server:"
+msgstr "Proxy HTTPS:"
+
+#: ui/ui_settingsdialog.py:435
+#, fuzzy
+msgid "FTP proxy server:"
+msgstr "Proxy FTP:"
+
+#: ui/ui_settingsdialog.py:437
+#, fuzzy
+msgid "Domain:"
+msgstr "Dominio:"
+
+#: ui/ui_settingsdialog.py:438
+#, fuzzy
+msgid "Username:"
+msgstr "Nome utente:"
+
+#: ui/ui_settingsdialog.py:439
+#, fuzzy
+msgid "Password:"
+msgstr "Password:"
+
+#: ui/ui_settingsdialog.py:440
+#, fuzzy
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">⏎ <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">⏎ p, li { white-space: pre-wrap; }⏎ </style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">⏎ <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+
+#: ui/ui_settingsdialog.py:445
+#, fuzzy
+msgid "<a href=#>Use this proxy server for all protocols</a>"
+msgstr "<a href=#>Usa questo proxy server per tutti i protocolli</a>"
+
+#: ui/ui_settingsdialog.py:446
+#, fuzzy
+msgid "&Proxy"
+msgstr "&Proxy"
+
+#: ui/ui_settingsdialog.py:447
+#, fuzzy
+msgid "&Help"
+msgstr "&Aiuto"
+
+#: ui/ui_settingsdialog.py:448
+#, fuzzy
+msgid "&OK"
+msgstr "&OK"
+
+#: ui/ui_settingsdialog.py:449
+#, fuzzy
+msgid "&Cancel"
+msgstr "&Annulla"
+
+#: ui/ui_summarydialog.py:60
+#, fuzzy
+msgid "Operation Summary"
+msgstr "Riepilogo operazioni"
+
+#: ui/ui_summarydialog.py:61
+#, fuzzy
+msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+msgstr "Puoi avviare l' applicazione appena installata facendo doppio click sulla lista qui sotto o scegliendola dal menù."
+
+#: ui/ui_summarydialog.py:62
+#, fuzzy
+msgid "&Ok"
+msgstr "&Ok"
+
+#: ui/ui_webdialog.py:155
+#, fuzzy
+msgid ""
+"AppInfo Server is not reachable\n"
+"Please check your network connection"
+msgstr ""
+"AppInfo Server non è raggiungibile\n"
+"Per favore controllare la connessione di rete"
+
+#: ui/ui_webdialog.py:157 ui/ui_webdialog.py:158
+#, fuzzy
+msgid "Package Details"
+msgstr "Dettagli Pacchetto"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Verranno installate anche delle dipendenze extra per il/i pacchetto/i selezionato/i:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Svuota Cestino"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Installa pacchetto/i"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Impostazioni"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Installa pacchetto/i"
+
+#, fuzzy
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Gestore dei Pacchetti"
+
+#, fuzzy
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Lista pacchetti"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Nome repository"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Indirizzo repository"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Mostra il Cestino"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "File dei Pacchetti"
 
 #~ msgid "Type to filter files"
 #~ msgstr "Digita per filtrare i file"
 
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
-
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Puoi avviare l' applicazione appena installata facendo doppio click sulla lista qui sotto o scegliendola dal menù."
-
-#~ msgid "Operation Summary"
-#~ msgstr "Riepilogo operazioni"
-
-#~ msgid "&Cancel"
-#~ msgstr "&Annulla"
-
-#~ msgid "&OK"
-#~ msgstr "&OK"
-
-#~ msgid "&Proxy"
-#~ msgstr "&Proxy"
-
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Usa questo proxy server per tutti i protocolli</a>"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-#~ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">⏎ <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">⏎ p, li { white-space: pre-wrap; }⏎ </style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">⏎ <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-
-#~ msgid "Password:"
-#~ msgstr "Password:"
-
-#~ msgid "Username:"
-#~ msgstr "Nome utente:"
-
-#~ msgid "Domain:"
-#~ msgstr "Dominio:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "Proxy FTP:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "Proxy HTTPS:"
-
-#~ msgid "Port:"
-#~ msgstr "Porta:"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "Proxy HTTP:"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Usa Proxy"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Repository"
-
-#~ msgid "Move &Down"
-#~ msgstr "Sposta &Giù"
-
-#~ msgid "Move &Up"
-#~ msgstr "Sposta &Su"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Rimuovi Repository"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Aggiungi nuovo repository"
-
-#~ msgid "C&ache"
-#~ msgstr "&Cache"
-
-#~ msgid " kB/s"
-#~ msgstr "kB/s"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Usa limite di banda"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Limite di banda"
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "&Pulisci cache su disco ora"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr ""
-#~ "Svuotare la cache sul disco rimuoverà tutti i pacchetti dei software scaricati. \n"
-#~ "Questa operazione non rimuoverà il software installato e non influenzerà la stabilità del sistema."
-
-#~ msgid "Open"
-#~ msgstr "Apri"
-
-#~ msgid "Select..."
-#~ msgstr "Seleziona..."
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Directory cache corrente:"
-
-#~ msgid " Mib"
-#~ msgstr " Mb"
-
-#~ msgid "Unlimited"
-#~ msgstr "Illimitato"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Dimensione massima cache:"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Usa cache hard disk per il software scaricato"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Limite di Cache"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Impostazioni Generali"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Installa aggiornamenti automaticamente"
-
-#~ msgid " min"
-#~ msgstr " min"
-
-#~ msgid "Check interval :"
-#~ msgstr "Intervallo di controllo:"
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Abilita controllo &periodico aggiornamenti"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Nascondi l'icona di sistema se non ci sono aggiornamenti."
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Abilita icona nel vassoio di sistema."
-
-#~ msgid "System tray icon"
-#~ msgstr "Icona nel vassoio di sistema."
-
-#~ msgid "Show package type tags"
-#~ msgstr "Mostra tipo di  etichette del pacchetto"
-
-#~ msgid "Show Component information "
-#~ msgstr "Visualizza informazioni componente "
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Mostra solo le applicazioni desktop"
-
-#~ msgid "Package list"
-#~ msgstr "Lista pacchetti"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Impostazioni package manager"
-
-#~ msgid "Repository Address"
-#~ msgstr "Indirizzo repository"
-
-#~ msgid "Repository Name"
-#~ msgstr "Nome repository"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Nome del repository, es. <b>pardus-devel</b>"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Aggiungi nuovo repository"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Preview"
-#~ msgstr "Anteprima"
-
-#~ msgid "Cancel"
-#~ msgstr "Annulla"
-
-#~ msgid "Install"
-#~ msgstr "Installa"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "I seguenti pacchetti sono stati selezionati per l'installazione. Vuoi installare questi pacchetti?"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Gestore dei Pacchetti Installazione Rapida"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Controlla gli Aggiornamenti"
-
-#~ msgid "Show Basket"
-#~ msgstr "Mostra il Cestino"
-
-#~ msgid "Package List"
-#~ msgstr "Lista pacchetti"
-
-#~ msgid "Category Panel"
-#~ msgstr "Pannello Categoria"
-
-#~ msgid "Update Types"
-#~ msgstr "Tipi di Aggiornamento"
-
-#~ msgid "Click to search"
-#~ msgstr "Clicca per cercare"
-
 #~ msgid "Search Bar"
 #~ msgstr "Barra di ricerca"
-
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Dimensione dei file da scaricare:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Total Size:"
-#~ msgstr "Dimensione totale:"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Seleziona il/i pacchetto/i per l'installazione:"
-
-#~ msgid "Basket"
-#~ msgstr "Cestino"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Scanner"
-
-#~ msgid "Application"
-#~ msgstr "Applicazione"
 
 #~ msgid "Ignore"
 #~ msgstr "Ignora"
@@ -747,9 +971,6 @@ msgstr "File dei Pacchetti"
 
 #~ msgid "Hide summary screen"
 #~ msgstr "Nascondi schermata di riepilogo"
-
-#~ msgid "Show main window"
-#~ msgstr "Mostra finestra principale"
 
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
@@ -773,3 +994,21 @@ msgstr "File dei Pacchetti"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
 #~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Impostazioni"
+#~ msgstr[1] "Impostazioni"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Mostra finestra principale"
+#~ msgstr[1] "Mostra finestra principale"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Cestino"
+#~ msgstr[1] "Cestino"

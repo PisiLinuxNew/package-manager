@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:31+0200\n"
+"POT-Creation-Date: 2016-03-12 13:33+0200\n"
 "PO-Revision-Date: 2013-04-13 12:51+0000\n"
 "Last-Translator: mozen <inactive+mozen@transifex.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/PiSiLinux/language/tr/)\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: data/package-manager.desktop.in.h:1
 #: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
-#: src/progressdialog.py:63
+#: src/progressdialog.py:63 ui/ui_mainwindow.py:27
 msgid "Package Manager"
 msgstr "Paket Yöneticisi"
 
@@ -42,7 +42,7 @@ msgstr "PİSİ paket yöneticisinin grafik ara yüzü"
 msgid "Add/Remove/Update Packages"
 msgstr "Paket(ler)i Ekle/Kaldır/Güncelle"
 
-#: src/basketdialog.py:55
+#: src/basketdialog.py:55 ui/ui_basketdialog.py:186
 msgid "Clear Basket"
 msgstr "Sepeti Boşalt"
 
@@ -51,8 +51,8 @@ msgid "Do you want to clear all selections ?"
 msgstr "Tüm seçimlerinizi temizlemek istiyor musunuz ?"
 
 #: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
-#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:252
-#: src/settingsdialog.py:258
+#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:255
+#: src/settingsdialog.py:261
 msgid "Pisi Error"
 msgstr "Pisi Hatası"
 
@@ -81,12 +81,11 @@ msgstr "Servislerin Yeniden Başlatılmasını Gerektiren Paketler"
 msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
 msgstr "Seçtiğiniz paketler sistem için önemli paketler içerisinde. Bu paketleri kaldırmak sisteminizi kullanılmaz duruma getirebilir."
 
-#: src/basketdialog.py:190 src/settingsdialog.py:174
+#: src/basketdialog.py:190 src/settingsdialog.py:176
 msgid "Warning"
 msgstr "Uyarı"
 
 #: src/basketdialog.py:191
-#, fuzzy
 msgid "Critical Packages"
 msgstr "Önemli Paketler"
 
@@ -98,7 +97,7 @@ msgstr "Seçtiğiniz paketler daha önce sisteme kurulmuş.<br>Eğer devam eders
 msgid "Already Installed Packages"
 msgstr "Daha Önce Kurulmuş Paketler"
 
-#: src/basketdialog.py:205 src/mainwindow.py:147 src/mainwindow.py:149
+#: src/basketdialog.py:205 src/mainwindow.py:145 src/mainwindow.py:147
 #: src/pmwindow.py:138
 msgid "Installed Packages"
 msgstr "Kurulu Paketler"
@@ -107,73 +106,71 @@ msgstr "Kurulu Paketler"
 msgid "All"
 msgstr "Tümü"
 
-#: src/helpdialog.py:31
+#: src/helpdialog.py:32
 msgid "Package Manager Help"
 msgstr "Paket Yöneticisi Yardım"
 
-#: src/mainwidget.py:150
+#: src/mainwidget.py:149
 msgid "All packages are up to date"
 msgstr "Tüm paketler güncel"
 
-#: src/mainwidget.py:259
+#: src/mainwidget.py:258
 msgid "Searching..."
 msgstr "Aranıyor..."
 
-#: src/mainwidget.py:271
+#: src/mainwidget.py:270
 msgid "No results found."
 msgstr "Sonuç bulunamadı."
 
-#: src/mainwidget.py:432
+#: src/mainwidget.py:431
 msgid "Select packages"
 msgstr "Paket seçiniz"
 
-#: src/mainwidget.py:433
+#: src/mainwidget.py:432
 msgid "You must select at least one installed package"
 msgstr "En az bir kurulu paketi seçmeniz gerekir"
 
-#: src/mainwidget.py:445
+#: src/mainwidget.py:444
 msgid "All Updates"
 msgstr "Tüm Güncellemeler"
 
-#: src/mainwidget.py:446
+#: src/mainwidget.py:445
 msgid "Security Updates"
 msgstr "Güvenlik Güncellemeleri"
 
-#: src/mainwidget.py:447
-#, fuzzy
+#: src/mainwidget.py:446
 msgid "Critical Updates"
-msgstr "Öneml Güncellemeler"
+msgstr "Önemli Güncellemeler"
 
-#: src/mainwindow.py:139 src/mainwindow.py:141
+#: src/mainwindow.py:137 src/mainwindow.py:139
 msgid "All Packages"
 msgstr "Tüm Paketler"
 
-#: src/mainwindow.py:143 src/mainwindow.py:145
+#: src/mainwindow.py:141 src/mainwindow.py:143
 msgid "Installable Packages"
 msgstr "Kurulabilir Paketler"
 
-#: src/mainwindow.py:151 src/mainwindow.py:153 src/tray.py:199
+#: src/mainwindow.py:149 src/mainwindow.py:151 src/tray.py:199
 msgid "Updates"
 msgstr "Güncellemeler"
 
-#: src/mainwindow.py:155
+#: src/mainwindow.py:153 ui/ui_mainwidget_v3.py:160
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: src/mainwindow.py:158
-#, fuzzy
+#: src/mainwindow.py:156
 msgid "Help"
-msgstr "&Yardım"
+msgstr "Yardım"
 
-#: src/mainwindow.py:162 src/tray.py:195
+#: src/mainwindow.py:160 src/tray.py:195
 msgid "Quit"
 msgstr "Çıkış"
 
-#: src/mainwindow.py:192
+#: src/mainwindow.py:190
 msgid "Calculating dependencies..."
 msgstr "Bağımlılıklar hesaplanıyor..."
 
-#: src/mainwindow.py:211
+#: src/mainwindow.py:210
 msgid "Currently your basket is empty."
 msgstr "Şu anda sepetiniz boş."
 
@@ -230,11 +227,11 @@ msgstr "Paket Boyutu:"
 msgid "Installed Version:"
 msgstr "Kurulu Sürüm:"
 
-#: src/packagedelegate.py:317
+#: src/packagedelegate.py:318
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
-#: src/packagedelegate.py:345
+#: src/packagedelegate.py:346
 msgid "Details"
 msgstr "Detaylar"
 
@@ -291,7 +288,7 @@ msgstr "<p align='right'>% %1</p>"
 #: src/progressdialog.py:76
 #, python-format
 msgid "Operation - %1%"
-msgstr "İşlem - %%1"
+msgstr "İşlem - % %1"
 
 #: src/progressdialog.py:83
 msgid "Downloading package list of %1"
@@ -317,20 +314,19 @@ msgstr "PiSi Hazırlanıyor..."
 msgid "<b>Cancelling operation...</b>"
 msgstr "<b>İşlem iptal ediliyor...</b>"
 
-#: src/settingsdialog.py:165
+#: src/settingsdialog.py:167
 msgid "Open Directory"
 msgstr "Dizin Aç"
 
-#: src/settingsdialog.py:175
+#: src/settingsdialog.py:177
 msgid "All the cached packages will be deleted. Are you sure? "
 msgstr "Önbellekteki tüm paketler silinecek. Emin misiniz? "
 
-#: src/settingsdialog.py:253
+#: src/settingsdialog.py:256
 msgid "Not a valid repository name"
 msgstr "Geçerli bir depo ismi değil"
 
-#: src/settingsdialog.py:259
-#, fuzzy
+#: src/settingsdialog.py:262
 msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
 msgstr "<qt>Depo adresleri xml, xml.bz2 veya xz.suffix uzantısı ile bitmelidir.<p>Lütfen tekrar deneyin.</qt>"
 
@@ -374,7 +370,7 @@ msgstr "güncellendi"
 msgid "modified"
 msgstr "değiştirildi"
 
-#: src/statemanager.py:104
+#: src/statemanager.py:104 ui/ui_basketdialog.py:187 ui/ui_mainwidget_v3.py:167
 msgid "Install Package(s)"
 msgstr "Paket(ler)i Kur"
 
@@ -422,7 +418,7 @@ msgstr "Aşağıdaki paket(ler)i güncellemek üzere seçtiniz:"
 msgid "You have selected the following package(s) to modify:"
 msgstr "Aşağıdaki paket(ler)i kaldırmak/kurmak üzere seçtiniz:"
 
-#: src/statemanager.py:129
+#: src/statemanager.py:129 ui/ui_basketdialog.py:183
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 msgstr "Seçili paketlerin ayrıca kurulacak olan ek bağımlılıkları:"
 
@@ -483,304 +479,448 @@ msgid "Update"
 msgstr "Güncelle"
 
 #: src/tray.py:191
-#, fuzzy
 msgid "Update %1 repository"
-msgstr "Depo Güncelleniyor"
+msgstr "%1 Deposu Güncelleniyor"
 
 #: src/tray.py:192
-#, fuzzy
 msgid "Update All Repositories"
 msgstr "Depo Güncelleniyor"
 
 #: src/tray.py:199
-#, fuzzy
 msgid "There are %1 updates available!"
 msgstr "Mevcut <b>%1</b> güncelleme bulunuyor!"
 
-#: src/webdialog.py:122
+#: src/webdialog.py:122 ui/ui_webdialog.py:154
 msgid "Package Files"
 msgstr "Paket Dosyaları"
 
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#: ui/ui_appitem.py:54
+msgid "Application"
+msgstr "Uygulama"
 
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
+#: ui/ui_appitem.py:55
+msgid "Web Tarayıcı"
+msgstr "Web Tarayıcı"
 
-#~ msgid "Developer"
-#~ msgstr "Geliştirici"
+#: ui/ui_appitem.py:56
+msgid "Firefox"
+msgstr "Firefox"
 
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
+#: ui/ui_basketdialog.py:181 ui/ui_webdialog.py:153
+msgid "Basket"
+msgstr "Sepeti Göster"
 
-#~ msgid "First Author"
-#~ msgstr "İlk Geliştirici"
+#: ui/ui_basketdialog.py:182
+msgid "Selected package(s) for install:"
+msgstr "Kurulmak üzere seçilmiş paket(ler):"
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Faik Uygur, Necmettin Begiter, Gökmen Göksel"
+#: ui/ui_basketdialog.py:184
+msgid "Total Size:"
+msgstr "Toplam Boyut:"
+
+#: ui/ui_basketdialog.py:185
+msgid "<b>2.2 MB</b>"
+msgstr "<b>2.2 MB</b>"
+
+#: ui/ui_basketdialog.py:188
+msgid "Download Size:"
+msgstr "İndirme Boyutu:"
+
+#: ui/ui_basketdialog.py:189
+#, fuzzy
+msgid "<b>2.0 MB</"
+msgstr "<b>2.0 MB</b>"
+
+#: ui/ui_mainwidget_v3.py:159 ui/ui_message.py:38
+#: ui/ui_progressdialog_v4.py:220
+msgid "Form"
+msgstr "Form"
+
+#: ui/ui_mainwidget_v3.py:161
+msgid "Type to search..."
+msgstr "Aramak için tıklayın..."
+
+#: ui/ui_mainwidget_v3.py:162
+msgid "Update Types"
+msgstr "Güncelleme Tipleri"
+
+#: ui/ui_mainwidget_v3.py:163
+msgid "Category Panel"
+msgstr "Kategori Paneli"
+
+#: ui/ui_mainwidget_v3.py:164 ui/ui_pminstall.py:82
+msgid "Package List"
+msgstr "Paket Listesi"
+
+#: ui/ui_mainwidget_v3.py:165
+msgid "Show Basket"
+msgstr "Sepeti Göster"
+
+#: ui/ui_mainwidget_v3.py:166
+msgid "Check for Updates"
+msgstr "Güncellemeleri Kontrol Et"
+
+#: ui/ui_pminstall.py:80
+msgid "Package Manager Quick Install"
+msgstr "Paket Yöneticisi Hızlı Kurulum"
+
+#: ui/ui_pminstall.py:81
+msgid "Following packages are selected to install. Do you want to install these packages ?"
+msgstr "Aşağıdaki paketler kurulmak üzere seçildi. Bu paketleri kurmak istiyor musunuz ?"
+
+#: ui/ui_pminstall.py:83
+msgid "Install"
+msgstr "Kur"
+
+#: ui/ui_pminstall.py:84
+msgid "Cancel"
+msgstr "İptal"
+
+#: ui/ui_preview.py:48
+msgid "Preview"
+msgstr "Önizleme"
+
+#: ui/ui_progressdialog_v4.py:221
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#: ui/ui_repodialog.py:50
+msgid "Add New Repository"
+msgstr "Yeni Depo Ekle"
+
+#: ui/ui_repodialog.py:51
+msgid "Name of the repository, e.g <b>pardus-devel</b>"
+msgstr "Deponun adı, örneğin <b>pisilinux-devel<b>"
+
+#: ui/ui_repodialog.py:52 ui/ui_settingsdialog.py:422
+msgid "Repository Name"
+msgstr "Depo İsmi"
+
+#: ui/ui_repodialog.py:53 ui/ui_settingsdialog.py:424
+msgid "Repository Address"
+msgstr "Depo Adresi"
+
+#: ui/ui_settingsdialog.py:394
+msgid "Package Manager Settings"
+msgstr "Paket Yöneticisi Ayarları"
+
+#: ui/ui_settingsdialog.py:395
+msgid "Package list"
+msgstr "Paket listesi"
+
+#: ui/ui_settingsdialog.py:396
+msgid "&Show only desktop applications"
+msgstr "&Sadece masaüstü uygulamalarını göster"
+
+#: ui/ui_settingsdialog.py:397
+msgid "Show Component information "
+msgstr "Bileşen bilgisini göster"
+
+#: ui/ui_settingsdialog.py:398
+msgid "Show package type tags"
+msgstr "Paket tipi etiketlerini göster"
+
+#: ui/ui_settingsdialog.py:399
+msgid "System tray icon"
+msgstr "Sistem çekmecesi"
+
+#: ui/ui_settingsdialog.py:400
+msgid "Enable system tray icon"
+msgstr "Sistem çekmecesi simgesini etkinleştir"
+
+#: ui/ui_settingsdialog.py:401
+msgid "Hide system tray if there is no update."
+msgstr "Güncelleme olmadığında sistem çekmecesini gizle."
+
+#: ui/ui_settingsdialog.py:402
+msgid "Enable &periodic update check"
+msgstr "Aralıklı &güncelleme kontrolünü aç"
+
+#: ui/ui_settingsdialog.py:403
+msgid "Check interval :"
+msgstr "Kontrol aralığı :"
+
+#: ui/ui_settingsdialog.py:404
+msgid " min"
+msgstr " dk"
+
+#: ui/ui_settingsdialog.py:405
+msgid "Install updates automatically"
+msgstr "Güncellemeleri otomatik kur"
+
+#: ui/ui_settingsdialog.py:406
+msgid "&General Settings"
+msgstr "Genel &Ayarlar"
+
+#: ui/ui_settingsdialog.py:407
+msgid "Cache Limit"
+msgstr "Önbellek Boyutu"
+
+#: ui/ui_settingsdialog.py:408
+msgid "&Use hard disk cache for downloaded software"
+msgstr "İndirilen yazılımlar için sabit disk önbelleği &kullan"
+
+#: ui/ui_settingsdialog.py:409
+msgid "Maximum cache size:"
+msgstr "Azami önbellek boyutu:"
+
+#: ui/ui_settingsdialog.py:410
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: ui/ui_settingsdialog.py:411
+msgid " Mib"
+msgstr " Mib"
+
+#: ui/ui_settingsdialog.py:412
+msgid "Current cache dir:"
+msgstr "Seçili önbellek dizini:"
+
+#: ui/ui_settingsdialog.py:413
+msgid "Select..."
+msgstr "Seç..."
+
+#: ui/ui_settingsdialog.py:414
+msgid "Open"
+msgstr "Aç"
+
+#: ui/ui_settingsdialog.py:415
+msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+msgstr "Sabit disk önbelleğinin temizlenmesi ile indirilen ve depolanan tüm paketler silinecektir. Bu işlem sistemde kurulu olan paketleri silmeyecek veya bilgisayarınızın çalışmasını etkilemeyecektir."
+
+#: ui/ui_settingsdialog.py:416
+msgid "C&lean disk cache now"
+msgstr "Önbelleği şimdi &temizle"
+
+#: ui/ui_settingsdialog.py:417
+msgid "Bandwidth limit"
+msgstr "Bant genişliği sınırı"
+
+#: ui/ui_settingsdialog.py:418
+msgid "Use bandwidth limit :"
+msgstr "Bant genişliği kullanımını sınırlandır :"
+
+#: ui/ui_settingsdialog.py:419
+msgid " kB/s"
+msgstr " kB/s"
+
+#: ui/ui_settingsdialog.py:420
+msgid "C&ache"
+msgstr "&Önbellek"
+
+#: ui/ui_settingsdialog.py:425
+msgid "&Add New Repository"
+msgstr "Yeni Depo &Ekle"
+
+#: ui/ui_settingsdialog.py:426
+msgid "Remove Repository"
+msgstr "Depoyu Kaldır"
+
+#: ui/ui_settingsdialog.py:427
+msgid "Move &Up"
+msgstr "&Yukarı Taşı"
+
+#: ui/ui_settingsdialog.py:428
+msgid "Move &Down"
+msgstr "&Aşağı Taşı"
+
+#: ui/ui_settingsdialog.py:429
+msgid "&Repositories"
+msgstr "&Depolar"
+
+#: ui/ui_settingsdialog.py:430
+msgid "Use Proxy"
+msgstr "Vekil Sunucu Kullan"
+
+#: ui/ui_settingsdialog.py:431
+msgid "HTTP proxy server:"
+msgstr "HTTP vekil sunucu:"
+
+#: ui/ui_settingsdialog.py:432 ui/ui_settingsdialog.py:434
+#: ui/ui_settingsdialog.py:436
+msgid "Port:"
+msgstr "Port:"
+
+#: ui/ui_settingsdialog.py:433
+msgid "HTTPS proxy server:"
+msgstr "HTTPS vekil sunucu:"
+
+#: ui/ui_settingsdialog.py:435
+msgid "FTP proxy server:"
+msgstr "FTP vekil sunucu:"
+
+#: ui/ui_settingsdialog.py:437
+msgid "Domain:"
+msgstr "Etki alanı:"
+
+#: ui/ui_settingsdialog.py:438
+msgid "Username:"
+msgstr "Kullanıcı Adı:"
+
+#: ui/ui_settingsdialog.py:439
+msgid "Password:"
+msgstr "Parola:"
+
+#: ui/ui_settingsdialog.py:440
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">KDE'de tanımlanmış vekil sunucu ayarları bulunuyor, <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">buraya</span></a> tıklayarak bu ayarları kullanabilirsiniz</p></body></html>"
+
+#: ui/ui_settingsdialog.py:445
+msgid "<a href=#>Use this proxy server for all protocols</a>"
+msgstr "<a href=#>Tüm protokoller için bu vekil sunucuyu kullan</a>"
+
+#: ui/ui_settingsdialog.py:446
+msgid "&Proxy"
+msgstr "&Vekil sunucu"
+
+#: ui/ui_settingsdialog.py:447
+msgid "&Help"
+msgstr "&Yardım"
+
+#: ui/ui_settingsdialog.py:448
+msgid "&OK"
+msgstr "&Tamam"
+
+#: ui/ui_settingsdialog.py:449
+msgid "&Cancel"
+msgstr "&İptal"
+
+#: ui/ui_summarydialog.py:60
+msgid "Operation Summary"
+msgstr "İşlem Özeti"
+
+#: ui/ui_summarydialog.py:61
+msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+msgstr "Yeni kurulan uygulamayı aşağıdaki listeden çift-tıklayarak veya daha sonra uygulama menüsünden çalıştırabilirsiniz."
+
+#: ui/ui_summarydialog.py:62
+msgid "&Ok"
+msgstr "&Tamam"
+
+#: ui/ui_webdialog.py:155
+msgid ""
+"AppInfo Server is not reachable\n"
+"Please check your network connection"
+msgstr ""
+"AppInfo Sunucusuna ulaşılamıyor\n"
+"Lütfen ağ ayarlarınızı kontrol edin"
+
+#: ui/ui_webdialog.py:157 ui/ui_webdialog.py:158
+msgid "Package Details"
+msgstr "Paket Detayı"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Sepet"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Ana pencereyi göster"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Ayarlar"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Hızlı arama"
+
+#~ msgid "Search Bar"
+#~ msgstr "Arama Çubuğu"
+
+#~ msgid "Ignore"
+#~ msgstr "Yoksay"
+
+#~ msgid "Show Updates"
+#~ msgstr "Güncellemeleri Göster"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Özet ekranını gösterme"
 
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
 #~ msgstr "faik@pardus.org.tr, necmettin.begiter@gmail.com, gokmen@pardus.org.tr"
 
-#~ msgid "Show main window"
-#~ msgstr "Ana pencereyi göster"
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Faik Uygur, Necmettin Begiter, Gökmen Göksel"
 
-#~ msgid "Hide summary screen"
-#~ msgstr "Özet ekranını gösterme"
+#~ msgid "First Author"
+#~ msgstr "İlk Geliştirici"
 
-#~ msgid "Show Updates"
-#~ msgstr "Güncellemeleri Göster"
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
 
-#~ msgid "Ignore"
-#~ msgstr "Yoksay"
+#~ msgid "Developer"
+#~ msgstr "Geliştirici"
 
-#~ msgid "Application"
-#~ msgstr "Uygulama"
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
 
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Tarayıcı"
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
 
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Paket Dosyaları"
 
+#, fuzzy
+#~ msgctxt "WebDialog"
 #~ msgid "Basket"
-#~ msgstr "Sepet"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Kurulmak üzere seçilmiş paket(ler):"
-
-#~ msgid "Total Size:"
-#~ msgstr "Toplam Boyut:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "İndirme Boyutu:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</b>"
-
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgid "Search Bar"
-#~ msgstr "Arama Çubuğu"
-
-#~ msgid "Click to search"
-#~ msgstr "Aramak için tıklayın"
-
-#~ msgid "Update Types"
-#~ msgstr "Güncelleme Tipleri"
-
-#~ msgid "Category Panel"
-#~ msgstr "Kategori Paneli"
-
-#~ msgid "Package List"
-#~ msgstr "Paket Listesi"
-
-#~ msgid "Show Basket"
 #~ msgstr "Sepeti Göster"
 
-#~ msgid "Check for Updates"
-#~ msgstr "Güncellemeleri Kontrol Et"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Paket Yöneticisi Hızlı Kurulum"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Aşağıdaki paketler kurulmak üzere seçildi. Bu paketleri kurmak istiyor musunuz ?"
-
-#~ msgid "Install"
-#~ msgstr "Kur"
-
-#~ msgid "Cancel"
-#~ msgstr "İptal"
-
-#~ msgid "Preview"
-#~ msgstr "Önizleme"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Yeni Depo Ekle"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Deponun adı, örneğin <b>pisilinux-devel<b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Depo İsmi"
-
+#~ msgctxt "SettingsDialog"
 #~ msgid "Repository Address"
 #~ msgstr "Depo Adresi"
 
-#~ msgid "Package Manager Settings"
-#~ msgstr "Paket Yöneticisi Ayarları"
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Depo İsmi"
 
-#~ msgid "Package list"
-#~ msgstr "Paket listesi"
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Form"
 
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Sadece masaüstü uygulamalarını göster"
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Paket Listesi"
 
-#~ msgid "Show Component information "
-#~ msgstr "Bileşen bilgisini göster"
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Form"
 
-#~ msgid "Show package type tags"
-#~ msgstr "Paket tipi etiketlerini göster"
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Paket Yöneticisi"
 
-#~ msgid "System tray icon"
-#~ msgstr "Sistem çekmecesi"
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Paket(ler)i Kur"
 
-#, fuzzy
-#~ msgid "Enable system tray icon"
-#~ msgstr "Sistem çekmecesi simgesini etkinleştir"
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Ayarlar"
 
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Güncelleme olmadığında sistem çekmecesini gizle"
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Paket(ler)i Kur"
 
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Aralıklı &güncelleme kontrolünü aç"
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Sepeti Boşalt"
 
-#~ msgid "Check interval :"
-#~ msgstr "Kontrol aralığı :"
-
-#~ msgid " min"
-#~ msgstr " dk"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Güncellemeleri otomatik kur"
-
-msgid "&General Settings"
-msgstr "Genel &Ayarlar"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Önbellek Boyutu"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "İndirilen yazılımlar için sabit disk önbelleği &kullan"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Azami önbellek boyutu:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Sınırsız"
-
-#~ msgid " Mib"
-#~ msgstr " Mib"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Seçili önbellek dizini:"
-
-#~ msgid "Select..."
-#~ msgstr "Seç..."
-
-#~ msgid "Open"
-#~ msgstr "Aç"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Sabit disk önbelleğinin temizlenmesi ile indirilen ve depolanan tüm paketler silinecektir. Bu işlem sistemde kurulu olan paketleri silmeyecek veya bilgisayarınızın çalışmasını etkilemeyecektir."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "Önbelleği şimdi &temizle"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Bant genişliği sınırı"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Bant genişliği kullanımını sınırlandır :"
-
-#~ msgid " kB/s"
-#~ msgstr " kB/s"
-
-#~ msgid "C&ache"
-#~ msgstr "&Önbellek"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "Yeni Depo &Ekle"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Depoyu Kaldır"
-
-#~ msgid "Move &Up"
-#~ msgstr "&Yukarı Taşı"
-
-#~ msgid "Move &Down"
-#~ msgstr "&Aşağı Taşı"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Depolar"
-
-#~ msgid "Use Proxy"
-#~ msgstr "&Vekil Sunucu Kullan"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP vekil sunucu:"
-
-#~ msgid "Port:"
-#~ msgstr "Port:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS vekil sunucu:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP vekil sunucu:"
-
-#~ msgid "Domain:"
-#~ msgstr "Etki alanı:"
-
-#~ msgid "Username:"
-#~ msgstr "Kullanıcı Adı:"
-
-#~ msgid "Password:"
-#~ msgstr "Parola:"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">KDE'de tanımlanmış vekil sunucu ayarları bulunuyor, <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">buraya</span></a> tıklayarak bu ayarları kullanabilirsiniz</p></body></html>"
-
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Tüm protokoller için bu vekil sunucuyu kullan</a>"
-
-#~ msgid "&Proxy"
-#~ msgstr "&Vekil sunucu"
-
-#~ msgid "&OK"
-#~ msgstr "&Tamam"
-
-#~ msgid "&Cancel"
-#~ msgstr "&İptal"
-
-#~ msgid "Operation Summary"
-#~ msgstr "İşlem Özeti"
-
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Yeni kurulan uygulamayı aşağıdaki listeden çift-tıklayarak veya daha sonra uygulama menüsünden çalıştırabilirsiniz."
-
-#~ msgid "&Ok"
-#~ msgstr "&Tamam"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Hızlı arama"
-
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "AppInfo Sunucusuna ulaşılamıyor\n"
-#~ "Lütfen ağ ayarlarınızı kontrol edin"
-
-#~ msgid "Package Details"
-#~ msgstr "Paket Detayı"
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Seçili paketlerin ayrıca kurulacak olan ek bağımlılıkları:"
