@@ -58,13 +58,13 @@ def update_messages():
     filelist.sort()
     with open(files, "w") as _files:
         _files.write("\n".join(filelist))
-
     # Generate POT file
     os.system("xgettext --default-domain=%s \
                         --keyword=_ \
                         --keyword=N_ \
                         --keyword=i18n \
                         --keyword=ki18n \
+                        --keyword=_translate:2 \
                         --kde \
                         -ci18n -ki18n:1 -ki18nc:1c,2 -ki18np:1,2 -ki18ncp:1c,2,3 -ktr2i18n:1 \
                         -kI18N_NOOP:1 -kI18N_NOOP2:1c,2 -kaliasLocale -kki18n:1 -kki18nc:1c,2 \
@@ -127,9 +127,9 @@ class Install(install):
         else:
             root_dir = "/usr/share"
             bin_dir = "/usr/bin"
-
-        mime_icons_dir = os.path.join(root_dir, "icons/hicolor")
-        icon_dir = os.path.join(root_dir, "icons/hicolor/128x128/apps")
+        theme_name="breeze"                                     #  "hicolor"
+        mime_icons_dir = os.path.join(root_dir, "icons/{}".format(theme_name))
+        icon_dir = os.path.join(root_dir, "icons/{}/apps/128".format(theme_name))
         mime_dir = os.path.join(root_dir, "mime/packages")
         locale_dir = os.path.join(root_dir, "locale")
         apps_dir = os.path.join(root_dir, "applications")
@@ -155,11 +155,11 @@ class Install(install):
         shutil.copy("data/%s.xml" % PROJECT, mime_dir)
 
         # Install icons
-        for size in ["16x16", "32x32", "48x48", "64x64"]:
+        for size in ["16", "32", "48", "64"]:#["16x16", "32x32", "48x48", "64x64"]:
             #mime_size_dir = "%s/%s/mimetypes/" % (mime_icons_dir, size)
-            mime_size_dir = "%s/%s/" % (mime_icons_dir, size)
+            mime_size_dir = "%s/apps/%s/" % (mime_icons_dir, size)
             makeDirs(mime_size_dir)
-            shutil.copy("data/%s-%s.png" % (PROJECT, size), "%s/application-x-pisi.png" % mime_size_dir)
+            shutil.copy("data/%s-%sx%s.png" % (PROJECT, size, size), "%s/application-x-pisi.png" % mime_size_dir)
 
         # Install codes
         print "Installing codes..."

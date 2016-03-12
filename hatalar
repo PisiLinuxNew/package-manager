@@ -4,6 +4,7 @@ _______________________________
 -> ayarlar kısmında hata var yeniden başlatınca seçilen ayar aktif oluyor
 -> detaylarda sadece paket dosyaları kısmı var
 -> ikinci ve daha sonraki aramalarda bir önceki arama sonuçları üzerinden arama yapılıyor
+-> ui dosyalarını yerelleştirmiyor
 =========================================================================
 
 

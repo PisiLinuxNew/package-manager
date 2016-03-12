@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-03 11:32+0200\n"
+"POT-Creation-Date: 2016-03-12 13:34+0200\n"
 "PO-Revision-Date: 2014-02-04 20:45+0000\n"
 "Last-Translator: Navodar <radovan.rockov@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/PiSiLinux/language/sr/)\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: data/package-manager.desktop.in.h:1
 #: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
-#: src/progressdialog.py:63
+#: src/progressdialog.py:63 ui/ui_mainwindow.py:27
 msgid "Package Manager"
 msgstr "Управљач пакетима"
 
@@ -38,7 +38,7 @@ msgstr "Графичко окружење ПиСи управљача пакет
 msgid "Add/Remove/Update Packages"
 msgstr "Додај/Уклони/Надогради пакете"
 
-#: src/basketdialog.py:55
+#: src/basketdialog.py:55 ui/ui_basketdialog.py:186
 msgid "Clear Basket"
 msgstr "Очисти корпу"
 
@@ -47,8 +47,8 @@ msgid "Do you want to clear all selections ?"
 msgstr "Да ли желите да очистите све означено ?"
 
 #: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
-#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:252
-#: src/settingsdialog.py:258
+#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:255
+#: src/settingsdialog.py:261
 msgid "Pisi Error"
 msgstr "ПиСи грешка"
 
@@ -76,7 +76,7 @@ msgstr "Пакети захтевају поновно покретање сер
 msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
 msgstr "Одабрани пакети се сматрају критичним за систем. Њихово уклањање може проузроковати нестабилност система."
 
-#: src/basketdialog.py:190 src/settingsdialog.py:174
+#: src/basketdialog.py:190 src/settingsdialog.py:176
 msgid "Warning"
 msgstr "Упозорење"
 
@@ -92,7 +92,7 @@ msgstr "Одабрани пакети су већ инсталирани.<br>А�
 msgid "Already Installed Packages"
 msgstr "Већ инсталирани пакети"
 
-#: src/basketdialog.py:205 src/mainwindow.py:147 src/mainwindow.py:149
+#: src/basketdialog.py:205 src/mainwindow.py:145 src/mainwindow.py:147
 #: src/pmwindow.py:138
 msgid "Installed Packages"
 msgstr "Инсталирани пакети"
@@ -101,72 +101,72 @@ msgstr "Инсталирани пакети"
 msgid "All"
 msgstr "Све"
 
-#: src/helpdialog.py:31
+#: src/helpdialog.py:32
 msgid "Package Manager Help"
 msgstr "Помоћ за управљач пакета"
 
-#: src/mainwidget.py:150
+#: src/mainwidget.py:149
 msgid "All packages are up to date"
 msgstr "Сви пакети су ажурни"
 
-#: src/mainwidget.py:259
+#: src/mainwidget.py:258
 msgid "Searching..."
 msgstr "Тражим..."
 
-#: src/mainwidget.py:271
+#: src/mainwidget.py:270
 msgid "No results found."
 msgstr "Нису пронађени резултати."
 
-#: src/mainwidget.py:432
+#: src/mainwidget.py:431
 msgid "Select packages"
 msgstr "Одаберите пакете"
 
-#: src/mainwidget.py:433
+#: src/mainwidget.py:432
 msgid "You must select at least one installed package"
 msgstr "Морате одабрати бар један инсталирани пакет"
 
-#: src/mainwidget.py:445
+#: src/mainwidget.py:444
 msgid "All Updates"
 msgstr "Сва ажурирања"
 
-#: src/mainwidget.py:446
+#: src/mainwidget.py:445
 msgid "Security Updates"
 msgstr "Сигурносна ажурирања"
 
-#: src/mainwidget.py:447
+#: src/mainwidget.py:446
 msgid "Critical Updates"
 msgstr "Критична ажурирања"
 
-#: src/mainwindow.py:139 src/mainwindow.py:141
+#: src/mainwindow.py:137 src/mainwindow.py:139
 msgid "All Packages"
 msgstr "Сви пакети"
 
-#: src/mainwindow.py:143 src/mainwindow.py:145
+#: src/mainwindow.py:141 src/mainwindow.py:143
 msgid "Installable Packages"
 msgstr "Пакети за инсталацију"
 
-#: src/mainwindow.py:151 src/mainwindow.py:153 src/tray.py:199
+#: src/mainwindow.py:149 src/mainwindow.py:151 src/tray.py:199
 msgid "Updates"
 msgstr "Ажурирања"
 
-#: src/mainwindow.py:155
+#: src/mainwindow.py:153 ui/ui_mainwidget_v3.py:160
 msgid "Settings"
 msgstr "Подешавања"
 
-#: src/mainwindow.py:158
+#: src/mainwindow.py:156
 #, fuzzy
 msgid "Help"
 msgstr "П&омоћ"
 
-#: src/mainwindow.py:162 src/tray.py:195
+#: src/mainwindow.py:160 src/tray.py:195
 msgid "Quit"
 msgstr ""
 
-#: src/mainwindow.py:192
+#: src/mainwindow.py:190
 msgid "Calculating dependencies..."
 msgstr "Израчунавам зависности..."
 
-#: src/mainwindow.py:211
+#: src/mainwindow.py:210
 msgid "Currently your basket is empty."
 msgstr "Тренутно Ваша корпа је празна."
 
@@ -222,11 +222,11 @@ msgstr "Величина пакета:"
 msgid "Installed Version:"
 msgstr "Инсталирана верзија:"
 
-#: src/packagedelegate.py:317
+#: src/packagedelegate.py:318
 msgid "Unknown"
 msgstr ""
 
-#: src/packagedelegate.py:345
+#: src/packagedelegate.py:346
 msgid "Details"
 msgstr "Детаљи"
 
@@ -309,19 +309,19 @@ msgstr "Припремам ПиСи..."
 msgid "<b>Cancelling operation...</b>"
 msgstr "<b>Поништавање операције...</b>"
 
-#: src/settingsdialog.py:165
+#: src/settingsdialog.py:167
 msgid "Open Directory"
 msgstr "Отвори фасциклу"
 
-#: src/settingsdialog.py:175
+#: src/settingsdialog.py:177
 msgid "All the cached packages will be deleted. Are you sure? "
 msgstr "Сви пакети из складишта ће бити избрисани. Да ли сте сигурни ?"
 
-#: src/settingsdialog.py:253
+#: src/settingsdialog.py:256
 msgid "Not a valid repository name"
 msgstr "Неважећи назив репозиторијума"
 
-#: src/settingsdialog.py:259
+#: src/settingsdialog.py:262
 msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
 msgstr "<qt>Адреса пеозиторијума треба да се завршава са xml са xml.bz2 или са xz суфиксом.<p>Молим покушајте поново.</qt>"
 
@@ -365,7 +365,7 @@ msgstr "надограђено"
 msgid "modified"
 msgstr "измењено"
 
-#: src/statemanager.py:104
+#: src/statemanager.py:104 ui/ui_basketdialog.py:187 ui/ui_mainwidget_v3.py:167
 msgid "Install Package(s)"
 msgstr "Инсталирај пакет(е)"
 
@@ -413,7 +413,7 @@ msgstr "Одабрали сте следеће пакете за надогра�
 msgid "You have selected the following package(s) to modify:"
 msgstr "Одабрали сте следеће пакета за измену:"
 
-#: src/statemanager.py:129
+#: src/statemanager.py:129 ui/ui_basketdialog.py:183
 msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 msgstr "Додатне зависности одабраних пакета које ће такође бити инсталиране:"
 
@@ -488,9 +488,431 @@ msgstr "Ажурирање репозиторијума"
 msgid "There are %1 updates available!"
 msgstr "Доступно је <b>%1</b> ажурирања !"
 
-#: src/webdialog.py:122
+#: src/webdialog.py:122 ui/ui_webdialog.py:154
 msgid "Package Files"
 msgstr "Датотеке пакета"
+
+#: ui/ui_appitem.py:54
+#, fuzzy
+msgid "Application"
+msgstr "Програм"
+
+#: ui/ui_appitem.py:55
+#, fuzzy
+msgid "Web Tarayıcı"
+msgstr "Web Tarayıcı"
+
+#: ui/ui_appitem.py:56
+#, fuzzy
+msgid "Firefox"
+msgstr "Firefox"
+
+#: ui/ui_basketdialog.py:181 ui/ui_webdialog.py:153
+#, fuzzy
+msgid "Basket"
+msgstr "Прикажи корпу"
+
+#: ui/ui_basketdialog.py:182
+#, fuzzy
+msgid "Selected package(s) for install:"
+msgstr "Одабрани пакет(и) за инсталирање:"
+
+#: ui/ui_basketdialog.py:184
+#, fuzzy
+msgid "Total Size:"
+msgstr "Укупна величина:"
+
+#: ui/ui_basketdialog.py:185
+#, fuzzy
+msgid "<b>2.2 MB</b>"
+msgstr "<b>2.2 MB</b>"
+
+#: ui/ui_basketdialog.py:188
+#, fuzzy
+msgid "Download Size:"
+msgstr "Величина преузимања:"
+
+#: ui/ui_basketdialog.py:189
+#, fuzzy
+msgid "<b>2.0 MB</"
+msgstr "<b>2.0 MB</"
+
+#: ui/ui_mainwidget_v3.py:159 ui/ui_message.py:38
+#: ui/ui_progressdialog_v4.py:220
+#, fuzzy
+msgid "Form"
+msgstr "Форма"
+
+#: ui/ui_mainwidget_v3.py:161
+#, fuzzy
+msgid "Type to search..."
+msgstr "Кликни за тражење"
+
+#: ui/ui_mainwidget_v3.py:162
+#, fuzzy
+msgid "Update Types"
+msgstr "Врсте ажурирања"
+
+#: ui/ui_mainwidget_v3.py:163
+#, fuzzy
+msgid "Category Panel"
+msgstr "Плоча категорија"
+
+#: ui/ui_mainwidget_v3.py:164 ui/ui_pminstall.py:82
+#, fuzzy
+msgid "Package List"
+msgstr "Листа пакета"
+
+#: ui/ui_mainwidget_v3.py:165
+#, fuzzy
+msgid "Show Basket"
+msgstr "Прикажи корпу"
+
+#: ui/ui_mainwidget_v3.py:166
+#, fuzzy
+msgid "Check for Updates"
+msgstr "Провери ажурирања"
+
+#: ui/ui_pminstall.py:80
+#, fuzzy
+msgid "Package Manager Quick Install"
+msgstr "Управник пакета брза инсталација"
+
+#: ui/ui_pminstall.py:81
+#, fuzzy
+msgid "Following packages are selected to install. Do you want to install these packages ?"
+msgstr "Следећи пакети су одабрани за инсталирање. Да ли желите да инсталирате те пакете ?"
+
+#: ui/ui_pminstall.py:83
+#, fuzzy
+msgid "Install"
+msgstr "Инсталирај"
+
+#: ui/ui_pminstall.py:84
+#, fuzzy
+msgid "Cancel"
+msgstr "Откажи"
+
+#: ui/ui_preview.py:48
+#, fuzzy
+msgid "Preview"
+msgstr "Преглед"
+
+#: ui/ui_progressdialog_v4.py:221
+#, fuzzy
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#: ui/ui_repodialog.py:50
+#, fuzzy
+msgid "Add New Repository"
+msgstr "Додај нови репозиторијум"
+
+#: ui/ui_repodialog.py:51
+#, fuzzy
+msgid "Name of the repository, e.g <b>pardus-devel</b>"
+msgstr "Име репозиторијума, нпр. <b>pisilinux-devel</b>"
+
+#: ui/ui_repodialog.py:52 ui/ui_settingsdialog.py:422
+#, fuzzy
+msgid "Repository Name"
+msgstr "Име репозиторијума"
+
+#: ui/ui_repodialog.py:53 ui/ui_settingsdialog.py:424
+#, fuzzy
+msgid "Repository Address"
+msgstr "Адреса репозиторијума"
+
+#: ui/ui_settingsdialog.py:394
+#, fuzzy
+msgid "Package Manager Settings"
+msgstr "Подешавања управника пакета"
+
+#: ui/ui_settingsdialog.py:395
+#, fuzzy
+msgid "Package list"
+msgstr "Листа пакета"
+
+#: ui/ui_settingsdialog.py:396
+#, fuzzy
+msgid "&Show only desktop applications"
+msgstr "&Покажи само програме радне површине"
+
+#: ui/ui_settingsdialog.py:397
+#, fuzzy
+msgid "Show Component information "
+msgstr "Прикажи информације о компоненти"
+
+#: ui/ui_settingsdialog.py:398
+#, fuzzy
+msgid "Show package type tags"
+msgstr "Прикажи ознаке врсте пакета"
+
+#: ui/ui_settingsdialog.py:399
+#, fuzzy
+msgid "System tray icon"
+msgstr "Икона траке система"
+
+#: ui/ui_settingsdialog.py:400
+#, fuzzy
+msgid "Enable system tray icon"
+msgstr "Омогући траку система"
+
+#: ui/ui_settingsdialog.py:401
+#, fuzzy
+msgid "Hide system tray if there is no update."
+msgstr "Сакриј траку система уколико нема ажурирања."
+
+#: ui/ui_settingsdialog.py:402
+#, fuzzy
+msgid "Enable &periodic update check"
+msgstr "Омогући &повремену проверу ажурирања"
+
+#: ui/ui_settingsdialog.py:403
+#, fuzzy
+msgid "Check interval :"
+msgstr "Интервал провере:"
+
+#: ui/ui_settingsdialog.py:404
+#, fuzzy
+msgid " min"
+msgstr "мин"
+
+#: ui/ui_settingsdialog.py:405
+#, fuzzy
+msgid "Install updates automatically"
+msgstr "Инсталирај ажурирања аутоматски"
+
+#: ui/ui_settingsdialog.py:406
+#, fuzzy
+msgid "&General Settings"
+msgstr "&Општа подешавања"
+
+#: ui/ui_settingsdialog.py:407
+#, fuzzy
+msgid "Cache Limit"
+msgstr "Ограничење привремене меморије"
+
+#: ui/ui_settingsdialog.py:408
+#, fuzzy
+msgid "&Use hard disk cache for downloaded software"
+msgstr "&Користи привремену меморију чврстог диска за преузети софтвер"
+
+#: ui/ui_settingsdialog.py:409
+#, fuzzy
+msgid "Maximum cache size:"
+msgstr "Максимална величина привремене меморије:"
+
+#: ui/ui_settingsdialog.py:410
+#, fuzzy
+msgid "Unlimited"
+msgstr "Неограничено"
+
+#: ui/ui_settingsdialog.py:411
+#, fuzzy
+msgid " Mib"
+msgstr " Mib"
+
+#: ui/ui_settingsdialog.py:412
+#, fuzzy
+msgid "Current cache dir:"
+msgstr "Тренутна фасцикла привремене меморије:"
+
+#: ui/ui_settingsdialog.py:413
+#, fuzzy
+msgid "Select..."
+msgstr "Одабери..."
+
+#: ui/ui_settingsdialog.py:414
+#, fuzzy
+msgid "Open"
+msgstr "Отвори"
+
+#: ui/ui_settingsdialog.py:415
+#, fuzzy
+msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+msgstr "Чишћење привремене меморије ће уклонити сав преузети софтвер. То неће обрисати инсталирани софтвер или утицати на стабилност вашег система."
+
+#: ui/ui_settingsdialog.py:416
+#, fuzzy
+msgid "C&lean disk cache now"
+msgstr "Оч&исти привремену меморију диска сада"
+
+#: ui/ui_settingsdialog.py:417
+#, fuzzy
+msgid "Bandwidth limit"
+msgstr "Ограничење пропуста"
+
+#: ui/ui_settingsdialog.py:418
+#, fuzzy
+msgid "Use bandwidth limit :"
+msgstr "Користи ограничење пропуста:"
+
+#: ui/ui_settingsdialog.py:419
+#, fuzzy
+msgid " kB/s"
+msgstr "kB/s"
+
+#: ui/ui_settingsdialog.py:420
+#, fuzzy
+msgid "C&ache"
+msgstr "Привремена &меморија"
+
+#: ui/ui_settingsdialog.py:425
+#, fuzzy
+msgid "&Add New Repository"
+msgstr "&Додај нови репозиторијум"
+
+#: ui/ui_settingsdialog.py:426
+#, fuzzy
+msgid "Remove Repository"
+msgstr "Уклони репозиторијум"
+
+#: ui/ui_settingsdialog.py:427
+#, fuzzy
+msgid "Move &Up"
+msgstr "Помери &горе"
+
+#: ui/ui_settingsdialog.py:428
+#, fuzzy
+msgid "Move &Down"
+msgstr "Помери д&оле"
+
+#: ui/ui_settingsdialog.py:429
+#, fuzzy
+msgid "&Repositories"
+msgstr "&Репозиторијуми"
+
+#: ui/ui_settingsdialog.py:430
+#, fuzzy
+msgid "Use Proxy"
+msgstr "Користи прокси"
+
+#: ui/ui_settingsdialog.py:431
+#, fuzzy
+msgid "HTTP proxy server:"
+msgstr "HTTP прокси сервер:"
+
+#: ui/ui_settingsdialog.py:432 ui/ui_settingsdialog.py:434
+#: ui/ui_settingsdialog.py:436
+#, fuzzy
+msgid "Port:"
+msgstr "Порт:"
+
+#: ui/ui_settingsdialog.py:433
+#, fuzzy
+msgid "HTTPS proxy server:"
+msgstr "HTTPS прокси сервер:"
+
+#: ui/ui_settingsdialog.py:435
+#, fuzzy
+msgid "FTP proxy server:"
+msgstr "FTP прокси сервер:"
+
+#: ui/ui_settingsdialog.py:437
+#, fuzzy
+msgid "Domain:"
+msgstr "Домен:"
+
+#: ui/ui_settingsdialog.py:438
+#, fuzzy
+msgid "Username:"
+msgstr "Корисничко име:"
+
+#: ui/ui_settingsdialog.py:439
+#, fuzzy
+msgid "Password:"
+msgstr "Лозинка:"
+
+#: ui/ui_settingsdialog.py:440
+#, fuzzy
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Доступна су прокси подешавања у KDE-у, можете кликнути <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">овде</span></a> да бисте добили та подешавања</p></body></html>"
+
+#: ui/ui_settingsdialog.py:445
+#, fuzzy
+msgid "<a href=#>Use this proxy server for all protocols</a>"
+msgstr "<a href=#>Користи овај прокси сервер за све протоколе</a>"
+
+#: ui/ui_settingsdialog.py:446
+#, fuzzy
+msgid "&Proxy"
+msgstr "&Прокси"
+
+#: ui/ui_settingsdialog.py:447
+#, fuzzy
+msgid "&Help"
+msgstr "П&омоћ"
+
+#: ui/ui_settingsdialog.py:448
+#, fuzzy
+msgid "&OK"
+msgstr "&У реду"
+
+#: ui/ui_settingsdialog.py:449
+#, fuzzy
+msgid "&Cancel"
+msgstr "О&ткажи"
+
+#: ui/ui_summarydialog.py:60
+#, fuzzy
+msgid "Operation Summary"
+msgstr "Резиме операције"
+
+#: ui/ui_summarydialog.py:61
+#, fuzzy
+msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+msgstr "Можете покренути новоинсталирани програм двоструким кликом на доњу листу или касније из менија апликација."
+
+#: ui/ui_summarydialog.py:62
+#, fuzzy
+msgid "&Ok"
+msgstr "&У реду"
+
+#: ui/ui_webdialog.py:155
+#, fuzzy
+msgid ""
+"AppInfo Server is not reachable\n"
+"Please check your network connection"
+msgstr ""
+"AppInfo сервер није доступан\n"
+"Молим проверите ваше мрежне везе"
+
+#: ui/ui_webdialog.py:157 ui/ui_webdialog.py:158
+#, fuzzy
+msgid "Package Details"
+msgstr "Детаљи пакета"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Корпа"
+#~ msgstr[1] "Корпа"
+#~ msgstr[2] "Корпа"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Прикажи главни прозор"
+#~ msgstr[1] "Прикажи главни прозор"
+#~ msgstr[2] "Прикажи главни прозор"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Подешавања"
+#~ msgstr[1] "Подешавања"
+#~ msgstr[2] "Подешавања"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
 #~ msgstr "(c) -2010 ТУБИТАК/УЕКАЕ"
@@ -515,9 +937,6 @@ msgstr "Датотеке пакета"
 #~ msgid "Your emails"
 #~ msgstr "Kurucity@aim.com / radovan.rockov@gmail.com"
 
-#~ msgid "Show main window"
-#~ msgstr "Прикажи главни прозор"
-
 #~ msgid "Hide summary screen"
 #~ msgstr "Сакриј екран резимеа"
 
@@ -527,250 +946,73 @@ msgstr "Датотеке пакета"
 #~ msgid "Ignore"
 #~ msgstr "Игнориши"
 
-#~ msgid "Application"
-#~ msgstr "Програм"
-
-#~ msgid "Web Tarayıcı"
-#~ msgstr "Web Tarayıcı"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "Basket"
-#~ msgstr "Корпа"
-
-#~ msgid "Selected package(s) for install:"
-#~ msgstr "Одабрани пакет(и) за инсталирање:"
-
-#~ msgid "Total Size:"
-#~ msgstr "Укупна величина:"
-
-#~ msgid "<b>2.2 MB</b>"
-#~ msgstr "<b>2.2 MB</b>"
-
-#~ msgid "Download Size:"
-#~ msgstr "Величина преузимања:"
-
-#~ msgid "<b>2.0 MB</"
-#~ msgstr "<b>2.0 MB</"
-
-#~ msgid "Form"
-#~ msgstr "Форма"
-
 #~ msgid "Search Bar"
 #~ msgstr "Трака за тражење"
-
-#~ msgid "Click to search"
-#~ msgstr "Кликни за тражење"
-
-#~ msgid "Update Types"
-#~ msgstr "Врсте ажурирања"
-
-#~ msgid "Category Panel"
-#~ msgstr "Плоча категорија"
-
-#~ msgid "Package List"
-#~ msgstr "Листа пакета"
-
-#~ msgid "Show Basket"
-#~ msgstr "Прикажи корпу"
-
-#~ msgid "Check for Updates"
-#~ msgstr "Провери ажурирања"
-
-#~ msgid "Package Manager Quick Install"
-#~ msgstr "Управник пакета брза инсталација"
-
-#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
-#~ msgstr "Следећи пакети су одабрани за инсталирање. Да ли желите да инсталирате те пакете ?"
-
-#~ msgid "Install"
-#~ msgstr "Инсталирај"
-
-#~ msgid "Cancel"
-#~ msgstr "Откажи"
-
-#~ msgid "Preview"
-#~ msgstr "Преглед"
-
-#~ msgid "Alt+C"
-#~ msgstr "Alt+C"
-
-#~ msgid "Add New Repository"
-#~ msgstr "Додај нови репозиторијум"
-
-#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
-#~ msgstr "Име репозиторијума, нпр. <b>pisilinux-devel</b>"
-
-#~ msgid "Repository Name"
-#~ msgstr "Име репозиторијума"
-
-#~ msgid "Repository Address"
-#~ msgstr "Адреса репозиторијума"
-
-#~ msgid "Package Manager Settings"
-#~ msgstr "Подешавања управника пакета"
-
-#~ msgid "Package list"
-#~ msgstr "Листа пакета"
-
-#~ msgid "&Show only desktop applications"
-#~ msgstr "&Покажи само програме радне површине"
-
-#~ msgid "Show Component information "
-#~ msgstr "Прикажи информације о компоненти"
-
-#~ msgid "Show package type tags"
-#~ msgstr "Прикажи ознаке врсте пакета"
-
-#~ msgid "System tray icon"
-#~ msgstr "Икона траке система"
-
-#~ msgid "Enable system tray icon"
-#~ msgstr "Омогући траку система"
-
-#~ msgid "Hide system tray if there is no update."
-#~ msgstr "Сакриј траку система уколико нема ажурирања."
-
-#~ msgid "Enable &periodic update check"
-#~ msgstr "Омогући &повремену проверу ажурирања"
-
-#~ msgid "Check interval :"
-#~ msgstr "Интервал провере:"
-
-#~ msgid " min"
-#~ msgstr "мин"
-
-#~ msgid "Install updates automatically"
-#~ msgstr "Инсталирај ажурирања аутоматски"
-
-#~ msgid "&General Settings"
-#~ msgstr "&Општа подешавања"
-
-#~ msgid "Cache Limit"
-#~ msgstr "Ограничење привремене меморије"
-
-#~ msgid "&Use hard disk cache for downloaded software"
-#~ msgstr "&Користи привремену меморију чврстог диска за преузети софтвер"
-
-#~ msgid "Maximum cache size:"
-#~ msgstr "Максимална величина привремене меморије:"
-
-#~ msgid "Unlimited"
-#~ msgstr "Неограничено"
-
-#~ msgid " Mib"
-#~ msgstr " Mib"
-
-#~ msgid "Current cache dir:"
-#~ msgstr "Тренутна фасцикла привремене меморије:"
-
-#~ msgid "Select..."
-#~ msgstr "Одабери..."
-
-#~ msgid "Open"
-#~ msgstr "Отвори"
-
-#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-#~ msgstr "Чишћење привремене меморије ће уклонити сав преузети софтвер. То неће обрисати инсталирани софтвер или утицати на стабилност вашег система."
-
-#~ msgid "C&lean disk cache now"
-#~ msgstr "Оч&исти привремену меморију диска сада"
-
-#~ msgid "Bandwidth limit"
-#~ msgstr "Ограничење пропуста"
-
-#~ msgid "Use bandwidth limit :"
-#~ msgstr "Користи ограничење пропуста:"
-
-#~ msgid " kB/s"
-#~ msgstr "kB/s"
-
-#~ msgid "C&ache"
-#~ msgstr "Привремена &меморија"
-
-#~ msgid "&Add New Repository"
-#~ msgstr "&Додај нови репозиторијум"
-
-#~ msgid "Remove Repository"
-#~ msgstr "Уклони репозиторијум"
-
-#~ msgid "Move &Up"
-#~ msgstr "Помери &горе"
-
-#~ msgid "Move &Down"
-#~ msgstr "Помери д&оле"
-
-#~ msgid "&Repositories"
-#~ msgstr "&Репозиторијуми"
-
-#~ msgid "Use Proxy"
-#~ msgstr "Користи прокси"
-
-#~ msgid "HTTP proxy server:"
-#~ msgstr "HTTP прокси сервер:"
-
-#~ msgid "Port:"
-#~ msgstr "Порт:"
-
-#~ msgid "HTTPS proxy server:"
-#~ msgstr "HTTPS прокси сервер:"
-
-#~ msgid "FTP proxy server:"
-#~ msgstr "FTP прокси сервер:"
-
-#~ msgid "Domain:"
-#~ msgstr "Домен:"
-
-#~ msgid "Username:"
-#~ msgstr "Корисничко име:"
-
-#~ msgid "Password:"
-#~ msgstr "Лозинка:"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Доступна су прокси подешавања у KDE-у, можете кликнути <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">овде</span></a> да бисте добили та подешавања</p></body></html>"
-
-#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
-#~ msgstr "<a href=#>Користи овај прокси сервер за све протоколе</a>"
-
-#~ msgid "&Proxy"
-#~ msgstr "&Прокси"
-
-#~ msgid "&OK"
-#~ msgstr "&У реду"
-
-#~ msgid "&Cancel"
-#~ msgstr "О&ткажи"
-
-#~ msgid "Operation Summary"
-#~ msgstr "Резиме операције"
-
-#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-#~ msgstr "Можете покренути новоинсталирани програм двоструким кликом на доњу листу или касније из менија апликација."
-
-#~ msgid "&Ok"
-#~ msgstr "&У реду"
 
 #~ msgid "Type to filter files"
 #~ msgstr "Куцај да издвојиш датотеке"
 
-#~ msgid ""
-#~ "AppInfo Server is not reachable\n"
-#~ "Please check your network connection"
-#~ msgstr ""
-#~ "AppInfo сервер није доступан\n"
-#~ "Молим проверите ваше мрежне везе"
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Датотеке пакета"
 
-#~ msgid "Package Details"
-#~ msgstr "Детаљи пакета"
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Прикажи корпу"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Адреса репозиторијума"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Име репозиторијума"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Листа пакета"
+
+#, fuzzy
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Управљач пакетима"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Инсталирај пакет(е)"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Подешавања"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Инсталирај пакет(е)"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Очисти корпу"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Додатне зависности одабраних пакета које ће такође бити инсталиране:"
