@@ -155,7 +155,7 @@ class Install(install):
         shutil.copy("data/%s.xml" % PROJECT, mime_dir)
 
         # Install icons
-        for size in ["16", "32", "48", "64"]:#["16x16", "32x32", "48x48", "64x64"]:
+        for size in ["16", "32", "48", "64"]:#["16x16", "32x32", "48x48", "64x64"]: hicolor gibi ikon temeları için 
             #mime_size_dir = "%s/%s/mimetypes/" % (mime_icons_dir, size)
             mime_size_dir = "%s/apps/%s/" % (mime_icons_dir, size)
             makeDirs(mime_size_dir)
@@ -170,7 +170,12 @@ class Install(install):
         for filename in glob.glob1("po", "*.po"):
             lang = filename.rsplit(".", 1)[0]
             rst2doc(lang)
-            os.system("msgfmt po/%s.po -o po/%s.mo" % (lang, lang))
+            os.system("msgfmt --keyword=_ \
+                              --keyword=N_ \
+                              --keyword=i18n \
+                              --keyword=ki18n \
+                              --keyword=_translate:2 \
+                              po/%s.po -o po/%s.mo" % (lang, lang))
             makeDirs(os.path.join(locale_dir, "%s/LC_MESSAGES" % lang))
             shutil.copy("po/%s.mo" % lang, os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % PROJECT))
         rst2doc('en')

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:33+0200\n"
+"POT-Creation-Date: 2016-03-12 13:34+0200\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/PiSiLinux/language/uk/)\n"
@@ -893,114 +893,11 @@ msgid "Package Details"
 msgstr "Подробиці про пакунок"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Обов'язкові залежності вибраних пакунків також буде встановлено:"
-
-#, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Очистити кошик"
-
-#, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Install Package(s)"
-#~ msgstr "Установити пакунки"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Settings"
-#~ msgstr "Параметри"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Install Package(s)"
-#~ msgstr "Установити пакунки"
-
-#, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Керування пакунками"
-
-#, fuzzy
-#~ msgctxt "MessageBox"
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#, fuzzy
-#~ msgctxt "PmWindow"
-#~ msgid "Package List"
-#~ msgstr "Перелік пакунків"
-
-#, fuzzy
-#~ msgctxt "ProgressDialog"
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Назва сховища"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Адреса сховища"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Показати кошик"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Файли пакунка"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Уведіть для фільтрування файлів"
-
-#~ msgid "Search Bar"
-#~ msgstr "Панель пошуку"
-
-#~ msgid "Ignore"
-#~ msgstr "Ігнорувати"
-
-#~ msgid "Show Updates"
-#~ msgstr "Показати оновлення"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Сховати екран підсумків"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "ted.korostiled@gmail.com"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Daniel Korostil"
-
-#~ msgid "First Author"
-#~ msgstr "Засновник"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Developer"
-#~ msgstr "Розробник"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "© 2009–2010 TUBITAK/UEKAE"
-
-#, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Параметри"
-#~ msgstr[1] "Параметри"
-#~ msgstr[2] "Параметри"
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Кошик"
+#~ msgstr[1] "Кошик"
+#~ msgstr[2] "Кошик"
 
 #, fuzzy
 #~ msgid "MainWindow"
@@ -1010,8 +907,111 @@ msgstr "Подробиці про пакунок"
 #~ msgstr[2] "Показати головне вікно"
 
 #, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Кошик"
-#~ msgstr[1] "Кошик"
-#~ msgstr[2] "Кошик"
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Параметри"
+#~ msgstr[1] "Параметри"
+#~ msgstr[2] "Параметри"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "© 2009–2010 TUBITAK/UEKAE"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "Developer"
+#~ msgstr "Розробник"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "First Author"
+#~ msgstr "Засновник"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Daniel Korostil"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "ted.korostiled@gmail.com"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Сховати екран підсумків"
+
+#~ msgid "Show Updates"
+#~ msgstr "Показати оновлення"
+
+#~ msgid "Ignore"
+#~ msgstr "Ігнорувати"
+
+#~ msgid "Search Bar"
+#~ msgstr "Панель пошуку"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Уведіть для фільтрування файлів"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Файли пакунка"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Показати кошик"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Адреса сховища"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Назва сховища"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Перелік пакунків"
+
+#, fuzzy
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Керування пакунками"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Установити пакунки"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Параметри"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Установити пакунки"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Очистити кошик"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Обов'язкові залежності вибраних пакунків також буде встановлено:"

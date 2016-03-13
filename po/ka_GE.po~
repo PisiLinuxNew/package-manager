@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:33+0200\n"
+"POT-Creation-Date: 2016-03-12 13:34+0200\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: Georgian (Georgia) (http://www.transifex.com/projects/p/PiSiLinux/language/ka_GE/)\n"
@@ -823,28 +823,36 @@ msgid "Package Details"
 msgstr "ზომა:"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "კალათა ცარიელი"
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "გადავიდეთ ძირითად ფანჯარაში"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "Developer"
+#~ msgstr "გაუმჯობესება"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "First Author"
+#~ msgstr "პირველი ავტორი"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Murat ikilik"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "muratikilik@gmail.com"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Install Package(s)"
-#~ msgstr "ატვირთვები პაკეტი"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Install Package(s)"
-#~ msgstr "ატვირთვები პაკეტი"
-
-#, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "პაკეტი მენეჯერი"
-
-#, fuzzy
-#~ msgctxt "PmWindow"
-#~ msgid "Package List"
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
 #~ msgstr "ზომა:"
 
 #, fuzzy
@@ -853,34 +861,26 @@ msgstr "ზომა:"
 #~ msgstr "კალათა ცარიელი"
 
 #, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
 #~ msgstr "ზომა:"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "muratikilik@gmail.com"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Murat ikilik"
-
-#~ msgid "First Author"
-#~ msgstr "პირველი ავტორი"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Developer"
-#~ msgstr "გაუმჯობესება"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#, fuzzy
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "პაკეტი მენეჯერი"
 
 #, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "გადავიდეთ ძირითად ფანჯარაში"
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "ატვირთვები პაკეტი"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "ატვირთვები პაკეტი"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "კალათა ცარიელი"

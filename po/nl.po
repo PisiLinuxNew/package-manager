@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:34+0200\n"
+"POT-Creation-Date: 2016-03-12 15:45+0200\n"
 "PO-Revision-Date: 2014-07-30 18:15+0200\n"
 "Last-Translator: Stefan Gronewold <groni3427@gmail.com>\n"
 "Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
@@ -896,103 +896,17 @@ msgid "Package Details"
 msgstr "Pakketdetails"
 
 #, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Mandje"
-#~ msgstr[1] "Mandje"
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Extra afhankelijkheden van de geselecteerde pakket(ten) welk ook geïnstalleerd zullen worden:"
 
 #, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Hoofdvenster tonen"
-#~ msgstr[1] "Hoofdvenster tonen"
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Mandje wissen"
 
 #, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Instellingen"
-#~ msgstr[1] "Instellingen"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "Developer"
-#~ msgstr "Ontwikkelaar"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "First Author"
-#~ msgstr "Eerste auteur"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Antoon Tolboom, Richard de Bruin, Stefan Gronewold"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "atolboo@gmail.com, rr.debruin@gmail.com, groni@pisilinux.org"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Samenvatting verbergen"
-
-#~ msgid "Show Updates"
-#~ msgstr "Opwaarderingen tonen"
-
-#~ msgid "Ignore"
-#~ msgstr "Negeren"
-
-#~ msgid "Search Bar"
-#~ msgstr "Zoekbalk"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Type om bestanden te filteren"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Pakketbestanden"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Mandje tonen"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Adres Softwarebron"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Naam softwarebron"
-
-#, fuzzy
-#~ msgctxt "ProgressDialog"
-#~ msgid "Form"
-#~ msgstr "Formulier"
-
-#, fuzzy
-#~ msgctxt "PmWindow"
-#~ msgid "Package List"
-#~ msgstr "Pakketlijst"
-
-#, fuzzy
-#~ msgctxt "MessageBox"
-#~ msgid "Form"
-#~ msgstr "Formulier"
-
-#, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Pakketbeheer"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
+#~ msgctxt "BasketDialog"
 #~ msgid "Install Package(s)"
 #~ msgstr "Pakket(ten) installeren"
 
@@ -1002,16 +916,102 @@ msgstr "Pakketdetails"
 #~ msgstr "Instellingen"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
+#~ msgctxt "MainWidget"
 #~ msgid "Install Package(s)"
 #~ msgstr "Pakket(ten) installeren"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Mandje wissen"
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Pakketbeheer"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Extra afhankelijkheden van de geselecteerde pakket(ten) welk ook geïnstalleerd zullen worden:"
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Formulier"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Pakketlijst"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Formulier"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Naam softwarebron"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Adres Softwarebron"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Mandje tonen"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Pakketbestanden"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Type om bestanden te filteren"
+
+#~ msgid "Search Bar"
+#~ msgstr "Zoekbalk"
+
+#~ msgid "Ignore"
+#~ msgstr "Negeren"
+
+#~ msgid "Show Updates"
+#~ msgstr "Opwaarderingen tonen"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Samenvatting verbergen"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "atolboo@gmail.com, rr.debruin@gmail.com, groni@pisilinux.org"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Antoon Tolboom, Richard de Bruin, Stefan Gronewold"
+
+#~ msgid "First Author"
+#~ msgstr "Eerste auteur"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Ontwikkelaar"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Instellingen"
+#~ msgstr[1] "Instellingen"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Hoofdvenster tonen"
+#~ msgstr[1] "Hoofdvenster tonen"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Mandje"
+#~ msgstr[1] "Mandje"

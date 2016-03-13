@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:34+0200\n"
+"POT-Creation-Date: 2016-03-12 15:45+0200\n"
 "PO-Revision-Date: 2014-01-12 16:38+0000\n"
 "Last-Translator: klaipedetis <romangalina@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/PiSiLinux/language/lt/)\n"
@@ -887,106 +887,17 @@ msgid "Package Details"
 msgstr "Paketo detales"
 
 #, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "krepšis "
-#~ msgstr[1] "krepšis "
-#~ msgstr[2] "krepšis "
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:"
 
 #, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Rodyti pagrindinė langą "
-#~ msgstr[1] "Rodyti pagrindinė langą "
-#~ msgstr[2] "Rodyti pagrindinė langą "
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "išsivalyti krepše "
 
 #, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "nustatymai"
-#~ msgstr[1] "nustatymai"
-#~ msgstr[2] "nustatymai"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel "
-
-#~ msgid "Developer"
-#~ msgstr "Kūrėjas "
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur "
-
-#~ msgid "First Author"
-#~ msgstr "Pirmas autorius "
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Jūsų vardas "
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Jūsų e-paštas "
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Paslepti bendrinimo ekrana"
-
-#~ msgid "Show Updates"
-#~ msgstr "Rodyti naujinimų"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignuoroti"
-
-#~ msgid "Search Bar"
-#~ msgstr "Paieškos laukas"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Tipas bylų filtrui"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Paketo bylos"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "rodyti krepšį"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Saugyklos adresas"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Saugyklos pavadinimas"
-
-#, fuzzy
-#~ msgctxt "ProgressDialog"
-#~ msgid "Form"
-#~ msgstr "Forma"
-
-#, fuzzy
-#~ msgctxt "PmWindow"
-#~ msgid "Package List"
-#~ msgstr "Paketų sąrašas"
-
-#, fuzzy
-#~ msgctxt "MessageBox"
-#~ msgid "Form"
-#~ msgstr "Forma"
-
-#, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Paketų menadžeris"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
+#~ msgctxt "BasketDialog"
 #~ msgid "Install Package(s)"
 #~ msgstr "Įdegti paketo(us)"
 
@@ -996,16 +907,105 @@ msgstr "Paketo detales"
 #~ msgstr "nustatymai"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
+#~ msgctxt "MainWidget"
 #~ msgid "Install Package(s)"
 #~ msgstr "Įdegti paketo(us)"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "išsivalyti krepše "
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Paketų menadžeris"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:"
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Paketų sąrašas"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Saugyklos pavadinimas"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Saugyklos adresas"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "rodyti krepšį"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Paketo bylos"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Tipas bylų filtrui"
+
+#~ msgid "Search Bar"
+#~ msgstr "Paieškos laukas"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignuoroti"
+
+#~ msgid "Show Updates"
+#~ msgstr "Rodyti naujinimų"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Paslepti bendrinimo ekrana"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Jūsų e-paštas "
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Jūsų vardas "
+
+#~ msgid "First Author"
+#~ msgstr "Pirmas autorius "
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur "
+
+#~ msgid "Developer"
+#~ msgstr "Kūrėjas "
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel "
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "nustatymai"
+#~ msgstr[1] "nustatymai"
+#~ msgstr[2] "nustatymai"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Rodyti pagrindinė langą "
+#~ msgstr[1] "Rodyti pagrindinė langą "
+#~ msgstr[2] "Rodyti pagrindinė langą "
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "krepšis "
+#~ msgstr[1] "krepšis "
+#~ msgstr[2] "krepšis "

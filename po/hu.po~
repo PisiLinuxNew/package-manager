@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:33+0200\n"
+"POT-Creation-Date: 2016-03-12 13:34+0200\n"
 "PO-Revision-Date: 2013-03-28 13:33+0000\n"
 "Last-Translator: andrasf <foldi.andras@yahoo.ie>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/PiSiLinux/language/hu/)\n"
@@ -890,37 +890,83 @@ msgid "Package Details"
 msgstr "Csomag részletei"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "A kiválasztott csomagok alábbi függőségei is telepítésre kerülnek:"
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Kosár"
+#~ msgstr[1] "Kosár"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Kosár törlése"
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Főablak megjelenítése"
+#~ msgstr[1] "Főablak megjelenítése"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Install Package(s)"
-#~ msgstr "Csomagok telepítése"
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Beállítások"
+#~ msgstr[1] "Beállítások"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "Developer"
+#~ msgstr "Fejlesztő"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "First Author"
+#~ msgstr "Első szerző"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Daniel Kovács, Attila Siposs"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "bicskas9323@gmail.com, sipiatti@gmail.com"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Összegzés elrejtése"
+
+#~ msgid "Show Updates"
+#~ msgstr "Frissítések megjelenítése"
+
+#~ msgid "Ignore"
+#~ msgstr "Mellőzés"
+
+#~ msgid "Search Bar"
+#~ msgstr "Keresősáv"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Írjon be szűrőfeltételt"
 
 #, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Settings"
-#~ msgstr "Beállítások"
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Csomagfájlok"
 
 #, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Install Package(s)"
-#~ msgstr "Csomagok telepítése"
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Kosár megjelenítése"
 
 #, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Csomagkezelő"
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Tároló címe"
 
 #, fuzzy
-#~ msgctxt "MessageBox"
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Tároló neve"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
 #~ msgid "Form"
 #~ msgstr "Űrlap"
 
@@ -930,82 +976,36 @@ msgstr "Csomag részletei"
 #~ msgstr "Csomaglista"
 
 #, fuzzy
-#~ msgctxt "ProgressDialog"
+#~ msgctxt "MessageBox"
 #~ msgid "Form"
 #~ msgstr "Űrlap"
 
 #, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Tároló neve"
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Csomagkezelő"
 
 #, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Tároló címe"
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Csomagok telepítése"
 
 #, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Kosár megjelenítése"
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Beállítások"
 
 #, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Csomagfájlok"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Írjon be szűrőfeltételt"
-
-#~ msgid "Search Bar"
-#~ msgstr "Keresősáv"
-
-#~ msgid "Ignore"
-#~ msgstr "Mellőzés"
-
-#~ msgid "Show Updates"
-#~ msgstr "Frissítések megjelenítése"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Összegzés elrejtése"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "bicskas9323@gmail.com, sipiatti@gmail.com"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Daniel Kovács, Attila Siposs"
-
-#~ msgid "First Author"
-#~ msgstr "Első szerző"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Developer"
-#~ msgstr "Fejlesztő"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Csomagok telepítése"
 
 #, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Beállítások"
-#~ msgstr[1] "Beállítások"
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Kosár törlése"
 
 #, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Főablak megjelenítése"
-#~ msgstr[1] "Főablak megjelenítése"
-
-#, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Kosár"
-#~ msgstr[1] "Kosár"
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "A kiválasztott csomagok alábbi függőségei is telepítésre kerülnek:"

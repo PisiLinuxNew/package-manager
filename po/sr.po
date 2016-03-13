@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:34+0200\n"
+"POT-Creation-Date: 2016-03-12 15:45+0200\n"
 "PO-Revision-Date: 2014-02-04 20:45+0000\n"
 "Last-Translator: Navodar <radovan.rockov@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/PiSiLinux/language/sr/)\n"
@@ -894,106 +894,17 @@ msgid "Package Details"
 msgstr "Детаљи пакета"
 
 #, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Корпа"
-#~ msgstr[1] "Корпа"
-#~ msgstr[2] "Корпа"
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Додатне зависности одабраних пакета које ће такође бити инсталиране:"
 
 #, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Прикажи главни прозор"
-#~ msgstr[1] "Прикажи главни прозор"
-#~ msgstr[2] "Прикажи главни прозор"
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Очисти корпу"
 
 #, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Подешавања"
-#~ msgstr[1] "Подешавања"
-#~ msgstr[2] "Подешавања"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) -2010 ТУБИТАК/УЕКАЕ"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "Developer"
-#~ msgstr "Развијач"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "First Author"
-#~ msgstr "Први аутор"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Јожеф Куруцић / Радован Роцков"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Kurucity@aim.com / radovan.rockov@gmail.com"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Сакриј екран резимеа"
-
-#~ msgid "Show Updates"
-#~ msgstr "Прикажи ажурирања"
-
-#~ msgid "Ignore"
-#~ msgstr "Игнориши"
-
-#~ msgid "Search Bar"
-#~ msgstr "Трака за тражење"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Куцај да издвојиш датотеке"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Датотеке пакета"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Прикажи корпу"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Адреса репозиторијума"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Име репозиторијума"
-
-#, fuzzy
-#~ msgctxt "ProgressDialog"
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#, fuzzy
-#~ msgctxt "PmWindow"
-#~ msgid "Package List"
-#~ msgstr "Листа пакета"
-
-#, fuzzy
-#~ msgctxt "MessageBox"
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Управљач пакетима"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
+#~ msgctxt "BasketDialog"
 #~ msgid "Install Package(s)"
 #~ msgstr "Инсталирај пакет(е)"
 
@@ -1003,16 +914,105 @@ msgstr "Детаљи пакета"
 #~ msgstr "Подешавања"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
+#~ msgctxt "MainWidget"
 #~ msgid "Install Package(s)"
 #~ msgstr "Инсталирај пакет(е)"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Очисти корпу"
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Управљач пакетима"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Додатне зависности одабраних пакета које ће такође бити инсталиране:"
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Листа пакета"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Име репозиторијума"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Адреса репозиторијума"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Прикажи корпу"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Датотеке пакета"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Куцај да издвојиш датотеке"
+
+#~ msgid "Search Bar"
+#~ msgstr "Трака за тражење"
+
+#~ msgid "Ignore"
+#~ msgstr "Игнориши"
+
+#~ msgid "Show Updates"
+#~ msgstr "Прикажи ажурирања"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Сакриј екран резимеа"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Kurucity@aim.com / radovan.rockov@gmail.com"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Јожеф Куруцић / Радован Роцков"
+
+#~ msgid "First Author"
+#~ msgstr "Први аутор"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Развијач"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) -2010 ТУБИТАК/УЕКАЕ"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Подешавања"
+#~ msgstr[1] "Подешавања"
+#~ msgstr[2] "Подешавања"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Прикажи главни прозор"
+#~ msgstr[1] "Прикажи главни прозор"
+#~ msgstr[2] "Прикажи главни прозор"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Корпа"
+#~ msgstr[1] "Корпа"
+#~ msgstr[2] "Корпа"

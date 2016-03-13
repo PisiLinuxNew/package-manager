@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:34+0200\n"
+"POT-Creation-Date: 2016-03-12 15:45+0200\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/PiSiLinux/language/da/)\n"
@@ -895,103 +895,17 @@ msgid "Package Details"
 msgstr "Pakke Detaljer"
 
 #, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Kurv"
-#~ msgstr[1] "Kurv"
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Ekstra afhængigheder krævet af de valgte pakker vil også blive installeret:"
 
 #, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Vis hoved vinduet"
-#~ msgstr[1] "Vis hoved vinduet"
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Tøm Kurv"
 
 #, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Indstillinger"
-#~ msgstr[1] "Indstillinger"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2011 TUBITAK/UEKAE"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "Developer"
-#~ msgstr "Udvilker"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "First Author"
-#~ msgstr "Første Udvikler"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Jesper Lindeberg"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "jlindeberg@gmail.com"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Skjul oversigtsskærmen"
-
-#~ msgid "Show Updates"
-#~ msgstr "VIs Opdateringer"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignorer"
-
-#~ msgid "Search Bar"
-#~ msgstr "Søgefelt"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Begynd at skrive for at filtrere filer"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Pakke størrelse:"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Vis Kurv"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Adresse til pakkearkiv"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Navn på pakkearkiv"
-
-#, fuzzy
-#~ msgctxt "ProgressDialog"
-#~ msgid "Form"
-#~ msgstr "Formular"
-
-#, fuzzy
-#~ msgctxt "PmWindow"
-#~ msgid "Package List"
-#~ msgstr "Pakkeliste"
-
-#, fuzzy
-#~ msgctxt "MessageBox"
-#~ msgid "Form"
-#~ msgstr "Formular"
-
-#, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Pakke Håndtering"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
+#~ msgctxt "BasketDialog"
 #~ msgid "Install Package(s)"
 #~ msgstr "Installer Pakke(r)"
 
@@ -1001,16 +915,102 @@ msgstr "Pakke Detaljer"
 #~ msgstr "Indstillinger"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
+#~ msgctxt "MainWidget"
 #~ msgid "Install Package(s)"
 #~ msgstr "Installer Pakke(r)"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Tøm Kurv"
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Pakke Håndtering"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Ekstra afhængigheder krævet af de valgte pakker vil også blive installeret:"
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Formular"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Pakkeliste"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Formular"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Navn på pakkearkiv"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Adresse til pakkearkiv"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Vis Kurv"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Pakke størrelse:"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Begynd at skrive for at filtrere filer"
+
+#~ msgid "Search Bar"
+#~ msgstr "Søgefelt"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorer"
+
+#~ msgid "Show Updates"
+#~ msgstr "VIs Opdateringer"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Skjul oversigtsskærmen"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "jlindeberg@gmail.com"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Jesper Lindeberg"
+
+#~ msgid "First Author"
+#~ msgstr "Første Udvikler"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Udvilker"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2011 TUBITAK/UEKAE"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Indstillinger"
+#~ msgstr[1] "Indstillinger"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Vis hoved vinduet"
+#~ msgstr[1] "Vis hoved vinduet"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Kurv"
+#~ msgstr[1] "Kurv"
