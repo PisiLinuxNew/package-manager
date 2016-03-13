@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:33+0200\n"
+"POT-Creation-Date: 2016-03-12 13:34+0200\n"
 "PO-Revision-Date: 2013-12-03 21:10+0000\n"
 "Last-Translator: tribunal <tribunal2000@mail.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/PiSiLinux/language/ru/)\n"
@@ -890,114 +890,11 @@ msgid "Package Details"
 msgstr "Описание пакета"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Дополнительные зависимости выбранных пакетов также будут установлены:"
-
-#, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Очистить"
-
-#, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Install Package(s)"
-#~ msgstr "Установить"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Settings"
-#~ msgstr "Настройки"
-
-#, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Install Package(s)"
-#~ msgstr "Установить"
-
-#, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Менеджер пакетов"
-
-#, fuzzy
-#~ msgctxt "MessageBox"
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#, fuzzy
-#~ msgctxt "PmWindow"
-#~ msgid "Package List"
-#~ msgstr "Список пакетов"
-
-#, fuzzy
-#~ msgctxt "ProgressDialog"
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Название"
-
-#, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Адрес репозитория"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Показать корзину"
-
-#, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Файлы пакета"
-
-#~ msgid "Type to filter files"
-#~ msgstr "По типу файлов"
-
-#~ msgid "Search Bar"
-#~ msgstr "Строка поиска"
-
-#~ msgid "Ignore"
-#~ msgstr "Игнорировать"
-
-#~ msgid "Show Updates"
-#~ msgstr "Показать обновления"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Скрыть окно итогов"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "alexey.ivanes@gmail.com, tribunal2000@gmail.com, neocrust@gmail.com, zag@vspu.ru,"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Алексей Иванов, Семенов Николай, Щербаков Александр,  Ясыров Василий"
-
-#~ msgid "First Author"
-#~ msgstr "Первый автор"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Developer"
-#~ msgstr "Разработчик"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
-
-#, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Настройки"
-#~ msgstr[1] "Настройки"
-#~ msgstr[2] "Настройки"
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Корзина"
+#~ msgstr[1] "Корзина"
+#~ msgstr[2] "Корзина"
 
 #, fuzzy
 #~ msgid "MainWindow"
@@ -1007,8 +904,111 @@ msgstr "Описание пакета"
 #~ msgstr[2] "Показать главное окно"
 
 #, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Корзина"
-#~ msgstr[1] "Корзина"
-#~ msgstr[2] "Корзина"
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Настройки"
+#~ msgstr[1] "Настройки"
+#~ msgstr[2] "Настройки"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "Developer"
+#~ msgstr "Разработчик"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "First Author"
+#~ msgstr "Первый автор"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Алексей Иванов, Семенов Николай, Щербаков Александр,  Ясыров Василий"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "alexey.ivanes@gmail.com, tribunal2000@gmail.com, neocrust@gmail.com, zag@vspu.ru,"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Скрыть окно итогов"
+
+#~ msgid "Show Updates"
+#~ msgstr "Показать обновления"
+
+#~ msgid "Ignore"
+#~ msgstr "Игнорировать"
+
+#~ msgid "Search Bar"
+#~ msgstr "Строка поиска"
+
+#~ msgid "Type to filter files"
+#~ msgstr "По типу файлов"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Файлы пакета"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Показать корзину"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Адрес репозитория"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Название"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Список пакетов"
+
+#, fuzzy
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#, fuzzy
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Менеджер пакетов"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Установить"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Установить"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Очистить"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Дополнительные зависимости выбранных пакетов также будут установлены:"

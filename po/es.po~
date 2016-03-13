@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:33+0200\n"
+"POT-Creation-Date: 2016-03-12 13:34+0200\n"
 "PO-Revision-Date: 2013-12-27 03:25+0000\n"
 "Last-Translator: megatotoro <jratlsv2@racsa.co.cr>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/PiSiLinux/language/es/)\n"
@@ -905,37 +905,83 @@ msgid "Package Details"
 msgstr "Detalles de Paquetes"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Dependencias adicionales a instalar:"
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Carrito"
+#~ msgstr[1] "Carrito"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Vaciar Cesta"
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Mostrar Ventana principal"
+#~ msgstr[1] "Mostrar Ventana principal"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Install Package(s)"
-#~ msgstr "Instalar Paquete(s)"
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Configuración"
+#~ msgstr[1] "Configuración"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "Developer"
+#~ msgstr "Desarrollador"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "First Author"
+#~ msgstr "Autor inicial"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Sus nombres"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Sus emails"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Ocultar pantalla de resumen"
+
+#~ msgid "Show Updates"
+#~ msgstr "Mostrar actualizaciones"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorar"
+
+#~ msgid "Search Bar"
+#~ msgstr "Barra de búsqueda"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Escriba para filtrar los archivos"
 
 #, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Settings"
-#~ msgstr "Configuración"
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Archivos de Paquetes"
 
 #, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Install Package(s)"
-#~ msgstr "Instalar Paquete(s)"
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Mostrar Carrito"
 
 #, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Administrador de Paquetes"
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Dirección de Repositorio"
 
 #, fuzzy
-#~ msgctxt "MessageBox"
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Nombre de Repositorio"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
 #~ msgid "Form"
 #~ msgstr "Forma"
 
@@ -945,82 +991,36 @@ msgstr "Detalles de Paquetes"
 #~ msgstr "Lista de paquetes"
 
 #, fuzzy
-#~ msgctxt "ProgressDialog"
+#~ msgctxt "MessageBox"
 #~ msgid "Form"
 #~ msgstr "Forma"
 
 #, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Nombre de Repositorio"
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Administrador de Paquetes"
 
 #, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Dirección de Repositorio"
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Instalar Paquete(s)"
 
 #, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Mostrar Carrito"
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Configuración"
 
 #, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Archivos de Paquetes"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Escriba para filtrar los archivos"
-
-#~ msgid "Search Bar"
-#~ msgstr "Barra de búsqueda"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignorar"
-
-#~ msgid "Show Updates"
-#~ msgstr "Mostrar actualizaciones"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Ocultar pantalla de resumen"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "Sus emails"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Sus nombres"
-
-#~ msgid "First Author"
-#~ msgstr "Autor inicial"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Developer"
-#~ msgstr "Desarrollador"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Instalar Paquete(s)"
 
 #, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Configuración"
-#~ msgstr[1] "Configuración"
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Vaciar Cesta"
 
 #, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Mostrar Ventana principal"
-#~ msgstr[1] "Mostrar Ventana principal"
-
-#, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Carrito"
-#~ msgstr[1] "Carrito"
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Dependencias adicionales a instalar:"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:34+0200\n"
+"POT-Creation-Date: 2016-03-12 15:45+0200\n"
 "PO-Revision-Date: 2013-04-13 12:51+0000\n"
 "Last-Translator: mozen <inactive+mozen@transifex.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/PiSiLinux/language/tr/)\n"
@@ -819,101 +819,10 @@ msgstr ""
 msgid "Package Details"
 msgstr "Paket Detayı"
 
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Seçili paketlerin ayrıca kurulacak olan ek bağımlılıkları:"
-
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Sepeti Boşalt"
-
-#~ msgctxt "BasketDialog"
-#~ msgid "Install Package(s)"
-#~ msgstr "Paket(ler)i Kur"
-
-#~ msgctxt "MainWidget"
-#~ msgid "Settings"
-#~ msgstr "Ayarlar"
-
-#~ msgctxt "MainWidget"
-#~ msgid "Install Package(s)"
-#~ msgstr "Paket(ler)i Kur"
-
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Paket Yöneticisi"
-
-#~ msgctxt "MessageBox"
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgctxt "PmWindow"
-#~ msgid "Package List"
-#~ msgstr "Paket Listesi"
-
-#~ msgctxt "ProgressDialog"
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Depo İsmi"
-
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Depo Adresi"
-
 #, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Sepeti Göster"
-
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Paket Dosyaları"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "Developer"
-#~ msgstr "Geliştirici"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "First Author"
-#~ msgstr "İlk Geliştirici"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Faik Uygur, Necmettin Begiter, Gökmen Göksel"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "faik@pardus.org.tr, necmettin.begiter@gmail.com, gokmen@pardus.org.tr"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Özet ekranını gösterme"
-
-#~ msgid "Show Updates"
-#~ msgstr "Güncellemeleri Göster"
-
-#~ msgid "Ignore"
-#~ msgstr "Yoksay"
-
-#~ msgid "Search Bar"
-#~ msgstr "Arama Çubuğu"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Hızlı arama"
-
-#, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Ayarlar"
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Sepet"
 
 #, fuzzy
 #~ msgid "MainWindow"
@@ -921,6 +830,97 @@ msgstr "Paket Detayı"
 #~ msgstr[0] "Ana pencereyi göster"
 
 #, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Sepet"
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Ayarlar"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Hızlı arama"
+
+#~ msgid "Search Bar"
+#~ msgstr "Arama Çubuğu"
+
+#~ msgid "Ignore"
+#~ msgstr "Yoksay"
+
+#~ msgid "Show Updates"
+#~ msgstr "Güncellemeleri Göster"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Özet ekranını gösterme"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "faik@pardus.org.tr, necmettin.begiter@gmail.com, gokmen@pardus.org.tr"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Faik Uygur, Necmettin Begiter, Gökmen Göksel"
+
+#~ msgid "First Author"
+#~ msgstr "İlk Geliştirici"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "Developer"
+#~ msgstr "Geliştirici"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Paket Dosyaları"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Sepeti Göster"
+
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Depo Adresi"
+
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Depo İsmi"
+
+#~ msgctxt "ProgressDialog"
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgctxt "PmWindow"
+#~ msgid "Package List"
+#~ msgstr "Paket Listesi"
+
+#~ msgctxt "MessageBox"
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Paket Yöneticisi"
+
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Paket(ler)i Kur"
+
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Ayarlar"
+
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Paket(ler)i Kur"
+
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Sepeti Boşalt"
+
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Seçili paketlerin ayrıca kurulacak olan ek bağımlılıkları:"

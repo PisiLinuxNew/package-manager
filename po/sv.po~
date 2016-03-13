@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:33+0200\n"
+"POT-Creation-Date: 2016-03-12 13:34+0200\n"
 "PO-Revision-Date: 2013-11-20 22:09+0000\n"
 "Last-Translator: Patrik Karlsson <patrik@trixon.se>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/PiSiLinux/language/sv/)\n"
@@ -894,37 +894,83 @@ msgid "Package Details"
 msgstr "Paketdetaljer"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-#~ msgstr "Extra beroenden för valda paket som också kommer att installeras:"
+#~ msgid "BasketDialog"
+#~ msgid_plural "Basket"
+#~ msgstr[0] "Korg"
+#~ msgstr[1] "Korg"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Clear Basket"
-#~ msgstr "Rensa korg"
+#~ msgid "MainWindow"
+#~ msgid_plural "Package Manager"
+#~ msgstr[0] "Visa huvudfönster"
+#~ msgstr[1] "Visa huvudfönster"
 
 #, fuzzy
-#~ msgctxt "BasketDialog"
-#~ msgid "Install Package(s)"
-#~ msgstr "Installera paket"
+#~ msgid "SettingsDialog"
+#~ msgid_plural "Package Manager Settings"
+#~ msgstr[0] "Inställningar"
+#~ msgstr[1] "Inställningar"
+
+#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#~ msgid "Gökmen Göksel"
+#~ msgstr "Gökmen Göksel"
+
+#~ msgid "Developer"
+#~ msgstr "Utvecklare"
+
+#~ msgid "Faik Uygur"
+#~ msgstr "Faik Uygur"
+
+#~ msgid "First Author"
+#~ msgstr "Ursprunglig utvecklare"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Patrik Karlsson"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "patrik@trixon.se"
+
+#~ msgid "Hide summary screen"
+#~ msgstr "Dölj sammanställning"
+
+#~ msgid "Show Updates"
+#~ msgstr "Visa uppdateringar"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorera"
+
+#~ msgid "Search Bar"
+#~ msgstr "Sökfält"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Skriv för att filtrera filer"
 
 #, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Settings"
-#~ msgstr "Inställningar"
+#~ msgctxt "WebDialog"
+#~ msgid "Package Files"
+#~ msgstr "Paketfiler"
 
 #, fuzzy
-#~ msgctxt "MainWidget"
-#~ msgid "Install Package(s)"
-#~ msgstr "Installera paket"
+#~ msgctxt "WebDialog"
+#~ msgid "Basket"
+#~ msgstr "Visa korg"
 
 #, fuzzy
-#~ msgctxt "MainWindow"
-#~ msgid "Package Manager"
-#~ msgstr "Pakethanteraren"
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Förrådsadress"
 
 #, fuzzy
-#~ msgctxt "MessageBox"
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Förrådsnamn"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
 #~ msgid "Form"
 #~ msgstr "Form"
 
@@ -934,82 +980,36 @@ msgstr "Paketdetaljer"
 #~ msgstr "Paketlista"
 
 #, fuzzy
-#~ msgctxt "ProgressDialog"
+#~ msgctxt "MessageBox"
 #~ msgid "Form"
 #~ msgstr "Form"
 
 #, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Name"
-#~ msgstr "Förrådsnamn"
+#~ msgctxt "MainWindow"
+#~ msgid "Package Manager"
+#~ msgstr "Pakethanteraren"
 
 #, fuzzy
-#~ msgctxt "SettingsDialog"
-#~ msgid "Repository Address"
-#~ msgstr "Förrådsadress"
+#~ msgctxt "MainWidget"
+#~ msgid "Install Package(s)"
+#~ msgstr "Installera paket"
 
 #, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Basket"
-#~ msgstr "Visa korg"
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "Inställningar"
 
 #, fuzzy
-#~ msgctxt "WebDialog"
-#~ msgid "Package Files"
-#~ msgstr "Paketfiler"
-
-#~ msgid "Type to filter files"
-#~ msgstr "Skriv för att filtrera filer"
-
-#~ msgid "Search Bar"
-#~ msgstr "Sökfält"
-
-#~ msgid "Ignore"
-#~ msgstr "Ignorera"
-
-#~ msgid "Show Updates"
-#~ msgstr "Visa uppdateringar"
-
-#~ msgid "Hide summary screen"
-#~ msgstr "Dölj sammanställning"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "patrik@trixon.se"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Patrik Karlsson"
-
-#~ msgid "First Author"
-#~ msgstr "Ursprunglig utvecklare"
-
-#~ msgid "Faik Uygur"
-#~ msgstr "Faik Uygur"
-
-#~ msgid "Developer"
-#~ msgstr "Utvecklare"
-
-#~ msgid "Gökmen Göksel"
-#~ msgstr "Gökmen Göksel"
-
-#~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
-#~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+#~ msgctxt "BasketDialog"
+#~ msgid "Install Package(s)"
+#~ msgstr "Installera paket"
 
 #, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Inställningar"
-#~ msgstr[1] "Inställningar"
+#~ msgctxt "BasketDialog"
+#~ msgid "Clear Basket"
+#~ msgstr "Rensa korg"
 
 #, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Visa huvudfönster"
-#~ msgstr[1] "Visa huvudfönster"
-
-#, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Korg"
-#~ msgstr[1] "Korg"
+#~ msgctxt "BasketDialog"
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Extra beroenden för valda paket som också kommer att installeras:"

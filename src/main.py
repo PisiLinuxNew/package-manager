@@ -18,6 +18,7 @@ import signal
 import traceback
 
 # PyQt5 Imports
+from PyQt5.QtCore import Qt, QItemSelectionModel
 from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import QApplication
 from pds.quniqueapp import QUniqueApplication
@@ -66,7 +67,36 @@ if __name__ == '__main__':
 
     if not config.PMConfig().systemTray() or "--show-mainwindow" in sys.argv:
         manager.show()
-
+        if "--select-component" in sys.argv:      #direkt oyunları vs. açmak için düzenle
+            selected_component=sys.argv[sys.argv.index("--select-component") + 1]
+            if selected_component == "multimedia":
+                manager.cw.groupList.setCurrentItem(manager.cw.groupList.item(3),QItemSelectionModel.SelectCurrent | QItemSelectionModel.Toggle)
+                manager.cw.initializePackageList()
+            elif selected_component == "programming":
+                manager.cw.groupList.setCurrentItem(manager.cw.groupList.item(21),QItemSelectionModel.SelectCurrent | QItemSelectionModel.Toggle)
+                manager.cw.initializePackageList()
+            elif selected_component == "graphics":
+                manager.cw.groupList.setCurrentItem(manager.cw.groupList.item(11),QItemSelectionModel.SelectCurrent | QItemSelectionModel.Toggle)
+                manager.cw.initializePackageList()
+            elif selected_component == "network":
+                manager.cw.groupList.setCurrentItem(manager.cw.groupList.item(1),QItemSelectionModel.SelectCurrent | QItemSelectionModel.Toggle)
+                manager.cw.initializePackageList()
+            elif selected_component == "office":
+                manager.cw.groupList.setCurrentItem(manager.cw.groupList.item(19),QItemSelectionModel.SelectCurrent | QItemSelectionModel.Toggle)
+                manager.cw.initializePackageList()
+            elif selected_component == "games":
+                manager.cw.groupList.setCurrentItem(manager.cw.groupList.item(20),QItemSelectionModel.SelectCurrent | QItemSelectionModel.Toggle)
+                manager.cw.initializePackageList()
+            
+            # groupList
+            #==========         # uygulama başlatıcı sıramalasına göre
+            #  3- multimedia 
+            # 21- programming 
+            # 11- graphics
+            #  1- network
+            # 19- office
+            # 20- games
+            
     # Set exception handler
     sys.excepthook = handleException
 

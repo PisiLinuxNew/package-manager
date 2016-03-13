@@ -33,6 +33,7 @@ class GroupList(QListWidget):
         self.iface = backend.pm.Iface()
         self.defaultIcon = KIcon(('applications-other', 'unknown'), KIconLoader.SizeSmallMedium)
         self.itemClicked[QListWidgetItem].connect(self.slotGroupChanged)
+        self.itemSelectionChanged.connect(self.slotGroupChanged)
         self._list = {}
 
     def setState(self, state):
