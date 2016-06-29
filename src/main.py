@@ -56,8 +56,6 @@ if __name__ == '__main__':
     setSystemLocale()
     
     lang=setSystemLocale(True)
-    print "lang=",lang
-    print os.path.isfile("/usr/share/package-manager/lang/{}.qm".format(lang))
     translator=QTranslator()
     translator.load("/usr/share/package-manager/lang/{}.qm".format(lang))
     app.installTranslator(translator)
