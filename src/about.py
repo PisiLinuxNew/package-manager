@@ -15,7 +15,7 @@
 _=lambda s: s
 
 # Package Manager Version String
-version = "3.0.0"
+version = "4.1.2"
 PACKAGE = "Package Manager"
 
 # Application Data
