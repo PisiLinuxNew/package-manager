@@ -18,6 +18,8 @@ from pmutils import *
 import config
 import backend
 
+_translate = QCoreApplication.translate
+
 class PTray:
     def __init__(self, iface):
         self.defaultIcon = QtGui.QIcon(":/data/tray-zero.png")
@@ -118,7 +120,7 @@ class PTray:
 
     # stolen from Akregator
     def slotSetUnread(self, unread):
-
+        print config.PMConfig().hideTrayIfThereIsNoUpdate()
         if config.PMConfig().hideTrayIfThereIsNoUpdate() and unread == 0:
             self.hide()
         elif config.PMConfig().systemTray():
@@ -182,19 +184,19 @@ class Tray(QtWidgets.QSystemTrayIcon, PTray):
 
     def initializePopup(self):
         self.setIcon(self.defaultIcon)
-        self.actionMenu = QtWidgets.QMenu(i18n("Update"))
+        self.actionMenu = QtWidgets.QMenu(_translate("Packaga Manager","Update"))
         self.populateRepositoryMenu()
 
     def populateRepositoryMenu(self):
         self.actionMenu.clear()
         for name, address in self.iface.getRepositories(only_active = True):
-            self._addAction(i18n("Update %1 repository", name), self.actionMenu, name, "applications-system")
-        self._addAction(i18n("Update All Repositories"), self.actionMenu, "all", "update-manager")
+            self._addAction(_translate("Packaga Manager","Update {0} repository").format(name), self.actionMenu, name, "applications-system")
+        self._addAction(_translate("Packaga Manager","Update All Repositories"), self.actionMenu, "all", "update-manager")
         self.setContextMenu(self.actionMenu)
         self.contextMenu().addSeparator()
-        self.contextMenu().addAction(KIcon("exit"), i18n("Quit"), QtWidgets.qApp.quit)
+        self.contextMenu().addAction(KIcon("exit"), _translate("Packaga Manager","Quit"), QtWidgets.qApp.quit)
 
     def showPopup(self):
         if self._ready_to_popup():
-            Pds.notify(i18n('Updates'), i18n("There are %1 updates available!", self.unread))
+            Pds.notify(_translate("Packaga Manager",'Updates'), _translate("Packaga Manager","There are {0} updates available!").format(self.unread))
 

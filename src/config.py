@@ -10,7 +10,7 @@
 #
 # Please read the COPYING file
 
-from PyQt5.Qt import QVariant, QSettings
+from PyQt5.QtCore import QVariant, QSettings
 
 defaults = {
             "SystemTray" : False,
@@ -34,7 +34,7 @@ class Config:
 
     def setValue(self, option, value):
         self.config.setValue(option, QVariant(value))
-        self.config.sync()
+        
 
     def getBoolValue(self, option):
         default = self._initValue(option, False)
@@ -100,4 +100,6 @@ class PMConfig(Config):
 
     def setShowIsA(self, enabled):
         self.setValue("ShowIsA", enabled)
-        
+    
+    def sync(self):
+        self.config.sync()

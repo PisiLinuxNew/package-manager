@@ -33,6 +33,8 @@ from packageproxy import PackageProxy
 from packagemodel import PackageModel
 from packagedelegate import PackageDelegate
 
+_translate = QCoreApplication.translate
+
 class PmWindow(QDialog, PM, Ui_PmWindow):
 
     def __init__(self, app = None, packages = [], hide_summary = False):
@@ -132,10 +134,10 @@ class PmWindow(QDialog, PM, Ui_PmWindow):
         actions = self.state.checkInstallActions(self.model.selectedPackages())
         if actions:
             answer = askForActions(actions,
-                   i18n("Selected packages are already installed.<br>"
+                   _translate("Packaga Manager","Selected packages are already installed.<br>"
                         "If you continue, the packages will be reinstalled"),
-                   i18n("Already Installed Packages"),
-                   i18n("Installed Packages"))
+                   _translate("Packaga Manager","Already Installed Packages"),
+                   _translate("Packaga Manager","Installed Packages"))
 
         if not answer:
             self.button_install.setEnabled(True)

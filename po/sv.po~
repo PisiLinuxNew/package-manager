@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 13:34+0200\n"
+"POT-Creation-Date: 2016-06-30 01:42+0300\n"
 "PO-Revision-Date: 2013-11-20 22:09+0000\n"
 "Last-Translator: Patrik Karlsson <patrik@trixon.se>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/PiSiLinux/language/sv/)\n"
@@ -21,8 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/package-manager.desktop.in.h:1
-#: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
-#: src/progressdialog.py:63 ui/ui_mainwindow.py:27
+#: data/packagemanager-helper.desktop.in.h:1
 msgid "Package Manager"
 msgstr "Pakethanteraren"
 
@@ -37,879 +36,6 @@ msgstr "Pakethanteraren PiSis grafiska användargränssnitt"
 #: data/packagemanager-helper.desktop.in.h:2
 msgid "Add/Remove/Update Packages"
 msgstr "Lägg till/ta bort/uppdatera paket"
-
-#: src/basketdialog.py:55 ui/ui_basketdialog.py:186
-msgid "Clear Basket"
-msgstr "Rensa korg"
-
-#: src/basketdialog.py:56
-msgid "Do you want to clear all selections ?"
-msgstr "Vill du rensa valda objekt?"
-
-#: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
-#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:255
-#: src/settingsdialog.py:261
-msgid "Pisi Error"
-msgstr "Pisi-fel"
-
-#: src/basketdialog.py:164
-msgid "You must restart your system for the updates to take effect"
-msgstr "Du måste starta om ditt system för att uppdateringen skall träda i kraft"
-
-#: src/basketdialog.py:166 src/basketdialog.py:175
-msgid "Update Requirements"
-msgstr "Uppdateringskrav"
-
-#: src/basketdialog.py:167
-msgid "Packages Require System Restart"
-msgstr "Paketet kräver omstart av systemet."
-
-#: src/basketdialog.py:173
-msgid "You must restart related system services for the updated package(s) to take effect"
-msgstr "Du måste starta om berörda systemtjänster för uppdaterade paket."
-
-#: src/basketdialog.py:176
-msgid "Packages Require Service Restart"
-msgstr "Paket kräver omstart av tjänst."
-
-#: src/basketdialog.py:187
-msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
-msgstr "Valda paket anses kritiska för systemet.Att ta bort dem kan göra ditt system oanvändbart."
-
-#: src/basketdialog.py:190 src/settingsdialog.py:176
-msgid "Warning"
-msgstr "Varning"
-
-#: src/basketdialog.py:191
-msgid "Critical Packages"
-msgstr "Kritiska paket"
-
-#: src/basketdialog.py:202 src/pmwindow.py:135
-msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
-msgstr "Valda paket är redan installerade.<br>Om du fortsätter kommer paketen att ominstalleras."
-
-#: src/basketdialog.py:204 src/pmwindow.py:137
-msgid "Already Installed Packages"
-msgstr "Redan installerade paket"
-
-#: src/basketdialog.py:205 src/mainwindow.py:145 src/mainwindow.py:147
-#: src/pmwindow.py:138
-msgid "Installed Packages"
-msgstr "Installerade paket"
-
-#: src/grouplist.py:47
-msgid "All"
-msgstr "Alla"
-
-#: src/helpdialog.py:32
-msgid "Package Manager Help"
-msgstr "Handbok Pakethanteraren"
-
-#: src/mainwidget.py:149
-msgid "All packages are up to date"
-msgstr "Alla paket är uppdaterade"
-
-#: src/mainwidget.py:258
-msgid "Searching..."
-msgstr "Söker..."
-
-#: src/mainwidget.py:270
-msgid "No results found."
-msgstr "Inga träffar."
-
-#: src/mainwidget.py:431
-msgid "Select packages"
-msgstr "Välj paket"
-
-#: src/mainwidget.py:432
-msgid "You must select at least one installed package"
-msgstr "Du måste välja minst ett installerat paket"
-
-#: src/mainwidget.py:444
-msgid "All Updates"
-msgstr "Alla uppdateringar"
-
-#: src/mainwidget.py:445
-msgid "Security Updates"
-msgstr "Säkerhetsuppdateringar"
-
-#: src/mainwidget.py:446
-msgid "Critical Updates"
-msgstr "Kritiska uppdateringar"
-
-#: src/mainwindow.py:137 src/mainwindow.py:139
-msgid "All Packages"
-msgstr "Alla paket"
-
-#: src/mainwindow.py:141 src/mainwindow.py:143
-msgid "Installable Packages"
-msgstr "Installerbara paket"
-
-#: src/mainwindow.py:149 src/mainwindow.py:151 src/tray.py:199
-msgid "Updates"
-msgstr "Uppdateringar"
-
-#: src/mainwindow.py:153 ui/ui_mainwidget_v3.py:160
-msgid "Settings"
-msgstr "Inställningar"
-
-#: src/mainwindow.py:156
-#, fuzzy
-msgid "Help"
-msgstr "&Hjälp"
-
-#: src/mainwindow.py:160 src/tray.py:195
-msgid "Quit"
-msgstr ""
-
-#: src/mainwindow.py:190
-msgid "Calculating dependencies..."
-msgstr "Beräknar beroenden..."
-
-#: src/mainwindow.py:210
-msgid "Currently your basket is empty."
-msgstr "För närvarande är din korg tom."
-
-#: src/operationmanager.py:49
-msgid "installing"
-msgstr "Installerar"
-
-#: src/operationmanager.py:50
-msgid "removing"
-msgstr "Tar bort"
-
-#: src/operationmanager.py:51 src/progressdialog.py:79
-msgid "extracting"
-msgstr "Packar upp"
-
-#: src/operationmanager.py:52 src/progressdialog.py:79
-msgid "configuring"
-msgstr "Konfigurerar"
-
-#: src/operationmanager.py:146
-msgid "downloading"
-msgstr "Hämtar"
-
-#: src/packagedelegate.py:81
-msgid "critical"
-msgstr "kritisk"
-
-#: src/packagedelegate.py:82
-msgid "security"
-msgstr "säkerhet"
-
-#: src/packagedelegate.py:98
-msgid "Description:"
-msgstr "Beskrivning:"
-
-#: src/packagedelegate.py:99
-msgid "Website:"
-msgstr "Webbplats:"
-
-#: src/packagedelegate.py:100
-msgid "Release:"
-msgstr "Version:"
-
-#: src/packagedelegate.py:101
-msgid "Repository:"
-msgstr "Förråd:"
-
-#: src/packagedelegate.py:102
-msgid "Package Size:"
-msgstr "Paketstorlek:"
-
-#: src/packagedelegate.py:103
-msgid "Installed Version:"
-msgstr "Installerad version:"
-
-#: src/packagedelegate.py:318
-msgid "Unknown"
-msgstr ""
-
-#: src/packagedelegate.py:346
-msgid "Details"
-msgstr "Detaljer"
-
-#: src/packageview.py:27
-msgid "Select all packages in this group"
-msgstr "Välj alla paket i den här gruppen"
-
-#: src/pm-install.py:47
-msgid "%prog packages_to_install"
-msgstr "%prog paket att installera"
-
-#: src/pmutils.py:81 src/statemanager.py:247
-msgid "Network Error"
-msgstr "Nätverksfel"
-
-#: src/pmutils.py:82 src/statemanager.py:248
-msgid "Please check your network connections and try again."
-msgstr "Kontrollera din nätverksanslutning och försök igen."
-
-#: src/pmutils.py:84
-msgid "Authorization Error"
-msgstr "Auktoriseringsfel"
-
-#: src/pmutils.py:85
-msgid "You are not authorized for this operation."
-msgstr "Du har inte behörighet till den här åtgärden."
-
-#: src/pmutils.py:88
-#, python-format
-msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
-msgstr "Paketet <b>%s</b> finns ej i förråden.<br>Det kan vara uppdaterat i, eller borttaget ur, förrådet.<br>Försök att uppdatera förrådsinformationen."
-
-#: src/pmutils.py:93
-msgid "Mixing file names and package names not supported yet."
-msgstr "Blandning av fil- och paketnamn stöds ej ännu."
-
-#: src/pmutils.py:96
-#, python-format
-msgid "File <b>%s</b> doesn't exists."
-msgstr "Filen <b>%s</b> finns inte."
-
-#: src/pmutils.py:99
-msgid "Another instance of PiSi is running. Only one instance is allowed."
-msgstr "En annan instans av PiSi körs redan. Endast en instans är tillåten."
-
-#: src/pmutils.py:133
-msgid "Do you want to continue ?"
-msgstr "Vill du fortsätta?"
-
-#: src/progressdialog.py:75
-msgid "<p align='right'>%1 %</p>"
-msgstr "<p align='right'>%1 %</p>"
-
-#: src/progressdialog.py:76
-#, python-format
-msgid "Operation - %1%"
-msgstr "Åtgärd - %1%"
-
-#: src/progressdialog.py:83
-msgid "Downloading package list of %1"
-msgstr "Hämtar paketlista för %1"
-
-#: src/progressdialog.py:85
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: src/progressdialog.py:90
-msgid "[%1 / %2]"
-msgstr "[%1 / %2]"
-
-#: src/progressdialog.py:97
-msgid "%1 / %2, %3"
-msgstr "%1 / %2, %3"
-
-#: src/progressdialog.py:114
-msgid "Preparing PiSi..."
-msgstr "Förbereder PiSi..."
-
-#: src/progressdialog.py:125
-msgid "<b>Cancelling operation...</b>"
-msgstr "<b>Avbryter åtgärd...</b>"
-
-#: src/settingsdialog.py:167
-msgid "Open Directory"
-msgstr "Öppna katalog"
-
-#: src/settingsdialog.py:177
-msgid "All the cached packages will be deleted. Are you sure? "
-msgstr "Alla cachade paket kommer att raderas. Är du säker?"
-
-#: src/settingsdialog.py:256
-msgid "Not a valid repository name"
-msgstr "Ogiltigt förrådsnamn"
-
-#: src/settingsdialog.py:262
-msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
-msgstr "<qt>Förrådsadresser måste sluta på xml, xml.bz2  eller xz.<p>Försök igen.</qt>"
-
-#: src/statemanager.py:88 src/statemanager.py:89
-msgid "Installing Package(s)"
-msgstr "Installerar paket"
-
-#: src/statemanager.py:90
-msgid "Removing Package(s)"
-msgstr "Tar bort paket"
-
-#: src/statemanager.py:91
-msgid "Upgrading Package(s)"
-msgstr "Uppdaterar paket"
-
-#: src/statemanager.py:92
-msgid "Applying Repository Changes"
-msgstr "Tillämpar förrådsändringar"
-
-#: src/statemanager.py:93
-msgid "Updating Repository"
-msgstr "Uppdaterar förråd"
-
-#: src/statemanager.py:94
-msgid "Updating Repository(s)"
-msgstr "Uppdaterar förråd"
-
-#: src/statemanager.py:97
-msgid "installed"
-msgstr "installerade"
-
-#: src/statemanager.py:98
-msgid "removed"
-msgstr "borttagna"
-
-#: src/statemanager.py:99
-msgid "upgraded"
-msgstr "uppdaterade"
-
-#: src/statemanager.py:100
-msgid "modified"
-msgstr "ändrad"
-
-#: src/statemanager.py:104 ui/ui_basketdialog.py:187 ui/ui_mainwidget_v3.py:167
-msgid "Install Package(s)"
-msgstr "Installera paket"
-
-#: src/statemanager.py:105
-msgid "Remove Package(s)"
-msgstr "Ta bort paket"
-
-#: src/statemanager.py:106
-msgid "Upgrade Package(s)"
-msgstr "Uppdatera paket"
-
-#: src/statemanager.py:107
-msgid "Select Operation"
-msgstr "Välj åtgärd"
-
-#: src/statemanager.py:117
-msgid "%1 new package(s) have been installed succesfully."
-msgstr "%1 paket har installerats framgångsrikt."
-
-#: src/statemanager.py:118
-msgid "%1 package(s) have been removed succesfully."
-msgstr "%1 paket har tagits bort."
-
-#: src/statemanager.py:119
-msgid "%1 package(s) have been upgraded succesfully."
-msgstr "%1 paket har uppdaterats."
-
-#: src/statemanager.py:120
-msgid "%1 package(s) have been modified succesfully."
-msgstr "%1 paket har ändrats framgångsrikt."
-
-#: src/statemanager.py:123
-msgid "You have selected the following package(s) to install:"
-msgstr "Du har markerat följande paket för installation:"
-
-#: src/statemanager.py:124
-msgid "You have selected the following package(s) to removal:"
-msgstr "Du har markerat följande paket för borttagning:"
-
-#: src/statemanager.py:125
-msgid "You have selected the following package(s) to upgrade:"
-msgstr "Du har markerat följande paket för uppdatering:"
-
-#: src/statemanager.py:126
-msgid "You have selected the following package(s) to modify:"
-msgstr "Du har markerat följande paket för ändring:"
-
-#: src/statemanager.py:129 ui/ui_basketdialog.py:183
-msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-msgstr "Extra beroenden för valda paket som också kommer att installeras:"
-
-#: src/statemanager.py:130
-msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
-msgstr "Omvända beroenden för markerade paket kommer också att tas bort:"
-
-#: src/statemanager.py:131
-msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
-msgstr "Extra beroenden för markerade paket som också kommer att uppdateras:"
-
-#: src/statemanager.py:132
-msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
-msgstr "Extra beroenden för markerade paket som också kommer att ändras:"
-
-#: src/statemanager.py:172
-msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
-msgstr "För närvarande är <b>%1</b> paket valda om <b>%2</b> "
-
-#: src/statemanager.py:175
-msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
-msgstr "med <b>%1</b> omvända beroenden om <b>%2</b> "
-
-#: src/statemanager.py:177
-msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
-msgstr "med <b>%1</b> extra beroenden om <b>%2</b> "
-
-#: src/statemanager.py:178
-msgid "in your basket."
-msgstr "i din korg."
-
-#: src/statemanager.py:213
-msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
-msgstr "Valda paket [%1] står i konflikt med varandra. Dessa paket kan inte installeras tillsammans."
-
-#: src/statemanager.py:214 src/statemanager.py:222
-msgid "Conflict Error"
-msgstr "Konfliktfel"
-
-#: src/statemanager.py:218
-msgid "The following packages conflicts:\n"
-msgstr "Följande paket står i konflikt:\n"
-
-#: src/statemanager.py:220
-msgid "%1 conflicts with: [%2]\n"
-msgstr "%1 i konflikt med: [%2]\n"
-
-#: src/statemanager.py:221
-msgid ""
-"\n"
-"Remove the conflicting packages from the system?"
-msgstr ""
-"\n"
-"Ta bort paket i konflikt från systemet?"
-
-#: src/tray.py:185
-msgid "Update"
-msgstr "Uppdatera"
-
-#: src/tray.py:191
-#, fuzzy
-msgid "Update %1 repository"
-msgstr "Uppdaterar förråd"
-
-#: src/tray.py:192
-#, fuzzy
-msgid "Update All Repositories"
-msgstr "Uppdaterar förråd"
-
-#: src/tray.py:199
-#, fuzzy
-msgid "There are %1 updates available!"
-msgstr "Det finns <b>%1</b> tillgängliga uppdateringar!"
-
-#: src/webdialog.py:122 ui/ui_webdialog.py:154
-msgid "Package Files"
-msgstr "Paketfiler"
-
-#: ui/ui_appitem.py:54
-#, fuzzy
-msgid "Application"
-msgstr "Program"
-
-#: ui/ui_appitem.py:55
-#, fuzzy
-msgid "Web Tarayıcı"
-msgstr "Webbläsare"
-
-#: ui/ui_appitem.py:56
-#, fuzzy
-msgid "Firefox"
-msgstr "Firefox"
-
-#: ui/ui_basketdialog.py:181 ui/ui_webdialog.py:153
-#, fuzzy
-msgid "Basket"
-msgstr "Visa korg"
-
-#: ui/ui_basketdialog.py:182
-#, fuzzy
-msgid "Selected package(s) for install:"
-msgstr "Valda paket för installation:"
-
-#: ui/ui_basketdialog.py:184
-#, fuzzy
-msgid "Total Size:"
-msgstr "Sammanlagd storlek:"
-
-#: ui/ui_basketdialog.py:185
-#, fuzzy
-msgid "<b>2.2 MB</b>"
-msgstr "<b>2.2 MB</b>"
-
-#: ui/ui_basketdialog.py:188
-#, fuzzy
-msgid "Download Size:"
-msgstr "Hämtningsstorlek:"
-
-#: ui/ui_basketdialog.py:189
-#, fuzzy
-msgid "<b>2.0 MB</"
-msgstr "<b>2.0 MB</"
-
-#: ui/ui_mainwidget_v3.py:159 ui/ui_message.py:38
-#: ui/ui_progressdialog_v4.py:220
-#, fuzzy
-msgid "Form"
-msgstr "Form"
-
-#: ui/ui_mainwidget_v3.py:161
-#, fuzzy
-msgid "Type to search..."
-msgstr "Sök"
-
-#: ui/ui_mainwidget_v3.py:162
-#, fuzzy
-msgid "Update Types"
-msgstr "Uppdateringstyper"
-
-#: ui/ui_mainwidget_v3.py:163
-#, fuzzy
-msgid "Category Panel"
-msgstr "Kategoripanel"
-
-#: ui/ui_mainwidget_v3.py:164 ui/ui_pminstall.py:82
-#, fuzzy
-msgid "Package List"
-msgstr "Paketlista"
-
-#: ui/ui_mainwidget_v3.py:165
-#, fuzzy
-msgid "Show Basket"
-msgstr "Visa korg"
-
-#: ui/ui_mainwidget_v3.py:166
-#, fuzzy
-msgid "Check for Updates"
-msgstr "Leta efter uppdateringar"
-
-#: ui/ui_pminstall.py:80
-#, fuzzy
-msgid "Package Manager Quick Install"
-msgstr "Pakethanterarens snabbinstallation"
-
-#: ui/ui_pminstall.py:81
-#, fuzzy
-msgid "Following packages are selected to install. Do you want to install these packages ?"
-msgstr "Följande paket är valda för installation. Vill du installera dessa paket?"
-
-#: ui/ui_pminstall.py:83
-#, fuzzy
-msgid "Install"
-msgstr "Installera"
-
-#: ui/ui_pminstall.py:84
-#, fuzzy
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: ui/ui_preview.py:48
-#, fuzzy
-msgid "Preview"
-msgstr "Förhandsgranska"
-
-#: ui/ui_progressdialog_v4.py:221
-#, fuzzy
-msgid "Alt+C"
-msgstr "Alt+C"
-
-#: ui/ui_repodialog.py:50
-#, fuzzy
-msgid "Add New Repository"
-msgstr "Lägg till nytt förråd"
-
-#: ui/ui_repodialog.py:51
-#, fuzzy
-msgid "Name of the repository, e.g <b>pardus-devel</b>"
-msgstr "Namn på förråd, t.ex. <b>pardus-devel</b>"
-
-#: ui/ui_repodialog.py:52 ui/ui_settingsdialog.py:422
-#, fuzzy
-msgid "Repository Name"
-msgstr "Förrådsnamn"
-
-#: ui/ui_repodialog.py:53 ui/ui_settingsdialog.py:424
-#, fuzzy
-msgid "Repository Address"
-msgstr "Förrådsadress"
-
-#: ui/ui_settingsdialog.py:394
-#, fuzzy
-msgid "Package Manager Settings"
-msgstr "Anpassa - Pakethanteraren"
-
-#: ui/ui_settingsdialog.py:395
-#, fuzzy
-msgid "Package list"
-msgstr "Paketlista"
-
-#: ui/ui_settingsdialog.py:396
-#, fuzzy
-msgid "&Show only desktop applications"
-msgstr "Vi&sa enbart skrivbordsprogram"
-
-#: ui/ui_settingsdialog.py:397
-#, fuzzy
-msgid "Show Component information "
-msgstr "Visa komponentinformation "
-
-#: ui/ui_settingsdialog.py:398
-#, fuzzy
-msgid "Show package type tags"
-msgstr "Visa pakettypsetiketter"
-
-#: ui/ui_settingsdialog.py:399
-#, fuzzy
-msgid "System tray icon"
-msgstr "Ikon i systembrickan"
-
-#: ui/ui_settingsdialog.py:400
-#, fuzzy
-msgid "Enable system tray icon"
-msgstr "Aktivera ikon i systembrickan"
-
-#: ui/ui_settingsdialog.py:401
-#, fuzzy
-msgid "Hide system tray if there is no update."
-msgstr "Dölj ikon i systembrickan när uppdateringar saknas."
-
-#: ui/ui_settingsdialog.py:402
-#, fuzzy
-msgid "Enable &periodic update check"
-msgstr "Aktivera automatisk kontroll"
-
-#: ui/ui_settingsdialog.py:403
-#, fuzzy
-msgid "Check interval :"
-msgstr "Kontrollintervall:"
-
-#: ui/ui_settingsdialog.py:404
-#, fuzzy
-msgid " min"
-msgstr " min"
-
-#: ui/ui_settingsdialog.py:405
-#, fuzzy
-msgid "Install updates automatically"
-msgstr "Installera uppdateringar automatiskt"
-
-#: ui/ui_settingsdialog.py:406
-#, fuzzy
-msgid "&General Settings"
-msgstr "&Allmänna inställningar"
-
-#: ui/ui_settingsdialog.py:407
-#, fuzzy
-msgid "Cache Limit"
-msgstr "Cachegräns"
-
-#: ui/ui_settingsdialog.py:408
-#, fuzzy
-msgid "&Use hard disk cache for downloaded software"
-msgstr "&Använd cache för hämtade paket"
-
-#: ui/ui_settingsdialog.py:409
-#, fuzzy
-msgid "Maximum cache size:"
-msgstr "Cachestorlek på disk:"
-
-#: ui/ui_settingsdialog.py:410
-#, fuzzy
-msgid "Unlimited"
-msgstr "Obegränsad"
-
-#: ui/ui_settingsdialog.py:411
-#, fuzzy
-msgid " Mib"
-msgstr " Mib"
-
-#: ui/ui_settingsdialog.py:412
-#, fuzzy
-msgid "Current cache dir:"
-msgstr "Aktuell cachekatalog"
-
-#: ui/ui_settingsdialog.py:413
-#, fuzzy
-msgid "Select..."
-msgstr "Välj..."
-
-#: ui/ui_settingsdialog.py:414
-#, fuzzy
-msgid "Open"
-msgstr "Öppna"
-
-#: ui/ui_settingsdialog.py:415
-#, fuzzy
-msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-msgstr "Genom att tömma cachen tas alla hämtade paket bort.Detta påverkar varken installerade paket eller systemets stabilitet."
-
-#: ui/ui_settingsdialog.py:416
-#, fuzzy
-msgid "C&lean disk cache now"
-msgstr "Töm cachen nu"
-
-#: ui/ui_settingsdialog.py:417
-#, fuzzy
-msgid "Bandwidth limit"
-msgstr "Bandbreddsbegränsning"
-
-#: ui/ui_settingsdialog.py:418
-#, fuzzy
-msgid "Use bandwidth limit :"
-msgstr "Använd bandbreddsbegränsning:"
-
-#: ui/ui_settingsdialog.py:419
-#, fuzzy
-msgid " kB/s"
-msgstr " kB/s"
-
-#: ui/ui_settingsdialog.py:420
-#, fuzzy
-msgid "C&ache"
-msgstr "C&ache"
-
-#: ui/ui_settingsdialog.py:425
-#, fuzzy
-msgid "&Add New Repository"
-msgstr "&Lägg till nytt förråd"
-
-#: ui/ui_settingsdialog.py:426
-#, fuzzy
-msgid "Remove Repository"
-msgstr "&Ta bort förråd"
-
-#: ui/ui_settingsdialog.py:427
-#, fuzzy
-msgid "Move &Up"
-msgstr "Flytta &upp"
-
-#: ui/ui_settingsdialog.py:428
-#, fuzzy
-msgid "Move &Down"
-msgstr "Flytta &ner"
-
-#: ui/ui_settingsdialog.py:429
-#, fuzzy
-msgid "&Repositories"
-msgstr "&Förråd"
-
-#: ui/ui_settingsdialog.py:430
-#, fuzzy
-msgid "Use Proxy"
-msgstr "Använd proxy"
-
-#: ui/ui_settingsdialog.py:431
-#, fuzzy
-msgid "HTTP proxy server:"
-msgstr "HTTP:"
-
-#: ui/ui_settingsdialog.py:432 ui/ui_settingsdialog.py:434
-#: ui/ui_settingsdialog.py:436
-#, fuzzy
-msgid "Port:"
-msgstr "Port:"
-
-#: ui/ui_settingsdialog.py:433
-#, fuzzy
-msgid "HTTPS proxy server:"
-msgstr "HTTPS:"
-
-#: ui/ui_settingsdialog.py:435
-#, fuzzy
-msgid "FTP proxy server:"
-msgstr "FTP:"
-
-#: ui/ui_settingsdialog.py:437
-#, fuzzy
-msgid "Domain:"
-msgstr "Domän:"
-
-#: ui/ui_settingsdialog.py:438
-#, fuzzy
-msgid "Username:"
-msgstr "Användarnamn:"
-
-#: ui/ui_settingsdialog.py:439
-#, fuzzy
-msgid "Password:"
-msgstr "Lösenord:"
-
-#: ui/ui_settingsdialog.py:440
-#, fuzzy
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Det finns en proxyinställning tillgänglig i KDE, du kan klicka <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">här</span></a> för att hämta dessa inställingar</p></body></html>"
-
-#: ui/ui_settingsdialog.py:445
-#, fuzzy
-msgid "<a href=#>Use this proxy server for all protocols</a>"
-msgstr "<a href=#>Använd den här proxyservern för alla protokoll</a>"
-
-#: ui/ui_settingsdialog.py:446
-#, fuzzy
-msgid "&Proxy"
-msgstr "&Proxy"
-
-#: ui/ui_settingsdialog.py:447
-#, fuzzy
-msgid "&Help"
-msgstr "&Hjälp"
-
-#: ui/ui_settingsdialog.py:448
-#, fuzzy
-msgid "&OK"
-msgstr "&OK"
-
-#: ui/ui_settingsdialog.py:449
-#, fuzzy
-msgid "&Cancel"
-msgstr "&Avbryt"
-
-#: ui/ui_summarydialog.py:60
-#, fuzzy
-msgid "Operation Summary"
-msgstr "Sammanfattning"
-
-#: ui/ui_summarydialog.py:61
-#, fuzzy
-msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-msgstr "Du kan starta det nyinstallerade programmet genom att dubbelklicka på det i listan nedan, eller senare via programmenyn."
-
-#: ui/ui_summarydialog.py:62
-#, fuzzy
-msgid "&Ok"
-msgstr "&Ok"
-
-#: ui/ui_webdialog.py:155
-#, fuzzy
-msgid ""
-"AppInfo Server is not reachable\n"
-"Please check your network connection"
-msgstr ""
-"AppInfo-servern är inte tillgänglig\n"
-"Kontrollera din nätverksanslutning."
-
-#: ui/ui_webdialog.py:157 ui/ui_webdialog.py:158
-#, fuzzy
-msgid "Package Details"
-msgstr "Paketdetaljer"
-
-#, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Korg"
-#~ msgstr[1] "Korg"
-
-#, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Visa huvudfönster"
-#~ msgstr[1] "Visa huvudfönster"
-
-#, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Inställningar"
-#~ msgstr[1] "Inställningar"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
 #~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
@@ -950,6 +76,51 @@ msgstr "Paketdetaljer"
 #~ msgstr "Skriv för att filtrera filer"
 
 #, fuzzy
+#~ msgid "WebDialog"
+#~ msgstr "Korg"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgstr "Inställningar"
+
+#, fuzzy
+#~ msgid "RepoDialog"
+#~ msgstr "Korg"
+
+#, fuzzy
+#~ msgid "PmWindow"
+#~ msgstr "Visa huvudfönster"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgstr "Visa huvudfönster"
+
+#, fuzzy
+#~ msgid "MainWidget"
+#~ msgstr "Visa huvudfönster"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgstr "Korg"
+
+#~ msgid "Package Files"
+#~ msgstr "Paketfiler"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Details"
+#~ msgstr "Paketdetaljer"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "AppInfo-servern är inte tillgänglig\n"
+#~ "Kontrollera din nätverksanslutning."
+
+#, fuzzy
 #~ msgctxt "WebDialog"
 #~ msgid "Package Files"
 #~ msgstr "Paketfiler"
@@ -958,6 +129,126 @@ msgstr "Paketdetaljer"
 #~ msgctxt "WebDialog"
 #~ msgid "Basket"
 #~ msgstr "Visa korg"
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Du kan starta det nyinstallerade programmet genom att dubbelklicka på det i listan nedan, eller senare via programmenyn."
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "Operation Summary"
+#~ msgstr "Sammanfattning"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Cancel"
+#~ msgstr "&Avbryt"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&OK"
+#~ msgstr "&OK"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Help"
+#~ msgstr "&Hjälp"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Använd den här proxyservern för alla protokoll</a>"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Det finns en proxyinställning tillgänglig i KDE, du kan klicka <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">här</span></a> för att hämta dessa inställingar</p></body></html>"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Password:"
+#~ msgstr "Lösenord:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Username:"
+#~ msgstr "Användarnamn:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Domain:"
+#~ msgstr "Domän:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Use Proxy"
+#~ msgstr "Använd proxy"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Repositories"
+#~ msgstr "&Förråd"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Move &Down"
+#~ msgstr "Flytta &ner"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Move &Up"
+#~ msgstr "Flytta &upp"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Remove Repository"
+#~ msgstr "&Ta bort förråd"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Add New Repository"
+#~ msgstr "&Lägg till nytt förråd"
 
 #, fuzzy
 #~ msgctxt "SettingsDialog"
@@ -970,14 +261,199 @@ msgstr "Paketdetaljer"
 #~ msgstr "Förrådsnamn"
 
 #, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "C&ache"
+#~ msgstr "C&ache"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " kB/s"
+#~ msgstr " kB/s"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Använd bandbreddsbegränsning:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Bandwidth limit"
+#~ msgstr "Bandbreddsbegränsning"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "C&lean disk cache now"
+#~ msgstr "Töm cachen nu"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Genom att tömma cachen tas alla hämtade paket bort.Detta påverkar varken installerade paket eller systemets stabilitet."
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Open"
+#~ msgstr "Öppna"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Select..."
+#~ msgstr "Välj..."
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Current cache dir:"
+#~ msgstr "Aktuell cachekatalog"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " Mib"
+#~ msgstr " Mib"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Unlimited"
+#~ msgstr "Obegränsad"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Maximum cache size:"
+#~ msgstr "Cachestorlek på disk:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Använd cache för hämtade paket"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Cache Limit"
+#~ msgstr "Cachegräns"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&General Settings"
+#~ msgstr "&Allmänna inställningar"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Install updates automatically"
+#~ msgstr "Installera uppdateringar automatiskt"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " min"
+#~ msgstr " min"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Check interval :"
+#~ msgstr "Kontrollintervall:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Aktivera automatisk kontroll"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Dölj ikon i systembrickan när uppdateringar saknas."
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Enable system tray icon"
+#~ msgstr "Aktivera ikon i systembrickan"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "System tray icon"
+#~ msgstr "Ikon i systembrickan"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Show package type tags"
+#~ msgstr "Visa pakettypsetiketter"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Show Component information "
+#~ msgstr "Visa komponentinformation "
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Show only desktop applications"
+#~ msgstr "Vi&sa enbart skrivbordsprogram"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Package list"
+#~ msgstr "Paketlista"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Package Manager Settings"
+#~ msgstr "Anpassa - Pakethanteraren"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Förrådsadress"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Förrådsnamn"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Namn på förråd, t.ex. <b>pardus-devel</b>"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Add New Repository"
+#~ msgstr "Lägg till nytt förråd"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#, fuzzy
 #~ msgctxt "ProgressDialog"
 #~ msgid "Form"
 #~ msgstr "Form"
 
 #, fuzzy
+#~ msgctxt "Preview"
+#~ msgid "Preview"
+#~ msgstr "Förhandsgranska"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Install"
+#~ msgstr "Installera"
+
+#, fuzzy
 #~ msgctxt "PmWindow"
 #~ msgid "Package List"
 #~ msgstr "Paketlista"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Följande paket är valda för installation. Vill du installera dessa paket?"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Pakethanterarens snabbinstallation"
 
 #, fuzzy
 #~ msgctxt "MessageBox"
@@ -996,8 +472,53 @@ msgstr "Paketdetaljer"
 
 #, fuzzy
 #~ msgctxt "MainWidget"
+#~ msgid "Check for Updates"
+#~ msgstr "Leta efter uppdateringar"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Show Basket"
+#~ msgstr "Visa korg"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Package List"
+#~ msgstr "Paketlista"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Category Panel"
+#~ msgstr "Kategoripanel"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Update Types"
+#~ msgstr "Uppdateringstyper"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Type to search..."
+#~ msgstr "Sök"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
 #~ msgid "Settings"
 #~ msgstr "Inställningar"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Download Size:"
+#~ msgstr "Hämtningsstorlek:"
 
 #, fuzzy
 #~ msgctxt "BasketDialog"
@@ -1011,5 +532,369 @@ msgstr "Paketdetaljer"
 
 #, fuzzy
 #~ msgctxt "BasketDialog"
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Total Size:"
+#~ msgstr "Sammanlagd storlek:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
 #~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 #~ msgstr "Extra beroenden för valda paket som också kommer att installeras:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Valda paket för installation:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Basket"
+#~ msgstr "Visa korg"
+
+#, fuzzy
+#~ msgctxt "ApplicationItem"
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#, fuzzy
+#~ msgctxt "ApplicationItem"
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Webbläsare"
+
+#, fuzzy
+#~ msgctxt "ApplicationItem"
+#~ msgid "Application"
+#~ msgstr "Program"
+
+#, fuzzy
+#~ msgid "There are %1 updates available!"
+#~ msgstr "Det finns <b>%1</b> tillgängliga uppdateringar!"
+
+#, fuzzy
+#~ msgid "Update All Repositories"
+#~ msgstr "Uppdaterar förråd"
+
+#, fuzzy
+#~ msgid "Update %1 repository"
+#~ msgstr "Uppdaterar förråd"
+
+#~ msgid "Update"
+#~ msgstr "Uppdatera"
+
+#~ msgid ""
+#~ "\n"
+#~ "Remove the conflicting packages from the system?"
+#~ msgstr ""
+#~ "\n"
+#~ "Ta bort paket i konflikt från systemet?"
+
+#~ msgid "%1 conflicts with: [%2]\n"
+#~ msgstr "%1 i konflikt med: [%2]\n"
+
+#~ msgid "The following packages conflicts:\n"
+#~ msgstr "Följande paket står i konflikt:\n"
+
+#~ msgid "Conflict Error"
+#~ msgstr "Konfliktfel"
+
+#~ msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
+#~ msgstr "Valda paket [%1] står i konflikt med varandra. Dessa paket kan inte installeras tillsammans."
+
+#~ msgid "in your basket."
+#~ msgstr "i din korg."
+
+#~ msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
+#~ msgstr "med <b>%1</b> extra beroenden om <b>%2</b> "
+
+#~ msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+#~ msgstr "med <b>%1</b> omvända beroenden om <b>%2</b> "
+
+#~ msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
+#~ msgstr "För närvarande är <b>%1</b> paket valda om <b>%2</b> "
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
+#~ msgstr "Extra beroenden för markerade paket som också kommer att ändras:"
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
+#~ msgstr "Extra beroenden för markerade paket som också kommer att uppdateras:"
+
+#~ msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
+#~ msgstr "Omvända beroenden för markerade paket kommer också att tas bort:"
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Extra beroenden för valda paket som också kommer att installeras:"
+
+#~ msgid "You have selected the following package(s) to modify:"
+#~ msgstr "Du har markerat följande paket för ändring:"
+
+#~ msgid "You have selected the following package(s) to upgrade:"
+#~ msgstr "Du har markerat följande paket för uppdatering:"
+
+#~ msgid "You have selected the following package(s) to removal:"
+#~ msgstr "Du har markerat följande paket för borttagning:"
+
+#~ msgid "You have selected the following package(s) to install:"
+#~ msgstr "Du har markerat följande paket för installation:"
+
+#~ msgid "%1 package(s) have been modified succesfully."
+#~ msgstr "%1 paket har ändrats framgångsrikt."
+
+#~ msgid "%1 package(s) have been upgraded succesfully."
+#~ msgstr "%1 paket har uppdaterats."
+
+#~ msgid "%1 package(s) have been removed succesfully."
+#~ msgstr "%1 paket har tagits bort."
+
+#~ msgid "%1 new package(s) have been installed succesfully."
+#~ msgstr "%1 paket har installerats framgångsrikt."
+
+#~ msgid "Select Operation"
+#~ msgstr "Välj åtgärd"
+
+#~ msgid "Upgrade Package(s)"
+#~ msgstr "Uppdatera paket"
+
+#~ msgid "Remove Package(s)"
+#~ msgstr "Ta bort paket"
+
+#~ msgid "Install Package(s)"
+#~ msgstr "Installera paket"
+
+#~ msgid "modified"
+#~ msgstr "ändrad"
+
+#~ msgid "upgraded"
+#~ msgstr "uppdaterade"
+
+#~ msgid "removed"
+#~ msgstr "borttagna"
+
+#~ msgid "installed"
+#~ msgstr "installerade"
+
+#~ msgid "Updating Repository(s)"
+#~ msgstr "Uppdaterar förråd"
+
+#~ msgid "Updating Repository"
+#~ msgstr "Uppdaterar förråd"
+
+#~ msgid "Applying Repository Changes"
+#~ msgstr "Tillämpar förrådsändringar"
+
+#~ msgid "Upgrading Package(s)"
+#~ msgstr "Uppdaterar paket"
+
+#~ msgid "Removing Package(s)"
+#~ msgstr "Tar bort paket"
+
+#~ msgid "Installing Package(s)"
+#~ msgstr "Installerar paket"
+
+#~ msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
+#~ msgstr "<qt>Förrådsadresser måste sluta på xml, xml.bz2  eller xz.<p>Försök igen.</qt>"
+
+#~ msgid "Not a valid repository name"
+#~ msgstr "Ogiltigt förrådsnamn"
+
+#~ msgid "All the cached packages will be deleted. Are you sure? "
+#~ msgstr "Alla cachade paket kommer att raderas. Är du säker?"
+
+#~ msgid "Open Directory"
+#~ msgstr "Öppna katalog"
+
+#~ msgid "<b>Cancelling operation...</b>"
+#~ msgstr "<b>Avbryter åtgärd...</b>"
+
+#~ msgid "Preparing PiSi..."
+#~ msgstr "Förbereder PiSi..."
+
+#~ msgid "%1 / %2, %3"
+#~ msgstr "%1 / %2, %3"
+
+#~ msgid "[%1 / %2]"
+#~ msgstr "[%1 / %2]"
+
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#~ msgid "Downloading package list of %1"
+#~ msgstr "Hämtar paketlista för %1"
+
+#~ msgid "Operation - %1%"
+#~ msgstr "Åtgärd - %1%"
+
+#~ msgid "<p align='right'>%1 %</p>"
+#~ msgstr "<p align='right'>%1 %</p>"
+
+#~ msgid "Do you want to continue ?"
+#~ msgstr "Vill du fortsätta?"
+
+#~ msgid "Another instance of PiSi is running. Only one instance is allowed."
+#~ msgstr "En annan instans av PiSi körs redan. Endast en instans är tillåten."
+
+#~ msgid "File <b>%s</b> doesn't exists."
+#~ msgstr "Filen <b>%s</b> finns inte."
+
+#~ msgid "Mixing file names and package names not supported yet."
+#~ msgstr "Blandning av fil- och paketnamn stöds ej ännu."
+
+#~ msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
+#~ msgstr "Paketet <b>%s</b> finns ej i förråden.<br>Det kan vara uppdaterat i, eller borttaget ur, förrådet.<br>Försök att uppdatera förrådsinformationen."
+
+#~ msgid "You are not authorized for this operation."
+#~ msgstr "Du har inte behörighet till den här åtgärden."
+
+#~ msgid "Authorization Error"
+#~ msgstr "Auktoriseringsfel"
+
+#~ msgid "Please check your network connections and try again."
+#~ msgstr "Kontrollera din nätverksanslutning och försök igen."
+
+#~ msgid "Network Error"
+#~ msgstr "Nätverksfel"
+
+#~ msgid "%prog packages_to_install"
+#~ msgstr "%prog paket att installera"
+
+#~ msgid "Select all packages in this group"
+#~ msgstr "Välj alla paket i den här gruppen"
+
+#~ msgid "Details"
+#~ msgstr "Detaljer"
+
+#~ msgid "Installed Version:"
+#~ msgstr "Installerad version:"
+
+#~ msgid "Package Size:"
+#~ msgstr "Paketstorlek:"
+
+#~ msgid "Repository:"
+#~ msgstr "Förråd:"
+
+#~ msgid "Release:"
+#~ msgstr "Version:"
+
+#~ msgid "Website:"
+#~ msgstr "Webbplats:"
+
+#~ msgid "Description:"
+#~ msgstr "Beskrivning:"
+
+#~ msgid "security"
+#~ msgstr "säkerhet"
+
+#~ msgid "critical"
+#~ msgstr "kritisk"
+
+#~ msgid "downloading"
+#~ msgstr "Hämtar"
+
+#~ msgid "configuring"
+#~ msgstr "Konfigurerar"
+
+#~ msgid "extracting"
+#~ msgstr "Packar upp"
+
+#~ msgid "removing"
+#~ msgstr "Tar bort"
+
+#~ msgid "installing"
+#~ msgstr "Installerar"
+
+#~ msgid "Currently your basket is empty."
+#~ msgstr "För närvarande är din korg tom."
+
+#~ msgid "Calculating dependencies..."
+#~ msgstr "Beräknar beroenden..."
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "&Hjälp"
+
+#~ msgid "Settings"
+#~ msgstr "Inställningar"
+
+#~ msgid "Updates"
+#~ msgstr "Uppdateringar"
+
+#~ msgid "Installable Packages"
+#~ msgstr "Installerbara paket"
+
+#~ msgid "All Packages"
+#~ msgstr "Alla paket"
+
+#~ msgid "Critical Updates"
+#~ msgstr "Kritiska uppdateringar"
+
+#~ msgid "Security Updates"
+#~ msgstr "Säkerhetsuppdateringar"
+
+#~ msgid "All Updates"
+#~ msgstr "Alla uppdateringar"
+
+#~ msgid "You must select at least one installed package"
+#~ msgstr "Du måste välja minst ett installerat paket"
+
+#~ msgid "Select packages"
+#~ msgstr "Välj paket"
+
+#~ msgid "No results found."
+#~ msgstr "Inga träffar."
+
+#~ msgid "Searching..."
+#~ msgstr "Söker..."
+
+#~ msgid "All packages are up to date"
+#~ msgstr "Alla paket är uppdaterade"
+
+#~ msgid "Package Manager Help"
+#~ msgstr "Handbok Pakethanteraren"
+
+#~ msgid "All"
+#~ msgstr "Alla"
+
+#~ msgid "Installed Packages"
+#~ msgstr "Installerade paket"
+
+#~ msgid "Already Installed Packages"
+#~ msgstr "Redan installerade paket"
+
+#~ msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
+#~ msgstr "Valda paket är redan installerade.<br>Om du fortsätter kommer paketen att ominstalleras."
+
+#~ msgid "Critical Packages"
+#~ msgstr "Kritiska paket"
+
+#~ msgid "Warning"
+#~ msgstr "Varning"
+
+#~ msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
+#~ msgstr "Valda paket anses kritiska för systemet.Att ta bort dem kan göra ditt system oanvändbart."
+
+#~ msgid "Packages Require Service Restart"
+#~ msgstr "Paket kräver omstart av tjänst."
+
+#~ msgid "You must restart related system services for the updated package(s) to take effect"
+#~ msgstr "Du måste starta om berörda systemtjänster för uppdaterade paket."
+
+#~ msgid "Packages Require System Restart"
+#~ msgstr "Paketet kräver omstart av systemet."
+
+#~ msgid "Update Requirements"
+#~ msgstr "Uppdateringskrav"
+
+#~ msgid "You must restart your system for the updates to take effect"
+#~ msgstr "Du måste starta om ditt system för att uppdateringen skall träda i kraft"
+
+#~ msgid "Pisi Error"
+#~ msgstr "Pisi-fel"
+
+#~ msgid "Do you want to clear all selections ?"
+#~ msgstr "Vill du rensa valda objekt?"
+
+#~ msgid "Clear Basket"
+#~ msgstr "Rensa korg"

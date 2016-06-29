@@ -12,7 +12,9 @@
 from PyQt5.QtWidgets import QDialog
 from PyQt5.QtWidgets import QGridLayout
 from PyQt5.QtWidgets import QTextBrowser
-from PyQt5.QtCore import QUrl
+from PyQt5.QtCore import QUrl, QCoreApplication
+
+_translate = QCoreApplication.translate
 
 from pmutils import *
 from localedata import *
@@ -29,7 +31,7 @@ class HelpDialog(QDialog):
         super(HelpDialog, self).__init__(parent)
         #QDialog.__init__(self, parent)
 
-        self.setWindowTitle(i18n("Package Manager Help"))
+        self.setWindowTitle(_translate("Packaga Manager","Package Manager Help"))
         self.resize(700,500)
         self.setModal(True)
 

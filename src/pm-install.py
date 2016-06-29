@@ -32,6 +32,8 @@ from localedata import setSystemLocale
 
 from pmutils import *
 
+_translate = QCoreApplication.translate
+
 if __name__ == '__main__':
     # Catch signals
     signal.signal(signal.SIGINT, signal.SIG_DFL)

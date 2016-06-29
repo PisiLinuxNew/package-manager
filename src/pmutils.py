@@ -27,7 +27,7 @@ from pmlogging import logger
 from PyQt5.QtCore import Qt
 from PyQt5.QtCore import QTimer
 from PyQt5.QtCore import pyqtSignal
-from PyQt5.QtCore import QEventLoop
+from PyQt5.QtCore import QEventLoop,QCoreApplication
 
 from PyQt5.QtGui import QCursor
 from PyQt5.QtGui import QPixmap
@@ -47,6 +47,8 @@ Pds = pds.Pds('package-manager', debug = False)
 i18n = Pds.session.i18n
 KIconLoader = QIconLoader(Pds)
 KIcon = KIconLoader.icon
+
+_translate = QCoreApplication.translate
 
 class PM:
     def __init__(self, **kwds):
@@ -72,33 +74,33 @@ class PM:
     def notifyFinished(self):
         if not self.operation.totalPackages:
             return
-        Pds.notify(i18n('Package Manager'), self.state.getSummaryInfo(self.operation.totalPackages))
+        Pds.notify(_translate("Packaga Manager",'Package Manager'), self.state.getSummaryInfo(self.operation.totalPackages))
 
     def exceptionCaught(self, message, package = '', block = False):
         self.runPreExceptionMethods()
 
         if any(warning in message for warning in ('urlopen error','Socket Error', 'PYCURL ERROR')):
-            errorTitle = i18n("Network Error")
-            errorMessage = i18n("Please check your network connections and try again.")
+            errorTitle = _translate("Packaga Manager","Network Error")
+            errorMessage = _translate("Packaga Manager","Please check your network connections and try again.")
         elif "Access denied" in message or "tr.org.pardus.comar.Comar.PolicyKit" in message:
-            errorTitle = i18n("Authorization Error")
-            errorMessage = i18n("You are not authorized for this operation.")
+            errorTitle = _translate("Packaga Manager","Authorization Error")
+            errorMessage = _translate("Packaga Manager","You are not authorized for this operation.")
         elif "HTTP Error 404" in message and not package == '':
-            errorTitle = i18n("Pisi Error")
-            errorMessage = unicode(i18n("Package <b>%s</b> not found in repositories.<br>"\
+            errorTitle = _translate("Packaga Manager","Pisi Error")
+            errorMessage = unicode(_translate("Packaga Manager","Package <b>{0}</b> not found in repositories.<br>"\
                                         "It may be upgraded or removed from the repository.<br>"\
-                                        "Please try upgrading repository informations.")) % package
+                                        "Please try upgrading repository informations.").format(package)) 
         elif "MIXING PACKAGES" in message:
-            errorTitle = i18n("Pisi Error")
-            errorMessage = i18n("Mixing file names and package names not supported yet.")
+            errorTitle = _translate("Packaga Manager","Pisi Error")
+            errorMessage = _translate("Packaga Manager","Mixing file names and package names not supported yet.")
         elif "FILE NOT EXISTS" in message:
-            errorTitle = i18n("Pisi Error")
-            errorMessage = unicode(i18n("File <b>%s</b> doesn't exists.")) % package
+            errorTitle = _translate("Packaga Manager","Pisi Error")
+            errorMessage = unicode(_translate("Packaga Manager","File <b>{0}</b> doesn't exists.").format(package)) 
         elif "ALREADY RUNNING" in message:
-            errorTitle = i18n("Pisi Error")
-            errorMessage = i18n("Another instance of PiSi is running. Only one instance is allowed.")
+            errorTitle = _translate("Packaga Manager","Pisi Error")
+            errorMessage = _translate("Packaga Manager","Another instance of PiSi is running. Only one instance is allowed.")
         else:
-            errorTitle = i18n("Pisi Error")
+            errorTitle = _translate("Packaga Manager","Pisi Error")
             errorMessage = message
 
         self.messageBox = QMessageBox(QMessageBox.Critical,errorTitle, errorMessage, QMessageBox.Ok)
@@ -130,7 +132,7 @@ def isAllLocal(packages):
 def askForActions(packages, reason, title, details_title):
     msgbox = QMessageBox()
     msgbox.setText('<b>%s</b>' % reason)
-    msgbox.setInformativeText(i18n("Do you want to continue ?"))
+    msgbox.setInformativeText(_translate("Packaga Manager","Do you want to continue ?"))
     msgbox.setDetailedText(details_title + '\n' + '-'*60 + '\n  - ' + '\n  - '.join(packages))
     msgbox.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
     return msgbox.exec_() == QMessageBox.Yes

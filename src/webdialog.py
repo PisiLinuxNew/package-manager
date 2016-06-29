@@ -14,7 +14,7 @@ from PyQt5 import QtWidgets
 from PyQt5 import QtWebKit, QtWebKitWidgets
 from PyQt5.QtCore import *
 
-import config
+import config, backend
 
 from pds.gui import *
 from pmutils import *
@@ -25,6 +25,8 @@ from ui_webdialog import Ui_WebDialog
 
 from pds.qprogressindicator import QProgressIndicator
 
+_translate = QCoreApplication.translate
+
 class WebDialog(PAbstractBox, Ui_WebDialog):
     finished = pyqtSignal()
     
@@ -32,7 +34,7 @@ class WebDialog(PAbstractBox, Ui_WebDialog):
         PAbstractBox.__init__(self, parent)
         self.setupUi(self)
 
-        self.iface = parent.iface
+        self.iface = backend.pm.Iface()   #parent.iface
 
         # PDS Settings
         self._animation = 1
@@ -80,7 +82,10 @@ class WebDialog(PAbstractBox, Ui_WebDialog):
         self.animate(start = BOTCENTER, stop = MIDCENTER)
 
     def getFiles(self):
-        return self.iface.getPackageFiles(str(self.packageName.text()))
+        files=self.iface.getPackageFiles(str(self.packageName.text()))
+        self.filesList.addItems(files)
+        self.filesList.sortItems()
+        return files #self.iface.getPackageFiles(str(self.packageName.text()))
 
     def getFilesFinished(self):
         self.filesList.addItems(self._filesThread.get())
@@ -112,14 +117,15 @@ class WebDialog(PAbstractBox, Ui_WebDialog):
         reset_proxy_settings()
 
     def showPackageDetails(self, package, installed, summary='', description=''):
-        package = QVariant.value(package)
-        summary = QVariant.value(summary)
-        description = QVariant.value(description)
+        package = str(QVariant.value(package))
+        summary = str(QVariant.value(summary))
+        description = str(QVariant.value(description))
         
         self.packageName.setText(package)
         self.filesList.clear()
-
-        self.tabWidget.insertTab(0, self.packageFiles, i18n('Package Files'))
+        
+        
+        self.tabWidget.insertTab(0, self.packageFiles, _translate("Packaga Manager",'Package Files'))
         self.tabWidget.currentChanged.connect(self._tabSwitched)
 
         if config.USE_APPINFO:
@@ -136,7 +142,8 @@ class WebDialog(PAbstractBox, Ui_WebDialog):
                 self._sync_template(status = False)
         else:
             self.tabWidget.removeTab(1)
-            self._filesThread.start()
+        
+        self._filesThread.start()
 
         if not installed:
             self.tabWidget.removeTab(0)

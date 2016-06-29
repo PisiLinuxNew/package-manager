@@ -13,10 +13,12 @@
 import time
 
 from PyQt5.QtCore import QObject
-from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtCore import pyqtSignal,QCoreApplication
 
 from pmutils import *
 from pmlogging import logger
+
+_translate = QCoreApplication.translate
 
 class OperationManager(QObject):
     #Signal Emits                   #__init__ e yazıldığında hata veriyor
@@ -46,10 +48,10 @@ class OperationManager(QObject):
         self.totalDownloaded = 0
         self.curPkgDownloaded = 0
         self.desktopFiles = []
-        self._operation_signals = {"installing":i18n('installing'),
-                                   "removing":i18n('removing'),
-                                   "extracting":i18n('extracting'),
-                                   "configuring":i18n('configuring')}
+        self._operation_signals = {"installing":_translate("Packaga Manager",'installing'),
+                                   "removing":_translate("Packaga Manager",'removing'),
+                                   "extracting":_translate("Packaga Manager",'extracting'),
+                                   "configuring":_translate("Packaga Manager",'configuring')}
 
     def setTotalPackages(self, totalPackages):
         self.totalPackages = totalPackages
@@ -143,7 +145,7 @@ class OperationManager(QObject):
 
         elif signal == "fetching":
             if not args[0].startswith("pisi-index.xml"):
-                self.operationChanged[str,str].emit(i18n("downloading"), args[0])
+                self.operationChanged[str,str].emit(_translate("Packaga Manager","downloading"), args[0])
             self.updateTotalDownloaded(args[4], args[5], args[2], args[3])
             self.calculateTimeLeft(args[2], args[3])
             self.updateTotalOperationPercent()
@@ -182,4 +184,4 @@ class OperationManager(QObject):
             if self.packageNo > self.totalPackages:
                 self.totalPackages = self.packageNo
             self.updatePackageProgress()
-            self.packageChanged[int,int,str].emit(self.packageNo, self.totalPackages, i18n(signal))
+            self.packageChanged[int,int,str].emit(self.packageNo, self.totalPackages, _translate("Packaga Manager",signal))

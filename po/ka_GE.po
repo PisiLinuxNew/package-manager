@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 15:45+0200\n"
+"POT-Creation-Date: 2016-06-30 01:43+0300\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: Georgian (Georgia) (http://www.transifex.com/projects/p/PiSiLinux/language/ka_GE/)\n"
@@ -20,8 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/package-manager.desktop.in.h:1
-#: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
-#: src/progressdialog.py:63 ui/ui_mainwindow.py:27
+#: data/packagemanager-helper.desktop.in.h:1
 msgid "Package Manager"
 msgstr "პაკეტი მენეჯერი"
 
@@ -37,790 +36,211 @@ msgstr "PiSi პაკეტების მენეჯერის გრა�
 msgid "Add/Remove/Update Packages"
 msgstr "დამატება/წაშალე/განაახლეთ პაკეტები"
 
-#: src/basketdialog.py:55 ui/ui_basketdialog.py:186
-msgid "Clear Basket"
-msgstr "კალათა ცარიელი"
+#~ msgid "Clear Basket"
+#~ msgstr "კალათა ცარიელი"
 
-#: src/basketdialog.py:56
-msgid "Do you want to clear all selections ?"
-msgstr ""
+#~ msgid "Pisi Error"
+#~ msgstr "PİSİ შეცდომა"
 
-#: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
-#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:255
-#: src/settingsdialog.py:261
-msgid "Pisi Error"
-msgstr "PİSİ შეცდომა"
+#~ msgid "You must restart your system for the updates to take effect"
+#~ msgstr "ამოქმედდეს, სისტემა უნდა გადატვირთვა განახლებანი"
 
-#: src/basketdialog.py:164
-msgid "You must restart your system for the updates to take effect"
-msgstr "ამოქმედდეს, სისტემა უნდა გადატვირთვა განახლებანი"
+#~ msgid "Update Requirements"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
 
-#: src/basketdialog.py:166 src/basketdialog.py:175
-msgid "Update Requirements"
-msgstr "გაუმჯობესების მოთხოვნები"
+#~ msgid "Packages Require System Restart"
+#~ msgstr "პაკეტი გსურთ გადატვირთოთ"
 
-#: src/basketdialog.py:167
-msgid "Packages Require System Restart"
-msgstr "პაკეტი გსურთ გადატვირთოთ"
-
-#: src/basketdialog.py:173
-msgid "You must restart related system services for the updated package(s) to take effect"
-msgstr ""
-
-#: src/basketdialog.py:176
-msgid "Packages Require Service Restart"
-msgstr "პაკეტი გსურთ გადატვირთოთ"
-
-#: src/basketdialog.py:187
-msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
-msgstr ""
-
-#: src/basketdialog.py:190 src/settingsdialog.py:176
-msgid "Warning"
-msgstr "ყურადღება!"
-
-#: src/basketdialog.py:191
-msgid "Critical Packages"
-msgstr "მნიშვნელოვანი პაკეტი"
-
-#: src/basketdialog.py:202 src/pmwindow.py:135
-msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
-msgstr ""
-
-#: src/basketdialog.py:204 src/pmwindow.py:137
-msgid "Already Installed Packages"
-msgstr "პაკეტი უკვე გაყვანილია"
-
-#: src/basketdialog.py:205 src/mainwindow.py:145 src/mainwindow.py:147
-#: src/pmwindow.py:138
-msgid "Installed Packages"
-msgstr "ატვირთვები პაკეტი"
-
-#: src/grouplist.py:47
-msgid "All"
-msgstr "ყველა"
-
-#: src/helpdialog.py:32
-msgid "Package Manager Help"
-msgstr "პაკეტების მენეჯერის დახმარება"
-
-#: src/mainwidget.py:149
-msgid "All packages are up to date"
-msgstr ""
-
-#: src/mainwidget.py:258
-msgid "Searching..."
-msgstr "ვეძებთ"
-
-#: src/mainwidget.py:270
-msgid "No results found."
-msgstr "არ არსებობს შედეგი"
-
-#: src/mainwidget.py:431
-msgid "Select packages"
-msgstr "აირჩიეთ პაკეტი"
-
-#: src/mainwidget.py:432
-msgid "You must select at least one installed package"
-msgstr ""
-
-#: src/mainwidget.py:444
-msgid "All Updates"
-msgstr "ყველა განახლებანი"
-
-#: src/mainwidget.py:445
-msgid "Security Updates"
-msgstr "უშიშროების განახლებანი"
-
-#: src/mainwidget.py:446
-msgid "Critical Updates"
-msgstr "კრიტიკული განახლებანი"
-
-#: src/mainwindow.py:137 src/mainwindow.py:139
-msgid "All Packages"
-msgstr "ყველა პაკეტების"
-
-#: src/mainwindow.py:141 src/mainwindow.py:143
-msgid "Installable Packages"
-msgstr "საინსტალაციო პაკეტების"
-
-#: src/mainwindow.py:149 src/mainwindow.py:151 src/tray.py:199
-msgid "Updates"
-msgstr "განახლებანი"
-
-#: src/mainwindow.py:153 ui/ui_mainwidget_v3.py:160
-msgid "Settings"
-msgstr ""
-
-#: src/mainwindow.py:156
-msgid "Help"
-msgstr ""
-
-#: src/mainwindow.py:160 src/tray.py:195
-msgid "Quit"
-msgstr ""
-
-#: src/mainwindow.py:190
-msgid "Calculating dependencies..."
-msgstr ""
-
-#: src/mainwindow.py:210
-msgid "Currently your basket is empty."
-msgstr ""
-
-#: src/operationmanager.py:49
-msgid "installing"
-msgstr "ინსტალაცია ..."
-
-#: src/operationmanager.py:50
-msgid "removing"
-msgstr "მოხსნის ..."
-
-#: src/operationmanager.py:51 src/progressdialog.py:79
-msgid "extracting"
-msgstr "მოპოვების ..."
-
-#: src/operationmanager.py:52 src/progressdialog.py:79
-msgid "configuring"
-msgstr "შექმნა ..."
-
-#: src/operationmanager.py:146
-msgid "downloading"
-msgstr "ჩამოქაჩვა"
-
-#: src/packagedelegate.py:81
-msgid "critical"
-msgstr "მნიშვნელოვანი"
-
-#: src/packagedelegate.py:82
-msgid "security"
-msgstr "უსაფრთხოების"
-
-#: src/packagedelegate.py:98
-msgid "Description:"
-msgstr ""
-
-#: src/packagedelegate.py:99
-msgid "Website:"
-msgstr "საიტი:"
-
-#: src/packagedelegate.py:100
-msgid "Release:"
-msgstr ""
-
-#: src/packagedelegate.py:101
-msgid "Repository:"
-msgstr ""
-
-#: src/packagedelegate.py:102
-msgid "Package Size:"
-msgstr "ზომა:"
-
-#: src/packagedelegate.py:103
-msgid "Installed Version:"
-msgstr "მონიშნე ვერსია:"
-
-#: src/packagedelegate.py:318
-msgid "Unknown"
-msgstr ""
-
-#: src/packagedelegate.py:346
-msgid "Details"
-msgstr "დეტალური:"
-
-#: src/packageview.py:27
-msgid "Select all packages in this group"
-msgstr ""
-
-#: src/pm-install.py:47
-msgid "%prog packages_to_install"
-msgstr ""
-
-#: src/pmutils.py:81 src/statemanager.py:247
-msgid "Network Error"
-msgstr "ქსელის შეცდომა"
-
-#: src/pmutils.py:82 src/statemanager.py:248
-msgid "Please check your network connections and try again."
-msgstr ""
-
-#: src/pmutils.py:84
-msgid "Authorization Error"
-msgstr "ავტორიზაცია შეცდომა"
-
-#: src/pmutils.py:85
-msgid "You are not authorized for this operation."
-msgstr ""
-
-#: src/pmutils.py:88
-#, python-format
-msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
-msgstr ""
-
-#: src/pmutils.py:93
-msgid "Mixing file names and package names not supported yet."
-msgstr ""
-
-#: src/pmutils.py:96
-#, python-format
-msgid "File <b>%s</b> doesn't exists."
-msgstr ""
-
-#: src/pmutils.py:99
-msgid "Another instance of PiSi is running. Only one instance is allowed."
-msgstr ""
-
-#: src/pmutils.py:133
-msgid "Do you want to continue ?"
-msgstr ""
-
-#: src/progressdialog.py:75
-msgid "<p align='right'>%1 %</p>"
-msgstr ""
-
-#: src/progressdialog.py:76
-#, python-format
-msgid "Operation - %1%"
-msgstr ""
-
-#: src/progressdialog.py:83
-msgid "Downloading package list of %1"
-msgstr ""
-
-#: src/progressdialog.py:85
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: src/progressdialog.py:90
-msgid "[%1 / %2]"
-msgstr "[%1 / %2]"
-
-#: src/progressdialog.py:97
-msgid "%1 / %2, %3"
-msgstr "%1 / %2 / %3"
-
-#: src/progressdialog.py:114
-msgid "Preparing PiSi..."
-msgstr ""
-
-#: src/progressdialog.py:125
-msgid "<b>Cancelling operation...</b>"
-msgstr ""
-
-#: src/settingsdialog.py:167
-msgid "Open Directory"
-msgstr ""
-
-#: src/settingsdialog.py:177
-msgid "All the cached packages will be deleted. Are you sure? "
-msgstr ""
-
-#: src/settingsdialog.py:256
-msgid "Not a valid repository name"
-msgstr ""
-
-#: src/settingsdialog.py:262
-msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
-msgstr ""
-
-#: src/statemanager.py:88 src/statemanager.py:89
-msgid "Installing Package(s)"
-msgstr ""
-
-#: src/statemanager.py:90
-msgid "Removing Package(s)"
-msgstr ""
-
-#: src/statemanager.py:91
-msgid "Upgrading Package(s)"
-msgstr ""
-
-#: src/statemanager.py:92
-msgid "Applying Repository Changes"
-msgstr ""
-
-#: src/statemanager.py:93
-msgid "Updating Repository"
-msgstr ""
-
-#: src/statemanager.py:94
-msgid "Updating Repository(s)"
-msgstr ""
-
-#: src/statemanager.py:97
-msgid "installed"
-msgstr ""
-
-#: src/statemanager.py:98
-msgid "removed"
-msgstr ""
-
-#: src/statemanager.py:99
-msgid "upgraded"
-msgstr ""
-
-#: src/statemanager.py:100
-msgid "modified"
-msgstr ""
-
-#: src/statemanager.py:104 ui/ui_basketdialog.py:187 ui/ui_mainwidget_v3.py:167
-msgid "Install Package(s)"
-msgstr ""
-
-#: src/statemanager.py:105
-msgid "Remove Package(s)"
-msgstr ""
-
-#: src/statemanager.py:106
-msgid "Upgrade Package(s)"
-msgstr ""
-
-#: src/statemanager.py:107
-msgid "Select Operation"
-msgstr ""
-
-#: src/statemanager.py:117
-msgid "%1 new package(s) have been installed succesfully."
-msgstr ""
-
-#: src/statemanager.py:118
-msgid "%1 package(s) have been removed succesfully."
-msgstr ""
-
-#: src/statemanager.py:119
-msgid "%1 package(s) have been upgraded succesfully."
-msgstr ""
-
-#: src/statemanager.py:120
-msgid "%1 package(s) have been modified succesfully."
-msgstr ""
-
-#: src/statemanager.py:123
-msgid "You have selected the following package(s) to install:"
-msgstr ""
-
-#: src/statemanager.py:124
-msgid "You have selected the following package(s) to removal:"
-msgstr ""
-
-#: src/statemanager.py:125
-msgid "You have selected the following package(s) to upgrade:"
-msgstr ""
-
-#: src/statemanager.py:126
-msgid "You have selected the following package(s) to modify:"
-msgstr ""
-
-#: src/statemanager.py:129 ui/ui_basketdialog.py:183
-msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-msgstr ""
-
-#: src/statemanager.py:130
-msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
-msgstr ""
-
-#: src/statemanager.py:131
-msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
-msgstr ""
-
-#: src/statemanager.py:132
-msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
-msgstr ""
-
-#: src/statemanager.py:172
-msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
-msgstr ""
-
-#: src/statemanager.py:175
-msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
-msgstr ""
-
-#: src/statemanager.py:177
-msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
-msgstr ""
-
-#: src/statemanager.py:178
-msgid "in your basket."
-msgstr ""
-
-#: src/statemanager.py:213
-msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
-msgstr ""
-
-#: src/statemanager.py:214 src/statemanager.py:222
-msgid "Conflict Error"
-msgstr ""
-
-#: src/statemanager.py:218
-msgid "The following packages conflicts:\n"
-msgstr ""
-
-#: src/statemanager.py:220
-msgid "%1 conflicts with: [%2]\n"
-msgstr ""
-
-#: src/statemanager.py:221
-msgid ""
-"\n"
-"Remove the conflicting packages from the system?"
-msgstr ""
-
-#: src/tray.py:185
-msgid "Update"
-msgstr ""
-
-#: src/tray.py:191
-msgid "Update %1 repository"
-msgstr ""
-
-#: src/tray.py:192
 #, fuzzy
-msgid "Update All Repositories"
-msgstr "გაუმჯობესების მოთხოვნები"
+#~ msgid "You must restart related system services for the updated package(s) to take effect"
+#~ msgstr "ამოქმედდეს, სისტემა უნდა გადატვირთვა განახლებანი"
 
-#: src/tray.py:199
-msgid "There are %1 updates available!"
-msgstr ""
+#~ msgid "Packages Require Service Restart"
+#~ msgstr "პაკეტი გსურთ გადატვირთოთ"
 
-#: src/webdialog.py:122 ui/ui_webdialog.py:154
-msgid "Package Files"
-msgstr ""
+#~ msgid "Warning"
+#~ msgstr "ყურადღება!"
 
-#: ui/ui_appitem.py:54
-msgid "Application"
-msgstr ""
+#~ msgid "Critical Packages"
+#~ msgstr "მნიშვნელოვანი პაკეტი"
 
-#: ui/ui_appitem.py:55
-msgid "Web Tarayıcı"
-msgstr ""
+#~ msgid "Already Installed Packages"
+#~ msgstr "პაკეტი უკვე გაყვანილია"
 
-#: ui/ui_appitem.py:56
-msgid "Firefox"
-msgstr ""
+#~ msgid "Installed Packages"
+#~ msgstr "ატვირთვები პაკეტი"
 
-#: ui/ui_basketdialog.py:181 ui/ui_webdialog.py:153
+#~ msgid "All"
+#~ msgstr "ყველა"
+
+#~ msgid "Package Manager Help"
+#~ msgstr "პაკეტების მენეჯერის დახმარება"
+
+#~ msgid "Searching..."
+#~ msgstr "ვეძებთ"
+
+#~ msgid "No results found."
+#~ msgstr "არ არსებობს შედეგი"
+
+#~ msgid "Select packages"
+#~ msgstr "აირჩიეთ პაკეტი"
+
+#~ msgid "All Updates"
+#~ msgstr "ყველა განახლებანი"
+
+#~ msgid "Security Updates"
+#~ msgstr "უშიშროების განახლებანი"
+
+#~ msgid "Critical Updates"
+#~ msgstr "კრიტიკული განახლებანი"
+
+#~ msgid "All Packages"
+#~ msgstr "ყველა პაკეტების"
+
+#~ msgid "Installable Packages"
+#~ msgstr "საინსტალაციო პაკეტების"
+
+#~ msgid "Updates"
+#~ msgstr "განახლებანი"
+
 #, fuzzy
-msgid "Basket"
-msgstr "კალათა ცარიელი"
+#~ msgid "Settings"
+#~ msgstr "მოპოვების ..."
 
-#: ui/ui_basketdialog.py:182
+#~ msgid "installing"
+#~ msgstr "ინსტალაცია ..."
+
+#~ msgid "removing"
+#~ msgstr "მოხსნის ..."
+
+#~ msgid "extracting"
+#~ msgstr "მოპოვების ..."
+
+#~ msgid "configuring"
+#~ msgstr "შექმნა ..."
+
+#~ msgid "downloading"
+#~ msgstr "ჩამოქაჩვა"
+
+#~ msgid "critical"
+#~ msgstr "მნიშვნელოვანი"
+
+#~ msgid "security"
+#~ msgstr "უსაფრთხოების"
+
+#~ msgid "Website:"
+#~ msgstr "საიტი:"
+
 #, fuzzy
-msgid "Selected package(s) for install:"
-msgstr "აირჩიეთ პაკეტი"
+#~ msgid "Repository:"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
 
-#: ui/ui_basketdialog.py:184
+#~ msgid "Package Size:"
+#~ msgstr "ზომა:"
+
+#~ msgid "Installed Version:"
+#~ msgstr "მონიშნე ვერსია:"
+
+#~ msgid "Details"
+#~ msgstr "დეტალური:"
+
 #, fuzzy
-msgid "Total Size:"
-msgstr "ჩამოქაჩვა"
+#~ msgid "Select all packages in this group"
+#~ msgstr "აირჩიეთ პაკეტი"
 
-#: ui/ui_basketdialog.py:185
-msgid "<b>2.2 MB</b>"
-msgstr ""
+#~ msgid "Network Error"
+#~ msgstr "ქსელის შეცდომა"
 
-#: ui/ui_basketdialog.py:188
+#~ msgid "Authorization Error"
+#~ msgstr "ავტორიზაცია შეცდომა"
+
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#~ msgid "[%1 / %2]"
+#~ msgstr "[%1 / %2]"
+
+#~ msgid "%1 / %2, %3"
+#~ msgstr "%1 / %2 / %3"
+
 #, fuzzy
-msgid "Download Size:"
-msgstr "ჩამოქაჩვა"
+#~ msgid "Not a valid repository name"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
 
-#: ui/ui_basketdialog.py:189
-msgid "<b>2.0 MB</"
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:159 ui/ui_message.py:38
-#: ui/ui_progressdialog_v4.py:220
-msgid "Form"
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:161
-msgid "Type to search..."
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:162
 #, fuzzy
-msgid "Update Types"
-msgstr "განახლებანი"
+#~ msgid "Installing Package(s)"
+#~ msgstr "ატვირთვები პაკეტი"
 
-#: ui/ui_mainwidget_v3.py:163
-msgid "Category Panel"
-msgstr ""
-
-#: ui/ui_mainwidget_v3.py:164 ui/ui_pminstall.py:82
 #, fuzzy
-msgid "Package List"
-msgstr "ზომა:"
+#~ msgid "Removing Package(s)"
+#~ msgstr "ატვირთვები პაკეტი"
 
-#: ui/ui_mainwidget_v3.py:165
 #, fuzzy
-msgid "Show Basket"
-msgstr "კალათა ცარიელი"
+#~ msgid "Upgrading Package(s)"
+#~ msgstr "ატვირთვები პაკეტი"
 
-#: ui/ui_mainwidget_v3.py:166
 #, fuzzy
-msgid "Check for Updates"
-msgstr "უშიშროების განახლებანი"
+#~ msgid "Applying Repository Changes"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
 
-#: ui/ui_pminstall.py:80
 #, fuzzy
-msgid "Package Manager Quick Install"
-msgstr "პაკეტების მენეჯერის დახმარება"
+#~ msgid "Updating Repository"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
 
-#: ui/ui_pminstall.py:81
-msgid "Following packages are selected to install. Do you want to install these packages ?"
-msgstr ""
-
-#: ui/ui_pminstall.py:83
 #, fuzzy
-msgid "Install"
-msgstr "ინსტალაცია ..."
+#~ msgid "Updating Repository(s)"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
 
-#: ui/ui_pminstall.py:84
-msgid "Cancel"
-msgstr ""
-
-#: ui/ui_preview.py:48
-msgid "Preview"
-msgstr ""
-
-#: ui/ui_progressdialog_v4.py:221
-msgid "Alt+C"
-msgstr ""
-
-#: ui/ui_repodialog.py:50
-msgid "Add New Repository"
-msgstr ""
-
-#: ui/ui_repodialog.py:51
-msgid "Name of the repository, e.g <b>pardus-devel</b>"
-msgstr ""
-
-#: ui/ui_repodialog.py:52 ui/ui_settingsdialog.py:422
 #, fuzzy
-msgid "Repository Name"
-msgstr "გაუმჯობესების მოთხოვნები"
+#~ msgid "installed"
+#~ msgstr "ინსტალაცია ..."
 
-#: ui/ui_repodialog.py:53 ui/ui_settingsdialog.py:424
 #, fuzzy
-msgid "Repository Address"
-msgstr "გაუმჯობესების მოთხოვნები"
+#~ msgid "removed"
+#~ msgstr "მოხსნის ..."
 
-#: ui/ui_settingsdialog.py:394
 #, fuzzy
-msgid "Package Manager Settings"
-msgstr "პაკეტების მენეჯერის დახმარება"
+#~ msgid "Install Package(s)"
+#~ msgstr "ატვირთვები პაკეტი"
 
-#: ui/ui_settingsdialog.py:395
 #, fuzzy
-msgid "Package list"
-msgstr "ზომა:"
+#~ msgid "Remove Package(s)"
+#~ msgstr "დამატება/წაშალე/განაახლეთ პაკეტები"
 
-#: ui/ui_settingsdialog.py:396
-msgid "&Show only desktop applications"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:397
-msgid "Show Component information "
-msgstr ""
-
-#: ui/ui_settingsdialog.py:398
-msgid "Show package type tags"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:399
-msgid "System tray icon"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:400
-msgid "Enable system tray icon"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:401
-msgid "Hide system tray if there is no update."
-msgstr ""
-
-#: ui/ui_settingsdialog.py:402
-msgid "Enable &periodic update check"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:403
-msgid "Check interval :"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:404
-msgid " min"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:405
-msgid "Install updates automatically"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:406
 #, fuzzy
-msgid "&General Settings"
-msgstr "მოპოვების ..."
+#~ msgid "Upgrade Package(s)"
+#~ msgstr "ატვირთვები პაკეტი"
 
-#: ui/ui_settingsdialog.py:407
 #, fuzzy
-msgid "Cache Limit"
-msgstr "ზომა:"
+#~ msgid "You have selected the following package(s) to install:"
+#~ msgstr "აირჩიეთ პაკეტი"
 
-#: ui/ui_settingsdialog.py:408
-msgid "&Use hard disk cache for downloaded software"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:409
-msgid "Maximum cache size:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:410
-msgid "Unlimited"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:411
-msgid " Mib"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:412
-msgid "Current cache dir:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:413
-msgid "Select..."
-msgstr ""
-
-#: ui/ui_settingsdialog.py:414
-msgid "Open"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:415
-msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-msgstr ""
-
-#: ui/ui_settingsdialog.py:416
-msgid "C&lean disk cache now"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:417
-msgid "Bandwidth limit"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:418
-msgid "Use bandwidth limit :"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:419
-msgid " kB/s"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:420
-msgid "C&ache"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:425
 #, fuzzy
-msgid "&Add New Repository"
-msgstr "გაუმჯობესების მოთხოვნები"
+#~ msgid "Update"
+#~ msgstr "განახლებანი"
 
-#: ui/ui_settingsdialog.py:426
-msgid "Remove Repository"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:427
-msgid "Move &Up"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:428
-msgid "Move &Down"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:429
 #, fuzzy
-msgid "&Repositories"
-msgstr "გაუმჯობესების მოთხოვნები"
+#~ msgid "Update %1 repository"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
 
-#: ui/ui_settingsdialog.py:430
-msgid "Use Proxy"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:431
-msgid "HTTP proxy server:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:432 ui/ui_settingsdialog.py:434
-#: ui/ui_settingsdialog.py:436
-msgid "Port:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:433
-msgid "HTTPS proxy server:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:435
-msgid "FTP proxy server:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:437
-msgid "Domain:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:438
-msgid "Username:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:439
-msgid "Password:"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:440
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:445
-msgid "<a href=#>Use this proxy server for all protocols</a>"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:446
-msgid "&Proxy"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:447
-msgid "&Help"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:448
-msgid "&OK"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:449
-msgid "&Cancel"
-msgstr ""
-
-#: ui/ui_summarydialog.py:60
-msgid "Operation Summary"
-msgstr ""
-
-#: ui/ui_summarydialog.py:61
-msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-msgstr ""
-
-#: ui/ui_summarydialog.py:62
-msgid "&Ok"
-msgstr ""
-
-#: ui/ui_webdialog.py:155
-msgid ""
-"AppInfo Server is not reachable\n"
-"Please check your network connection"
-msgstr ""
-
-#: ui/ui_webdialog.py:157 ui/ui_webdialog.py:158
 #, fuzzy
-msgid "Package Details"
-msgstr "ზომა:"
+#~ msgid "Update All Repositories"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Basket"
+#~ msgstr "კალათა ცარიელი"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "აირჩიეთ პაკეტი"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Total Size:"
+#~ msgstr "ჩამოქაჩვა"
 
 #, fuzzy
 #~ msgctxt "BasketDialog"
@@ -831,6 +251,36 @@ msgstr "ზომა:"
 #~ msgctxt "BasketDialog"
 #~ msgid "Install Package(s)"
 #~ msgstr "ატვირთვები პაკეტი"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Download Size:"
+#~ msgstr "ჩამოქაჩვა"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Settings"
+#~ msgstr "მოპოვების ..."
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Update Types"
+#~ msgstr "განახლებანი"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Package List"
+#~ msgstr "ზომა:"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Show Basket"
+#~ msgstr "კალათა ცარიელი"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Check for Updates"
+#~ msgstr "უშიშროების განახლებანი"
 
 #, fuzzy
 #~ msgctxt "MainWidget"
@@ -844,8 +294,78 @@ msgstr "ზომა:"
 
 #, fuzzy
 #~ msgctxt "PmWindow"
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "პაკეტების მენეჯერის დახმარება"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
 #~ msgid "Package List"
 #~ msgstr "ზომა:"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Install"
+#~ msgstr "ინსტალაცია ..."
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Add New Repository"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Repository Name"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Repository Address"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Package Manager Settings"
+#~ msgstr "პაკეტების მენეჯერის დახმარება"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Package list"
+#~ msgstr "ზომა:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&General Settings"
+#~ msgstr "მოპოვების ..."
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Cache Limit"
+#~ msgstr "ზომა:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Name"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Repository Address"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Add New Repository"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Remove Repository"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Repositories"
+#~ msgstr "გაუმჯობესების მოთხოვნები"
 
 #, fuzzy
 #~ msgctxt "WebDialog"
@@ -856,6 +376,31 @@ msgstr "ზომა:"
 #~ msgctxt "WebDialog"
 #~ msgid "Package Files"
 #~ msgstr "ზომა:"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Details"
+#~ msgstr "ზომა:"
+
+#, fuzzy
+#~ msgid "Package Files"
+#~ msgstr "ზომა:"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgstr "კალათა ცარიელი"
+
+#, fuzzy
+#~ msgid "MainWidget"
+#~ msgstr "გადავიდეთ ძირითად ფანჯარაში"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgstr "გადავიდეთ ძირითად ფანჯარაში"
+
+#, fuzzy
+#~ msgid "PmWindow"
+#~ msgstr "გადავიდეთ ძირითად ფანჯარაში"
 
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
@@ -879,8 +424,3 @@ msgstr "ზომა:"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
 #~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
-
-#, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "გადავიდეთ ძირითად ფანჯარაში"
