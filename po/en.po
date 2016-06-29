@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 15:45+0200\n"
+"POT-Creation-Date: 2016-06-30 01:43+0300\n"
 "PO-Revision-Date: 2013-03-24 23:56+0000\n"
 "Last-Translator: circass <erdincgultekin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,8 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/package-manager.desktop.in.h:1
-#: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
-#: src/progressdialog.py:63 ui/ui_mainwindow.py:27
+#: data/packagemanager-helper.desktop.in.h:1
 msgid "Package Manager"
 msgstr "Package Manager"
 
@@ -36,865 +35,374 @@ msgstr "PiSi Package Manager Graphical User Interface"
 msgid "Add/Remove/Update Packages"
 msgstr "Add/Remove/Update Packages"
 
-#: src/basketdialog.py:55 ui/ui_basketdialog.py:186
-msgid "Clear Basket"
-msgstr "Clear Basket"
-
-#: src/basketdialog.py:56
-msgid "Do you want to clear all selections ?"
-msgstr "Do you want to clear all selections ?"
-
-#: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
-#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:255
-#: src/settingsdialog.py:261
-msgid "Pisi Error"
-msgstr "Pisi Error"
-
-#: src/basketdialog.py:164
-msgid "You must restart your system for the updates to take effect"
-msgstr "You must restart your system for the updates to take effect"
-
-#: src/basketdialog.py:166 src/basketdialog.py:175
-msgid "Update Requirements"
-msgstr "Update Requirements"
-
-#: src/basketdialog.py:167
-msgid "Packages Require System Restart"
-msgstr "Packages Require System Restart"
-
-#: src/basketdialog.py:173
-msgid "You must restart related system services for the updated package(s) to take effect"
-msgstr "You must restart related system services for the updated package(s) to take effect"
-
-#: src/basketdialog.py:176
-msgid "Packages Require Service Restart"
-msgstr "Packages Require Service Restart"
-
-#: src/basketdialog.py:187
-msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
-msgstr "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
-
-#: src/basketdialog.py:190 src/settingsdialog.py:176
-msgid "Warning"
-msgstr "Warning"
-
-#: src/basketdialog.py:191
-msgid "Critical Packages"
-msgstr "Critical Packages"
-
-#: src/basketdialog.py:202 src/pmwindow.py:135
-msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
-msgstr "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
-
-#: src/basketdialog.py:204 src/pmwindow.py:137
-msgid "Already Installed Packages"
-msgstr "Already Installed Packages"
-
-#: src/basketdialog.py:205 src/mainwindow.py:145 src/mainwindow.py:147
-#: src/pmwindow.py:138
-msgid "Installed Packages"
-msgstr "Installed Packages"
-
-#: src/grouplist.py:47
-msgid "All"
-msgstr "All"
-
-#: src/helpdialog.py:32
-msgid "Package Manager Help"
-msgstr "Package Manager Help"
-
-#: src/mainwidget.py:149
-msgid "All packages are up to date"
-msgstr "All packages are up to date"
-
-#: src/mainwidget.py:258
-msgid "Searching..."
-msgstr "Searching..."
-
-#: src/mainwidget.py:270
-msgid "No results found."
-msgstr "No results found."
-
-#: src/mainwidget.py:431
-msgid "Select packages"
-msgstr "Select packages"
-
-#: src/mainwidget.py:432
-msgid "You must select at least one installed package"
-msgstr "You must select at least one installed package"
-
-#: src/mainwidget.py:444
-msgid "All Updates"
-msgstr "All Updates"
-
-#: src/mainwidget.py:445
-msgid "Security Updates"
-msgstr "Security Updates"
-
-#: src/mainwidget.py:446
-msgid "Critical Updates"
-msgstr "Critical Updates"
-
-#: src/mainwindow.py:137 src/mainwindow.py:139
-msgid "All Packages"
-msgstr "All Packages"
+#~ msgid "Clear Basket"
+#~ msgstr "Clear Basket"
 
-#: src/mainwindow.py:141 src/mainwindow.py:143
-msgid "Installable Packages"
-msgstr "Installable Packages"
+#~ msgid "Do you want to clear all selections ?"
+#~ msgstr "Do you want to clear all selections ?"
 
-#: src/mainwindow.py:149 src/mainwindow.py:151 src/tray.py:199
-msgid "Updates"
-msgstr "Updates"
+#~ msgid "Pisi Error"
+#~ msgstr "Pisi Error"
 
-#: src/mainwindow.py:153 ui/ui_mainwidget_v3.py:160
-msgid "Settings"
-msgstr "Settings"
+#~ msgid "You must restart your system for the updates to take effect"
+#~ msgstr "You must restart your system for the updates to take effect"
 
-#: src/mainwindow.py:156
-#, fuzzy
-msgid "Help"
-msgstr "&Help"
-
-#: src/mainwindow.py:160 src/tray.py:195
-msgid "Quit"
-msgstr ""
-
-#: src/mainwindow.py:190
-msgid "Calculating dependencies..."
-msgstr "Calculating dependencies..."
-
-#: src/mainwindow.py:210
-msgid "Currently your basket is empty."
-msgstr "Currently your basket is empty."
-
-#: src/operationmanager.py:49
-msgid "installing"
-msgstr "installing"
-
-#: src/operationmanager.py:50
-msgid "removing"
-msgstr "removing"
-
-#: src/operationmanager.py:51 src/progressdialog.py:79
-msgid "extracting"
-msgstr "extracting"
-
-#: src/operationmanager.py:52 src/progressdialog.py:79
-msgid "configuring"
-msgstr "configuring"
-
-#: src/operationmanager.py:146
-msgid "downloading"
-msgstr "downloading"
-
-#: src/packagedelegate.py:81
-msgid "critical"
-msgstr "critical"
-
-#: src/packagedelegate.py:82
-msgid "security"
-msgstr "security"
-
-#: src/packagedelegate.py:98
-msgid "Description:"
-msgstr "Description:"
-
-#: src/packagedelegate.py:99
-msgid "Website:"
-msgstr "Website:"
-
-#: src/packagedelegate.py:100
-msgid "Release:"
-msgstr "Release:"
-
-#: src/packagedelegate.py:101
-msgid "Repository:"
-msgstr "Repository:"
-
-#: src/packagedelegate.py:102
-msgid "Package Size:"
-msgstr "Package Size:"
-
-#: src/packagedelegate.py:103
-msgid "Installed Version:"
-msgstr "Installed Version:"
-
-#: src/packagedelegate.py:318
-msgid "Unknown"
-msgstr ""
-
-#: src/packagedelegate.py:346
-msgid "Details"
-msgstr "Details"
-
-#: src/packageview.py:27
-msgid "Select all packages in this group"
-msgstr "Select all packages in this group"
-
-#: src/pm-install.py:47
-msgid "%prog packages_to_install"
-msgstr "%prog packages_to_install"
-
-#: src/pmutils.py:81 src/statemanager.py:247
-msgid "Network Error"
-msgstr "Network Error"
-
-#: src/pmutils.py:82 src/statemanager.py:248
-msgid "Please check your network connections and try again."
-msgstr "Please check your network connections and try again."
-
-#: src/pmutils.py:84
-msgid "Authorization Error"
-msgstr "Authorization Error"
-
-#: src/pmutils.py:85
-msgid "You are not authorized for this operation."
-msgstr "You are not authorized for this operation."
-
-#: src/pmutils.py:88
-#, python-format
-msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
-msgstr "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
-
-#: src/pmutils.py:93
-msgid "Mixing file names and package names not supported yet."
-msgstr "Mixing file names and package names not supported yet."
-
-#: src/pmutils.py:96
-#, python-format
-msgid "File <b>%s</b> doesn't exists."
-msgstr "File <b>%s</b> doesn't exists."
-
-#: src/pmutils.py:99
-msgid "Another instance of PiSi is running. Only one instance is allowed."
-msgstr "Another instance of PiSi is running. Only one instance is allowed."
-
-#: src/pmutils.py:133
-msgid "Do you want to continue ?"
-msgstr "Do you want to continue ?"
-
-#: src/progressdialog.py:75
-msgid "<p align='right'>%1 %</p>"
-msgstr "<p align='right'>%1 %</p>"
-
-#: src/progressdialog.py:76
-#, python-format
-msgid "Operation - %1%"
-msgstr "Operation - %1%"
-
-#: src/progressdialog.py:83
-msgid "Downloading package list of %1"
-msgstr "Downloading package list of %1"
-
-#: src/progressdialog.py:85
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: src/progressdialog.py:90
-msgid "[%1 / %2]"
-msgstr "[%1 / %2]"
-
-#: src/progressdialog.py:97
-msgid "%1 / %2, %3"
-msgstr "%1 / %2, %3"
-
-#: src/progressdialog.py:114
-msgid "Preparing PiSi..."
-msgstr "Preparing PiSi..."
-
-#: src/progressdialog.py:125
-msgid "<b>Cancelling operation...</b>"
-msgstr "<b>Cancelling operation...</b>"
-
-#: src/settingsdialog.py:167
-msgid "Open Directory"
-msgstr "Open Directory"
-
-#: src/settingsdialog.py:177
-msgid "All the cached packages will be deleted. Are you sure? "
-msgstr "All the cached packages will be deleted. Are you sure? "
-
-#: src/settingsdialog.py:256
-msgid "Not a valid repository name"
-msgstr "Not a valid repository name"
-
-#: src/settingsdialog.py:262
-msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
-msgstr "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
-
-#: src/statemanager.py:88 src/statemanager.py:89
-msgid "Installing Package(s)"
-msgstr "Installing Package(s)"
-
-#: src/statemanager.py:90
-msgid "Removing Package(s)"
-msgstr "Removing Package(s)"
-
-#: src/statemanager.py:91
-msgid "Upgrading Package(s)"
-msgstr "Upgrading Package(s)"
-
-#: src/statemanager.py:92
-msgid "Applying Repository Changes"
-msgstr "Applying Repository Changes"
-
-#: src/statemanager.py:93
-msgid "Updating Repository"
-msgstr "Updating Repository"
-
-#: src/statemanager.py:94
-msgid "Updating Repository(s)"
-msgstr "Updating Repository(s)"
-
-#: src/statemanager.py:97
-msgid "installed"
-msgstr "installed"
-
-#: src/statemanager.py:98
-msgid "removed"
-msgstr "removed"
-
-#: src/statemanager.py:99
-msgid "upgraded"
-msgstr "upgraded"
-
-#: src/statemanager.py:100
-msgid "modified"
-msgstr "modified"
-
-#: src/statemanager.py:104 ui/ui_basketdialog.py:187 ui/ui_mainwidget_v3.py:167
-msgid "Install Package(s)"
-msgstr "Install Package(s)"
-
-#: src/statemanager.py:105
-msgid "Remove Package(s)"
-msgstr "Remove Package(s)"
-
-#: src/statemanager.py:106
-msgid "Upgrade Package(s)"
-msgstr "Upgrade Package(s)"
-
-#: src/statemanager.py:107
-msgid "Select Operation"
-msgstr "Select Operation"
-
-#: src/statemanager.py:117
-msgid "%1 new package(s) have been installed succesfully."
-msgstr "%1 new package(s) have been installed succesfully."
-
-#: src/statemanager.py:118
-msgid "%1 package(s) have been removed succesfully."
-msgstr "%1 package(s) have been removed succesfully."
-
-#: src/statemanager.py:119
-msgid "%1 package(s) have been upgraded succesfully."
-msgstr "%1 package(s) have been upgraded succesfully."
-
-#: src/statemanager.py:120
-msgid "%1 package(s) have been modified succesfully."
-msgstr "%1 package(s) have been modified succesfully."
-
-#: src/statemanager.py:123
-msgid "You have selected the following package(s) to install:"
-msgstr "You have selected the following package(s) to install:"
-
-#: src/statemanager.py:124
-msgid "You have selected the following package(s) to removal:"
-msgstr "You have selected the following package(s) to removal:"
-
-#: src/statemanager.py:125
-msgid "You have selected the following package(s) to upgrade:"
-msgstr "You have selected the following package(s) to upgrade:"
-
-#: src/statemanager.py:126
-msgid "You have selected the following package(s) to modify:"
-msgstr "You have selected the following package(s) to modify:"
-
-#: src/statemanager.py:129 ui/ui_basketdialog.py:183
-msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-msgstr "Extra dependencies of the selected package(s) that are also going to be installed:"
-
-#: src/statemanager.py:130
-msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
-msgstr "Reverse dependencies of the selected package(s) that are also going to be removed:"
-
-#: src/statemanager.py:131
-msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
-msgstr "Extra dependencies of the selected package(s) that are also going to be upgraded:"
-
-#: src/statemanager.py:132
-msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
-msgstr "Extra dependencies of the selected package(s) that are also going to be modified:"
-
-#: src/statemanager.py:172
-msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
-msgstr "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
-
-#: src/statemanager.py:175
-msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
-msgstr "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
-
-#: src/statemanager.py:177
-msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
-msgstr "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
-
-#: src/statemanager.py:178
-msgid "in your basket."
-msgstr "in your basket."
-
-#: src/statemanager.py:213
-msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
-msgstr "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
-
-#: src/statemanager.py:214 src/statemanager.py:222
-msgid "Conflict Error"
-msgstr "Conflict Error"
-
-#: src/statemanager.py:218
-msgid "The following packages conflicts:\n"
-msgstr "The following packages conflicts:\n"
-
-#: src/statemanager.py:220
-msgid "%1 conflicts with: [%2]\n"
-msgstr "%1 conflicts with: [%2]\n"
-
-#: src/statemanager.py:221
-msgid ""
-"\n"
-"Remove the conflicting packages from the system?"
-msgstr ""
-"\n"
-"Remove the conflicting packages from the system?"
-
-#: src/tray.py:185
-msgid "Update"
-msgstr "Update"
-
-#: src/tray.py:191
-#, fuzzy
-msgid "Update %1 repository"
-msgstr "Updating Repository"
+#~ msgid "Update Requirements"
+#~ msgstr "Update Requirements"
 
-#: src/tray.py:192
-#, fuzzy
-msgid "Update All Repositories"
-msgstr "Updating Repository"
+#~ msgid "Packages Require System Restart"
+#~ msgstr "Packages Require System Restart"
 
-#: src/tray.py:199
-#, fuzzy
-msgid "There are %1 updates available!"
-msgstr "There are <b>%1</b> updates available!"
+#~ msgid "You must restart related system services for the updated package(s) to take effect"
+#~ msgstr "You must restart related system services for the updated package(s) to take effect"
 
-#: src/webdialog.py:122 ui/ui_webdialog.py:154
-msgid "Package Files"
-msgstr "Package Files"
+#~ msgid "Packages Require Service Restart"
+#~ msgstr "Packages Require Service Restart"
 
-#: ui/ui_appitem.py:54
-#, fuzzy
-msgid "Application"
-msgstr "Application"
+#~ msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
+#~ msgstr "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
 
-#: ui/ui_appitem.py:55
-#, fuzzy
-msgid "Web Tarayıcı"
-msgstr "Web Tarayıcı"
+#~ msgid "Warning"
+#~ msgstr "Warning"
 
-#: ui/ui_appitem.py:56
-#, fuzzy
-msgid "Firefox"
-msgstr "Firefox"
+#~ msgid "Critical Packages"
+#~ msgstr "Critical Packages"
 
-#: ui/ui_basketdialog.py:181 ui/ui_webdialog.py:153
-#, fuzzy
-msgid "Basket"
-msgstr "Show Basket"
+#~ msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
+#~ msgstr "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
 
-#: ui/ui_basketdialog.py:182
-#, fuzzy
-msgid "Selected package(s) for install:"
-msgstr "Selected package(s) for install:"
+#~ msgid "Already Installed Packages"
+#~ msgstr "Already Installed Packages"
 
-#: ui/ui_basketdialog.py:184
-#, fuzzy
-msgid "Total Size:"
-msgstr "Total Size:"
+#~ msgid "Installed Packages"
+#~ msgstr "Installed Packages"
 
-#: ui/ui_basketdialog.py:185
-#, fuzzy
-msgid "<b>2.2 MB</b>"
-msgstr "<b>2.2 MB</b>"
+#~ msgid "All"
+#~ msgstr "All"
 
-#: ui/ui_basketdialog.py:188
-#, fuzzy
-msgid "Download Size:"
-msgstr "Download Size:"
+#~ msgid "Package Manager Help"
+#~ msgstr "Package Manager Help"
 
-#: ui/ui_basketdialog.py:189
-#, fuzzy
-msgid "<b>2.0 MB</"
-msgstr "<b>2.0 MB</"
-
-#: ui/ui_mainwidget_v3.py:159 ui/ui_message.py:38
-#: ui/ui_progressdialog_v4.py:220
-#, fuzzy
-msgid "Form"
-msgstr "Form"
+#~ msgid "All packages are up to date"
+#~ msgstr "All packages are up to date"
 
-#: ui/ui_mainwidget_v3.py:161
-#, fuzzy
-msgid "Type to search..."
-msgstr "Click to search"
+#~ msgid "Searching..."
+#~ msgstr "Searching..."
 
-#: ui/ui_mainwidget_v3.py:162
-#, fuzzy
-msgid "Update Types"
-msgstr "Update Types"
+#~ msgid "No results found."
+#~ msgstr "No results found."
 
-#: ui/ui_mainwidget_v3.py:163
-#, fuzzy
-msgid "Category Panel"
-msgstr "Category Panel"
+#~ msgid "Select packages"
+#~ msgstr "Select packages"
 
-#: ui/ui_mainwidget_v3.py:164 ui/ui_pminstall.py:82
-#, fuzzy
-msgid "Package List"
-msgstr "Package List"
+#~ msgid "You must select at least one installed package"
+#~ msgstr "You must select at least one installed package"
 
-#: ui/ui_mainwidget_v3.py:165
-#, fuzzy
-msgid "Show Basket"
-msgstr "Show Basket"
+#~ msgid "All Updates"
+#~ msgstr "All Updates"
 
-#: ui/ui_mainwidget_v3.py:166
-#, fuzzy
-msgid "Check for Updates"
-msgstr "Check for Updates"
+#~ msgid "Security Updates"
+#~ msgstr "Security Updates"
 
-#: ui/ui_pminstall.py:80
-#, fuzzy
-msgid "Package Manager Quick Install"
-msgstr "Package Manager Quick Install"
+#~ msgid "Critical Updates"
+#~ msgstr "Critical Updates"
 
-#: ui/ui_pminstall.py:81
-#, fuzzy
-msgid "Following packages are selected to install. Do you want to install these packages ?"
-msgstr "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgid "All Packages"
+#~ msgstr "All Packages"
 
-#: ui/ui_pminstall.py:83
-#, fuzzy
-msgid "Install"
-msgstr "Install"
+#~ msgid "Installable Packages"
+#~ msgstr "Installable Packages"
 
-#: ui/ui_pminstall.py:84
-#, fuzzy
-msgid "Cancel"
-msgstr "Cancel"
+#~ msgid "Updates"
+#~ msgstr "Updates"
 
-#: ui/ui_preview.py:48
-#, fuzzy
-msgid "Preview"
-msgstr "Preview"
+#~ msgid "Settings"
+#~ msgstr "Settings"
 
-#: ui/ui_progressdialog_v4.py:221
 #, fuzzy
-msgid "Alt+C"
-msgstr "Alt+C"
+#~ msgid "Help"
+#~ msgstr "&Help"
 
-#: ui/ui_repodialog.py:50
-#, fuzzy
-msgid "Add New Repository"
-msgstr "Add New Repository"
+#~ msgid "Calculating dependencies..."
+#~ msgstr "Calculating dependencies..."
 
-#: ui/ui_repodialog.py:51
-#, fuzzy
-msgid "Name of the repository, e.g <b>pardus-devel</b>"
-msgstr "Name of the repository, e.g <b>pisilinux-devel</b>"
+#~ msgid "Currently your basket is empty."
+#~ msgstr "Currently your basket is empty."
 
-#: ui/ui_repodialog.py:52 ui/ui_settingsdialog.py:422
-#, fuzzy
-msgid "Repository Name"
-msgstr "Repository Name"
+#~ msgid "installing"
+#~ msgstr "installing"
 
-#: ui/ui_repodialog.py:53 ui/ui_settingsdialog.py:424
-#, fuzzy
-msgid "Repository Address"
-msgstr "Repository Address"
+#~ msgid "removing"
+#~ msgstr "removing"
 
-#: ui/ui_settingsdialog.py:394
-#, fuzzy
-msgid "Package Manager Settings"
-msgstr "Package Manager Settings"
+#~ msgid "extracting"
+#~ msgstr "extracting"
 
-#: ui/ui_settingsdialog.py:395
-#, fuzzy
-msgid "Package list"
-msgstr "Package list"
+#~ msgid "configuring"
+#~ msgstr "configuring"
 
-#: ui/ui_settingsdialog.py:396
-#, fuzzy
-msgid "&Show only desktop applications"
-msgstr "&Show only desktop applications"
+#~ msgid "downloading"
+#~ msgstr "downloading"
 
-#: ui/ui_settingsdialog.py:397
-#, fuzzy
-msgid "Show Component information "
-msgstr "Show Component information "
+#~ msgid "critical"
+#~ msgstr "critical"
 
-#: ui/ui_settingsdialog.py:398
-#, fuzzy
-msgid "Show package type tags"
-msgstr "Show package type tags"
+#~ msgid "security"
+#~ msgstr "security"
 
-#: ui/ui_settingsdialog.py:399
-#, fuzzy
-msgid "System tray icon"
-msgstr "System tray icon"
+#~ msgid "Description:"
+#~ msgstr "Description:"
 
-#: ui/ui_settingsdialog.py:400
-#, fuzzy
-msgid "Enable system tray icon"
-msgstr "Enable system tray icon"
+#~ msgid "Website:"
+#~ msgstr "Website:"
 
-#: ui/ui_settingsdialog.py:401
-#, fuzzy
-msgid "Hide system tray if there is no update."
-msgstr "Hide system tray if there is no update."
+#~ msgid "Release:"
+#~ msgstr "Release:"
 
-#: ui/ui_settingsdialog.py:402
-#, fuzzy
-msgid "Enable &periodic update check"
-msgstr "Enable &periodic update check"
+#~ msgid "Repository:"
+#~ msgstr "Repository:"
 
-#: ui/ui_settingsdialog.py:403
-#, fuzzy
-msgid "Check interval :"
-msgstr "Check interval :"
+#~ msgid "Package Size:"
+#~ msgstr "Package Size:"
 
-#: ui/ui_settingsdialog.py:404
-#, fuzzy
-msgid " min"
-msgstr " min"
+#~ msgid "Installed Version:"
+#~ msgstr "Installed Version:"
 
-#: ui/ui_settingsdialog.py:405
-#, fuzzy
-msgid "Install updates automatically"
-msgstr "Install updates automatically"
+#~ msgid "Details"
+#~ msgstr "Details"
 
-#: ui/ui_settingsdialog.py:406
-#, fuzzy
-msgid "&General Settings"
-msgstr "&General Settings"
+#~ msgid "Select all packages in this group"
+#~ msgstr "Select all packages in this group"
 
-#: ui/ui_settingsdialog.py:407
-#, fuzzy
-msgid "Cache Limit"
-msgstr "Cache Limit"
+#~ msgid "%prog packages_to_install"
+#~ msgstr "%prog packages_to_install"
 
-#: ui/ui_settingsdialog.py:408
-#, fuzzy
-msgid "&Use hard disk cache for downloaded software"
-msgstr "&Use hard disk cache for downloaded software"
+#~ msgid "Network Error"
+#~ msgstr "Network Error"
 
-#: ui/ui_settingsdialog.py:409
-#, fuzzy
-msgid "Maximum cache size:"
-msgstr "Maximum cache size:"
+#~ msgid "Please check your network connections and try again."
+#~ msgstr "Please check your network connections and try again."
 
-#: ui/ui_settingsdialog.py:410
-#, fuzzy
-msgid "Unlimited"
-msgstr "Unlimited"
+#~ msgid "Authorization Error"
+#~ msgstr "Authorization Error"
 
-#: ui/ui_settingsdialog.py:411
-#, fuzzy
-msgid " Mib"
-msgstr " Mib"
+#~ msgid "You are not authorized for this operation."
+#~ msgstr "You are not authorized for this operation."
 
-#: ui/ui_settingsdialog.py:412
-#, fuzzy
-msgid "Current cache dir:"
-msgstr "Current cache dir:"
+#~ msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
+#~ msgstr "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
 
-#: ui/ui_settingsdialog.py:413
-#, fuzzy
-msgid "Select..."
-msgstr "Select..."
+#~ msgid "Mixing file names and package names not supported yet."
+#~ msgstr "Mixing file names and package names not supported yet."
 
-#: ui/ui_settingsdialog.py:414
-#, fuzzy
-msgid "Open"
-msgstr "Open"
+#~ msgid "File <b>%s</b> doesn't exists."
+#~ msgstr "File <b>%s</b> doesn't exists."
 
-#: ui/ui_settingsdialog.py:415
-#, fuzzy
-msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-msgstr "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgid "Another instance of PiSi is running. Only one instance is allowed."
+#~ msgstr "Another instance of PiSi is running. Only one instance is allowed."
 
-#: ui/ui_settingsdialog.py:416
-#, fuzzy
-msgid "C&lean disk cache now"
-msgstr "C&lean disk cache now"
+#~ msgid "Do you want to continue ?"
+#~ msgstr "Do you want to continue ?"
 
-#: ui/ui_settingsdialog.py:417
-#, fuzzy
-msgid "Bandwidth limit"
-msgstr "Bandwidth limit"
+#~ msgid "<p align='right'>%1 %</p>"
+#~ msgstr "<p align='right'>%1 %</p>"
 
-#: ui/ui_settingsdialog.py:418
-#, fuzzy
-msgid "Use bandwidth limit :"
-msgstr "Use bandwidth limit :"
+#~ msgid "Operation - %1%"
+#~ msgstr "Operation - %1%"
 
-#: ui/ui_settingsdialog.py:419
-#, fuzzy
-msgid " kB/s"
-msgstr " kB/s"
+#~ msgid "Downloading package list of %1"
+#~ msgstr "Downloading package list of %1"
 
-#: ui/ui_settingsdialog.py:420
-#, fuzzy
-msgid "C&ache"
-msgstr "C&ache"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
 
-#: ui/ui_settingsdialog.py:425
-#, fuzzy
-msgid "&Add New Repository"
-msgstr "&Add New Repository"
+#~ msgid "[%1 / %2]"
+#~ msgstr "[%1 / %2]"
 
-#: ui/ui_settingsdialog.py:426
-#, fuzzy
-msgid "Remove Repository"
-msgstr "Remove Repository"
+#~ msgid "%1 / %2, %3"
+#~ msgstr "%1 / %2, %3"
 
-#: ui/ui_settingsdialog.py:427
-#, fuzzy
-msgid "Move &Up"
-msgstr "Move &Up"
+#~ msgid "Preparing PiSi..."
+#~ msgstr "Preparing PiSi..."
 
-#: ui/ui_settingsdialog.py:428
-#, fuzzy
-msgid "Move &Down"
-msgstr "Move &Down"
+#~ msgid "<b>Cancelling operation...</b>"
+#~ msgstr "<b>Cancelling operation...</b>"
 
-#: ui/ui_settingsdialog.py:429
-#, fuzzy
-msgid "&Repositories"
-msgstr "&Repositories"
+#~ msgid "Open Directory"
+#~ msgstr "Open Directory"
 
-#: ui/ui_settingsdialog.py:430
-#, fuzzy
-msgid "Use Proxy"
-msgstr "Use Proxy"
+#~ msgid "All the cached packages will be deleted. Are you sure? "
+#~ msgstr "All the cached packages will be deleted. Are you sure? "
 
-#: ui/ui_settingsdialog.py:431
-#, fuzzy
-msgid "HTTP proxy server:"
-msgstr "HTTP proxy server:"
-
-#: ui/ui_settingsdialog.py:432 ui/ui_settingsdialog.py:434
-#: ui/ui_settingsdialog.py:436
-#, fuzzy
-msgid "Port:"
-msgstr "Port:"
+#~ msgid "Not a valid repository name"
+#~ msgstr "Not a valid repository name"
 
-#: ui/ui_settingsdialog.py:433
-#, fuzzy
-msgid "HTTPS proxy server:"
-msgstr "HTTPS proxy server:"
+#~ msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
+#~ msgstr "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
 
-#: ui/ui_settingsdialog.py:435
-#, fuzzy
-msgid "FTP proxy server:"
-msgstr "FTP proxy server:"
+#~ msgid "Installing Package(s)"
+#~ msgstr "Installing Package(s)"
 
-#: ui/ui_settingsdialog.py:437
-#, fuzzy
-msgid "Domain:"
-msgstr "Domain:"
+#~ msgid "Removing Package(s)"
+#~ msgstr "Removing Package(s)"
 
-#: ui/ui_settingsdialog.py:438
-#, fuzzy
-msgid "Username:"
-msgstr "Username:"
+#~ msgid "Upgrading Package(s)"
+#~ msgstr "Upgrading Package(s)"
 
-#: ui/ui_settingsdialog.py:439
-#, fuzzy
-msgid "Password:"
-msgstr "Password:"
+#~ msgid "Applying Repository Changes"
+#~ msgstr "Applying Repository Changes"
 
-#: ui/ui_settingsdialog.py:440
-#, fuzzy
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-
-#: ui/ui_settingsdialog.py:445
-#, fuzzy
-msgid "<a href=#>Use this proxy server for all protocols</a>"
-msgstr "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgid "Updating Repository"
+#~ msgstr "Updating Repository"
 
-#: ui/ui_settingsdialog.py:446
-#, fuzzy
-msgid "&Proxy"
-msgstr "&Proxy"
+#~ msgid "Updating Repository(s)"
+#~ msgstr "Updating Repository(s)"
+
+#~ msgid "installed"
+#~ msgstr "installed"
+
+#~ msgid "removed"
+#~ msgstr "removed"
+
+#~ msgid "upgraded"
+#~ msgstr "upgraded"
+
+#~ msgid "modified"
+#~ msgstr "modified"
+
+#~ msgid "Install Package(s)"
+#~ msgstr "Install Package(s)"
 
-#: ui/ui_settingsdialog.py:447
+#~ msgid "Remove Package(s)"
+#~ msgstr "Remove Package(s)"
+
+#~ msgid "Upgrade Package(s)"
+#~ msgstr "Upgrade Package(s)"
+
+#~ msgid "Select Operation"
+#~ msgstr "Select Operation"
+
+#~ msgid "%1 new package(s) have been installed succesfully."
+#~ msgstr "%1 new package(s) have been installed succesfully."
+
+#~ msgid "%1 package(s) have been removed succesfully."
+#~ msgstr "%1 package(s) have been removed succesfully."
+
+#~ msgid "%1 package(s) have been upgraded succesfully."
+#~ msgstr "%1 package(s) have been upgraded succesfully."
+
+#~ msgid "%1 package(s) have been modified succesfully."
+#~ msgstr "%1 package(s) have been modified succesfully."
+
+#~ msgid "You have selected the following package(s) to install:"
+#~ msgstr "You have selected the following package(s) to install:"
+
+#~ msgid "You have selected the following package(s) to removal:"
+#~ msgstr "You have selected the following package(s) to removal:"
+
+#~ msgid "You have selected the following package(s) to upgrade:"
+#~ msgstr "You have selected the following package(s) to upgrade:"
+
+#~ msgid "You have selected the following package(s) to modify:"
+#~ msgstr "You have selected the following package(s) to modify:"
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Extra dependencies of the selected package(s) that are also going to be installed:"
+
+#~ msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
+#~ msgstr "Reverse dependencies of the selected package(s) that are also going to be removed:"
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
+#~ msgstr "Extra dependencies of the selected package(s) that are also going to be upgraded:"
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
+#~ msgstr "Extra dependencies of the selected package(s) that are also going to be modified:"
+
+#~ msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
+#~ msgstr "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
+
+#~ msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+#~ msgstr "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+
+#~ msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
+#~ msgstr "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
+
+#~ msgid "in your basket."
+#~ msgstr "in your basket."
+
+#~ msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
+#~ msgstr "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
+
+#~ msgid "Conflict Error"
+#~ msgstr "Conflict Error"
+
+#~ msgid "The following packages conflicts:\n"
+#~ msgstr "The following packages conflicts:\n"
+
+#~ msgid "%1 conflicts with: [%2]\n"
+#~ msgstr "%1 conflicts with: [%2]\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Remove the conflicting packages from the system?"
+#~ msgstr ""
+#~ "\n"
+#~ "Remove the conflicting packages from the system?"
+
+#~ msgid "Update"
+#~ msgstr "Update"
+
 #, fuzzy
-msgid "&Help"
-msgstr "&Help"
+#~ msgid "Update %1 repository"
+#~ msgstr "Updating Repository"
 
-#: ui/ui_settingsdialog.py:448
 #, fuzzy
-msgid "&OK"
-msgstr "&OK"
+#~ msgid "Update All Repositories"
+#~ msgstr "Updating Repository"
 
-#: ui/ui_settingsdialog.py:449
 #, fuzzy
-msgid "&Cancel"
-msgstr "&Cancel"
+#~ msgid "There are %1 updates available!"
+#~ msgstr "There are <b>%1</b> updates available!"
 
-#: ui/ui_summarydialog.py:60
 #, fuzzy
-msgid "Operation Summary"
-msgstr "Operation Summary"
+#~ msgctxt "ApplicationItem"
+#~ msgid "Application"
+#~ msgstr "Application"
 
-#: ui/ui_summarydialog.py:61
 #, fuzzy
-msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-msgstr "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgctxt "ApplicationItem"
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
 
-#: ui/ui_summarydialog.py:62
 #, fuzzy
-msgid "&Ok"
-msgstr "&Ok"
+#~ msgctxt "ApplicationItem"
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
 
-#: ui/ui_webdialog.py:155
 #, fuzzy
-msgid ""
-"AppInfo Server is not reachable\n"
-"Please check your network connection"
-msgstr ""
-"AppInfo Server is not reachable\n"
-"Please check your network connection"
-
-#: ui/ui_webdialog.py:157 ui/ui_webdialog.py:158
+#~ msgctxt "BasketDialog"
+#~ msgid "Basket"
+#~ msgstr "Show Basket"
+
 #, fuzzy
-msgid "Package Details"
-msgstr "Package Details"
+#~ msgctxt "BasketDialog"
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Selected package(s) for install:"
 
 #, fuzzy
 #~ msgctxt "BasketDialog"
 #~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 #~ msgstr "Extra dependencies of the selected package(s) that are also going to be installed:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Total Size:"
+#~ msgstr "Total Size:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
 
 #, fuzzy
 #~ msgctxt "BasketDialog"
@@ -907,9 +415,54 @@ msgstr "Package Details"
 #~ msgstr "Install Package(s)"
 
 #, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Download Size:"
+#~ msgstr "Download Size:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#, fuzzy
 #~ msgctxt "MainWidget"
 #~ msgid "Settings"
 #~ msgstr "Settings"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Type to search..."
+#~ msgstr "Click to search"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Update Types"
+#~ msgstr "Update Types"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Category Panel"
+#~ msgstr "Category Panel"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Package List"
+#~ msgstr "Package List"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Show Basket"
+#~ msgstr "Show Basket"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Check for Updates"
+#~ msgstr "Check for Updates"
 
 #, fuzzy
 #~ msgctxt "MainWidget"
@@ -928,13 +481,198 @@ msgstr "Package Details"
 
 #, fuzzy
 #~ msgctxt "PmWindow"
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Package Manager Quick Install"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Following packages are selected to install. Do you want to install these packages ?"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
 #~ msgid "Package List"
 #~ msgstr "Package List"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Install"
+#~ msgstr "Install"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#, fuzzy
+#~ msgctxt "Preview"
+#~ msgid "Preview"
+#~ msgstr "Preview"
 
 #, fuzzy
 #~ msgctxt "ProgressDialog"
 #~ msgid "Form"
 #~ msgstr "Form"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Add New Repository"
+#~ msgstr "Add New Repository"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Name of the repository, e.g <b>pisilinux-devel</b>"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Repository Name"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Repository Address"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Package Manager Settings"
+#~ msgstr "Package Manager Settings"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Package list"
+#~ msgstr "Package list"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Show only desktop applications"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Show Component information "
+#~ msgstr "Show Component information "
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Show package type tags"
+#~ msgstr "Show package type tags"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "System tray icon"
+#~ msgstr "System tray icon"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Enable system tray icon"
+#~ msgstr "Enable system tray icon"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Hide system tray if there is no update."
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Enable &periodic update check"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Check interval :"
+#~ msgstr "Check interval :"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " min"
+#~ msgstr " min"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Install updates automatically"
+#~ msgstr "Install updates automatically"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&General Settings"
+#~ msgstr "&General Settings"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Cache Limit"
+#~ msgstr "Cache Limit"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Use hard disk cache for downloaded software"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maximum cache size:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Unlimited"
+#~ msgstr "Unlimited"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " Mib"
+#~ msgstr " Mib"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Current cache dir:"
+#~ msgstr "Current cache dir:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Select..."
+#~ msgstr "Select..."
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Open"
+#~ msgstr "Open"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "C&lean disk cache now"
+#~ msgstr "C&lean disk cache now"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Bandwidth limit"
+#~ msgstr "Bandwidth limit"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Use bandwidth limit :"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " kB/s"
+#~ msgstr " kB/s"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "C&ache"
+#~ msgstr "C&ache"
 
 #, fuzzy
 #~ msgctxt "SettingsDialog"
@@ -947,6 +685,126 @@ msgstr "Package Details"
 #~ msgstr "Repository Address"
 
 #, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Add New Repository"
+#~ msgstr "&Add New Repository"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Remove Repository"
+#~ msgstr "Remove Repository"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Move &Up"
+#~ msgstr "Move &Up"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Move &Down"
+#~ msgstr "Move &Down"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Repositories"
+#~ msgstr "&Repositories"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Use Proxy"
+#~ msgstr "Use Proxy"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP proxy server:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS proxy server:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP proxy server:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Domain:"
+#~ msgstr "Domain:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Username:"
+#~ msgstr "Username:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Password:"
+#~ msgstr "Password:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Use this proxy server for all protocols</a>"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Help"
+#~ msgstr "&Help"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&OK"
+#~ msgstr "&OK"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Cancel"
+#~ msgstr "&Cancel"
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "Operation Summary"
+#~ msgstr "Operation Summary"
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
+
+#, fuzzy
 #~ msgctxt "WebDialog"
 #~ msgid "Basket"
 #~ msgstr "Show Basket"
@@ -955,6 +813,51 @@ msgstr "Package Details"
 #~ msgctxt "WebDialog"
 #~ msgid "Package Files"
 #~ msgstr "Package Files"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Details"
+#~ msgstr "Package Details"
+
+#~ msgid "Package Files"
+#~ msgstr "Package Files"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgstr "Basket"
+
+#, fuzzy
+#~ msgid "MainWidget"
+#~ msgstr "Show main window"
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgstr "Show main window"
+
+#, fuzzy
+#~ msgid "PmWindow"
+#~ msgstr "Show main window"
+
+#, fuzzy
+#~ msgid "RepoDialog"
+#~ msgstr "Basket"
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgstr "Settings"
+
+#, fuzzy
+#~ msgid "WebDialog"
+#~ msgstr "Basket"
 
 #~ msgid "Type to filter files"
 #~ msgstr "Type to filter files"
@@ -993,21 +896,3 @@ msgstr "Package Details"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
 #~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
-
-#, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "Settings"
-#~ msgstr[1] "Settings"
-
-#, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Show main window"
-#~ msgstr[1] "Show main window"
-
-#, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "Basket"
-#~ msgstr[1] "Basket"

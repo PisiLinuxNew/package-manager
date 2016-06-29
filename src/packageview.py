@@ -15,6 +15,7 @@ from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import *
 
 from pmutils import *
+_translate = QCoreApplication.translate
 
 class PackageView(QtWidgets.QTableView):
     updateRequested = pyqtSignal()
@@ -24,7 +25,7 @@ class PackageView(QtWidgets.QTableView):
         super(PackageView, self).__init__(parent)
         #QtWidgets.QTableView.__init__(self, parent)
 
-        self.select_all = QtWidgets.QCheckBox(i18n('Select all packages in this group'), self)
+        self.select_all = QtWidgets.QCheckBox(_translate("Packaga Manager",'Select all packages in this group'), self)
         self.select_all.resize(parent.width(), 32)
         self.select_all.move(3,3)
         self.select_all.setStyleSheet('padding:8px;padding-left:4px;')

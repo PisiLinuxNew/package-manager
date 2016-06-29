@@ -43,6 +43,8 @@ import localedata
 import os
 import pds
 
+_translate = QCoreApplication.translate
+
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, app = None):
         #QMainWindow.__init__(self, None)
@@ -68,6 +70,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.connectMainSignals()
 
         self.pdsMessageBox = PMessageBox(self)
+        
 
     def connectMainSignals(self):
         self.cw.connectMainSignals()
@@ -134,30 +137,30 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def initializeOperationActions(self):
 
-        self.showAllAction = QAction(KIcon(("applications-other", "package_applications")), i18n("All Packages"), self)
+        self.showAllAction = QAction(KIcon(("applications-other", "package_applications")), _translate("Packaga Manager","All Packages"), self)
         self.showAllAction.triggered.connect(lambda:self.cw.switchState(StateManager.ALL))
-        self.cw.stateTab.addTab(QWidget(), KIcon(("applications-other", "package_applications")), i18n("All Packages"))
+        self.cw.stateTab.addTab(QWidget(), KIcon(("applications-other", "package_applications")), _translate("Packaga Manager","All Packages"))
 
-        self.showInstallAction = QAction(KIcon(("list-add", "add")), i18n("Installable Packages"), self)
+        self.showInstallAction = QAction(KIcon(("list-add", "add")), _translate("Packaga Manager","Installable Packages"), self)
         self.showInstallAction.triggered.connect(lambda:self.cw.switchState(StateManager.INSTALL))
-        self.cw.stateTab.addTab(QWidget(), KIcon(("list-add", "add")), i18n("Installable Packages"))
+        self.cw.stateTab.addTab(QWidget(), KIcon(("list-add", "add")), _translate("Packaga Manager","Installable Packages"))
 
-        self.showRemoveAction = QAction(KIcon(("list-remove", "remove")), i18n("Installed Packages"), self)
+        self.showRemoveAction = QAction(KIcon(("list-remove", "remove")), _translate("Packaga Manager","Installed Packages"), self)
         self.showRemoveAction.triggered.connect(lambda:self.cw.switchState(StateManager.REMOVE))
-        self.cw.stateTab.addTab(QWidget(), KIcon(("list-remove", "remove")), i18n("Installed Packages"))
+        self.cw.stateTab.addTab(QWidget(), KIcon(("list-remove", "remove")), _translate("Packaga Manager","Installed Packages"))
 
-        self.showUpgradeAction = QAction(KIcon(("system-software-update", "gear")), i18n("Updates"), self)
+        self.showUpgradeAction = QAction(KIcon(("system-software-update", "gear")), _translate("Packaga Manager","Updates"), self)
         self.showUpgradeAction.triggered.connect(lambda:self.cw.switchState(StateManager.UPGRADE))
-        self.cw.stateTab.addTab(QWidget(), KIcon(("system-software-update", "gear")), i18n("Updates"))
+        self.cw.stateTab.addTab(QWidget(), KIcon(("system-software-update", "gear")), _translate("Packaga Manager","Updates"))
 
-        self.showPreferences = QAction(KIcon(("preferences-system", "package_settings")), i18n("Settings"), self)
-        self.showPreferences.triggered.connect(self.settingsDialog.exec_)
+        self.showPreferences = QAction(KIcon(("preferences-system", "package_settings")), _translate("Packaga Manager","Settings"), self)
+        self.showPreferences.triggered.connect(self.settingsDialog.show_)
 
-        self.actionHelp = QAction(KIcon("help"), i18n("Help"), self)
+        self.actionHelp = QAction(KIcon("help"), _translate("Packaga Manager","Help"), self)
         self.actionHelp.setShortcuts(QKeySequence.HelpContents)
         self.actionHelp.triggered.connect(self.showHelp)
 
-        self.actionQuit = QAction(KIcon("exit"), i18n("Quit"), self)
+        self.actionQuit = QAction(KIcon("exit"), _translate("Packaga Manager","Quit"), self)
         self.actionQuit.setShortcuts(QKeySequence.Quit)
         self.actionQuit.triggered.connect(qApp.exit)
 
@@ -187,7 +190,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.cw.switchState(self.cw.state.ALL)
 
     def statusWaiting(self):
-        self.updateStatusBar(i18n('Calculating dependencies...'), busy = True)
+        self.updateStatusBar(_translate("Packaga Manager",'Calculating dependencies...'), busy = True)
 
     def showHelp(self):
         self.Pds = pds.Pds()
@@ -207,7 +210,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def updateStatusBar(self, text, busy = False):
         if text == '':
-            text = i18n("Currently your basket is empty.")
+            text = _translate("Packaga Manager","Currently your basket is empty.")
             self.busy.hide()
             self.cw.showBasketButton.hide()
         else:

@@ -50,21 +50,24 @@ def update_messages():
     for filename in glob.glob1("ui", "*.ui"):
         os.system("py2uic5 -o ui/ui_%s.py ui/%s " % (filename.split(".")[0], filename))#, PROJECT))
 
+    os.system("pylupdate5 ui/*.py src/*.py src/backend/*.py -ts lang/*.ts")
+
     # Collect headers for desktop files
     for filename in glob.glob("data/*.desktop.in"):
         os.system("intltool-extract --type=gettext/ini %s" % filename)
 
-    filelist = os.popen("find data src ui -name '*.h' -o -name '*.py'").read().strip().split("\n")
+    filelist = os.popen("find data -name '*.h'").read().strip().split("\n")
     filelist.sort()
+    print filter(lambda x : x.find(".h")>=0,filelist)
     with open(files, "w") as _files:
         _files.write("\n".join(filelist))
     # Generate POT file
-    os.system("xgettext --default-domain=%s \
+    os.system("xgettext -L Python --default-domain=%s \
                         --keyword=_ \
                         --keyword=N_ \
                         --keyword=i18n \
                         --keyword=ki18n \
-                        --keyword=_translate:2 \
+                        --keyword=_translate:1c,2 \
                         --kde \
                         -ci18n -ki18n:1 -ki18nc:1c,2 -ki18np:1,2 -ki18ncp:1c,2,3 -ktr2i18n:1 \
                         -kI18N_NOOP:1 -kI18N_NOOP2:1c,2 -kaliasLocale -kki18n:1 -kki18nc:1c,2 \
@@ -91,7 +94,7 @@ class Build(build):
 
         # Clear all
         os.system("rm -rf build")
-
+        build.run(self)
         # Copy codes
         print "Copying PYs..."
         os.system("cp -R src/ build/")
@@ -111,6 +114,14 @@ class Build(build):
         print "Generating RCs..."
         for filename in glob.glob1("data", "*.qrc"):
             os.system("py2rcc5 data/%s -o build/%s_rc.py" % (filename, filename.split(".")[0]))
+        
+        print "Generating QMs..."
+        makeDirs("build/lang")
+        os.system("lrelease-qt5 lang/*.ts")
+        for filename in glob.glob1("lang", "*.qm"):
+            shutil.copy("lang/{}".format(filename), "build/lang")
+            
+        
 
 class Install(install):
     def run(self):
@@ -129,7 +140,7 @@ class Install(install):
             bin_dir = "/usr/bin"
         theme_name="breeze"                                     #  "hicolor"
         mime_icons_dir = os.path.join(root_dir, "icons/{}".format(theme_name))
-        icon_dir = os.path.join(root_dir, "icons/{}/apps/128".format(theme_name))
+        icon_dir = os.path.join(root_dir, "pixmaps".format(theme_name))
         mime_dir = os.path.join(root_dir, "mime/packages")
         locale_dir = os.path.join(root_dir, "locale")
         apps_dir = os.path.join(root_dir, "applications")
@@ -170,11 +181,11 @@ class Install(install):
         for filename in glob.glob1("po", "*.po"):
             lang = filename.rsplit(".", 1)[0]
             rst2doc(lang)
-            os.system("msgfmt --keyword=_ \
+            os.system("msgfmt -L Python --keyword=_ \
                               --keyword=N_ \
                               --keyword=i18n \
                               --keyword=ki18n \
-                              --keyword=_translate:2 \
+                              --keyword=_translate:1c,2 \
                               po/%s.po -o po/%s.mo" % (lang, lang))
             makeDirs(os.path.join(locale_dir, "%s/LC_MESSAGES" % lang))
             shutil.copy("po/%s.mo" % lang, os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % PROJECT))

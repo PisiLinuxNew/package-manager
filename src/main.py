@@ -18,7 +18,7 @@ import signal
 import traceback
 
 # PyQt5 Imports
-from PyQt5.QtCore import Qt, QItemSelectionModel
+from PyQt5.QtCore import Qt, QItemSelectionModel, QTranslator
 from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import QApplication
 from pds.quniqueapp import QUniqueApplication
@@ -54,7 +54,12 @@ if __name__ == '__main__':
 
     app = QUniqueApplication(sys.argv, catalog='package-manager')
     setSystemLocale()
-
+    
+    lang=setSystemLocale(True)
+    translator=QTranslator()
+    translator.load("/usr/share/package-manager/lang/{}.qm".format(lang))
+    app.installTranslator(translator)
+    
     # Set application font from system
     font = Pds.settings('font','Sans,10').split(',')
     app.setFont(QFont(font[0], int(font[1])))

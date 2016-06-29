@@ -32,6 +32,8 @@ import backend
 from ui_settingsdialog import Ui_SettingsDialog
 from pmutils import *
 
+_translate = QCoreApplication.translate
+
 class SettingsTab(QObject):
     def __init__(self, settings):
         QObject.__init__(self)
@@ -69,6 +71,7 @@ class GeneralSettings(SettingsTab):
         self.settings.addRepoButton.setIcon(KIcon(("list-add", "add")))
         self.settings.removeRepoButton.setIcon(KIcon(("list-remove", "remove")))
         self.initialize()
+        
 
     def initialize(self):
         self.settings.onlyGuiApp.setChecked(self.config.showOnlyGuiApp())
@@ -114,8 +117,9 @@ class GeneralSettings(SettingsTab):
             self.config.setUpdateCheckInterval(self.settings.intervalSpin.value())
             self.config.setHideTrayIfThereIsNoUpdate(self.settings.hideIfNoUpdate.isChecked())
             self.traySettingChanged.emit()
-
+        
         self.config.setInstallUpdatesAutomatically(self.settings.installUpdates.isChecked())
+        self.config.sync()
 
 class CacheSettings(SettingsTab):
     def setupUi(self):
@@ -164,7 +168,7 @@ class CacheSettings(SettingsTab):
             QDesktopServices.openUrl(QUrl("file://%s" % cache_dir, QUrl.TolerantMode))
 
     def selectCacheDir(self):
-        selected_dir = QFileDialog.getExistingDirectory(self.settings, i18n("Open Directory"), "/",
+        selected_dir = QFileDialog.getExistingDirectory(self.settings, _translate("Packaga Manager","Open Directory"), "/",
                                                         QFileDialog.ShowDirsOnly | QFileDialog.DontResolveSymlinks)
         if not selected_dir == '':
             if not selected_dir == self.settings.cacheDirPath.text():
@@ -173,8 +177,8 @@ class CacheSettings(SettingsTab):
 
     def clearCache(self):
         if QMessageBox.Yes == QMessageBox.warning(self.settings,
-                                                  i18n("Warning"),
-                                                  i18n("All the cached packages will be deleted. Are you sure? "),
+                                                  _translate("Packaga Manager","Warning"),
+                                                  _translate("Packaga Manager","All the cached packages will be deleted. Are you sure? "),
                                                   QMessageBox.Yes | QMessageBox.No):
             try:
                 self.iface.clearCache(0)
@@ -188,6 +192,8 @@ class CacheSettings(SettingsTab):
             self.iface.setConfig("general", "bandwidth_limit", str(self.settings.bandwidthSpin.value()))
         else:
             self.iface.setConfig("general", "bandwidth_limit", "0")
+            
+        
 
 class RepositorySettings(SettingsTab):
     def setupUi(self):
@@ -252,14 +258,14 @@ class RepositorySettings(SettingsTab):
         repoAddress = str(self.repoDialog.repoAddress.currentText())
         if not re.match("^[0-9%s\-\\_\\.\s]*$" % str(pmutils.letters()), str(repoName)) or str(repoName) == '':
             QMessageBox.warning(self.settings,
-                                i18n("Pisi Error"),
-                                i18n("Not a valid repository name"))
+                                _translate("Packaga Manager","Pisi Error"),
+                                _translate("Packaga Manager","Not a valid repository name"))
             return
         print dir(repoAddress)
         if not repoAddress.endswith("xml") and not repoAddress.endswith("xml.bz2") and not repoAddress.endswith('xz'):
             QMessageBox.warning(self.settings,
-                                i18n("Pisi Error"),
-                                i18n('<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>'))
+                                _translate("Packaga Manager","Pisi Error"),
+                                _translate("Packaga Manager",'<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>'))
             return
         self.__insertRow(repoName, repoAddress)
         self.markChanged()

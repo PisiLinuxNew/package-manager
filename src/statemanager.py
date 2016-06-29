@@ -11,7 +11,7 @@
 # Please read the COPYING file.
 #
 
-from PyQt5.QtCore import QObject, pyqtSignal
+from PyQt5.QtCore import QObject, pyqtSignal, QCoreApplication
 from PyQt5.QtWidgets import QMessageBox
 
 
@@ -24,6 +24,8 @@ import backend
 
 from pmutils import *
 from pmlogging import logger
+
+_translate = QCoreApplication.translate
 
 class StateManager(QObject):
     repositoriesChanged=pyqtSignal()
@@ -85,26 +87,26 @@ class StateManager(QObject):
         self.cached_packages = packages
 
     def getActionCurrent(self, action):
-        return {"System.Manager.installPackage":i18n("Installing Package(s)"),
-                "System.Manager.reinstallPackage":i18n("Installing Package(s)"),
-                "System.Manager.removePackage":i18n("Removing Package(s)"),
-                "System.Manager.updatePackage":i18n("Upgrading Package(s)"),
-                "System.Manager.setRepositories":i18n("Applying Repository Changes"),
-                "System.Manager.updateRepository":i18n("Updating Repository"),
-                "System.Manager.updateAllRepositories":i18n("Updating Repository(s)")}[str(action)]
+        return {"System.Manager.installPackage":_translate("Packaga Manager","Installing Package(s)"),
+                "System.Manager.reinstallPackage":_translate("Packaga Manager","Installing Package(s)"),
+                "System.Manager.removePackage":_translate("Packaga Manager","Removing Package(s)"),
+                "System.Manager.updatePackage":_translate("Packaga Manager","Upgrading Package(s)"),
+                "System.Manager.setRepositories":_translate("Packaga Manager","Applying Repository Changes"),
+                "System.Manager.updateRepository":_translate("Packaga Manager","Updating Repository"),
+                "System.Manager.updateAllRepositories":_translate("Packaga Manager","Updating Repository(s)")}[str(action)]
 
     def toBe(self):
-        return {self.INSTALL:i18n("installed"),
-                self.REMOVE :i18n("removed"),
-                self.UPGRADE:i18n("upgraded"),
-                self.ALL    :i18n("modified")}[self.state]
+        return {self.INSTALL:_translate("Packaga Manager","installed"),
+                self.REMOVE :_translate("Packaga Manager","removed"),
+                self.UPGRADE:_translate("Packaga Manager","upgraded"),
+                self.ALL    :_translate("Packaga Manager","modified")}[self.state]
 
     def getActionName(self, state = None):
         state = self.state if state == None else state
-        return {self.INSTALL:i18n("Install Package(s)"),
-                self.REMOVE :i18n("Remove Package(s)"),
-                self.UPGRADE:i18n("Upgrade Package(s)"),
-                self.ALL    :i18n("Select Operation")}[state]
+        return {self.INSTALL:_translate("Packaga Manager","Install Package(s)"),
+                self.REMOVE :_translate("Packaga Manager","Remove Package(s)"),
+                self.UPGRADE:_translate("Packaga Manager","Upgrade Package(s)"),
+                self.ALL    :_translate("Packaga Manager","Select Operation")}[state]
 
     def getActionIcon(self, state = None):
         state = self.state if state == None else state
@@ -114,22 +116,22 @@ class StateManager(QObject):
                 self.ALL    :KIcon("preferences-other")}[state]
 
     def getSummaryInfo(self, total):
-        return {self.INSTALL:i18n("%1 new package(s) have been installed succesfully.", total),
-                self.REMOVE :i18n("%1 package(s) have been removed succesfully.", total),
-                self.UPGRADE:i18n("%1 package(s) have been upgraded succesfully.", total),
-                self.ALL    :i18n("%1 package(s) have been modified succesfully.", total)}[self.state]
+        return {self.INSTALL:_translate("Packaga Manager","{0} new package(s) have been installed succesfully.").format(total),
+                self.REMOVE :_translate("Packaga Manager","{0} package(s) have been removed succesfully.").format(total),
+                self.UPGRADE:_translate("Packaga Manager","{0} package(s) have been upgraded succesfully.").format(total),
+                self.ALL    :_translate("Packaga Manager","{0} package(s) have been modified succesfully.").format(total)}[self.state]
 
     def getBasketInfo(self):
-        return {self.INSTALL:i18n("You have selected the following package(s) to install:"),
-                self.REMOVE :i18n("You have selected the following package(s) to removal:"),
-                self.UPGRADE:i18n("You have selected the following package(s) to upgrade:"),
-                self.ALL    :i18n("You have selected the following package(s) to modify:")}[self.state]
+        return {self.INSTALL:_translate("Packaga Manager","You have selected the following package(s) to install:"),
+                self.REMOVE :_translate("Packaga Manager","You have selected the following package(s) to removal:"),
+                self.UPGRADE:_translate("Packaga Manager","You have selected the following package(s) to upgrade:"),
+                self.ALL    :_translate("Packaga Manager","You have selected the following package(s) to modify:")}[self.state]
 
     def getBasketExtrasInfo(self):
-        return {self.INSTALL:i18n("Extra dependencies of the selected package(s) that are also going to be installed:"),
-                self.REMOVE :i18n("Reverse dependencies of the selected package(s) that are also going to be removed:"),
-                self.UPGRADE:i18n("Extra dependencies of the selected package(s) that are also going to be upgraded:"),
-                self.ALL    :i18n("Extra dependencies of the selected package(s) that are also going to be modified:")}[self.state]
+        return {self.INSTALL:_translate("Packaga Manager","Extra dependencies of the selected package(s) that are also going to be installed:"),
+                self.REMOVE :_translate("Packaga Manager","Reverse dependencies of the selected package(s) that are also going to be removed:"),
+                self.UPGRADE:_translate("Packaga Manager","Extra dependencies of the selected package(s) that are also going to be upgraded:"),
+                self.ALL    :_translate("Packaga Manager","Extra dependencies of the selected package(s) that are also going to be modified:")}[self.state]
 
     def groups(self):
         return self.__groups
@@ -169,13 +171,13 @@ class StateManager(QObject):
         if not packages:
             return ''
 
-        text = i18n("Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size ", packages, packagesSize)
+        text = _translate("Packaga Manager","Currently there are <b>{0}</b> selected package(s) of total <b>{1}</b> of size ").format(packages, packagesSize)
         if extraPackages:
             if self.state == self.REMOVE:
-                text += i18n("with <b>%1</b> reverse dependencies of total <b>%2</b> of size ", extraPackages, extraPackagesSize)
+                text += _translate("Packaga Manager","with <b>{0}</b> reverse dependencies of total <b>{1}</b> of size ").format(extraPackages, extraPackagesSize)
             else:
-                text += i18n("with <b>%1</b> extra dependencies of total <b>%2</b> of size ", extraPackages, extraPackagesSize)
-        text += i18n("in your basket.")
+                text += _translate("Packaga Manager","with <b>{0}</b> extra dependencies of total <b>{1}</b> of size ").format(extraPackages, extraPackagesSize)
+        text += _translate("Packaga Manager","in your basket.")
 
         return text
 
@@ -210,16 +212,16 @@ class StateManager(QObject):
 
         conflicts_within = list(D)
         if conflicts_within:
-            text = i18n("Selected packages [%1] are in conflict with each other. These packages can not be installed together.", ", ".join(conflicts_within))
-            QMessageBox.critical(None, i18n("Conflict Error"), text, QMessageBox.Ok)
+            text = _translate("Packaga Manager","Selected packages [{0}] are in conflict with each other. These packages can not be installed together.").format(", ".join(conflicts_within))
+            QMessageBox.critical(None, _translate("Packaga Manager","Conflict Error"), text, QMessageBox.Ok)
             return False
 
         if pkg_conflicts:
-            text = i18n("The following packages conflicts:\n")
+            text = _translate("Packaga Manager","The following packages conflicts:\n")
             for pkg in pkg_conflicts.keys():
-                text += i18n("%1 conflicts with: [%2]\n", pkg, ", ".join(pkg_conflicts[pkg]))
-            text += i18n("\nRemove the conflicting packages from the system?")
-            return QMessageBox.warning(None, i18n("Conflict Error"), text, QMessageBox.Yes, QMessageBox.No) == QMessageBox.Yes
+                text += _translate("Packaga Manager","{0} conflicts with: [{1}]\n").format(pkg, ", ".join(pkg_conflicts[pkg]))
+            text += _translate("Packaga Manager","\nRemove the conflicting packages from the system?")
+            return QMessageBox.warning(None, _translate("Packaga Manager","Conflict Error"), text, QMessageBox.Yes, QMessageBox.No) == QMessageBox.Yes
 
         return True
 
@@ -244,7 +246,7 @@ class StateManager(QObject):
 
     def showFailMessage(self):
         QMessageBox.critical(None,
-                             i18n("Network Error"),
-                             i18n("Please check your network connections and try again."),
+                             _translate("Packaga Manager","Network Error"),
+                             _translate("Packaga Manager","Please check your network connections and try again."),
                              QMessageBox.Ok)
 

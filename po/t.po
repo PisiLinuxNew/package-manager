@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PiSiLinux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 15:45+0200\n"
+"POT-Creation-Date: 2016-06-30 01:43+0300\n"
 "PO-Revision-Date: 2014-01-12 16:38+0000\n"
 "Last-Translator: klaipedetis <romangalina@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/PiSiLinux/language/lt/)\n"
@@ -20,8 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: data/package-manager.desktop.in.h:1
-#: data/packagemanager-helper.desktop.in.h:1 src/pmutils.py:75
-#: src/progressdialog.py:63 ui/ui_mainwindow.py:27
+#: data/packagemanager-helper.desktop.in.h:1
 msgid "Package Manager"
 msgstr "Paketų menadžeris"
 
@@ -37,859 +36,374 @@ msgstr "Grafinė vartotojo sąsaja Pisi paketų menadžerio "
 msgid "Add/Remove/Update Packages"
 msgstr "Pridėti/Pašalinti/atnaujinti Paketus"
 
-#: src/basketdialog.py:55 ui/ui_basketdialog.py:186
-msgid "Clear Basket"
-msgstr "išsivalyti krepše "
-
-#: src/basketdialog.py:56
-msgid "Do you want to clear all selections ?"
-msgstr "Ar jūs norite atsisakyti nuo visko, ką pasirinkote? "
-
-#: src/basketdialog.py:70 src/pmutils.py:87 src/pmutils.py:92 src/pmutils.py:95
-#: src/pmutils.py:98 src/pmutils.py:101 src/settingsdialog.py:255
-#: src/settingsdialog.py:261
-msgid "Pisi Error"
-msgstr "Klaipa Pisi"
-
-#: src/basketdialog.py:164
-msgid "You must restart your system for the updates to take effect"
-msgstr "Jums reiki a paleisti iš naujo sistema kad atnaujinti padarytus efektus "
-
-#: src/basketdialog.py:166 src/basketdialog.py:175
-msgid "Update Requirements"
-msgstr "Reikalingos naujinimus"
-
-#: src/basketdialog.py:167
-msgid "Packages Require System Restart"
-msgstr "Paketai reikalauja paleisti sistema iš naujo"
-
-#: src/basketdialog.py:173
-msgid "You must restart related system services for the updated package(s) to take effect"
-msgstr "Jus turite paleisti iš naujo atitinkamus procesus, kad pritaikyti paketu(o) efektus"
-
-#: src/basketdialog.py:176
-msgid "Packages Require Service Restart"
-msgstr "Paketas reikalauja paleisti iš naujo procesą "
-
-#: src/basketdialog.py:187
-msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
-msgstr "Pasirinkti paketai yra būtinos sistemai. Jų pašalinimas gresia sistemos žlugimui."
-
-#: src/basketdialog.py:190 src/settingsdialog.py:176
-msgid "Warning"
-msgstr "Demesio"
-
-#: src/basketdialog.py:191
-msgid "Critical Packages"
-msgstr "kritine paketai "
-
-#: src/basketdialog.py:202 src/pmwindow.py:135
-msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
-msgstr "pasirinkti paketai jau įdegti. <br>jei jūs tesit, je bus įdegti iš naujo"
-
-#: src/basketdialog.py:204 src/pmwindow.py:137
-msgid "Already Installed Packages"
-msgstr "Tikrai įdegti paketai"
-
-#: src/basketdialog.py:205 src/mainwindow.py:145 src/mainwindow.py:147
-#: src/pmwindow.py:138
-msgid "Installed Packages"
-msgstr "Įdegti paketai"
-
-#: src/grouplist.py:47
-msgid "All"
-msgstr "Visi"
-
-#: src/helpdialog.py:32
-msgid "Package Manager Help"
-msgstr "Paketų menadžerio pagalba"
-
-#: src/mainwidget.py:149
-msgid "All packages are up to date"
-msgstr "Visi paketai aktualios busenos"
-
-#: src/mainwidget.py:258
-msgid "Searching..."
-msgstr "Paješka... "
-
-#: src/mainwidget.py:270
-msgid "No results found."
-msgstr "Nieko ne rasta "
-
-#: src/mainwidget.py:431
-msgid "Select packages"
-msgstr "pasirinkti paketus"
-
-#: src/mainwidget.py:432
-msgid "You must select at least one installed package"
-msgstr "Jūs turite pasirinkti bent viena paketą "
-
-#: src/mainwidget.py:444
-msgid "All Updates"
-msgstr "visi naujinimai"
-
-#: src/mainwidget.py:445
-msgid "Security Updates"
-msgstr "Saugumo naujinimai"
-
-#: src/mainwidget.py:446
-msgid "Critical Updates"
-msgstr "Kritinė naujinimai"
-
-#: src/mainwindow.py:137 src/mainwindow.py:139
-msgid "All Packages"
-msgstr "visi paketai"
+#~ msgid "Clear Basket"
+#~ msgstr "išsivalyti krepše "
 
-#: src/mainwindow.py:141 src/mainwindow.py:143
-msgid "Installable Packages"
-msgstr "Įdegti paketai"
+#~ msgid "Do you want to clear all selections ?"
+#~ msgstr "Ar jūs norite atsisakyti nuo visko, ką pasirinkote? "
 
-#: src/mainwindow.py:149 src/mainwindow.py:151 src/tray.py:199
-msgid "Updates"
-msgstr "naujinimai"
+#~ msgid "Pisi Error"
+#~ msgstr "Klaipa Pisi"
 
-#: src/mainwindow.py:153 ui/ui_mainwidget_v3.py:160
-msgid "Settings"
-msgstr "nustatymai"
+#~ msgid "You must restart your system for the updates to take effect"
+#~ msgstr "Jums reiki a paleisti iš naujo sistema kad atnaujinti padarytus efektus "
 
-#: src/mainwindow.py:156
-#, fuzzy
-msgid "Help"
-msgstr "&pagalba"
-
-#: src/mainwindow.py:160 src/tray.py:195
-msgid "Quit"
-msgstr ""
-
-#: src/mainwindow.py:190
-msgid "Calculating dependencies..."
-msgstr "Skaičiuojami priklausomybės... "
-
-#: src/mainwindow.py:210
-msgid "Currently your basket is empty."
-msgstr "Dabarinis jūsų krepšis yra tuščias"
-
-#: src/operationmanager.py:49
-msgid "installing"
-msgstr "Įdegimas "
-
-#: src/operationmanager.py:50
-msgid "removing"
-msgstr "šalinimas"
-
-#: src/operationmanager.py:51 src/progressdialog.py:79
-msgid "extracting"
-msgstr "išemimas"
-
-#: src/operationmanager.py:52 src/progressdialog.py:79
-msgid "configuring"
-msgstr "konfigūravimas "
-
-#: src/operationmanager.py:146
-msgid "downloading"
-msgstr "Parsisiuntimas  "
-
-#: src/packagedelegate.py:81
-msgid "critical"
-msgstr "kritinis"
-
-#: src/packagedelegate.py:82
-msgid "security"
-msgstr "saugumas"
-
-#: src/packagedelegate.py:98
-msgid "Description:"
-msgstr "prie"
-
-#: src/packagedelegate.py:99
-msgid "Website:"
-msgstr "Interneto puslapis"
-
-#: src/packagedelegate.py:100
-msgid "Release:"
-msgstr "Relizas:"
-
-#: src/packagedelegate.py:101
-msgid "Repository:"
-msgstr "Saugykla:"
-
-#: src/packagedelegate.py:102
-msgid "Package Size:"
-msgstr "Paketo dydis:"
-
-#: src/packagedelegate.py:103
-msgid "Installed Version:"
-msgstr "Įdegta versija"
-
-#: src/packagedelegate.py:318
-msgid "Unknown"
-msgstr ""
-
-#: src/packagedelegate.py:346
-msgid "Details"
-msgstr "detales"
-
-#: src/packageview.py:27
-msgid "Select all packages in this group"
-msgstr "Pasirinkti visus paketus esančius grupėje"
-
-#: src/pm-install.py:47
-msgid "%prog packages_to_install"
-msgstr "%prog paketų_įdegymui"
-
-#: src/pmutils.py:81 src/statemanager.py:247
-msgid "Network Error"
-msgstr "Tinklo klaida"
-
-#: src/pmutils.py:82 src/statemanager.py:248
-msgid "Please check your network connections and try again."
-msgstr "Prašom patikrinti jūsų interneto ryšį ir papanditi dar karta"
-
-#: src/pmutils.py:84
-msgid "Authorization Error"
-msgstr "Autorizavymoklaida"
-
-#: src/pmutils.py:85
-msgid "You are not authorized for this operation."
-msgstr "Jūs neturite teisių vykdyti šią operaciją"
-
-#: src/pmutils.py:88
-#, python-format
-msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
-msgstr "Paketas <b>%s</b> nerastas saugykloje. <br> Jis gali būti atnaujintas ar pašalintas iš saugyklos. <br>Prašom pabandyti atnaujinti saugyklos informaciją"
-
-#: src/pmutils.py:93
-msgid "Mixing file names and package names not supported yet."
-msgstr "Sumaišymas failų vardus ir paketų pavadinimus dar nepalaikoma."
-
-#: src/pmutils.py:96
-#, python-format
-msgid "File <b>%s</b> doesn't exists."
-msgstr "byla  <b>%s</b> neekzistoja"
-
-#: src/pmutils.py:99
-msgid "Another instance of PiSi is running. Only one instance is allowed."
-msgstr "Kitas Pisi procesas jau vykdomas. Leidžiama paleisti tik viena Pisi proceso"
-
-#: src/pmutils.py:133
-msgid "Do you want to continue ?"
-msgstr "Norite testi?"
-
-#: src/progressdialog.py:75
-msgid "<p align='right'>%1 %</p>"
-msgstr "<p align='right'>%1 %</p> "
-
-#: src/progressdialog.py:76
-#, python-format
-msgid "Operation - %1%"
-msgstr "Operacija - %1%%1%"
-
-#: src/progressdialog.py:83
-msgid "Downloading package list of %1"
-msgstr "Parsisiunčiamas paketų sąrašas viso %1"
-
-#: src/progressdialog.py:85
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: src/progressdialog.py:90
-msgid "[%1 / %2]"
-msgstr "[%1 / %2]"
-
-#: src/progressdialog.py:97
-msgid "%1 / %2, %3"
-msgstr "%1 / %2, %3 "
-
-#: src/progressdialog.py:114
-msgid "Preparing PiSi..."
-msgstr "PISI pasiruošiamas..."
-
-#: src/progressdialog.py:125
-msgid "<b>Cancelling operation...</b>"
-msgstr "<b>Operacija baigesi<b>"
-
-#: src/settingsdialog.py:167
-msgid "Open Directory"
-msgstr "atverti kataogą"
-
-#: src/settingsdialog.py:177
-msgid "All the cached packages will be deleted. Are you sure? "
-msgstr "Visi kešuoti paketai bus pašalinti. jūs sutinkate?"
-
-#: src/settingsdialog.py:256
-msgid "Not a valid repository name"
-msgstr "Nekorektiškas saugyklos vardas"
-
-#: src/settingsdialog.py:262
-msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
-msgstr "<qt>Saugyklos adresas privalo pasibaigti su xml ar xml.bz2 arba xz sufiksų.<p>Prašom bandyti dar karta.</qt> "
-
-#: src/statemanager.py:88 src/statemanager.py:89
-msgid "Installing Package(s)"
-msgstr "Įdegiamos paketas (ai)"
-
-#: src/statemanager.py:90
-msgid "Removing Package(s)"
-msgstr "Šalinamos paketai(as)"
-
-#: src/statemanager.py:91
-msgid "Upgrading Package(s)"
-msgstr "atnaujinamos paketai(as)"
-
-#: src/statemanager.py:92
-msgid "Applying Repository Changes"
-msgstr "Pritaikoma saugyklos pakeiktymai"
-
-#: src/statemanager.py:93
-msgid "Updating Repository"
-msgstr "Saugykla atnaujinama"
-
-#: src/statemanager.py:94
-msgid "Updating Repository(s)"
-msgstr "Saugyklos(a) atnaujinama "
-
-#: src/statemanager.py:97
-msgid "installed"
-msgstr "įdegtos"
-
-#: src/statemanager.py:98
-msgid "removed"
-msgstr "pašalintos"
-
-#: src/statemanager.py:99
-msgid "upgraded"
-msgstr "atnaujintos"
-
-#: src/statemanager.py:100
-msgid "modified"
-msgstr "modifikuotos"
-
-#: src/statemanager.py:104 ui/ui_basketdialog.py:187 ui/ui_mainwidget_v3.py:167
-msgid "Install Package(s)"
-msgstr "Įdegti paketo(us)"
-
-#: src/statemanager.py:105
-msgid "Remove Package(s)"
-msgstr "pašalinti paketo(us)"
-
-#: src/statemanager.py:106
-msgid "Upgrade Package(s)"
-msgstr "atnaujinti paketus(o)"
-
-#: src/statemanager.py:107
-msgid "Select Operation"
-msgstr "Pasirinkti operacicija"
-
-#: src/statemanager.py:117
-msgid "%1 new package(s) have been installed succesfully."
-msgstr "%1naujas paketas(u) sekmingai įdegtos "
-
-#: src/statemanager.py:118
-msgid "%1 package(s) have been removed succesfully."
-msgstr "%1 paketas(ų) sėkm ingai pašlinti"
-
-#: src/statemanager.py:119
-msgid "%1 package(s) have been upgraded succesfully."
-msgstr "%1paketų(as) sėkmingai atnaujintas."
-
-#: src/statemanager.py:120
-msgid "%1 package(s) have been modified succesfully."
-msgstr "%1paketas(ų) sėkmingai modifikoti"
-
-#: src/statemanager.py:123
-msgid "You have selected the following package(s) to install:"
-msgstr "Jūs turite pažymėtus paketus(o) įdegimui:"
-
-#: src/statemanager.py:124
-msgid "You have selected the following package(s) to removal:"
-msgstr "Jūs turite pažymėtus paketus(o) pašalinymui"
-
-#: src/statemanager.py:125
-msgid "You have selected the following package(s) to upgrade:"
-msgstr "Jūs turite pažymėtus paketus(o) atnaujinimui:"
-
-#: src/statemanager.py:126
-msgid "You have selected the following package(s) to modify:"
-msgstr "Jūs turite pažymėtus paketus(o) modifikacijai:"
-
-#: src/statemanager.py:129 ui/ui_basketdialog.py:183
-msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
-msgstr "Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:"
-
-#: src/statemanager.py:130
-msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
-msgstr "Grįžtamieji priklausomybes pasirinkto paketo (-ų), kurie taip pat bus pašalinti:"
-
-#: src/statemanager.py:131
-msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
-msgstr "Papildomos priklausomybes pažimetų paketų(o) tad galite dabar atnaujinti"
-
-#: src/statemanager.py:132
-msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
-msgstr "Būtinos priklausomybės pasirinktų paketų(o) tad dabar galite jų keisti "
-
-#: src/statemanager.py:172
-msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
-msgstr "Šiuo metų yra  <b>%1</b> pasirinktų paketų(o) kurių  <b>%2</b>dydis "
-
-#: src/statemanager.py:175
-msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
-msgstr "Su <b>%1</b> reversiniais priklausomybemis <b>%2</b> dydis"
-
-#: src/statemanager.py:177
-msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
-msgstr "Su <b>%1</b> papildomais priklausomybėmis  <b>%2</b> dydis"
-
-#: src/statemanager.py:178
-msgid "in your basket."
-msgstr "Jūsų krepšjie"
-
-#: src/statemanager.py:213
-msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
-msgstr "pažimetas paketas [%1] konfliktuoja su kitais. Šitas paketas negali būti įdegtas dabar."
-
-#: src/statemanager.py:214 src/statemanager.py:222
-msgid "Conflict Error"
-msgstr "Konflikto klaida"
-
-#: src/statemanager.py:218
-msgid "The following packages conflicts:\n"
-msgstr "Sekančios paketai konfliktuoja\n"
-
-#: src/statemanager.py:220
-msgid "%1 conflicts with: [%2]\n"
-msgstr "%1 konfliktuoja sų [%2]\n"
-
-#: src/statemanager.py:221
-msgid ""
-"\n"
-"Remove the conflicting packages from the system?"
-msgstr ""
-"\n"
-"Pašalinti konfliktuojantį paketą iš sistemos?"
-
-#: src/tray.py:185
-msgid "Update"
-msgstr "Naujinimas"
-
-#: src/tray.py:191
-#, fuzzy
-msgid "Update %1 repository"
-msgstr "Saugykla atnaujinama"
+#~ msgid "Update Requirements"
+#~ msgstr "Reikalingos naujinimus"
 
-#: src/tray.py:192
-#, fuzzy
-msgid "Update All Repositories"
-msgstr "Saugykla atnaujinama"
+#~ msgid "Packages Require System Restart"
+#~ msgstr "Paketai reikalauja paleisti sistema iš naujo"
 
-#: src/tray.py:199
-#, fuzzy
-msgid "There are %1 updates available!"
-msgstr "Yra <b>%1</b>atnaujinimų!"
+#~ msgid "You must restart related system services for the updated package(s) to take effect"
+#~ msgstr "Jus turite paleisti iš naujo atitinkamus procesus, kad pritaikyti paketu(o) efektus"
 
-#: src/webdialog.py:122 ui/ui_webdialog.py:154
-msgid "Package Files"
-msgstr "Paketo bylos"
+#~ msgid "Packages Require Service Restart"
+#~ msgstr "Paketas reikalauja paleisti iš naujo procesą "
 
-#: ui/ui_appitem.py:54
-#, fuzzy
-msgid "Application"
-msgstr "Aplikacija"
+#~ msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
+#~ msgstr "Pasirinkti paketai yra būtinos sistemai. Jų pašalinimas gresia sistemos žlugimui."
 
-#: ui/ui_appitem.py:55
-#, fuzzy
-msgid "Web Tarayıcı"
-msgstr "Web Tarayıcı"
+#~ msgid "Warning"
+#~ msgstr "Demesio"
 
-#: ui/ui_appitem.py:56
-#, fuzzy
-msgid "Firefox"
-msgstr "Firefox"
+#~ msgid "Critical Packages"
+#~ msgstr "kritine paketai "
 
-#: ui/ui_basketdialog.py:181 ui/ui_webdialog.py:153
-#, fuzzy
-msgid "Basket"
-msgstr "rodyti krepšį"
+#~ msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
+#~ msgstr "pasirinkti paketai jau įdegti. <br>jei jūs tesit, je bus įdegti iš naujo"
 
-#: ui/ui_basketdialog.py:182
-#, fuzzy
-msgid "Selected package(s) for install:"
-msgstr "Pažimeti paketai įdegymui:"
+#~ msgid "Already Installed Packages"
+#~ msgstr "Tikrai įdegti paketai"
 
-#: ui/ui_basketdialog.py:184
-#, fuzzy
-msgid "Total Size:"
-msgstr "bendras dydis: "
+#~ msgid "Installed Packages"
+#~ msgstr "Įdegti paketai"
 
-#: ui/ui_basketdialog.py:185
-#, fuzzy
-msgid "<b>2.2 MB</b>"
-msgstr "<b>2.2Mb<b>"
+#~ msgid "All"
+#~ msgstr "Visi"
 
-#: ui/ui_basketdialog.py:188
-#, fuzzy
-msgid "Download Size:"
-msgstr "Parsisiuntymų dydis:"
+#~ msgid "Package Manager Help"
+#~ msgstr "Paketų menadžerio pagalba"
 
-#: ui/ui_basketdialog.py:189
-#, fuzzy
-msgid "<b>2.0 MB</"
-msgstr "<b>2.0Mb</"
-
-#: ui/ui_mainwidget_v3.py:159 ui/ui_message.py:38
-#: ui/ui_progressdialog_v4.py:220
-#, fuzzy
-msgid "Form"
-msgstr "Forma"
+#~ msgid "All packages are up to date"
+#~ msgstr "Visi paketai aktualios busenos"
 
-#: ui/ui_mainwidget_v3.py:161
-#, fuzzy
-msgid "Type to search..."
-msgstr "paspausti kad ieškoti"
+#~ msgid "Searching..."
+#~ msgstr "Paješka... "
 
-#: ui/ui_mainwidget_v3.py:162
-#, fuzzy
-msgid "Update Types"
-msgstr "atnaujinti tipą"
+#~ msgid "No results found."
+#~ msgstr "Nieko ne rasta "
 
-#: ui/ui_mainwidget_v3.py:163
-#, fuzzy
-msgid "Category Panel"
-msgstr "Kategorijų panele "
+#~ msgid "Select packages"
+#~ msgstr "pasirinkti paketus"
 
-#: ui/ui_mainwidget_v3.py:164 ui/ui_pminstall.py:82
-#, fuzzy
-msgid "Package List"
-msgstr "Paketų sąrašas"
+#~ msgid "You must select at least one installed package"
+#~ msgstr "Jūs turite pasirinkti bent viena paketą "
 
-#: ui/ui_mainwidget_v3.py:165
-#, fuzzy
-msgid "Show Basket"
-msgstr "rodyti krepšį"
+#~ msgid "All Updates"
+#~ msgstr "visi naujinimai"
 
-#: ui/ui_mainwidget_v3.py:166
-#, fuzzy
-msgid "Check for Updates"
-msgstr "patikrinti ar yra atnaujinimai"
+#~ msgid "Security Updates"
+#~ msgstr "Saugumo naujinimai"
 
-#: ui/ui_pminstall.py:80
-#, fuzzy
-msgid "Package Manager Quick Install"
-msgstr "greitas įdegymas paketo menadžerio"
+#~ msgid "Critical Updates"
+#~ msgstr "Kritinė naujinimai"
 
-#: ui/ui_pminstall.py:81
-#, fuzzy
-msgid "Following packages are selected to install. Do you want to install these packages ?"
-msgstr "sekančios paketai pažimeti įdegimui. jūs norite įdegti šių paketų?"
+#~ msgid "All Packages"
+#~ msgstr "visi paketai"
 
-#: ui/ui_pminstall.py:83
-#, fuzzy
-msgid "Install"
-msgstr "Įdegimas"
+#~ msgid "Installable Packages"
+#~ msgstr "Įdegti paketai"
 
-#: ui/ui_pminstall.py:84
-#, fuzzy
-msgid "Cancel"
-msgstr "Atsisakyti"
+#~ msgid "Updates"
+#~ msgstr "naujinimai"
 
-#: ui/ui_preview.py:48
-#, fuzzy
-msgid "Preview"
-msgstr "Peržiura"
+#~ msgid "Settings"
+#~ msgstr "nustatymai"
 
-#: ui/ui_progressdialog_v4.py:221
 #, fuzzy
-msgid "Alt+C"
-msgstr "Alt+C"
+#~ msgid "Help"
+#~ msgstr "&pagalba"
 
-#: ui/ui_repodialog.py:50
-#, fuzzy
-msgid "Add New Repository"
-msgstr "Pridėti nauja saugykla"
+#~ msgid "Calculating dependencies..."
+#~ msgstr "Skaičiuojami priklausomybės... "
 
-#: ui/ui_repodialog.py:51
-#, fuzzy
-msgid "Name of the repository, e.g <b>pardus-devel</b>"
-msgstr "Saugyklos vardas, pav. <b>"
+#~ msgid "Currently your basket is empty."
+#~ msgstr "Dabarinis jūsų krepšis yra tuščias"
 
-#: ui/ui_repodialog.py:52 ui/ui_settingsdialog.py:422
-#, fuzzy
-msgid "Repository Name"
-msgstr "Saugyklos pavadinimas"
+#~ msgid "installing"
+#~ msgstr "Įdegimas "
 
-#: ui/ui_repodialog.py:53 ui/ui_settingsdialog.py:424
-#, fuzzy
-msgid "Repository Address"
-msgstr "Saugyklos adresas"
+#~ msgid "removing"
+#~ msgstr "šalinimas"
 
-#: ui/ui_settingsdialog.py:394
-#, fuzzy
-msgid "Package Manager Settings"
-msgstr " paketų menadžerio nustatimai"
+#~ msgid "extracting"
+#~ msgstr "išemimas"
 
-#: ui/ui_settingsdialog.py:395
-#, fuzzy
-msgid "Package list"
-msgstr "Paketų sąrašas"
+#~ msgid "configuring"
+#~ msgstr "konfigūravimas "
 
-#: ui/ui_settingsdialog.py:396
-#, fuzzy
-msgid "&Show only desktop applications"
-msgstr "&Rodyti tik darbastalio aplikacijų"
+#~ msgid "downloading"
+#~ msgstr "Parsisiuntimas  "
 
-#: ui/ui_settingsdialog.py:397
-#, fuzzy
-msgid "Show Component information "
-msgstr "Rodyti informaciją apie komponentus"
+#~ msgid "critical"
+#~ msgstr "kritinis"
 
-#: ui/ui_settingsdialog.py:398
-#, fuzzy
-msgid "Show package type tags"
-msgstr "Rodyti paketo tipo tagus"
+#~ msgid "security"
+#~ msgstr "saugumas"
 
-#: ui/ui_settingsdialog.py:399
-#, fuzzy
-msgid "System tray icon"
-msgstr "Ikona sistemos lauko"
+#~ msgid "Description:"
+#~ msgstr "prie"
 
-#: ui/ui_settingsdialog.py:400
-#, fuzzy
-msgid "Enable system tray icon"
-msgstr "leidžiamos sistemos juostos ikonos"
+#~ msgid "Website:"
+#~ msgstr "Interneto puslapis"
 
-#: ui/ui_settingsdialog.py:401
-#, fuzzy
-msgid "Hide system tray if there is no update."
-msgstr "Slepti sistemos juosta jei ji ne atnaujinta"
+#~ msgid "Release:"
+#~ msgstr "Relizas:"
 
-#: ui/ui_settingsdialog.py:402
-#, fuzzy
-msgid "Enable &periodic update check"
-msgstr "leisti &periodine atnaujinimų patikra "
+#~ msgid "Repository:"
+#~ msgstr "Saugykla:"
 
-#: ui/ui_settingsdialog.py:403
-#, fuzzy
-msgid "Check interval :"
-msgstr "Patikros tarpas:"
+#~ msgid "Package Size:"
+#~ msgstr "Paketo dydis:"
 
-#: ui/ui_settingsdialog.py:404
-#, fuzzy
-msgid " min"
-msgstr "min"
+#~ msgid "Installed Version:"
+#~ msgstr "Įdegta versija"
 
-#: ui/ui_settingsdialog.py:405
-#, fuzzy
-msgid "Install updates automatically"
-msgstr "Degti naujinimus automatiškai"
+#~ msgid "Details"
+#~ msgstr "detales"
 
-#: ui/ui_settingsdialog.py:406
-#, fuzzy
-msgid "&General Settings"
-msgstr "&Bendri nustatymai"
+#~ msgid "Select all packages in this group"
+#~ msgstr "Pasirinkti visus paketus esančius grupėje"
 
-#: ui/ui_settingsdialog.py:407
-#, fuzzy
-msgid "Cache Limit"
-msgstr "Kešo ribojimas"
+#~ msgid "%prog packages_to_install"
+#~ msgstr "%prog paketų_įdegymui"
 
-#: ui/ui_settingsdialog.py:408
-#, fuzzy
-msgid "&Use hard disk cache for downloaded software"
-msgstr "&nauduoti standujį disko programoms parsisiusti"
+#~ msgid "Network Error"
+#~ msgstr "Tinklo klaida"
 
-#: ui/ui_settingsdialog.py:409
-#, fuzzy
-msgid "Maximum cache size:"
-msgstr "Maksimalus kešo dydis:"
+#~ msgid "Please check your network connections and try again."
+#~ msgstr "Prašom patikrinti jūsų interneto ryšį ir papanditi dar karta"
 
-#: ui/ui_settingsdialog.py:410
-#, fuzzy
-msgid "Unlimited"
-msgstr "Be limito"
+#~ msgid "Authorization Error"
+#~ msgstr "Autorizavymoklaida"
 
-#: ui/ui_settingsdialog.py:411
-#, fuzzy
-msgid " Mib"
-msgstr "Mib"
+#~ msgid "You are not authorized for this operation."
+#~ msgstr "Jūs neturite teisių vykdyti šią operaciją"
 
-#: ui/ui_settingsdialog.py:412
-#, fuzzy
-msgid "Current cache dir:"
-msgstr "Dabartinis kešo direktorija"
+#~ msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
+#~ msgstr "Paketas <b>%s</b> nerastas saugykloje. <br> Jis gali būti atnaujintas ar pašalintas iš saugyklos. <br>Prašom pabandyti atnaujinti saugyklos informaciją"
 
-#: ui/ui_settingsdialog.py:413
-#, fuzzy
-msgid "Select..."
-msgstr "Pasirinkti..."
+#~ msgid "Mixing file names and package names not supported yet."
+#~ msgstr "Sumaišymas failų vardus ir paketų pavadinimus dar nepalaikoma."
 
-#: ui/ui_settingsdialog.py:414
-#, fuzzy
-msgid "Open"
-msgstr "Atverti"
+#~ msgid "File <b>%s</b> doesn't exists."
+#~ msgstr "byla  <b>%s</b> neekzistoja"
 
-#: ui/ui_settingsdialog.py:415
-#, fuzzy
-msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
-msgstr "Išvalyti disko kešo po programų parsisiuntimo. Tai ne pašalins jūsų įdegtų programų ar kažkaip paveiks sistemos stabilumui"
+#~ msgid "Another instance of PiSi is running. Only one instance is allowed."
+#~ msgstr "Kitas Pisi procesas jau vykdomas. Leidžiama paleisti tik viena Pisi proceso"
 
-#: ui/ui_settingsdialog.py:416
-#, fuzzy
-msgid "C&lean disk cache now"
-msgstr "V&alyti disko kešo dabar"
+#~ msgid "Do you want to continue ?"
+#~ msgstr "Norite testi?"
 
-#: ui/ui_settingsdialog.py:417
-#, fuzzy
-msgid "Bandwidth limit"
-msgstr "praleidumo rybojimas "
+#~ msgid "<p align='right'>%1 %</p>"
+#~ msgstr "<p align='right'>%1 %</p> "
 
-#: ui/ui_settingsdialog.py:418
-#, fuzzy
-msgid "Use bandwidth limit :"
-msgstr "naudoti pralaidumo limito:"
+#~ msgid "Operation - %1%"
+#~ msgstr "Operacija - %1%%1%"
 
-#: ui/ui_settingsdialog.py:419
-#, fuzzy
-msgid " kB/s"
-msgstr "kB/s"
+#~ msgid "Downloading package list of %1"
+#~ msgstr "Parsisiunčiamas paketų sąrašas viso %1"
 
-#: ui/ui_settingsdialog.py:420
-#, fuzzy
-msgid "C&ache"
-msgstr "K&ešas"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
 
-#: ui/ui_settingsdialog.py:425
-#, fuzzy
-msgid "&Add New Repository"
-msgstr "&pridėti nauja saugykla "
+#~ msgid "[%1 / %2]"
+#~ msgstr "[%1 / %2]"
 
-#: ui/ui_settingsdialog.py:426
-#, fuzzy
-msgid "Remove Repository"
-msgstr "pašalinti saugykla"
+#~ msgid "%1 / %2, %3"
+#~ msgstr "%1 / %2, %3 "
 
-#: ui/ui_settingsdialog.py:427
-#, fuzzy
-msgid "Move &Up"
-msgstr "Kelti &į viršų"
+#~ msgid "Preparing PiSi..."
+#~ msgstr "PISI pasiruošiamas..."
 
-#: ui/ui_settingsdialog.py:428
-#, fuzzy
-msgid "Move &Down"
-msgstr "leisti &į apačia"
+#~ msgid "<b>Cancelling operation...</b>"
+#~ msgstr "<b>Operacija baigesi<b>"
 
-#: ui/ui_settingsdialog.py:429
-#, fuzzy
-msgid "&Repositories"
-msgstr "&Saugyklos"
+#~ msgid "Open Directory"
+#~ msgstr "atverti kataogą"
 
-#: ui/ui_settingsdialog.py:430
-#, fuzzy
-msgid "Use Proxy"
-msgstr "naudoti proxy"
+#~ msgid "All the cached packages will be deleted. Are you sure? "
+#~ msgstr "Visi kešuoti paketai bus pašalinti. jūs sutinkate?"
 
-#: ui/ui_settingsdialog.py:431
-#, fuzzy
-msgid "HTTP proxy server:"
-msgstr "HTTP proxy serveris:"
-
-#: ui/ui_settingsdialog.py:432 ui/ui_settingsdialog.py:434
-#: ui/ui_settingsdialog.py:436
-#, fuzzy
-msgid "Port:"
-msgstr "Portas:"
+#~ msgid "Not a valid repository name"
+#~ msgstr "Nekorektiškas saugyklos vardas"
 
-#: ui/ui_settingsdialog.py:433
-#, fuzzy
-msgid "HTTPS proxy server:"
-msgstr "HTTPS proxy serveris:"
+#~ msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
+#~ msgstr "<qt>Saugyklos adresas privalo pasibaigti su xml ar xml.bz2 arba xz sufiksų.<p>Prašom bandyti dar karta.</qt> "
 
-#: ui/ui_settingsdialog.py:435
-#, fuzzy
-msgid "FTP proxy server:"
-msgstr "FTP proxy serveris:"
+#~ msgid "Installing Package(s)"
+#~ msgstr "Įdegiamos paketas (ai)"
 
-#: ui/ui_settingsdialog.py:437
-#, fuzzy
-msgid "Domain:"
-msgstr "Domain:"
+#~ msgid "Removing Package(s)"
+#~ msgstr "Šalinamos paketai(as)"
 
-#: ui/ui_settingsdialog.py:438
-#, fuzzy
-msgid "Username:"
-msgstr "Vartotojo vardas:"
+#~ msgid "Upgrading Package(s)"
+#~ msgstr "atnaujinamos paketai(as)"
 
-#: ui/ui_settingsdialog.py:439
-#, fuzzy
-msgid "Password:"
-msgstr "Slaptažodis:"
-
-#: ui/ui_settingsdialog.py:440
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
-msgstr ""
-
-#: ui/ui_settingsdialog.py:445
-#, fuzzy
-msgid "<a href=#>Use this proxy server for all protocols</a>"
-msgstr "<a href=#>Naudoti šį proxy serverį visiems protokolams</a>"
+#~ msgid "Applying Repository Changes"
+#~ msgstr "Pritaikoma saugyklos pakeiktymai"
 
-#: ui/ui_settingsdialog.py:446
-#, fuzzy
-msgid "&Proxy"
-msgstr "&Proxy"
+#~ msgid "Updating Repository"
+#~ msgstr "Saugykla atnaujinama"
+
+#~ msgid "Updating Repository(s)"
+#~ msgstr "Saugyklos(a) atnaujinama "
+
+#~ msgid "installed"
+#~ msgstr "įdegtos"
+
+#~ msgid "removed"
+#~ msgstr "pašalintos"
+
+#~ msgid "upgraded"
+#~ msgstr "atnaujintos"
+
+#~ msgid "modified"
+#~ msgstr "modifikuotos"
+
+#~ msgid "Install Package(s)"
+#~ msgstr "Įdegti paketo(us)"
 
-#: ui/ui_settingsdialog.py:447
+#~ msgid "Remove Package(s)"
+#~ msgstr "pašalinti paketo(us)"
+
+#~ msgid "Upgrade Package(s)"
+#~ msgstr "atnaujinti paketus(o)"
+
+#~ msgid "Select Operation"
+#~ msgstr "Pasirinkti operacicija"
+
+#~ msgid "%1 new package(s) have been installed succesfully."
+#~ msgstr "%1naujas paketas(u) sekmingai įdegtos "
+
+#~ msgid "%1 package(s) have been removed succesfully."
+#~ msgstr "%1 paketas(ų) sėkm ingai pašlinti"
+
+#~ msgid "%1 package(s) have been upgraded succesfully."
+#~ msgstr "%1paketų(as) sėkmingai atnaujintas."
+
+#~ msgid "%1 package(s) have been modified succesfully."
+#~ msgstr "%1paketas(ų) sėkmingai modifikoti"
+
+#~ msgid "You have selected the following package(s) to install:"
+#~ msgstr "Jūs turite pažymėtus paketus(o) įdegimui:"
+
+#~ msgid "You have selected the following package(s) to removal:"
+#~ msgstr "Jūs turite pažymėtus paketus(o) pašalinymui"
+
+#~ msgid "You have selected the following package(s) to upgrade:"
+#~ msgstr "Jūs turite pažymėtus paketus(o) atnaujinimui:"
+
+#~ msgid "You have selected the following package(s) to modify:"
+#~ msgstr "Jūs turite pažymėtus paketus(o) modifikacijai:"
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+#~ msgstr "Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:"
+
+#~ msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
+#~ msgstr "Grįžtamieji priklausomybes pasirinkto paketo (-ų), kurie taip pat bus pašalinti:"
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
+#~ msgstr "Papildomos priklausomybes pažimetų paketų(o) tad galite dabar atnaujinti"
+
+#~ msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
+#~ msgstr "Būtinos priklausomybės pasirinktų paketų(o) tad dabar galite jų keisti "
+
+#~ msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
+#~ msgstr "Šiuo metų yra  <b>%1</b> pasirinktų paketų(o) kurių  <b>%2</b>dydis "
+
+#~ msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+#~ msgstr "Su <b>%1</b> reversiniais priklausomybemis <b>%2</b> dydis"
+
+#~ msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
+#~ msgstr "Su <b>%1</b> papildomais priklausomybėmis  <b>%2</b> dydis"
+
+#~ msgid "in your basket."
+#~ msgstr "Jūsų krepšjie"
+
+#~ msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
+#~ msgstr "pažimetas paketas [%1] konfliktuoja su kitais. Šitas paketas negali būti įdegtas dabar."
+
+#~ msgid "Conflict Error"
+#~ msgstr "Konflikto klaida"
+
+#~ msgid "The following packages conflicts:\n"
+#~ msgstr "Sekančios paketai konfliktuoja\n"
+
+#~ msgid "%1 conflicts with: [%2]\n"
+#~ msgstr "%1 konfliktuoja sų [%2]\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Remove the conflicting packages from the system?"
+#~ msgstr ""
+#~ "\n"
+#~ "Pašalinti konfliktuojantį paketą iš sistemos?"
+
+#~ msgid "Update"
+#~ msgstr "Naujinimas"
+
 #, fuzzy
-msgid "&Help"
-msgstr "&pagalba"
+#~ msgid "Update %1 repository"
+#~ msgstr "Saugykla atnaujinama"
 
-#: ui/ui_settingsdialog.py:448
 #, fuzzy
-msgid "&OK"
-msgstr "&gerai"
+#~ msgid "Update All Repositories"
+#~ msgstr "Saugykla atnaujinama"
 
-#: ui/ui_settingsdialog.py:449
 #, fuzzy
-msgid "&Cancel"
-msgstr "&atsisakyti"
+#~ msgid "There are %1 updates available!"
+#~ msgstr "Yra <b>%1</b>atnaujinimų!"
 
-#: ui/ui_summarydialog.py:60
 #, fuzzy
-msgid "Operation Summary"
-msgstr "operacijų suvestynė "
+#~ msgctxt "ApplicationItem"
+#~ msgid "Application"
+#~ msgstr "Aplikacija"
 
-#: ui/ui_summarydialog.py:61
 #, fuzzy
-msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
-msgstr "Jūs galite paleist naujai įdegta programa 2kart paspaudus ant juos sąraše arba veliau iš aplikacijų menių"
+#~ msgctxt "ApplicationItem"
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
 
-#: ui/ui_summarydialog.py:62
 #, fuzzy
-msgid "&Ok"
-msgstr "&Gerai"
+#~ msgctxt "ApplicationItem"
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
 
-#: ui/ui_webdialog.py:155
 #, fuzzy
-msgid ""
-"AppInfo Server is not reachable\n"
-"Please check your network connection"
-msgstr ""
-"AppInfo Serveris nepasiekiamas.\n"
-"Prašom patikrinti jūsų ryšį"
-
-#: ui/ui_webdialog.py:157 ui/ui_webdialog.py:158
+#~ msgctxt "BasketDialog"
+#~ msgid "Basket"
+#~ msgstr "rodyti krepšį"
+
 #, fuzzy
-msgid "Package Details"
-msgstr "Paketo detales"
+#~ msgctxt "BasketDialog"
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Pažimeti paketai įdegymui:"
 
 #, fuzzy
 #~ msgctxt "BasketDialog"
 #~ msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
 #~ msgstr "Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Total Size:"
+#~ msgstr "bendras dydis: "
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2Mb<b>"
 
 #, fuzzy
 #~ msgctxt "BasketDialog"
@@ -902,9 +416,54 @@ msgstr "Paketo detales"
 #~ msgstr "Įdegti paketo(us)"
 
 #, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "Download Size:"
+#~ msgstr "Parsisiuntymų dydis:"
+
+#, fuzzy
+#~ msgctxt "BasketDialog"
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0Mb</"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#, fuzzy
 #~ msgctxt "MainWidget"
 #~ msgid "Settings"
 #~ msgstr "nustatymai"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Type to search..."
+#~ msgstr "paspausti kad ieškoti"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Update Types"
+#~ msgstr "atnaujinti tipą"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Category Panel"
+#~ msgstr "Kategorijų panele "
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Package List"
+#~ msgstr "Paketų sąrašas"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Show Basket"
+#~ msgstr "rodyti krepšį"
+
+#, fuzzy
+#~ msgctxt "MainWidget"
+#~ msgid "Check for Updates"
+#~ msgstr "patikrinti ar yra atnaujinimai"
 
 #, fuzzy
 #~ msgctxt "MainWidget"
@@ -923,13 +482,198 @@ msgstr "Paketo detales"
 
 #, fuzzy
 #~ msgctxt "PmWindow"
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "greitas įdegymas paketo menadžerio"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "sekančios paketai pažimeti įdegimui. jūs norite įdegti šių paketų?"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
 #~ msgid "Package List"
 #~ msgstr "Paketų sąrašas"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Install"
+#~ msgstr "Įdegimas"
+
+#, fuzzy
+#~ msgctxt "PmWindow"
+#~ msgid "Cancel"
+#~ msgstr "Atsisakyti"
+
+#, fuzzy
+#~ msgctxt "Preview"
+#~ msgid "Preview"
+#~ msgstr "Peržiura"
 
 #, fuzzy
 #~ msgctxt "ProgressDialog"
 #~ msgid "Form"
 #~ msgstr "Forma"
+
+#, fuzzy
+#~ msgctxt "ProgressDialog"
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Add New Repository"
+#~ msgstr "Pridėti nauja saugykla"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Saugyklos vardas, pav. <b>"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Repository Name"
+#~ msgstr "Saugyklos pavadinimas"
+
+#, fuzzy
+#~ msgctxt "RepoDialog"
+#~ msgid "Repository Address"
+#~ msgstr "Saugyklos adresas"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Package Manager Settings"
+#~ msgstr " paketų menadžerio nustatimai"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Package list"
+#~ msgstr "Paketų sąrašas"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Rodyti tik darbastalio aplikacijų"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Show Component information "
+#~ msgstr "Rodyti informaciją apie komponentus"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Show package type tags"
+#~ msgstr "Rodyti paketo tipo tagus"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "System tray icon"
+#~ msgstr "Ikona sistemos lauko"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Enable system tray icon"
+#~ msgstr "leidžiamos sistemos juostos ikonos"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Slepti sistemos juosta jei ji ne atnaujinta"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Enable &periodic update check"
+#~ msgstr "leisti &periodine atnaujinimų patikra "
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Check interval :"
+#~ msgstr "Patikros tarpas:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Install updates automatically"
+#~ msgstr "Degti naujinimus automatiškai"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&General Settings"
+#~ msgstr "&Bendri nustatymai"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Cache Limit"
+#~ msgstr "Kešo ribojimas"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&nauduoti standujį disko programoms parsisiusti"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maksimalus kešo dydis:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Unlimited"
+#~ msgstr "Be limito"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " Mib"
+#~ msgstr "Mib"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Current cache dir:"
+#~ msgstr "Dabartinis kešo direktorija"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Select..."
+#~ msgstr "Pasirinkti..."
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Open"
+#~ msgstr "Atverti"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Išvalyti disko kešo po programų parsisiuntimo. Tai ne pašalins jūsų įdegtų programų ar kažkaip paveiks sistemos stabilumui"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "C&lean disk cache now"
+#~ msgstr "V&alyti disko kešo dabar"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Bandwidth limit"
+#~ msgstr "praleidumo rybojimas "
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "naudoti pralaidumo limito:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid " kB/s"
+#~ msgstr "kB/s"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "C&ache"
+#~ msgstr "K&ešas"
 
 #, fuzzy
 #~ msgctxt "SettingsDialog"
@@ -942,6 +686,111 @@ msgstr "Paketo detales"
 #~ msgstr "Saugyklos adresas"
 
 #, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Add New Repository"
+#~ msgstr "&pridėti nauja saugykla "
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Remove Repository"
+#~ msgstr "pašalinti saugykla"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Move &Up"
+#~ msgstr "Kelti &į viršų"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Move &Down"
+#~ msgstr "leisti &į apačia"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Repositories"
+#~ msgstr "&Saugyklos"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Use Proxy"
+#~ msgstr "naudoti proxy"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP proxy serveris:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Port:"
+#~ msgstr "Portas:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS proxy serveris:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP proxy serveris:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Domain:"
+#~ msgstr "Domain:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Username:"
+#~ msgstr "Vartotojo vardas:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "Password:"
+#~ msgstr "Slaptažodis:"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Naudoti šį proxy serverį visiems protokolams</a>"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Help"
+#~ msgstr "&pagalba"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&OK"
+#~ msgstr "&gerai"
+
+#, fuzzy
+#~ msgctxt "SettingsDialog"
+#~ msgid "&Cancel"
+#~ msgstr "&atsisakyti"
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "Operation Summary"
+#~ msgstr "operacijų suvestynė "
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Jūs galite paleist naujai įdegta programa 2kart paspaudus ant juos sąraše arba veliau iš aplikacijų menių"
+
+#, fuzzy
+#~ msgctxt "SummaryDialog"
+#~ msgid "&Ok"
+#~ msgstr "&Gerai"
+
+#, fuzzy
 #~ msgctxt "WebDialog"
 #~ msgid "Basket"
 #~ msgstr "rodyti krepšį"
@@ -950,6 +799,51 @@ msgstr "Paketo detales"
 #~ msgctxt "WebDialog"
 #~ msgid "Package Files"
 #~ msgstr "Paketo bylos"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "AppInfo Serveris nepasiekiamas.\n"
+#~ "Prašom patikrinti jūsų ryšį"
+
+#, fuzzy
+#~ msgctxt "WebDialog"
+#~ msgid "Package Details"
+#~ msgstr "Paketo detales"
+
+#~ msgid "Package Files"
+#~ msgstr "Paketo bylos"
+
+#, fuzzy
+#~ msgid "BasketDialog"
+#~ msgstr "krepšis "
+
+#, fuzzy
+#~ msgid "MainWidget"
+#~ msgstr "Rodyti pagrindinė langą "
+
+#, fuzzy
+#~ msgid "MainWindow"
+#~ msgstr "Rodyti pagrindinė langą "
+
+#, fuzzy
+#~ msgid "PmWindow"
+#~ msgstr "Rodyti pagrindinė langą "
+
+#, fuzzy
+#~ msgid "RepoDialog"
+#~ msgstr "krepšis "
+
+#, fuzzy
+#~ msgid "SettingsDialog"
+#~ msgstr "nustatymai"
+
+#, fuzzy
+#~ msgid "WebDialog"
+#~ msgstr "krepšis "
 
 #~ msgid "Type to filter files"
 #~ msgstr "Tipas bylų filtrui"
@@ -988,24 +882,3 @@ msgstr "Paketo detales"
 
 #~ msgid "(c) 2009-2010 TUBITAK/UEKAE"
 #~ msgstr "(c) 2009-2010 TUBITAK/UEKAE"
-
-#, fuzzy
-#~ msgid "SettingsDialog"
-#~ msgid_plural "Package Manager Settings"
-#~ msgstr[0] "nustatymai"
-#~ msgstr[1] "nustatymai"
-#~ msgstr[2] "nustatymai"
-
-#, fuzzy
-#~ msgid "MainWindow"
-#~ msgid_plural "Package Manager"
-#~ msgstr[0] "Rodyti pagrindinė langą "
-#~ msgstr[1] "Rodyti pagrindinė langą "
-#~ msgstr[2] "Rodyti pagrindinė langą "
-
-#, fuzzy
-#~ msgid "BasketDialog"
-#~ msgid_plural "Basket"
-#~ msgstr[0] "krepšis "
-#~ msgstr[1] "krepšis "
-#~ msgstr[2] "krepšis "

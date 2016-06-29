@@ -11,21 +11,21 @@
 # Please read the COPYING file.
 #
 
+
+_=lambda s: s
+
 # Package Manager Version String
 version = "3.0.0"
 PACKAGE = "Package Manager"
 
-# PyKDE4 Imports
-# from PyKDE4.kdecore import ki18n, ki18nc, KAboutData
-
 # Application Data
 appName     = "package-manager"
 catalog     = appName
-# programName = ki18n(PACKAGE)
-# description = ki18n(PACKAGE)
+# programName = _(PACKAGE)
+# description = _(PACKAGE)
 # license     = KAboutData.License_GPL
-# copyright   = ki18n("(c) 2009-2010 TUBITAK/UEKAE")
-# text        = ki18n(None)
+# copyright   = _("(c) 2009-2010 TUBITAK/UEKAE")
+# text        = _(None)
 homePage    = "https://github.com/pisilinux/project/tree/master/package-manager-pds"
 bugEmail    = "bugs@pisilinux.org"
 # aboutData   = KAboutData(appName, catalog, programName, version,
@@ -33,9 +33,9 @@ bugEmail    = "bugs@pisilinux.org"
 #                          homePage, bugEmail)
 
 # Authors
-# aboutData.addAuthor(ki18n("Gökmen Göksel"), ki18n("Developer"))
-# aboutData.addAuthor(ki18n("Faik Uygur"), ki18n("First Author"))
-# aboutData.setTranslator(ki18nc("NAME OF TRANSLATORS", "Your names"),
-#                         ki18nc("EMAIL OF TRANSLATORS", "Your emails"))
+# aboutData.addAuthor(_("Gökmen Göksel"), _("Developer"))
+# aboutData.addAuthor(_("Faik Uygur"), _("First Author"))
+# aboutData.setTranslator(_("NAME OF TRANSLATORS", "Your names"),
+#                         _("EMAIL OF TRANSLATORS", "Your emails"))
 # aboutData.setProgramIconName(":/data/package-manager.png")
 

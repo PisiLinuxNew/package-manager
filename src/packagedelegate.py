@@ -34,7 +34,7 @@ from PyQt5.QtCore import QRect
 from PyQt5.QtCore import QEvent
 from PyQt5.QtCore import QPoint
 from PyQt5.QtCore import QVariant
-from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtCore import pyqtSignal, QCoreApplication
 
 from pmutils import *
 from packagemodel import *
@@ -42,6 +42,8 @@ from webdialog import WebDialog
 from rowanimator import RowAnimator
 
 import config
+
+_translate = QCoreApplication.translate
 
 DARKRED = QColor('darkred')
 WHITE = QColor('white')
@@ -78,8 +80,8 @@ class PackageDelegate(QStyledItemDelegate):
         self._rt_0 = QIcon(":/data/star_0.png")
         self._rt_1 = QIcon(":/data/star_1.png")
 
-        self.types = {'critical':(RED,     i18n('critical')),
-                      'security':(DARKRED, i18n('security'))}
+        self.types = {'critical':(RED,     _translate("Packaga Manager",'critical')),
+                      'security':(DARKRED, _translate("Packaga Manager",'security'))}
 
         self.font = Pds.settings('font','Sans,10').split(',')[0]
 
@@ -95,12 +97,12 @@ class PackageDelegate(QStyledItemDelegate):
         self.normalFontFM = QFontMetrics(self.normalFont)
         self.normalDetailFontFM = QFontMetrics(self.normalDetailFont)
 
-        self._titles = {'description': i18n("Description:"),
-                        'website'    : i18n("Website:"),
-                        'release'    : i18n("Release:"),
-                        'repository' : i18n("Repository:"),
-                        'size'       : i18n("Package Size:"),
-                        'installVers': i18n("Installed Version:")}
+        self._titles = {'description': _translate("Packaga Manager","Description:"),
+                        'website'    : _translate("Packaga Manager","Website:"),
+                        'release'    : _translate("Packaga Manager","Release:"),
+                        'repository' : _translate("Packaga Manager","Repository:"),
+                        'size'       : _translate("Packaga Manager","Package Size:"),
+                        'installVers': _translate("Packaga Manager","Installed Version:")}
 
         self._titleFM = {}
         for key, value in self._titles.items():
@@ -200,7 +202,7 @@ class PackageDelegate(QStyledItemDelegate):
                 self._rt_0.paint(p, width + 10 * _rt_i - 30 - fix_pos, top + ROW_HEIGHT / 4, 10, 10, Qt.AlignCenter)
             for _rt_i in range(rate):
                 self._rt_1.paint(p, width + 10 * _rt_i - 30 - fix_pos, top + ROW_HEIGHT / 4, 10, 10, Qt.AlignCenter)
-
+        
         foregroundColor = option.palette.color(QPalette.Text)
         p.setPen(foregroundColor)
 
@@ -315,7 +317,7 @@ class PackageDelegate(QStyledItemDelegate):
             # Package Detail Repository
             repository = QVariant.value(index.model().data(index, RepositoryRole))
             if not repository == '':
-                repository = i18n('Unknown')  if repository == 'N/A' else repository
+                repository = _translate("Packaga Manager",'Unknown')  if repository == 'N/A' else repository
                 position += rect.height()
 
                 p.setFont(self.boldDetailFont)
@@ -343,7 +345,7 @@ class PackageDelegate(QStyledItemDelegate):
                 buttonStyle.state |= QStyle.State_HasFocus
             
             buttonStyle.state |= QStyle.State_Enabled
-            buttonStyle.text = i18n("Details")
+            buttonStyle.text = _translate("Packaga Manager","Details")
 
             buttonStyle.rect = QRect(width - 100, position - 22, 100, 22)
 
@@ -401,7 +403,7 @@ class PackageDelegate(QStyledItemDelegate):
         name = _getter(NameRole)
         summary = _getter(SummaryRole)
         description = _getter(DescriptionRole)
-        installed = model.data(index, InstalledRole)
+        installed = True if str(QVariant.value(model.data(index, InstalledRole)))=="True" else False
         
         self.webDialog.showPackageDetails(name, installed, summary, description)
 

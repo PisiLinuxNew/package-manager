@@ -28,6 +28,8 @@ from PyQt5.QtCore import QTimer
 from PyQt5.QtCore import QRegExp
 from PyQt5.QtCore import QVariant
 from PyQt5.QtCore import QModelIndex
+from PyQt5.QtCore import QCoreApplication
+
 
 from ui_mainwidget_v3 import Ui_MainWidget
 
@@ -49,6 +51,8 @@ from summarydialog import SummaryDialog
 from progressdialog import ProgressDialog
 from packagedelegate import PackageDelegate
 from operationmanager import OperationManager
+
+_translate = QCoreApplication.translate
 
 class MainWidget(QWidget, PM, Ui_MainWidget):
     # Signal Emits
@@ -109,6 +113,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
 
         self.connectOperationSignals()
         self.pdsMessageBox = PMessageBox(self.content)
+        
 
     def connectMainSignals(self):
         self.actionButton.clicked.connect(self.showBasket)
@@ -146,7 +151,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         if self.currentState == self.state.UPGRADE:
             if self.groupList.count() == 0:
                 QTimer.singleShot(0, \
-                lambda: self.pdsMessageBox.showMessage(i18n("All packages are up to date"), icon = "info"))
+                lambda: self.pdsMessageBox.showMessage(_translate("Packaga Manager","All packages are up to date"), icon = "info"))
         if self.groupList.count() > 0:
             if self.state.inUpgrade():
                 self.pdsMessageBox.hideMessage(force = True)
@@ -255,7 +260,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
                 return
                 
         if not self.searchLine.text() == '':
-            self.pdsMessageBox.showMessage(i18n("Searching..."), busy = True)
+            self.pdsMessageBox.showMessage(_translate("Packaga Manager","Searching..."), busy = True)
             self.groupList.lastSelected = None
             self._searchThread.start()
             self.searchUsed = True
@@ -267,7 +272,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
 
     def searchFinished(self):
         if self.state.cached_packages == []:
-            self.pdsMessageBox.showMessage(i18n("No results found."), "dialog-information")
+            self.pdsMessageBox.showMessage(_translate("Packaga Manager","No results found."), "dialog-information")
         else:
             self.pdsMessageBox.hideMessage()
         self.initializeGroupList()
@@ -428,8 +433,8 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
                     filtered_packages = filter(lambda x: x not in installed_packages, self.basket.model.selectedPackages())
                     if filtered_packages == self.basket.model.selectedPackages():
                         restoreCursor()
-                        QMessageBox(i18n("Select packages"),
-                                    i18n("You must select at least one installed package"),
+                        QMessageBox(_translate("Packaga Manager","Select packages"),
+                                    _translate("Packaga Manager","You must select at least one installed package"),
                                     QMessageBox.Information, QMessageBox.Ok, 0, 0).exec_()
                         return
                     self.packageList.model().sourceModel().selectPackages(filtered_packages, state = False)
@@ -441,9 +446,9 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
 
     def initializeUpdateTypeList(self):
         self.typeCombo.clear()
-        UPDATE_TYPES = [['normal', i18n('All Updates'), ('system-software-update', 'ledgreen')],
-                        ['security', i18n('Security Updates'), ('security-medium', 'ledyellow')],
-                        ['critical', i18n('Critical Updates'), ('security-low', 'ledred')]]
+        UPDATE_TYPES = [['normal', _translate("Packaga Manager",'All Updates'), ('system-software-update', 'ledgreen')],
+                        ['security', _translate("Packaga Manager",'Security Updates'), ('security-medium', 'ledyellow')],
+                        ['critical', _translate("Packaga Manager",'Critical Updates'), ('security-low', 'ledred')]]
 
         for type in UPDATE_TYPES:
             self.typeCombo.addItem(KIcon(type[2]), type[1], QVariant(type[0]))

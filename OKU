@@ -1,0 +1,48 @@
+
+Paket Yöneticisi
+---------------------
+Package Manager PisiLinux paket yönetim sistemi Pisi ve 
+PisiLinux paket deposundan arama, yükleme veya güncelleme için kullanılan grafiksel kullanıcı arayüzüdür 
+
+Package Manager is a graphical user interface for Pardus’ Package Management System Pisi
+and used to search, install or upgrade packages from Pardus package repository. It’s a
+handy and usable tool to manage your packages in an easy way.
+
+Requirements
+------------
+
+- Pisi 2.1 or higher
+- Python 2.7 or higher 
+- PyQt 5.5 or higher -->  python-qt5, python-qt5-devel, python-sip
+- Pds (lasted)       -->  https://github.com/PisiLinuxNew/pds
+- docutils paketi
+- Paket derecelendirme ve detaylarını görmek için package-rating paketin yüklenmesi gerekiyor.
+
+Installation
+------------
+
+ ./setup.py build
+     will generate source distribution under build/
+
+ ./setup.py install
+     will install to the system
+
+ ./setup.py update_messages
+     will updates the changed localization strings
+
+
+Çalıştırma
+----------
+
+ ./setup.py build
+     ile build altında dosyaları oluşturun
+     
+ python build/main.py
+     ile çalıştırın
+ 
+
+More Information
+----------------
+
+You can find more information at http://developer.pardus.org.tr/projects/package-manager
+
