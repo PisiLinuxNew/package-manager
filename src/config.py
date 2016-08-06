@@ -34,11 +34,11 @@ class Config:
 
     def setValue(self, option, value):
         if type(value) == bool:
-            value == int(value)
-        self.config.setValue(option, QVariant(value))
+            value = int(value)
+            self.config.setValue(option, value)
         
-    def value(self, value):
-        self.config.value(value)
+    def value(self, option):
+        return self.config.value(option)
 
     def getBoolValue(self, option):
         default = self._initValue(option, False)
@@ -58,28 +58,28 @@ class PMConfig(Config):
         Config.__init__(self, "Pisi", "Package-Manager")
 
     def showOnlyGuiApp(self):
-        return self.value("ShowOnlyGuiApp")
+        return int(self.value("ShowOnlyGuiApp") or 0)
 
     def showComponents(self):
-        return self.value("ShowComponents")
+        return int(self.value("ShowComponents") or 0)
 
     def showIsA(self):
-        return self.value("ShowIsA")
+        return int(self.value("ShowIsA") or 0)
 
     def updateCheck(self):
-        return self.value("UpdateCheck")
+        return int(self.value("UpdateCheck") or 0)
 
     def installUpdatesAutomatically(self):
-        return self.value("InstallUpdatesAutomatically")
+        return int(self.value("InstallUpdatesAutomatically") or 0)
 
     def updateCheckInterval(self):
-        return self.getNumValue("UpdateCheckInterval")
+        return self.getNumValue("UpdateCheckInterval") or 60
 
     def hideTrayIfThereIsNoUpdate(self):
-        return self.value("HideTrayIfThereIsNoUpdate")
+        return int(self.value("HideTrayIfThereIsNoUpdate") or 0)
 
     def systemTray(self):
-        return self.value("SystemTray")
+        return int(self.value("SystemTray") or 0)
 
     def setHideTrayIfThereIsNoUpdate(self, enabled):
         self.setValue("HideTrayIfThereIsNoUpdate", enabled)
