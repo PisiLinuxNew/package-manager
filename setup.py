@@ -170,7 +170,8 @@ class Install(install):
             #mime_size_dir = "%s/%s/mimetypes/" % (mime_icons_dir, size)
             mime_size_dir = "%s/apps/%s/" % (mime_icons_dir, size)
             makeDirs(mime_size_dir)
-            shutil.copy("data/%s-%sx%s.png" % (PROJECT, size, size), "%s/application-x-pisi.png" % mime_size_dir)
+            #buna gerek yok.
+            #shutil.copy("data/%s-%sx%s.png" % (PROJECT, size, size), "%s/application-x-pisi.png" % mime_size_dir)
 
         # Install codes
         print "Installing codes..."
