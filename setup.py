@@ -260,7 +260,8 @@ setup(
       author            = "Pisi Linux Developers",
       author_email      = about.bugEmail,
       url               = about.homePage,
-      data_files        = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog'])],
+      data_files        = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
+                           ("/usr/share/icons/hicolor/scalable/mimetypes/", "data/application-x-pisi.svg")],
       cmdclass          = {
                             'build': Build,
                             'install': Install,
