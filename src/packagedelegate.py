@@ -248,7 +248,7 @@ class PackageDelegate(QStyledItemDelegate):
             rect = self.tagFontFM.boundingRect(option.rect, Qt.TextWordWrap, self.types[ptype][1])
             p.setPen(self.types[ptype][0])
             p.setBrush(self.types[ptype][0])
-            p.drawRoundRect(widthOfTitle, top + 12, rect.width() + 4, rect.height(), 10, 10)
+            p.drawRoundedRect(widthOfTitle, top + 12, rect.width() + 4, rect.height(), 10, 10)
             p.setPen(WHITE)
             p.drawText(widthOfTitle + 2, top + 12, rect.width(), rect.height(), Qt.AlignCenter, self.types[ptype][1])
             p.setPen(foregroundColor)
