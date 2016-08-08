@@ -1,7 +1,7 @@
 [Desktop Entry]
 _Name=Package Manager
 _GenericName=Add/Remove/Update Packages
-Icon=/usr/share/pixmaps/package-manager.png
+Icon=package-manager
 Type=Application
 StartupNotify=False
 MimeType=application/x-pisi;

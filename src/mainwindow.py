@@ -57,7 +57,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.busy = QProgressIndicator(self)
         self.busy.setFixedSize(QSize(20, 20))
 
-        self.setWindowIcon(QIcon(":/data/package-manager.png"))
+        self.setWindowIcon(QIcon(":/data/package-manager.svg"))
 
         self.setCentralWidget(MainWidget(self))
         self.cw = self.centralWidget()

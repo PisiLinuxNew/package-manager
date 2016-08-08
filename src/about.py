@@ -37,5 +37,5 @@ bugEmail    = "bugs@pisilinux.org"
 # aboutData.addAuthor(_("Faik Uygur"), _("First Author"))
 # aboutData.setTranslator(_("NAME OF TRANSLATORS", "Your names"),
 #                         _("EMAIL OF TRANSLATORS", "Your emails"))
-# aboutData.setProgramIconName(":/data/package-manager.png")
+# aboutData.setProgramIconName(":/data/package-manager.svg")
 

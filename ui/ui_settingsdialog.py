@@ -13,7 +13,7 @@ class Ui_SettingsDialog(object):
         SettingsDialog.setObjectName("SettingsDialog")
         SettingsDialog.resize(510, 482)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/data/package-manager.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/data/package-manager.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         SettingsDialog.setWindowIcon(icon)
         SettingsDialog.setModal(True)
         self.gridLayout_14 = QtWidgets.QGridLayout(SettingsDialog)

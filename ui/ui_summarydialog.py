@@ -28,7 +28,7 @@ class Ui_SummaryDialog(object):
         self.label_2.setMinimumSize(QtCore.QSize(32, 32))
         self.label_2.setMaximumSize(QtCore.QSize(32, 32))
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap(":/data/package-manager.png"))
+        self.label_2.setPixmap(QtGui.QPixmap(":/data/package-manager.svg"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 0, 0, 1, 1)

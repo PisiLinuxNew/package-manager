@@ -127,7 +127,7 @@ class Ui_MainWidget(object):
         self.showBasketButton.setMaximumSize(QtCore.QSize(22, 22))
         self.showBasketButton.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/data/slide_up.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/data/slide_up.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.showBasketButton.setIcon(icon)
         self.showBasketButton.setShortcut("F7")
         self.showBasketButton.setFlat(True)
