@@ -162,16 +162,8 @@ class Install(install):
         for filename in glob.glob("data/*.desktop"):
             shutil.copy(filename, apps_dir)
 
-        shutil.copy("data/%s.png" % PROJECT, icon_dir)
+        #shutil.copy("data/%s.png" % PROJECT, icon_dir)
         shutil.copy("data/%s.xml" % PROJECT, mime_dir)
-
-        # Install icons
-        for size in ["16", "32", "48", "64"]:#["16x16", "32x32", "48x48", "64x64"]: hicolor gibi ikon temeları için 
-            #mime_size_dir = "%s/%s/mimetypes/" % (mime_icons_dir, size)
-            mime_size_dir = "%s/apps/%s/" % (mime_icons_dir, size)
-            makeDirs(mime_size_dir)
-            #buna gerek yok.
-            #shutil.copy("data/%s-%sx%s.png" % (PROJECT, size, size), "%s/application-x-pisi.png" % mime_size_dir)
 
         # Install codes
         print "Installing codes..."
@@ -254,19 +246,20 @@ if "update_messages" in sys.argv:
     sys.exit(0)
 
 setup(
-      name              = PROJECT,
-      version           = about.version,
-      description       = unicode(about.PACKAGE),
-      license           = unicode('GPL'),
-      author            = "Pisi Linux Developers",
-      author_email      = about.bugEmail,
-      url               = about.homePage,
-      data_files        = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
-                           ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"])],
-      cmdclass          = {
-                            'build': Build,
-                            'install': Install,
-                            'uninstall':Uninstall,
-                            'clean':Clean
-                          }
+    name = PROJECT,
+    version = about.version,
+    description = unicode(about.PACKAGE),
+    license = unicode('GPL'),
+    author = "Pisi Linux Developers",
+    author_email = about.bugEmail,
+    url = about.homePage,
+    data_files = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
+                       ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"]),
+                       ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"])],
+    cmdclass = {
+                        'build': Build,
+                        'install': Install,
+                        'uninstall':Uninstall,
+                        'clean':Clean
+                      }
 )
