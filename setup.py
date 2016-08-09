@@ -62,23 +62,23 @@ def update_messages():
     with open(files, "w") as _files:
         _files.write("\n".join(filelist))
     # Generate POT file
-    os.system("xgettext -L Python --default-domain=%s \
-                        --keyword=_ \
-                        --keyword=N_ \
-                        --keyword=i18n \
-                        --keyword=ki18n \
-                        --keyword=_translate:1c,2 \
-                        --kde \
-                        -ci18n -ki18n:1 -ki18nc:1c,2 -ki18np:1,2 -ki18ncp:1c,2,3 -ktr2i18n:1 \
-                        -kI18N_NOOP:1 -kI18N_NOOP2:1c,2 -kaliasLocale -kki18n:1 -kki18nc:1c,2 \
-                        -kki18np:1,2 -kki18ncp:1c,2,3 \
-                        --files-from=%s \
-                        -o po/%s.pot" % (PROJECT, files, PROJECT))
+    # os.system("xgettext -L Python --default-domain=%s \
+    #                     --keyword=_ \
+    #                     --keyword=N_ \
+    #                     --keyword=i18n \
+    #                     --keyword=ki18n \
+    #                     --keyword=_translate:1c,2 \
+    #                     --kde \
+    #                     -ci18n -ki18n:1 -ki18nc:1c,2 -ki18np:1,2 -ki18ncp:1c,2,3 -ktr2i18n:1 \
+    #                     -kI18N_NOOP:1 -kI18N_NOOP2:1c,2 -kaliasLocale -kki18n:1 -kki18nc:1c,2 \
+    #                     -kki18np:1,2 -kki18ncp:1c,2,3 \
+    #                     --files-from=%s \
+    #                     -o po/%s.pot" % (PROJECT, files, PROJECT))
 
     # Update PO files
-    for item in glob.glob1("po", "*.po"):
-        print "Updating .. ", item
-        os.system("msgmerge --update --no-wrap --sort-by-file po/%s po/%s.pot" % (item, PROJECT))
+    # for item in glob.glob1("po", "*.po"):
+    #     print "Updating .. ", item
+    #     os.system("msgmerge --update --no-wrap --sort-by-file po/%s po/%s.pot" % (item, PROJECT))
 
     # Cleanup
     os.unlink(files)
@@ -139,20 +139,20 @@ class Install(install):
             root_dir = "/usr/share"
             bin_dir = "/usr/bin"
         theme_name="breeze"                                     #  "hicolor"
-        mime_icons_dir = os.path.join(root_dir, "icons/{}".format(theme_name))
-        icon_dir = os.path.join(root_dir, "pixmaps".format(theme_name))
+        #mime_icons_dir = os.path.join(root_dir, "icons/{}".format(theme_name))
+        #icon_dir = os.path.join(root_dir, "pixmaps".format(theme_name))
         mime_dir = os.path.join(root_dir, "mime/packages")
-        locale_dir = os.path.join(root_dir, "locale")
+        #locale_dir = os.path.join(root_dir, "locale")
         apps_dir = os.path.join(root_dir, "applications")
         project_dir = os.path.join(root_dir, PROJECT)
 
         # Make directories
         print "Making directories..."
-        makeDirs(mime_icons_dir)
-        makeDirs(icon_dir)
+        #makeDirs(mime_icons_dir)
+        #makeDirs(icon_dir)
         makeDirs(mime_dir)
         makeDirs(bin_dir)
-        makeDirs(locale_dir)
+        #makeDirs(locale_dir)
         makeDirs(apps_dir)
         makeDirs(project_dir)
 
@@ -170,18 +170,18 @@ class Install(install):
         os.system("cp -R build/* %s/" % project_dir)
 
         # Install locales
-        print "Installing locales..."
-        for filename in glob.glob1("po", "*.po"):
-            lang = filename.rsplit(".", 1)[0]
-            rst2doc(lang)
-            os.system("msgfmt -L Python --keyword=_ \
-                              --keyword=N_ \
-                              --keyword=i18n \
-                              --keyword=ki18n \
-                              --keyword=_translate:1c,2 \
-                              po/%s.po -o po/%s.mo" % (lang, lang))
-            makeDirs(os.path.join(locale_dir, "%s/LC_MESSAGES" % lang))
-            shutil.copy("po/%s.mo" % lang, os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % PROJECT))
+        #print "Installing locales..."
+        # for filename in glob.glob1("po", "*.po"):
+        #     lang = filename.rsplit(".", 1)[0]
+        #     rst2doc(lang)
+        #     os.system("msgfmt -L Python --keyword=_ \
+        #                       --keyword=N_ \
+        #                       --keyword=i18n \
+        #                       --keyword=ki18n \
+        #                       --keyword=_translate:1c,2 \
+        #                       po/%s.po -o po/%s.mo" % (lang, lang))
+        #     makeDirs(os.path.join(locale_dir, "%s/LC_MESSAGES" % lang))
+        #     shutil.copy("po/%s.mo" % lang, os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % PROJECT))
         rst2doc('en')
         if os.path.exists('help'):
             print "Installing help files..."
@@ -218,32 +218,32 @@ class Uninstall(Command):
         root_dir = "/usr/share"
         bin_dir = "/usr/bin"
 
-        locale_dir = os.path.join(root_dir, "locale")
+        #locale_dir = os.path.join(root_dir, "locale")
         apps_dir = os.path.join(root_dir, "applications")
         project_dir = os.path.join(root_dir, PROJECT)
 
         print 'Uninstalling ...'
         remove(project_dir)
         remove(apps_dir +"/%s.desktop" % PROJECT)
-        for filename in glob.glob1('po', '*.po'):
-            lang = filename.rsplit(".", 1)[0]
-            remove(os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % PROJECT))
+        #for filename in glob.glob1('po', '*.po'):
+            #lang = filename.rsplit(".", 1)[0]
+            #remove(os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % PROJECT))
 
 
 class Clean(clean):
     def run(self):
         print 'Cleaning ...'
         os.system('find -name *.pyc|xargs rm -rf')
-        os.system('find -name *.mo|xargs rm -rf')
+        #os.system('find -name *.mo|xargs rm -rf')
         for dirs in ('build', 'dist'):
             if os.path.exists(dirs):
                 print ' removing: ', dirs
                 shutil.rmtree(dirs)
         clean.run(self)
 
-if "update_messages" in sys.argv:
-    update_messages()
-    sys.exit(0)
+# if "update_messages" in sys.argv:
+#     update_messages()
+#     sys.exit(0)
 
 setup(
     name = PROJECT,
@@ -254,12 +254,13 @@ setup(
     author_email = about.bugEmail,
     url = about.homePage,
     data_files = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
-                       ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"]),
-                       ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"])],
+                  ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"])
+                  ],
     cmdclass = {
-                        'build': Build,
-                        'install': Install,
-                        'uninstall':Uninstall,
-                        'clean':Clean
-                      }
+                'build': Build,
+                'install': Install,
+                'uninstall':Uninstall,
+                'clean':Clean
+              }
 )
