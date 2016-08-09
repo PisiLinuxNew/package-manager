@@ -60,7 +60,7 @@ class PTray:
         pass
 
     def _addAction(self, title, menu, repo, icon):
-        action = QtWidgets.QAction(KIcon(icon), unicode(title), self)
+        action = QtWidgets.QAction(QtGui.QIcon(icon), unicode(title), self)
         action.setData(QVariant(unicode(repo)))
         menu.addAction(action)
         action.triggered.connect(self.updateRepo)
@@ -194,7 +194,7 @@ class Tray(QtWidgets.QSystemTrayIcon, PTray):
         self._addAction(_translate("Packaga Manager","Update All Repositories"), self.actionMenu, "all", "update-manager")
         self.setContextMenu(self.actionMenu)
         self.contextMenu().addSeparator()
-        self.contextMenu().addAction(KIcon("exit"), _translate("Packaga Manager","Quit"), QtWidgets.qApp.quit)
+        self.contextMenu().addAction(QtGui.QIcon.fromTheme("exit"), _translate("Packaga Manager","Quit"), QtWidgets.qApp.quit)
 
     def showPopup(self):
         if self._ready_to_popup():
