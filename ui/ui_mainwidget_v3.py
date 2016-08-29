@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui/mainwidget_v3.ui'
 #
-# Created by: PyQt5 UI code generator 5.6
+# Created by: PyQt5 UI code generator 5.7
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -127,7 +127,7 @@ class Ui_MainWidget(object):
         self.showBasketButton.setMaximumSize(QtCore.QSize(22, 22))
         self.showBasketButton.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/data/slide_up.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/data/slide_up.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.showBasketButton.setIcon(icon)
         self.showBasketButton.setShortcut("F7")
         self.showBasketButton.setFlat(True)

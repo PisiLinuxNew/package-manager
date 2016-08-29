@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui/pminstall.ui'
 #
-# Created by: PyQt5 UI code generator 5.6
+# Created by: PyQt5 UI code generator 5.7
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -25,7 +25,7 @@ class Ui_PmWindow(object):
         self.label_2.setMinimumSize(QtCore.QSize(32, 32))
         self.label_2.setMaximumSize(QtCore.QSize(32, 32))
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap(":/data/package-manager.svg"))
+        self.label_2.setPixmap(QtGui.QPixmap(":/data/package-manager.png"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 0, 0, 2, 1)

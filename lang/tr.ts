@@ -1241,8 +1241,13 @@ Lütfen ağ ayarlarınızı kontrol edin</translation>
     </message>
     <message>
         <location filename="ui_appitem.py" line="55"/>
+        <source>Web Taray?c?</source>
+        <translation type="obsolete">Web Tarayıcı</translation>
+    </message>
+    <message>
+        <location filename="ui_appitem.py" line="55"/>
         <source>Web Tarayıcı</source>
-        <translation>Web Tarayıcı</translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1291,6 +1296,14 @@ Lütfen ağ ayarlarınızı kontrol edin</translation>
         <location filename="ui_basketdialog.py" line="190"/>
         <source>&lt;b&gt;2.0 MB&lt;/</source>
         <translation>&lt;b&gt;2.0 MB&lt;/b&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>Main</name>
+    <message>
+        <location filename="main.py" line="64"/>
+        <source>Package Manager</source>
+        <translation>Paket Yöneticisi</translation>
     </message>
 </context>
 <context>

@@ -1268,6 +1268,14 @@ Molimo provjerite svoje mrežne veze</translation>
     </message>
 </context>
 <context>
+    <name>Main</name>
+    <message>
+        <location filename="main.py" line="64"/>
+        <source>Package Manager</source>
+        <translation type="unfinished">Upravitelj paketa</translation>
+    </message>
+</context>
+<context>
     <name>MainWidget</name>
     <message>
         <location filename="ui_mainwidget_v3.py" line="159"/>

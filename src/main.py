@@ -33,6 +33,8 @@ from localedata import setSystemLocale
 
 from pmutils import *
 
+_translate = QApplication.translate
+
 # Package Manager Main App
 if __name__ == '__main__':
 
@@ -59,7 +61,7 @@ if __name__ == '__main__':
     translator=QTranslator()
     translator.load("/usr/share/package-manager/lang/{}.qm".format(lang))
     app.installTranslator(translator)
-    
+    app.setApplicationDisplayName(_translate("Main","Package Manager"))
     # Set application font from system
     font = Pds.settings('font','Sans,10').split(',')
     app.setFont(QFont(font[0], int(font[1])))
