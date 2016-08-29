@@ -241,9 +241,9 @@ class Clean(clean):
                 shutil.rmtree(dirs)
         clean.run(self)
 
-# if "update_messages" in sys.argv:
-#     update_messages()
-#     sys.exit(0)
+if "update_messages" in sys.argv:
+    update_messages()
+    sys.exit(0)
 
 setup(
     name = PROJECT,

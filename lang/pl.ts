@@ -1238,6 +1238,14 @@ Spróbuj sprawdzić swoje połączenie internetowe.</translation>
     </message>
 </context>
 <context>
+    <name>Main</name>
+    <message>
+        <location filename="main.py" line="64"/>
+        <source>Package Manager</source>
+        <translation type="unfinished">Menadżer Pakietów</translation>
+    </message>
+</context>
+<context>
     <name>MainWidget</name>
     <message>
         <location filename="ui_mainwidget_v3.py" line="159"/>
