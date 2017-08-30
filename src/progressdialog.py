@@ -49,8 +49,9 @@ class ProgressDialog(PAbstractBox, Ui_ProgressDialog):
         self.cancelButton.clicked.connect(self.cancel)
         self.cancelButton.setIcon(KIcon("cancel"))
         self.parent = parent
-
-        self.setStyleSheet("QLabel, QTextEdit, QTextBrowser{background:rgba(0,0,0,0);color:white;}")
+        self.widget.setStyleSheet("QTextEdit { \
+            background:rgba(0,0,0,0); \
+            color:white;}")
 
         self._last_action = ''
         self._shown = False
@@ -58,6 +59,7 @@ class ProgressDialog(PAbstractBox, Ui_ProgressDialog):
     def _show(self):
         self.animate(start = MIDCENTER, stop = MIDCENTER)
         self._shown = True
+        print("staart")
 
     def _hide(self):
         if self._shown:

@@ -120,7 +120,7 @@ class PTray:
 
     # stolen from Akregator
     def slotSetUnread(self, unread):
-        print config.PMConfig().hideTrayIfThereIsNoUpdate()
+        #print config.PMConfig().hideTrayIfThereIsNoUpdate()
         if config.PMConfig().hideTrayIfThereIsNoUpdate() and unread == 0:
             self.hide()
         elif config.PMConfig().systemTray():
