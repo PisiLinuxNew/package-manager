@@ -173,7 +173,7 @@ class PreviewDialog(PAbstractBox, Ui_Preview):
         # self._disable_parent_in_shown = True
 
         self.cancelButton.clicked.connect(self._hide)
-        self.cancelButton.setIcon(KIcon("cancel"))
+        self.cancelButton.setIcon(KIcon("window-close"))
 
         # Hide Scrollbars and context menu in webview
         self.webView.setContextMenuPolicy(Qt.NoContextMenu)

@@ -63,9 +63,10 @@ if __name__ == '__main__':
     app.installTranslator(translator)
     app.setApplicationDisplayName(_translate("Main","Package Manager"))
     # Set application font from system
+    
     font = Pds.settings('font','Sans,10').split(',')
     app.setFont(QFont(font[0], int(font[1])))
-
+    
     manager = MainWindow(app)
     app.setMainWindow(manager)
 

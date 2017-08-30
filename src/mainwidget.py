@@ -174,7 +174,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
             self.completer.deleteLater()
             del self.completer
 
-        self.completer = QCompleter(self.state.packages(), self)
+        self.completer = QCompleter(self.state.allPackages(), self)
         self.completer.setCaseSensitivity(Qt.CaseInsensitive)
         self.searchLine.setCompleter(self.completer)
 

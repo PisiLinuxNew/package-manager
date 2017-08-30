@@ -51,7 +51,15 @@ class StateManager(QObject):
         self.__installed_packages = self.iface.getInstalledPackages()
         self.__new_packages = self.iface.getNewPackages()
         self.__all_packages = self.__installed_packages + self.__new_packages
-
+    
+    def allPackages(self):
+        if self.state == self.ALL:
+            return self.__all_packages
+        elif self.state == self.INSTALL:
+            return self.__new_packages
+        elif self.state == self.REMOVE:
+            return self.__installed_packages
+    
     def setState(self, state):
         self.state = state
         self.reset()
