@@ -19,7 +19,7 @@ from PyQt5.QtWidgets import QCompleter
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtWidgets import QPushButton
 from PyQt5.QtWidgets import QToolButton
-from PyQt5.QtGui import QFontMetrics
+from PyQt5.QtGui import *
 
 from PyQt5.QtCore import Qt
 from PyQt5.QtCore import QSize
@@ -84,7 +84,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         self.statusUpdater = StatusUpdater()
         self.basket = BasketDialog(self.state, self.parent)
         self._postexceptions.append(lambda: self.basket.setActionEnabled(True))
-        self.searchButton.setIcon(KIcon(("edit-find", "find")))
+        self.searchButton.setIcon(QIcon.fromTheme('edit-find'))
         self.initializeUpdateTypeList()
 
         model = PackageModel(self)
@@ -446,10 +446,14 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
 
     def initializeUpdateTypeList(self):
         self.typeCombo.clear()
-        UPDATE_TYPES = [['normal', _translate("Packaga Manager",'All Updates'), ('system-software-update', 'ledgreen')],
-                        ['security', _translate("Packaga Manager",'Security Updates'), ('security-medium', 'ledyellow')],
-                        ['critical', _translate("Packaga Manager",'Critical Updates'), ('security-low', 'ledred')]]
+        self.typeCombo.addItem(QIcon.fromTheme('system-software-update'), _translate("Packaga Manager",'All Updates'), 'normal')
+        self.typeCombo.addItem(QIcon.fromTheme('security-medium'), _translate("Packaga Manager",'Security Updates'), 'security')
+        self.typeCombo.addItem(QIcon.fromTheme('security-low'), _translate("Packaga Manager",'Critical Updates'), 'critical')
+        
+        #UPDATE_TYPES = [['normal', _translate("Packaga Manager",'All Updates'), ('system-software-update', 'ledgreen')],
+                        #['security', _translate("Packaga Manager",'Security Updates'), ('security-medium', 'ledyellow')],
+                        #['critical', _translate("Packaga Manager",'Critical Updates'), ('security-low', 'ledred')]]
 
-        for type in UPDATE_TYPES:
-            self.typeCombo.addItem(KIcon(type[2]), type[1], QVariant(type[0]))
+        #for type in UPDATE_TYPES:
+            #self.typeCombo.addItem(KIcon(type[2]), type[1], QVariant(type[0]))
 

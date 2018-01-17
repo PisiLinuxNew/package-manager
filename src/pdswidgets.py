@@ -12,6 +12,7 @@
 #
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QIcon
 from pds.gui import *
 from pds.qprogressindicator import QProgressIndicator
 from ui_message import Ui_MessageBox
@@ -52,7 +53,7 @@ class PMessageBox(PAbstractBox):
         else:
             if icon:
                 if type(icon) == str:
-                    icon = KIcon(icon).pixmap(32,32)
+                    icon = QIcon(icon).pixmap(32,32)
                 self.ui.icon.setPixmap(QtGui.QPixmap(icon))
                 self.ui.icon.show()
             else:

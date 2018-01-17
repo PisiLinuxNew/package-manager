@@ -14,6 +14,7 @@ from PyQt5 import QtGui
 from PyQt5.QtCore import pyqtSignal
 from PyQt5.QtCore import QTimer
 from PyQt5.QtCore import QSize, QCoreApplication
+from PyQt5.QtGui import *
 
 from pmutils import *
 from pds.gui import *
@@ -47,7 +48,7 @@ class ProgressDialog(PAbstractBox, Ui_ProgressDialog):
         self.registerFunction(OUT, self.busy.stopAnimation)
 
         self.cancelButton.clicked.connect(self.cancel)
-        self.cancelButton.setIcon(KIcon("cancel"))
+        self.cancelButton.setIcon(QIcon.fromTheme("cancel"))
         self.parent = parent
         self.widget.setStyleSheet("QTextEdit { \
             background:rgba(0,0,0,0); \

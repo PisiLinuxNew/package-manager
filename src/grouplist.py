@@ -19,9 +19,10 @@ from PyQt5.QtCore import QSize
 from PyQt5.QtCore import QVariant
 from PyQt5.QtCore import QCoreApplication
 
-from PyQt5.QtGui import QIcon
+from PyQt5.QtGui import *
 from PyQt5.QtWidgets import QListWidget
 from PyQt5.QtWidgets import QListWidgetItem
+from pds import qiconloader
 
 from pmutils import *
 from statemanager import StateManager
@@ -34,7 +35,8 @@ class GroupList(QListWidget):
         super(GroupList, self).__init__(parent)
         #QListWidget.__init__(self, parent)
         self.iface = backend.pm.Iface()
-        self.defaultIcon = KIcon(('applications-other', 'unknown'), KIconLoader.SizeSmallMedium)
+        #self.defaultIcon = KIcon(('applications-other', 'unknown'), KIconLoader.SizeSmallMedium)
+        self.defaultIcon= QIcon('/usr/share/package-manager/data/application-x-pisi.svg')
         self.itemClicked[QListWidgetItem].connect(self.slotGroupChanged)
         self.itemSelectionChanged.connect(self.slotGroupChanged)
         self._list = {}
@@ -65,13 +67,14 @@ class GroupList(QListWidget):
             package_count = content[2]
 
         icon = KIcon(icon_path, KIconLoader.SizeSmallMedium)
+        #icon = QIcon(QPixmap(icon_path).scaled(32,32))
         if icon.isNull():
             icon = self.defaultIcon
         text = "%s (%d)" % (localName, package_count)
         item = QListWidgetItem(icon, text, self)
         item.setToolTip(localName)
         item.setData(Qt.UserRole, QVariant(unicode(name)))
-        item.setSizeHint(QSize(0, KIconLoader.SizeMedium))
+        item.setSizeHint(QSize(0, QIconLoader.SizeMedium))
         self._list[name] = item
 
     def moveAllToFirstLine(self):

@@ -18,7 +18,7 @@ from PyQt5.QtWidgets import QDialog
 from PyQt5.QtWidgets import QTableWidgetItem
 from PyQt5.QtWidgets import QCheckBox
 from PyQt5.QtWidgets import QFileDialog
-from PyQt5.QtGui import QDesktopServices
+from PyQt5.QtGui import *
 from PyQt5.QtNetwork import QNetworkProxy
 from PyQt5.QtCore import *
 
@@ -66,10 +66,13 @@ class GeneralSettings(SettingsTab):
     traySettingChanged = pyqtSignal()
     
     def setupUi(self):
-        self.settings.moveUpButton.setIcon(KIcon("up"))
-        self.settings.moveDownButton.setIcon(KIcon("down"))
-        self.settings.addRepoButton.setIcon(KIcon(("list-add", "add")))
-        self.settings.removeRepoButton.setIcon(KIcon(("list-remove", "remove")))
+        self.settings.moveUpButton.setIcon(QIcon.fromTheme("go-up"))
+        self.settings.moveDownButton.setIcon(QIcon.fromTheme("go-down"))
+        self.settings.addRepoButton.setIcon(QIcon.fromTheme("list-add"))
+        self.settings.removeRepoButton.setIcon(QIcon.fromTheme("list-remove"))
+        self.settings.buttonHelp.setIcon(QIcon.fromTheme("help"))
+        self.settings.buttonCancel.setIcon(QIcon.fromTheme("go-down"))
+        self.settings.buttonOk.setIcon(QIcon.fromTheme("go-next"))
         self.initialize()
         
 

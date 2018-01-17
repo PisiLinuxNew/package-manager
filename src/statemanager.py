@@ -13,6 +13,7 @@
 
 from PyQt5.QtCore import QObject, pyqtSignal, QCoreApplication
 from PyQt5.QtWidgets import QMessageBox
+from PyQt5.QtGui import *
 
 
 import config
@@ -118,10 +119,10 @@ class StateManager(QObject):
 
     def getActionIcon(self, state = None):
         state = self.state if state == None else state
-        return {self.INSTALL:KIcon(("list-add", "add")),
-                self.REMOVE :KIcon(("list-remove", "remove")),
-                self.UPGRADE:KIcon(("system-software-update", "gear")),
-                self.ALL    :KIcon("preferences-other")}[state]
+        return {self.INSTALL:QIcon.fromTheme("list-add"),
+                self.REMOVE :QIcon.fromTheme("list-remove"),
+                self.UPGRADE:QIcon.fromTheme("system-software-update"),
+                self.ALL    :QIcon.fromTheme("preferences-other")}[state]
 
     def getSummaryInfo(self, total):
         return {self.INSTALL:_translate("Packaga Manager","{0} new package(s) have been installed succesfully.").format(total),

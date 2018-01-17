@@ -12,6 +12,7 @@
 
 from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import *
+from PyQt5.QtGui import *
 
 from packagemodel import GroupRole
 from packageproxy import PackageProxy
@@ -48,10 +49,10 @@ class BasketDialog(PAbstractBox, Ui_BasketDialog):
 
         self.actionButton.clicked.connect(self.action)
         self.cancelButton.clicked.connect(self._hide)
-        self.cancelButton.setIcon(KIcon("dialog-close"))
+        self.cancelButton.setIcon(QIcon.fromTheme("window-close"))
 
         self.clearButton.clicked.connect(self.clearSelections)
-        self.clearButton.setIcon(KIcon("trashcan_empty"))
+        self.clearButton.setIcon(QIcon.fromTheme("list-remove"))
 
     def clearSelections(self):
         sure = QtWidgets.QMessageBox.question(self, _translate("Packaga Manager","Clear Basket"),

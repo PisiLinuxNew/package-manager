@@ -20,7 +20,7 @@ from optparse import OptionParser
 
 # PyQt5 Imports
 from PyQt5.QtCore import *
-from PyQt5.QtGui import QFont
+from PyQt5.QtGui import *
 from PyQt5.QtWidgets import QApplication
 
 from pds.quniqueapp import QUniqueApplication

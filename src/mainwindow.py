@@ -57,7 +57,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.busy = QProgressIndicator(self)
         self.busy.setFixedSize(QSize(20, 20))
 
-        self.setWindowIcon(QIcon(":/data/package-manager.svg"))
+        self.setWindowIcon(QIcon("/usr/share/package-manager/data/tray-zero.svg"))
 
         self.setCentralWidget(MainWidget(self))
         self.cw = self.centralWidget()
@@ -110,7 +110,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.cw.switchState(StateManager.UPGRADE)
 
         KApplication.kApplication().updateUserTimestamp()
-
+       
         self.show()
         self.raise_()
 
@@ -137,35 +137,35 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def initializeOperationActions(self):
 
-        self.showAllAction = QAction(KIcon(("applications-other", "package_applications")), _translate("Packaga Manager","All Packages"), self)
+        self.showAllAction = QAction(QIcon.fromTheme("media-optical"), _translate("Packaga Manager","All Packages"), self)
         self.showAllAction.triggered.connect(lambda:self.cw.switchState(StateManager.ALL))
-        self.cw.stateTab.addTab(QWidget(), KIcon(("applications-other", "package_applications")), _translate("Packaga Manager","All Packages"))
+        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("media-optical"), _translate("Packaga Manager","All Packages"))
 
-        self.showInstallAction = QAction(KIcon(("list-add", "add")), _translate("Packaga Manager","Installable Packages"), self)
+        self.showInstallAction = QAction(QIcon.fromTheme("list-remove"), _translate("Packaga Manager","Installable Packages"), self)
         self.showInstallAction.triggered.connect(lambda:self.cw.switchState(StateManager.INSTALL))
-        self.cw.stateTab.addTab(QWidget(), KIcon(("list-add", "add")), _translate("Packaga Manager","Installable Packages"))
+        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("list-add"), _translate("Packaga Manager","Installable Packages"))
 
-        self.showRemoveAction = QAction(KIcon(("list-remove", "remove")), _translate("Packaga Manager","Installed Packages"), self)
+        self.showRemoveAction = QAction(QIcon.fromTheme("list-add"), _translate("Packaga Manager","Installed Packages"), self)
         self.showRemoveAction.triggered.connect(lambda:self.cw.switchState(StateManager.REMOVE))
-        self.cw.stateTab.addTab(QWidget(), KIcon(("list-remove", "remove")), _translate("Packaga Manager","Installed Packages"))
+        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("list-remove"), _translate("Packaga Manager","Installed Packages"))
 
-        self.showUpgradeAction = QAction(KIcon(("system-software-update", "gear")), _translate("Packaga Manager","Updates"), self)
+        self.showUpgradeAction = QAction(QIcon.fromTheme("system-software-update"), _translate("Packaga Manager","Updates"), self)
         self.showUpgradeAction.triggered.connect(lambda:self.cw.switchState(StateManager.UPGRADE))
-        self.cw.stateTab.addTab(QWidget(), KIcon(("system-software-update", "gear")), _translate("Packaga Manager","Updates"))
+        self.cw.stateTab.addTab(QWidget(), QIcon("/usr/share/package-manager/data/star_1.svg"), _translate("Packaga Manager","Updates"))
 
-        self.showPreferences = QAction(KIcon(("preferences-system", "package_settings")), _translate("Packaga Manager","Settings"), self)
+        self.showPreferences = QAction(QIcon.fromTheme("preferences-system"), _translate("Packaga Manager","Settings"), self)
         self.showPreferences.triggered.connect(self.settingsDialog.show_)
 
-        self.actionHelp = QAction(KIcon("help"), _translate("Packaga Manager","Help"), self)
+        self.actionHelp = QAction(QIcon.fromTheme("help-about"), _translate("Packaga Manager","Help"), self)
         self.actionHelp.setShortcuts(QKeySequence.HelpContents)
         self.actionHelp.triggered.connect(self.showHelp)
 
-        self.actionQuit = QAction(KIcon("exit"), _translate("Packaga Manager","Quit"), self)
+        self.actionQuit = QAction(QIcon.fromTheme("media-eject"), _translate("Packaga Manager","Quit"), self)
         self.actionQuit.setShortcuts(QKeySequence.Quit)
         self.actionQuit.triggered.connect(qApp.exit)
 
         self.cw.menuButton.setMenu(QMenu('MainMenu', self.cw.menuButton))
-        self.cw.menuButton.setIcon(KIcon(("preferences-system", "package_settings")))
+        self.cw.menuButton.setIcon(QIcon.fromTheme("preferences-system"))
         self.cw.menuButton.menu().clear()
 
         self.cw.contentHistory.hide()
@@ -182,7 +182,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         self.showAllAction.setChecked(True)
         self.cw.checkUpdatesButton.hide()
-        self.cw.checkUpdatesButton.setIcon(KIcon(("view-refresh", "reload")))
+        self.cw.checkUpdatesButton.setIcon(QIcon.fromTheme("system-reboot"))
         self.cw.showBasketButton.clicked.connect(self.cw.showBasket)
 
         # Little time left for the new ui

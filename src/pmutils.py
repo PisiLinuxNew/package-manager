@@ -40,9 +40,9 @@ import pds
 from pds.qiconloader import QIconLoader
 
 Pds = pds.Pds('package-manager', debug = False)
-# Force to use Default Session for testing
-# Pds.session = pds.DefaultDe
-# print 'Current session is : %s %s' % (Pds.session.Name, Pds.session.Version)
+#Force to use Default Session for testing
+Pds.session = pds.DefaultDe
+print 'Current session is : %s %s' % (Pds.session.Name, Pds.session.Version)
 
 i18n = Pds.session.i18n
 KIconLoader = QIconLoader(Pds)
