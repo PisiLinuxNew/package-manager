@@ -35,11 +35,14 @@ from PyQt5.QtCore import QEvent
 from PyQt5.QtCore import QPoint
 from PyQt5.QtCore import QVariant
 from PyQt5.QtCore import pyqtSignal, QCoreApplication
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 from pmutils import *
 from packagemodel import *
 from webdialog import WebDialog
 from rowanimator import RowAnimator
+
 
 import config
 
@@ -72,8 +75,10 @@ class PackageDelegate(QStyledItemDelegate):
         self.show_details_button = showDetailsButton
 
         self.rowAnimator = RowAnimator(parent.packageList)
-        self.defaultIcon = KIcon(('package-x-generic', 'package_applications'), 32)
-        self.defaultInstalledIcon = QIcon(KIconLoader.loadOverlayed(('package-x-generic', 'package_applications'), CHECK_ICON, 32))
+        self.defaultIcon = QIcon(QPixmap('/usr/share/package-manager/data/tray-zero.svg').scaled(32, 32))
+        #self.defaultIcon = KIcon(('package-x-generic', 'package_applications'), 32)
+        self.defaultInstalledIcon = QIcon(QPixmap('/usr/share/package-manager/data/installed.svg').scaled(32, 32))
+        #self.defaultInstalledIcon = KIcon(KIconLoader.loadOverlayed(('package-x-generic', 'package_applications'), CHECK_ICON, 32))
         self.animatable = animatable
         self._max_height = ROW_HEIGHT
 
@@ -181,8 +186,8 @@ class PackageDelegate(QStyledItemDelegate):
             overlay = [CHECK_ICON] if installed else []
             KIconLoader._forceCache = True
             pix = KIconLoader.loadOverlayed(_icon, overlay, 32)
-            if not pix.isNull():
-                icon = QIcon(pix.scaled(QSize(32, 32), Qt.KeepAspectRatio, Qt.SmoothTransformation))
+            #if not pix.isNull():
+                #icon = QIcon(pix.scaled(QSize(32, 32), Qt.KeepAspectRatio, Qt.SmoothTransformation))
             KIconLoader._forceCache = False
                
 

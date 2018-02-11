@@ -45,10 +45,10 @@ class ApplicationItemWidget(QtWidgets.QWidget, Ui_ApplicationItem):
         self.appName.setText(self.item.name)
 
         icon = str(self.item.icon).split('.')[:-1]
-        icon = KIconLoader.load(icon)
+        icon = QIconLoader.load(icon)
 
         if icon.isNull():
-            icon = KIconLoader.load('package')
+            icon = QIconLoader.load('/usr/share/package-manager/data/aplication-x-pisi.svg')
 
         self.appIcon.setPixmap(
                                icon.scaled(QSize(32, 32),
@@ -82,7 +82,7 @@ class SummaryDialog(QtWidgets.QDialog, Ui_SummaryDialog):
 
     def checkIcon(self, iconFileName):
         extensions = ['png', 'jpg','jpeg', 'svg']
-        pixmapsDir = '/usr/share/pixmaps/'
+        pixmapsDir = ['/usr/share/pixmaps/', '/usr/share/icons']
         if os.path.isfile(iconFileName) == True:
             return iconFileName
         else:

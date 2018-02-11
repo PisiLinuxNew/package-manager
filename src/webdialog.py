@@ -13,6 +13,7 @@
 from PyQt5 import QtWidgets
 from PyQt5 import QtWebKit, QtWebKitWidgets
 from PyQt5.QtCore import *
+from PyQt5.QtGui import *
 
 import config, backend
 
@@ -47,7 +48,7 @@ class WebDialog(PAbstractBox, Ui_WebDialog):
         self.registerFunction(FINISHED, lambda: parent.statusBar().setVisible(not self.isVisible()))
         self._as = 'http://appinfo.pisilinux.org'
         self.cancelButton.clicked.connect(self._hide)
-        self.cancelButton.setIcon(KIcon("cancel"))
+        self.cancelButton.setIcon(QIcon.fromTheme("cancel"))
 
         # Hide Scrollbars and context menu in webview
         self.webView.setContextMenuPolicy(Qt.NoContextMenu)
@@ -173,7 +174,7 @@ class PreviewDialog(PAbstractBox, Ui_Preview):
         # self._disable_parent_in_shown = True
 
         self.cancelButton.clicked.connect(self._hide)
-        self.cancelButton.setIcon(KIcon("window-close"))
+        self.cancelButton.setIcon(QIcon.fromTheme("window-close"))
 
         # Hide Scrollbars and context menu in webview
         self.webView.setContextMenuPolicy(Qt.NoContextMenu)

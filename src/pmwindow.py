@@ -16,7 +16,7 @@ import sys
 import pisi
 
 from PyQt5.QtWidgets import QDialog
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtGui import *
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import *
 
@@ -115,10 +115,10 @@ class PmWindow(QDialog, PM, Ui_PmWindow):
         self.connectOperationSignals()
 
         self.button_install.clicked.connect(self.installPackages)
-        self.button_install.setIcon(KIcon(("list-add", "add")))
+        self.button_install.setIcon(QIcon.fromTheme("list-add"))
 
         self.button_cancel.clicked.connect(self.actionCancelled)
-        self.button_cancel.setIcon(KIcon("cancel"))
+        self.button_cancel.setIcon(QIcon.fromTheme("list-remove"))
 
         self.rejected.connect(self.actionCancelled)
 
