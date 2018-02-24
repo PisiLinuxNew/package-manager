@@ -12,8 +12,9 @@
 
 import os
 from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import qApp
+from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
+from PyQt5.QtGui import *
 
 from ui_summarydialog import Ui_SummaryDialog
 from ui_appitem import Ui_ApplicationItem
@@ -45,17 +46,16 @@ class ApplicationItemWidget(QtWidgets.QWidget, Ui_ApplicationItem):
         self.appName.setText(self.item.name)
 
         icon = str(self.item.icon).split('.')[:-1]
-        icon = QIconLoader.load(icon)
+        #icon = QIconLoader.load(icon)
+        icon = QIcon(QPixmap(icon).scaled(32,32))
 
         if icon.isNull():
-            icon = QIconLoader.load('/usr/share/package-manager/data/aplication-x-pisi.svg')
-
-        self.appIcon.setPixmap(
-                               icon.scaled(QSize(32, 32),
-                               Qt.KeepAspectRatio,
-                               Qt.SmoothTransformation)
-                              )
-
+            icon = QIcon(QPixmap('/usr/share/package-manager/data/aplication-x-pisi.svg').scaled(32, 32))
+        #self.appIcon.setPixmap(
+                               #icon.scaled(QSize(32, 32),
+                               #Qt.KeepAspectRatio,
+                               #Qt.SmoothTransformation)
+                              #)
         self.appName.hide()
 
     def enterEvent(self, event):
