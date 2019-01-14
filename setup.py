@@ -117,7 +117,9 @@ class Build(build):
         
         print "Generating QMs..."
         makeDirs("build/lang")
-        os.system("lrelease-qt5 lang/*.ts")
+        #Temporary bindir to avoid qt4 conflicts
+        #os.system("lrelease-qt5 lang/*.ts")
+        os.system("lrelease lang/*.ts")
         for filename in glob.glob1("lang", "*.qm"):
             shutil.copy("lang/{}".format(filename), "build/lang")
             
