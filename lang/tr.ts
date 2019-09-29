@@ -1930,7 +1930,8 @@ Remove the conflicting packages from the system?</source>
         <location filename="statemanager.py" line="223"/>
         <source>{0} conflicts with: [{1}]
 </source>
-        <translation>{0} {1} ile çakışıyor</translation>
+        <translation>{0} {1} ile çakışıyor
+</translation>
     </message>
     <message>
         <location filename="tray.py" line="193"/>
