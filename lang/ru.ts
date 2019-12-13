@@ -1423,7 +1423,7 @@ Please check your network connection</source>
     <message>
         <location filename="pmwindow.py" line="136"/>
         <source>Installed Packages</source>
-        <translation type="unfinished">Удалить пакеты</translation>
+        <translation type="unfinished">Установленные</translation>
     </message>
     <message>
         <location filename="grouplist.py" line="50"/>
@@ -1483,12 +1483,12 @@ Please check your network connection</source>
     <message>
         <location filename="mainwindow.py" line="146"/>
         <source>Installable Packages</source>
-        <translation type="unfinished">Установить пакеты</translation>
+        <translation type="unfinished">Доступные</translation>
     </message>
     <message>
         <location filename="tray.py" line="201"/>
         <source>Updates</source>
-        <translation type="unfinished">Обновление</translation>
+        <translation type="unfinished">Обновления</translation>
     </message>
     <message>
         <location filename="mainwindow.py" line="156"/>
@@ -1503,7 +1503,7 @@ Please check your network connection</source>
     <message>
         <location filename="tray.py" line="197"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Выход</translation>
     </message>
     <message>
         <location filename="mainwindow.py" line="193"/>
