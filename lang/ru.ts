@@ -1299,7 +1299,7 @@ Please check your network connection</source>
     <message>
         <location filename="ui_mainwidget_v3.py" line="160"/>
         <source>Settings</source>
-        <translation type="unfinished">Настройки</translation>
+        <translation type="unfinished">Меню</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="161"/>

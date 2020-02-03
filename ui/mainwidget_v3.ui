@@ -149,20 +149,20 @@
         <item>
          <widget class="GroupList" name="groupList">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
           <property name="minimumSize">
            <size>
-            <width>230</width>
+            <width>260</width>
             <height>16777215</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>330</width>
+            <width>320</width>
             <height>16777215</height>
            </size>
           </property>
