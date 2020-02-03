@@ -98,8 +98,8 @@ border-radius:4px;
 	border:0px solid #555;
 	border-radius:6px;
 
-	background-color:rgba(122,122,122);
-    color:rgba(20,20,20);
+	background-color:rgba(122,122,122,100);
+    color:rgba(20,20,20,100);
 
 }</string>
             </property>

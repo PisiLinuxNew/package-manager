@@ -32,7 +32,7 @@ border-radius:4px;
 	border:1px solid #888;
 	border-radius:3px;
 	background-color:rgba(252,252,252,100);
-    color:rgba(20,20,20);
+    color:rgba(20,20,20,100);
 }
 QLabel { color:rgb(20,20,20); }</string>
      </property>
