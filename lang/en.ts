@@ -1300,7 +1300,7 @@ Please check your network connection</translation>
     <message>
         <location filename="ui_mainwidget_v3.py" line="160"/>
         <source>Settings</source>
-        <translation type="unfinished">Settings</translation>
+        <translation type="unfinished">Menu</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="161"/>
@@ -1424,7 +1424,7 @@ Please check your network connection</translation>
     <message>
         <location filename="pmwindow.py" line="136"/>
         <source>Installed Packages</source>
-        <translation type="unfinished">Installed Packages</translation>
+        <translation type="unfinished">Installed</translation>
     </message>
     <message>
         <location filename="grouplist.py" line="50"/>
@@ -1479,12 +1479,12 @@ Please check your network connection</translation>
     <message>
         <location filename="mainwindow.py" line="142"/>
         <source>All Packages</source>
-        <translation type="unfinished">All Packages</translation>
+        <translation type="unfinished">All</translation>
     </message>
     <message>
         <location filename="mainwindow.py" line="146"/>
         <source>Installable Packages</source>
-        <translation type="unfinished">Installable Packages</translation>
+        <translation type="unfinished">Availables</translation>
     </message>
     <message>
         <location filename="tray.py" line="201"/>

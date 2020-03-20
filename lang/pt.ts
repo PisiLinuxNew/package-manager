@@ -1,306 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="2.0">
+<!DOCTYPE TS><TS version="2.0" language="pt_BR" sourcelanguage="">
 <context>
     <name></name>
     <message>
         <location filename="build/basketdialog.py" line="55"/>
         <source>Clear Basket</source>
-        <translation type="obsolete">išsivalyti krepše </translation>
+        <translation type="obsolete">Limpar Cesta</translation>
     </message>
     <message>
         <location filename="build/basketdialog.py" line="56"/>
         <source>Do you want to clear all selections ?</source>
-        <translation type="obsolete">Ar jūs norite atsisakyti nuo visko, ką pasirinkote? </translation>
+        <translation type="obsolete">Você deseja limpar todas as seleções ?</translation>
     </message>
     <message>
         <location filename="build/settingsdialog.py" line="264"/>
         <source>Pisi Error</source>
-        <translation type="obsolete">Klaipa Pisi</translation>
+        <translation type="obsolete">Erro do PiSi</translation>
     </message>
     <message>
         <location filename="build/basketdialog.py" line="164"/>
         <source>You must restart your system for the updates to take effect</source>
-        <translation type="obsolete">Jums reiki a paleisti iš naujo sistema kad atnaujinti padarytus efektus </translation>
+        <translation type="obsolete">Você deve &lt;b&gt;reinicializar&lt;/b&gt; o seu sistema para que a atualização tenha efeito:</translation>
     </message>
     <message>
         <location filename="build/basketdialog.py" line="175"/>
         <source>Update Requirements</source>
-        <translation type="obsolete">Reikalingos naujinimus</translation>
+        <translation type="obsolete">Atualizar Requerimentos</translation>
     </message>
     <message>
         <location filename="build/basketdialog.py" line="167"/>
         <source>Packages Require System Restart</source>
-        <translation type="obsolete">Paketai reikalauja paleisti sistema iš naujo</translation>
+        <translation type="obsolete">Pacote requer reinicialização do sistema</translation>
     </message>
     <message>
         <location filename="build/basketdialog.py" line="173"/>
         <source>You must restart related system services for the updated package(s) to take effect</source>
-        <translation type="obsolete">Jus turite paleisti iš naujo atitinkamus procesus, kad pritaikyti paketu(o) efektus</translation>
+        <translation type="obsolete">Você deve reinicializar os seguintes serviços de sistema para que as atualizações dos pacotes tenham efeito:</translation>
     </message>
     <message>
         <location filename="build/basketdialog.py" line="176"/>
         <source>Packages Require Service Restart</source>
-        <translation type="obsolete">Paketas reikalauja paleisti iš naujo procesą </translation>
+        <translation type="obsolete">Pacote requer reinicialização de serviço</translation>
     </message>
     <message>
         <location filename="build/basketdialog.py" line="187"/>
         <source>Selected packages are considered critical for the system. Removing them may cause your system to be unusable.</source>
-        <translation type="obsolete">Pasirinkti paketai yra būtinos sistemai. Jų pašalinimas gresia sistemos žlugimui.</translation>
+        <translation type="obsolete">O pacote selecionado é considerado crítico para o sistema, Remove-lo pode deixar seu sistema instável</translation>
     </message>
     <message>
         <location filename="build/settingsdialog.py" line="177"/>
         <source>Warning</source>
-        <translation type="obsolete">Demesio</translation>
+        <translation type="obsolete">Aviso</translation>
     </message>
     <message>
         <location filename="build/basketdialog.py" line="191"/>
         <source>Critical Packages</source>
-        <translation type="obsolete">kritine paketai </translation>
+        <translation type="obsolete">Pacotes Críticos</translation>
     </message>
     <message>
         <location filename="build/pmwindow.py" line="135"/>
         <source>Selected packages are already installed.&lt;br&gt;If you continue, the packages will be reinstalled</source>
-        <translation type="obsolete">pasirinkti paketai jau įdegti. &lt;br&gt;jei jūs tesit, je bus įdegti iš naujo</translation>
+        <translation type="obsolete">Os pacotes já estão instalados.&lt;br&gt; Se continuar, os pacotes serão reinstalados</translation>
     </message>
     <message>
         <location filename="build/pmwindow.py" line="137"/>
         <source>Already Installed Packages</source>
-        <translation type="obsolete">Tikrai įdegti paketai</translation>
+        <translation type="obsolete">Pacote(s) já instalado(s)</translation>
     </message>
     <message>
         <location filename="build/pmwindow.py" line="138"/>
         <source>Installed Packages</source>
-        <translation type="obsolete">Įdegti paketai</translation>
+        <translation type="obsolete">Pacote(s) Instalado(s)</translation>
     </message>
     <message>
         <location filename="build/grouplist.py" line="48"/>
         <source>All</source>
-        <translation type="obsolete">Visi</translation>
+        <translation type="obsolete">Todos</translation>
     </message>
     <message>
         <location filename="build/helpdialog.py" line="32"/>
         <source>Package Manager Help</source>
-        <translation type="obsolete">Paketų menadžerio pagalba</translation>
+        <translation type="obsolete">Ajuda do Gerenciador de Pacote</translation>
     </message>
     <message>
         <location filename="build/mainwidget.py" line="149"/>
         <source>All packages are up to date</source>
-        <translation type="obsolete">Visi paketai aktualios busenos</translation>
+        <translation type="obsolete">Todos os pacotes estão atualizados</translation>
     </message>
     <message>
         <location filename="build/mainwidget.py" line="258"/>
         <source>Searching...</source>
-        <translation type="obsolete">Paješka... </translation>
+        <translation type="obsolete">Buscando...</translation>
     </message>
     <message>
         <location filename="build/mainwidget.py" line="270"/>
         <source>No results found.</source>
-        <translation type="obsolete">Nieko ne rasta </translation>
+        <translation type="obsolete">Sem resultados encontrados</translation>
     </message>
     <message>
         <location filename="build/mainwidget.py" line="431"/>
         <source>Select packages</source>
-        <translation type="obsolete">pasirinkti paketus</translation>
+        <translation type="obsolete">Selecionar pacotes</translation>
     </message>
     <message>
         <location filename="build/mainwidget.py" line="432"/>
         <source>You must select at least one installed package</source>
-        <translation type="obsolete">Jūs turite pasirinkti bent viena paketą </translation>
+        <translation type="obsolete">Você precisar selecionar ao menos um pacote instalado</translation>
     </message>
     <message>
         <location filename="build/mainwidget.py" line="444"/>
         <source>All Updates</source>
-        <translation type="obsolete">visi naujinimai</translation>
+        <translation type="obsolete">Todas as Atualizações</translation>
     </message>
     <message>
         <location filename="build/mainwidget.py" line="445"/>
         <source>Security Updates</source>
-        <translation type="obsolete">Saugumo naujinimai</translation>
+        <translation type="obsolete">Atualizações de Segurança</translation>
     </message>
     <message>
         <location filename="build/mainwidget.py" line="446"/>
         <source>Critical Updates</source>
-        <translation type="obsolete">Kritinė naujinimai</translation>
+        <translation type="obsolete">Atualizações Críticas</translation>
     </message>
     <message>
         <location filename="build/mainwindow.py" line="139"/>
         <source>All Packages</source>
-        <translation type="obsolete">visi paketai</translation>
+        <translation type="obsolete">Todos os Pacotes</translation>
     </message>
     <message>
         <location filename="build/mainwindow.py" line="143"/>
         <source>Installable Packages</source>
-        <translation type="obsolete">Įdegti paketai</translation>
+        <translation type="obsolete">Pacotes Instaláveis</translation>
     </message>
     <message>
         <location filename="build/tray.py" line="199"/>
         <source>Updates</source>
-        <translation type="obsolete">naujinimai</translation>
+        <translation type="obsolete">Atualizações</translation>
     </message>
     <message>
         <location filename="build/mainwindow.py" line="153"/>
         <source>Settings</source>
-        <translation type="obsolete">nustatymai</translation>
+        <translation type="obsolete">Configurações</translation>
     </message>
     <message>
         <location filename="build/mainwindow.py" line="156"/>
         <source>Help</source>
-        <translation type="obsolete">&amp;pagalba</translation>
+        <translation type="obsolete">&amp;Ajuda</translation>
     </message>
     <message>
         <location filename="build/mainwindow.py" line="190"/>
         <source>Calculating dependencies...</source>
-        <translation type="obsolete">Skaičiuojami priklausomybės... </translation>
+        <translation type="obsolete">Calculando dependências...</translation>
     </message>
     <message>
         <location filename="build/mainwindow.py" line="210"/>
         <source>Currently your basket is empty.</source>
-        <translation type="obsolete">Dabarinis jūsų krepšis yra tuščias</translation>
+        <translation type="obsolete">Sua cesta está atualmente vazia.</translation>
     </message>
     <message>
         <location filename="build/operationmanager.py" line="49"/>
         <source>installing</source>
-        <translation type="obsolete">Įdegimas </translation>
+        <translation type="obsolete">instalando</translation>
     </message>
     <message>
         <location filename="build/operationmanager.py" line="50"/>
         <source>removing</source>
-        <translation type="obsolete">šalinimas</translation>
+        <translation type="obsolete">removendo</translation>
     </message>
     <message>
         <location filename="build/progressdialog.py" line="79"/>
         <source>extracting</source>
-        <translation type="obsolete">išemimas</translation>
+        <translation type="obsolete">extraindo</translation>
     </message>
     <message>
         <location filename="build/progressdialog.py" line="79"/>
         <source>configuring</source>
-        <translation type="obsolete">konfigūravimas </translation>
+        <translation type="obsolete">configurando</translation>
     </message>
     <message>
         <location filename="build/operationmanager.py" line="146"/>
         <source>downloading</source>
-        <translation type="obsolete">Parsisiuntimas  </translation>
+        <translation type="obsolete">fazendo download</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="81"/>
         <source>critical</source>
-        <translation type="obsolete">kritinis</translation>
+        <translation type="obsolete">critico</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="82"/>
         <source>security</source>
-        <translation type="obsolete">saugumas</translation>
+        <translation type="obsolete">segurança</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="98"/>
         <source>Description:</source>
-        <translation type="obsolete">prie</translation>
+        <translation type="obsolete">Descrição:</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="99"/>
         <source>Website:</source>
-        <translation type="obsolete">Interneto puslapis</translation>
+        <translation type="obsolete">Site:</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="100"/>
         <source>Release:</source>
-        <translation type="obsolete">Relizas:</translation>
+        <translation type="obsolete">Lançamento:</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="101"/>
         <source>Repository:</source>
-        <translation type="obsolete">Saugykla:</translation>
+        <translation type="obsolete">repositório:</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="102"/>
         <source>Package Size:</source>
-        <translation type="obsolete">Paketo dydis:</translation>
+        <translation type="obsolete">Tamanho do Pacote:</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="103"/>
         <source>Installed Version:</source>
-        <translation type="obsolete">Įdegta versija</translation>
+        <translation type="obsolete">Versão Instalada:</translation>
     </message>
     <message>
         <location filename="build/packagedelegate.py" line="346"/>
         <source>Details</source>
-        <translation type="obsolete">detales</translation>
+        <translation type="obsolete">Detalhes</translation>
     </message>
     <message>
         <location filename="build/packageview.py" line="27"/>
         <source>Select all packages in this group</source>
-        <translation type="obsolete">Pasirinkti visus paketus esančius grupėje</translation>
-    </message>
-    <message>
-        <location filename="build/pm-install.py" line="47"/>
-        <source>%prog packages_to_install</source>
-        <translation type="obsolete">%prog paketų_įdegymui</translation>
+        <translation type="obsolete">Selecione todos os pacotes nesse grupo</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="1"/>
         <source>Package Manager</source>
-        <translation type="obsolete">Paketų menadžeris</translation>
+        <translation type="obsolete">Gerenciador de Pacotes</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="247"/>
         <source>Network Error</source>
-        <translation type="obsolete">Tinklo klaida</translation>
+        <translation type="obsolete">Erro de Conectividade de Rede</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="248"/>
         <source>Please check your network connections and try again.</source>
-        <translation type="obsolete">Prašom patikrinti jūsų interneto ryšį ir papanditi dar karta</translation>
+        <translation type="obsolete">Por favor cheque as conexões de rede e tente novamente.</translation>
     </message>
     <message>
         <location filename="build/pmutils.py" line="84"/>
         <source>Authorization Error</source>
-        <translation type="obsolete">Autorizavymoklaida</translation>
+        <translation type="obsolete">Erro de Autorização</translation>
     </message>
     <message>
         <location filename="build/pmutils.py" line="85"/>
         <source>You are not authorized for this operation.</source>
-        <translation type="obsolete">Jūs neturite teisių vykdyti šią operaciją</translation>
+        <translation type="obsolete">Você não está autorizado para executar essa operação.</translation>
     </message>
     <message>
         <location filename="build/pmutils.py" line="88"/>
         <source>Package &lt;b&gt;%s&lt;/b&gt; not found in repositories.&lt;br&gt;It may be upgraded or removed from the repository.&lt;br&gt;Please try upgrading repository informations.</source>
-        <translation type="obsolete">Paketas &lt;b&gt;%s&lt;/b&gt; nerastas saugykloje. &lt;br&gt; Jis gali būti atnaujintas ar pašalintas iš saugyklos. &lt;br&gt;Prašom pabandyti atnaujinti saugyklos informaciją</translation>
-    </message>
-    <message>
-        <location filename="build/pmutils.py" line="93"/>
-        <source>Mixing file names and package names not supported yet.</source>
-        <translation type="obsolete">Sumaišymas failų vardus ir paketų pavadinimus dar nepalaikoma.</translation>
+        <translation type="obsolete">Pacote &lt;b&gt;%s&lt;/b&gt; não encontrado no(s) repositório(s).&lt;br&gt;Ele pode ter sido atualizado ou removido do(s) repositório(s).&lt;br&gt;Por Favor tente atualizar as informações dos repositórios</translation>
     </message>
     <message>
         <location filename="build/pmutils.py" line="96"/>
         <source>File &lt;b&gt;%s&lt;/b&gt; doesn&apos;t exists.</source>
-        <translation type="obsolete">byla  &lt;b&gt;%s&lt;/b&gt; neekzistoja</translation>
+        <translation type="obsolete">Arquivo &lt;b&gt;%s&lt;/b&gt; não existe.</translation>
     </message>
     <message>
         <location filename="build/pmutils.py" line="99"/>
         <source>Another instance of PiSi is running. Only one instance is allowed.</source>
-        <translation type="obsolete">Kitas Pisi procesas jau vykdomas. Leidžiama paleisti tik viena Pisi proceso</translation>
+        <translation type="obsolete">Outra instância do PiSi está rodando. Só é permitido uma por vez.</translation>
     </message>
     <message>
         <location filename="build/pmutils.py" line="133"/>
         <source>Do you want to continue ?</source>
-        <translation type="obsolete">Norite testi?</translation>
-    </message>
-    <message>
-        <location filename="build/progressdialog.py" line="75"/>
-        <source>&lt;p align=&apos;right&apos;&gt;%1 %&lt;/p&gt;</source>
-        <translation type="obsolete">&lt;p align=&apos;right&apos;&gt;%1 %&lt;/p&gt; </translation>
+        <translation type="obsolete">Você quer continuar ?</translation>
     </message>
     <message>
         <location filename="build/progressdialog.py" line="76"/>
         <source>Operation - %1%</source>
-        <translation type="obsolete">Operacija - %1%%1%</translation>
+        <translation type="obsolete">Operação - %1%</translation>
     </message>
     <message>
         <location filename="build/progressdialog.py" line="83"/>
         <source>Downloading package list of %1</source>
-        <translation type="obsolete">Parsisiunčiamas paketų sąrašas viso %1</translation>
+        <translation type="obsolete">Fazendo download da lista de pacotes de %1</translation>
     </message>
     <message>
         <location filename="build/progressdialog.py" line="85"/>
@@ -315,210 +300,210 @@
     <message>
         <location filename="build/progressdialog.py" line="97"/>
         <source>%1 / %2, %3</source>
-        <translation type="obsolete">%1 / %2, %3 </translation>
+        <translation type="obsolete">%1 / %2, %3</translation>
     </message>
     <message>
         <location filename="build/progressdialog.py" line="114"/>
         <source>Preparing PiSi...</source>
-        <translation type="obsolete">PISI pasiruošiamas...</translation>
+        <translation type="obsolete">Preparando o PiSi...</translation>
     </message>
     <message>
         <location filename="build/progressdialog.py" line="125"/>
         <source>&lt;b&gt;Cancelling operation...&lt;/b&gt;</source>
-        <translation type="obsolete">&lt;b&gt;Operacija baigesi&lt;b&gt;</translation>
+        <translation type="obsolete">&lt;b&gt;Cancelando a operação...&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="build/settingsdialog.py" line="168"/>
         <source>Open Directory</source>
-        <translation type="obsolete">atverti kataogą</translation>
+        <translation type="obsolete">Abrir Diretório</translation>
     </message>
     <message>
         <location filename="build/settingsdialog.py" line="178"/>
         <source>All the cached packages will be deleted. Are you sure? </source>
-        <translation type="obsolete">Visi kešuoti paketai bus pašalinti. jūs sutinkate?</translation>
+        <translation type="obsolete">Todos os pacotes em cache serão deletados. Você tem certeza?</translation>
     </message>
     <message>
         <location filename="build/settingsdialog.py" line="259"/>
         <source>Not a valid repository name</source>
-        <translation type="obsolete">Nekorektiškas saugyklos vardas</translation>
+        <translation type="obsolete">Não é um nome de repositório válido</translation>
     </message>
     <message>
         <location filename="build/settingsdialog.py" line="265"/>
         <source>&lt;qt&gt;Repository address should end with xml or xml.bz2 or xz suffix.&lt;p&gt;Please try again.&lt;/qt&gt;</source>
-        <translation type="obsolete">&lt;qt&gt;Saugyklos adresas privalo pasibaigti su xml ar xml.bz2 arba xz sufiksų.&lt;p&gt;Prašom bandyti dar karta.&lt;/qt&gt; </translation>
+        <translation type="obsolete">&lt;qt&gt;Endereço de repositório deveria terminar com o sufixo xml, xml.bz2. ou xz&lt;p&gt;Por favor tente novamente.&lt;/qt&gt;</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="89"/>
         <source>Installing Package(s)</source>
-        <translation type="obsolete">Įdegiamos paketas (ai)</translation>
+        <translation type="obsolete">Instalando Pacote(s)</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="90"/>
         <source>Removing Package(s)</source>
-        <translation type="obsolete">Šalinamos paketai(as)</translation>
+        <translation type="obsolete">Removendo Pacote(s)</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="91"/>
         <source>Upgrading Package(s)</source>
-        <translation type="obsolete">atnaujinamos paketai(as)</translation>
+        <translation type="obsolete">Atualizando Pacote(s)</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="92"/>
         <source>Applying Repository Changes</source>
-        <translation type="obsolete">Pritaikoma saugyklos pakeiktymai</translation>
+        <translation type="obsolete">Aplicando Modificações do Repositório</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="93"/>
         <source>Updating Repository</source>
-        <translation type="obsolete">Saugykla atnaujinama</translation>
+        <translation type="obsolete">Atualizando Repositório</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="94"/>
         <source>Updating Repository(s)</source>
-        <translation type="obsolete">Saugyklos(a) atnaujinama </translation>
+        <translation type="obsolete">Atualizando Repositório(s)</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="97"/>
         <source>installed</source>
-        <translation type="obsolete">įdegtos</translation>
+        <translation type="obsolete">instalado</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="98"/>
         <source>removed</source>
-        <translation type="obsolete">pašalintos</translation>
+        <translation type="obsolete">removido</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="99"/>
         <source>upgraded</source>
-        <translation type="obsolete">atnaujintos</translation>
+        <translation type="obsolete">atualizado</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="100"/>
         <source>modified</source>
-        <translation type="obsolete">modifikuotos</translation>
+        <translation type="obsolete">modificado</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="104"/>
         <source>Install Package(s)</source>
-        <translation type="obsolete">Įdegti paketo(us)</translation>
+        <translation type="obsolete">Instalar Pacote(s)</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="105"/>
         <source>Remove Package(s)</source>
-        <translation type="obsolete">pašalinti paketo(us)</translation>
+        <translation type="obsolete">Removendo Pacote(s)</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="106"/>
         <source>Upgrade Package(s)</source>
-        <translation type="obsolete">atnaujinti paketus(o)</translation>
+        <translation type="obsolete">Atualizando Pacote(s)</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="107"/>
         <source>Select Operation</source>
-        <translation type="obsolete">Pasirinkti operacicija</translation>
+        <translation type="obsolete">Selecione Operação</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="117"/>
         <source>%1 new package(s) have been installed succesfully.</source>
-        <translation type="obsolete">%1naujas paketas(u) sekmingai įdegtos </translation>
+        <translation type="obsolete">%1 novo(s) pacote(s) foi(ram) instalado(s) com sucesso.</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="118"/>
         <source>%1 package(s) have been removed succesfully.</source>
-        <translation type="obsolete">%1 paketas(ų) sėkm ingai pašlinti</translation>
+        <translation type="obsolete">%1 pacote(s) foi(ram) removido(s) com sucesso.</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="119"/>
         <source>%1 package(s) have been upgraded succesfully.</source>
-        <translation type="obsolete">%1paketų(as) sėkmingai atnaujintas.</translation>
+        <translation type="obsolete">%1 pacote(s) foi(ram) atualizado(s) com sucesso.</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="120"/>
         <source>%1 package(s) have been modified succesfully.</source>
-        <translation type="obsolete">%1paketas(ų) sėkmingai modifikoti</translation>
+        <translation type="obsolete">%1 pacote(s) modificado(s) com sucesso.</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="123"/>
         <source>You have selected the following package(s) to install:</source>
-        <translation type="obsolete">Jūs turite pažymėtus paketus(o) įdegimui:</translation>
+        <translation type="obsolete">Você selecionou o(s) seguinte(s) pacote(s) para instalar:</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="124"/>
         <source>You have selected the following package(s) to removal:</source>
-        <translation type="obsolete">Jūs turite pažymėtus paketus(o) pašalinymui</translation>
+        <translation type="obsolete">Você selecionou o(s) seguinte(s) pacote(s) para remover:</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="125"/>
         <source>You have selected the following package(s) to upgrade:</source>
-        <translation type="obsolete">Jūs turite pažymėtus paketus(o) atnaujinimui:</translation>
+        <translation type="obsolete">Você selecionou o(s) seguinte(s) pacote(s) para atualização:</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="126"/>
         <source>You have selected the following package(s) to modify:</source>
-        <translation type="obsolete">Jūs turite pažymėtus paketus(o) modifikacijai:</translation>
+        <translation type="obsolete">Você selecionou o(s) seguinte(s) pacote(s) para modificar:</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="129"/>
         <source>Extra dependencies of the selected package(s) that are also going to be installed:</source>
-        <translation type="obsolete">Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:</translation>
+        <translation type="obsolete">Dependências extras para o(s) pacote(s) selecionado(s) que também serão instaladas:</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="130"/>
         <source>Reverse dependencies of the selected package(s) that are also going to be removed:</source>
-        <translation type="obsolete">Grįžtamieji priklausomybes pasirinkto paketo (-ų), kurie taip pat bus pašalinti:</translation>
+        <translation type="obsolete">Dependências reversas para o(s) pacote(s) selecionado(s) que também serão removidas:</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="131"/>
         <source>Extra dependencies of the selected package(s) that are also going to be upgraded:</source>
-        <translation type="obsolete">Papildomos priklausomybes pažimetų paketų(o) tad galite dabar atnaujinti</translation>
+        <translation type="obsolete">Dependências extras para o(s) pacote(s) selecionado(s) que também serão atualizadas:</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="132"/>
         <source>Extra dependencies of the selected package(s) that are also going to be modified:</source>
-        <translation type="obsolete">Būtinos priklausomybės pasirinktų paketų(o) tad dabar galite jų keisti </translation>
+        <translation type="obsolete">Dependências extras para o(s) pacote(s) selecionado(s) que também serão atualizadas:</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="172"/>
         <source>Currently there are &lt;b&gt;%1&lt;/b&gt; selected package(s) of total &lt;b&gt;%2&lt;/b&gt; of size </source>
-        <translation type="obsolete">Šiuo metų yra  &lt;b&gt;%1&lt;/b&gt; pasirinktų paketų(o) kurių  &lt;b&gt;%2&lt;/b&gt;dydis </translation>
+        <translation type="obsolete">Atualmente existem &lt;b&gt;%1&lt;/b&gt; pacote(s) selecionado(s) do total de &lt;b&gt;%2&lt;/b&gt; de tamanho</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="175"/>
         <source>with &lt;b&gt;%1&lt;/b&gt; reverse dependencies of total &lt;b&gt;%2&lt;/b&gt; of size </source>
-        <translation type="obsolete">Su &lt;b&gt;%1&lt;/b&gt; reversiniais priklausomybemis &lt;b&gt;%2&lt;/b&gt; dydis</translation>
+        <translation type="obsolete">com &lt;b&gt;%1&lt;/b&gt; dependências reversas do total &lt;b&gt;%2&lt;/b&gt; de tamanho </translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="177"/>
         <source>with &lt;b&gt;%1&lt;/b&gt; extra dependencies of total &lt;b&gt;%2&lt;/b&gt; of size </source>
-        <translation type="obsolete">Su &lt;b&gt;%1&lt;/b&gt; papildomais priklausomybėmis  &lt;b&gt;%2&lt;/b&gt; dydis</translation>
+        <translation type="obsolete">com &lt;b&gt;%1&lt;/b&gt; dependências extras do total &lt;b&gt;%2&lt;/b&gt; de tamanho </translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="178"/>
         <source>in your basket.</source>
-        <translation type="obsolete">Jūsų krepšjie</translation>
+        <translation type="obsolete">na sua cesta.</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="213"/>
         <source>Selected packages [%1] are in conflict with each other. These packages can not be installed together.</source>
-        <translation type="obsolete">pažimetas paketas [%1] konfliktuoja su kitais. Šitas paketas negali būti įdegtas dabar.</translation>
+        <translation type="obsolete">Pacotes selecionados [%1] estão em conflito uns com os outros. Esses pacotes não podem ser instalados juntos.</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="222"/>
         <source>Conflict Error</source>
-        <translation type="obsolete">Konflikto klaida</translation>
+        <translation type="obsolete">Erro de Conflito</translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="218"/>
         <source>The following packages conflicts:
 </source>
-        <translation type="obsolete">Sekančios paketai konfliktuoja
+        <translation type="obsolete">Os seguintes conflitos de pacotes:
 </translation>
     </message>
     <message>
         <location filename="build/statemanager.py" line="220"/>
         <source>%1 conflicts with: [%2]
 </source>
-        <translation type="obsolete">%1 konfliktuoja sų [%2]
+        <translation type="obsolete">%1 conflita com: [%2]
 </translation>
     </message>
     <message>
@@ -526,39 +511,39 @@
         <source>
 Remove the conflicting packages from the system?</source>
         <translation type="obsolete">
-Pašalinti konfliktuojantį paketą iš sistemos?</translation>
+Remover pacotes conflitantes do sistema?</translation>
     </message>
     <message>
         <location filename="build/tray.py" line="185"/>
         <source>Update</source>
-        <translation type="obsolete">Naujinimas</translation>
+        <translation type="obsolete">Atualizar</translation>
     </message>
     <message>
         <location filename="build/tray.py" line="191"/>
         <source>Update %1 repository</source>
-        <translation type="obsolete">Saugykla atnaujinama</translation>
+        <translation type="obsolete">Atualizando Repositório</translation>
     </message>
     <message>
         <location filename="build/tray.py" line="192"/>
         <source>Update All Repositories</source>
-        <translation type="obsolete">Saugykla atnaujinama</translation>
+        <translation type="obsolete">Atualizando Repositório</translation>
     </message>
     <message>
         <location filename="build/tray.py" line="199"/>
         <source>There are %1 updates available!</source>
-        <translation type="obsolete">Yra &lt;b&gt;%1&lt;/b&gt;atnaujinimų!</translation>
+        <translation type="obsolete">Existem &lt;b&gt;%1&lt;/b&gt; atualizações disponíveis!</translation>
     </message>
     <message>
         <location filename="build/ui_appitem.py" line="54"/>
         <source>Application</source>
         <comment>ApplicationItem</comment>
-        <translation type="obsolete">Aplikacija</translation>
+        <translation type="obsolete">Aplicativos</translation>
     </message>
     <message>
         <location filename="build/ui_appitem.py" line="55"/>
         <source>Web Taray?c?</source>
         <comment>ApplicationItem</comment>
-        <translation type="obsolete">Web Tarayıcı</translation>
+        <translation type="obsolete">Navegadores da Internet</translation>
     </message>
     <message>
         <location filename="build/ui_appitem.py" line="56"/>
@@ -570,163 +555,157 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
         <location filename="build/ui_basketdialog.py" line="182"/>
         <source>Basket</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">rodyti krepšį</translation>
+        <translation type="obsolete">Mostrar Cesta</translation>
     </message>
     <message>
         <location filename="build/ui_basketdialog.py" line="183"/>
         <source>Selected package(s) for install:</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">Pažimeti paketai įdegymui:</translation>
+        <translation type="obsolete">Pacote(s) selecionado(s) para instalar:</translation>
     </message>
     <message>
         <location filename="build/ui_basketdialog.py" line="184"/>
         <source>Extra dependencies of the selected package(s) that are also going to be installed:</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:</translation>
+        <translation type="obsolete">Dependências extras para o(s) pacote(s) selecionado(s) que também serão instaladas:</translation>
     </message>
     <message>
         <location filename="build/ui_basketdialog.py" line="185"/>
         <source>Total Size:</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">bendras dydis: </translation>
+        <translation type="obsolete">Tamanho Total:</translation>
     </message>
     <message>
         <location filename="build/ui_basketdialog.py" line="186"/>
         <source>&lt;b&gt;2.2 MB&lt;/b&gt;</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">&lt;b&gt;2.2Mb&lt;b&gt;</translation>
+        <translation type="obsolete">&lt;b&gt;2.2 MB&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="build/ui_basketdialog.py" line="187"/>
         <source>Clear Basket</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">išsivalyti krepše </translation>
+        <translation type="obsolete">Limpar Cesta</translation>
     </message>
     <message>
         <location filename="build/ui_basketdialog.py" line="188"/>
         <source>Install Package(s)</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">Įdegti paketo(us)</translation>
+        <translation type="obsolete">Instalar Pacote(s)</translation>
     </message>
     <message>
         <location filename="build/ui_basketdialog.py" line="189"/>
         <source>Download Size:</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">Parsisiuntymų dydis:</translation>
+        <translation type="obsolete">Tamanho para Download:</translation>
     </message>
     <message>
         <location filename="build/ui_basketdialog.py" line="190"/>
         <source>&lt;b&gt;2.0 MB&lt;/</source>
         <comment>BasketDialog</comment>
-        <translation type="obsolete">&lt;b&gt;2.0Mb&lt;/</translation>
+        <translation type="obsolete">&lt;b&gt;2.0 MB&lt;/</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="159"/>
         <source>Form</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">Forma</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="160"/>
         <source>Settings</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">nustatymai</translation>
+        <translation type="obsolete">Configurações</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="161"/>
         <source>Type to search...</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">paspausti kad ieškoti</translation>
+        <translation type="obsolete">Clique para Buscar</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="162"/>
         <source>Update Types</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">atnaujinti tipą</translation>
+        <translation type="obsolete">Tipos de Atualizações</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="163"/>
         <source>Category Panel</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">Kategorijų panele </translation>
+        <translation type="obsolete">Painel de Categorias</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="164"/>
         <source>Package List</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">Paketų sąrašas</translation>
+        <translation type="obsolete">Lista de Pacotes</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="165"/>
         <source>Show Basket</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">rodyti krepšį</translation>
+        <translation type="obsolete">Mostrar Cesta</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="166"/>
         <source>Check for Updates</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">patikrinti ar yra atnaujinimai</translation>
+        <translation type="obsolete">Verificar por atualizações</translation>
     </message>
     <message>
         <location filename="build/ui_mainwidget_v3.py" line="167"/>
         <source>Install Package(s)</source>
         <comment>MainWidget</comment>
-        <translation type="obsolete">Įdegti paketo(us)</translation>
+        <translation type="obsolete">Instalar Pacote(s)</translation>
     </message>
     <message>
         <location filename="build/ui_mainwindow.py" line="27"/>
         <source>Package Manager</source>
         <comment>MainWindow</comment>
-        <translation type="obsolete">Paketų menadžeris</translation>
+        <translation type="obsolete">Gerenciador de Pacotes</translation>
     </message>
     <message>
         <location filename="build/ui_message.py" line="38"/>
         <source>Form</source>
         <comment>MessageBox</comment>
-        <translation type="obsolete">Forma</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <location filename="build/ui_pminstall.py" line="80"/>
         <source>Package Manager Quick Install</source>
         <comment>PmWindow</comment>
-        <translation type="obsolete">greitas įdegymas paketo menadžerio</translation>
-    </message>
-    <message>
-        <location filename="build/ui_pminstall.py" line="81"/>
-        <source>Following packages are selected to install. Do you want to install these packages ?</source>
-        <comment>PmWindow</comment>
-        <translation type="obsolete">sekančios paketai pažimeti įdegimui. jūs norite įdegti šių paketų?</translation>
+        <translation type="obsolete">Gerenciador de pacotes instalação rápida</translation>
     </message>
     <message>
         <location filename="build/ui_pminstall.py" line="82"/>
         <source>Package List</source>
         <comment>PmWindow</comment>
-        <translation type="obsolete">Paketų sąrašas</translation>
+        <translation type="obsolete">Lista de Pacotes</translation>
     </message>
     <message>
         <location filename="build/ui_pminstall.py" line="83"/>
         <source>Install</source>
         <comment>PmWindow</comment>
-        <translation type="obsolete">Įdegimas</translation>
+        <translation type="obsolete">instalado</translation>
     </message>
     <message>
         <location filename="build/ui_pminstall.py" line="84"/>
         <source>Cancel</source>
         <comment>PmWindow</comment>
-        <translation type="obsolete">Atsisakyti</translation>
+        <translation type="obsolete">Cancelar</translation>
     </message>
     <message>
         <location filename="build/ui_preview.py" line="48"/>
         <source>Preview</source>
         <comment>Preview</comment>
-        <translation type="obsolete">Peržiura</translation>
+        <translation type="obsolete">Visualizar</translation>
     </message>
     <message>
         <location filename="build/ui_progressdialog_v4.py" line="220"/>
         <source>Form</source>
         <comment>ProgressDialog</comment>
-        <translation type="obsolete">Forma</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <location filename="build/ui_progressdialog_v4.py" line="221"/>
@@ -738,175 +717,169 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
         <location filename="build/ui_repodialog.py" line="50"/>
         <source>Add New Repository</source>
         <comment>RepoDialog</comment>
-        <translation type="obsolete">Pridėti nauja saugykla</translation>
+        <translation type="obsolete">Adicionar Novo Repositório</translation>
     </message>
     <message>
         <location filename="build/ui_repodialog.py" line="51"/>
         <source>Name of the repository, e.g &lt;b&gt;pardus-devel&lt;/b&gt;</source>
         <comment>RepoDialog</comment>
-        <translation type="obsolete">Saugyklos vardas, pav. &lt;b&gt;</translation>
+        <translation type="obsolete">Nome do Repositório, ex. &lt;b&gt;pardus-devel&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="build/ui_repodialog.py" line="52"/>
         <source>Repository Name</source>
         <comment>RepoDialog</comment>
-        <translation type="obsolete">Saugyklos pavadinimas</translation>
+        <translation type="obsolete">Nome do Repositório</translation>
     </message>
     <message>
         <location filename="build/ui_repodialog.py" line="53"/>
         <source>Repository Address</source>
         <comment>RepoDialog</comment>
-        <translation type="obsolete">Saugyklos adresas</translation>
+        <translation type="obsolete">Endereço do Repositório</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="399"/>
         <source>Package Manager Settings</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete"> paketų menadžerio nustatimai</translation>
+        <translation type="obsolete">Configurações do Gerenciador de Pacotes</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="400"/>
         <source>Package list</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Paketų sąrašas</translation>
+        <translation type="obsolete">Lista de pacote</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="401"/>
         <source>&amp;Show only desktop applications</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&amp;Rodyti tik darbastalio aplikacijų</translation>
+        <translation type="obsolete">&amp;Mostrar apenas aplicativos da área de trabalho</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="402"/>
         <source>Show Component information </source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Rodyti informaciją apie komponentus</translation>
-    </message>
-    <message>
-        <location filename="build/ui_settingsdialog.py" line="403"/>
-        <source>Show package type tags</source>
-        <comment>SettingsDialog</comment>
-        <translation type="obsolete">Rodyti paketo tipo tagus</translation>
+        <translation type="obsolete">Mostrar informação do componente </translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="404"/>
         <source>System tray icon</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Ikona sistemos lauko</translation>
+        <translation type="obsolete">Ícone de bandeja do sistema</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="405"/>
         <source>Enable system tray icon</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">leidžiamos sistemos juostos ikonos</translation>
+        <translation type="obsolete">Habilitar ícone de bandeja do sistema</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="406"/>
         <source>Hide system tray if there is no update.</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Slepti sistemos juosta jei ji ne atnaujinta</translation>
+        <translation type="obsolete">Ocultar o ícone de bandeja do sistema quando não houver nenhuma atualização.</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="407"/>
         <source>Enable &amp;periodic update check</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">leisti &amp;periodine atnaujinimų patikra </translation>
+        <translation type="obsolete">Habilitar checagem de atualizações &amp;periódicas</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="408"/>
         <source>Check interval :</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Patikros tarpas:</translation>
+        <translation type="obsolete">Intervalo de checagem :</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="409"/>
         <source> min</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">min</translation>
+        <translation type="obsolete"> min</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="410"/>
         <source>Install updates automatically</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Degti naujinimus automatiškai</translation>
+        <translation type="obsolete">Instalar atualizações automaticamente</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="411"/>
         <source>&amp;General Settings</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&amp;Bendri nustatymai</translation>
+        <translation type="obsolete">&amp;Configurações Padrões</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="412"/>
         <source>Cache Limit</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Kešo ribojimas</translation>
+        <translation type="obsolete">Limite de cache</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="413"/>
         <source>&amp;Use hard disk cache for downloaded software</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&amp;nauduoti standujį disko programoms parsisiusti</translation>
+        <translation type="obsolete">&amp;Usar cache de disco para download de aplicativos</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="414"/>
         <source>Maximum cache size:</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Maksimalus kešo dydis:</translation>
+        <translation type="obsolete">Tamanho máximo de cache:</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="415"/>
         <source>Unlimited</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Be limito</translation>
+        <translation type="obsolete">Ilimitado</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="416"/>
         <source> Mib</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Mib</translation>
+        <translation type="obsolete"> Mib</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="417"/>
         <source>Current cache dir:</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Dabartinis kešo direktorija</translation>
+        <translation type="obsolete">Diretório do cache atual:</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="418"/>
         <source>Select...</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Pasirinkti...</translation>
+        <translation type="obsolete">Selecionar...</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="419"/>
         <source>Open</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Atverti</translation>
+        <translation type="obsolete">Abrir</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="420"/>
         <source>Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability.</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Išvalyti disko kešo po programų parsisiuntimo. Tai ne pašalins jūsų įdegtų programų ar kažkaip paveiks sistemos stabilumui</translation>
+        <translation type="obsolete">Limpar o cache do disco vai remover todos os downloads de softwares. Isso não remove os aplicativos instalados ou afeta a estabilidade do seu sistema.</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="421"/>
         <source>C&amp;lean disk cache now</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">V&amp;alyti disko kešo dabar</translation>
+        <translation type="obsolete">&amp;Limpar cache do disco agora</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="422"/>
         <source>Bandwidth limit</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">praleidumo rybojimas </translation>
+        <translation type="obsolete">Limite de Banda</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="423"/>
         <source>Use bandwidth limit :</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">naudoti pralaidumo limito:</translation>
+        <translation type="obsolete">Usar limite de banda :</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="424"/>
@@ -918,103 +891,91 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
         <location filename="build/ui_settingsdialog.py" line="425"/>
         <source>C&amp;ache</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">K&amp;ešas</translation>
+        <translation type="obsolete">C&amp;ache</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="427"/>
         <source>Repository Name</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Saugyklos pavadinimas</translation>
+        <translation type="obsolete">Nome do Repositório</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="429"/>
         <source>Repository Address</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Saugyklos adresas</translation>
+        <translation type="obsolete">Endereço do Repositório</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="430"/>
         <source>&amp;Add New Repository</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&amp;pridėti nauja saugykla </translation>
+        <translation type="obsolete">&amp;Adicionar Novo Repositório</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="431"/>
         <source>Remove Repository</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">pašalinti saugykla</translation>
+        <translation type="obsolete">Remover Repositório</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="432"/>
         <source>Move &amp;Up</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Kelti &amp;į viršų</translation>
+        <translation type="obsolete">Mover para &amp;Cima</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="433"/>
         <source>Move &amp;Down</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">leisti &amp;į apačia</translation>
+        <translation type="obsolete">Mover para &amp;Baixo</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="434"/>
         <source>&amp;Repositories</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&amp;Saugyklos</translation>
+        <translation type="obsolete">&amp;Repositórios</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="435"/>
         <source>Use Proxy</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">naudoti proxy</translation>
+        <translation type="obsolete">&amp;Proxy</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="436"/>
         <source>HTTP proxy server:</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">HTTP proxy serveris:</translation>
+        <translation type="obsolete">Servidor de Proxy HTTP:</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="441"/>
         <source>Port:</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Portas:</translation>
+        <translation type="obsolete">Porta:</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="438"/>
         <source>HTTPS proxy server:</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">HTTPS proxy serveris:</translation>
+        <translation type="obsolete">Servidor de Proxy HTTPS:</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="440"/>
         <source>FTP proxy server:</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">FTP proxy serveris:</translation>
-    </message>
-    <message>
-        <location filename="build/ui_settingsdialog.py" line="442"/>
-        <source>Domain:</source>
-        <comment>SettingsDialog</comment>
-        <translation type="obsolete">Domain:</translation>
+        <translation type="obsolete">Servidor de Proxy FTP:</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="443"/>
         <source>Username:</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">Vartotojo vardas:</translation>
-    </message>
-    <message>
-        <location filename="build/ui_settingsdialog.py" line="444"/>
-        <source>Password:</source>
-        <comment>SettingsDialog</comment>
-        <translation type="obsolete">Slaptažodis:</translation>
+        <translation type="obsolete">Nome de Usuário:</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="450"/>
         <source>&lt;a href=#&gt;Use this proxy server for all protocols&lt;/a&gt;</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&lt;a href=#&gt;Naudoti šį proxy serverį visiems protokolams&lt;/a&gt;</translation>
+        <translation type="obsolete">&lt;a href=#&gt;Usar esse servidor de proxy para todos os protocolos&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="451"/>
@@ -1026,175 +987,175 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
         <location filename="build/ui_settingsdialog.py" line="452"/>
         <source>&amp;Help</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&amp;pagalba</translation>
+        <translation type="obsolete">&amp;Ajuda</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="453"/>
         <source>&amp;OK</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&amp;gerai</translation>
+        <translation type="obsolete">&amp;OK</translation>
     </message>
     <message>
         <location filename="build/ui_settingsdialog.py" line="454"/>
         <source>&amp;Cancel</source>
         <comment>SettingsDialog</comment>
-        <translation type="obsolete">&amp;atsisakyti</translation>
+        <translation type="obsolete">&amp;Cancelar</translation>
     </message>
     <message>
         <location filename="build/ui_summarydialog.py" line="60"/>
         <source>Operation Summary</source>
         <comment>SummaryDialog</comment>
-        <translation type="obsolete">operacijų suvestynė </translation>
+        <translation type="obsolete">Resumo da Operação</translation>
     </message>
     <message>
         <location filename="build/ui_summarydialog.py" line="61"/>
         <source>You can start the new installed application by double-clicking on the list below or later from the applications menu.</source>
         <comment>SummaryDialog</comment>
-        <translation type="obsolete">Jūs galite paleist naujai įdegta programa 2kart paspaudus ant juos sąraše arba veliau iš aplikacijų menių</translation>
+        <translation type="obsolete">Você pode iniciar a nova aplicação instalado com um clique duplo na lista abaixo ou depois através do menu de aplicativos.</translation>
     </message>
     <message>
         <location filename="build/ui_summarydialog.py" line="62"/>
         <source>&amp;Ok</source>
         <comment>SummaryDialog</comment>
-        <translation type="obsolete">&amp;Gerai</translation>
+        <translation type="obsolete">&amp;Ok</translation>
     </message>
     <message>
         <location filename="build/ui_webdialog.py" line="153"/>
         <source>Basket</source>
         <comment>WebDialog</comment>
-        <translation type="obsolete">rodyti krepšį</translation>
+        <translation type="obsolete">Mostrar Cesta</translation>
     </message>
     <message>
         <location filename="build/ui_webdialog.py" line="154"/>
         <source>Package Files</source>
         <comment>WebDialog</comment>
-        <translation type="obsolete">Paketo bylos</translation>
+        <translation type="obsolete">Arquivos do Pacote</translation>
     </message>
     <message>
         <location filename="build/ui_webdialog.py" line="155"/>
         <source>AppInfo Server is not reachable
 Please check your network connection</source>
         <comment>WebDialog</comment>
-        <translation type="obsolete">AppInfo Serveris nepasiekiamas.
-Prašom patikrinti jūsų ryšį</translation>
+        <translation type="obsolete">Servidor do AppInfo não está disponível
+Por favor verifique sua conexão de internet</translation>
     </message>
     <message>
         <location filename="build/ui_webdialog.py" line="158"/>
         <source>Package Details</source>
         <comment>WebDialog</comment>
-        <translation type="obsolete">Paketo detales</translation>
+        <translation type="obsolete">Detalhes do Pacote</translation>
     </message>
     <message>
         <location filename="build/webdialog.py" line="126"/>
         <source>Package Files</source>
-        <translation type="obsolete">Paketo bylos</translation>
+        <translation type="obsolete">Arquivos do Pacote</translation>
     </message>
     <message>
         <location filename="data/package-manager.desktop.in.h" line="2"/>
         <source>Add or Remove Software</source>
-        <translation type="obsolete">Prideti arba pašalinti programos</translation>
+        <translation type="obsolete">Adicionar ou Remover Software</translation>
     </message>
     <message>
         <location filename="data/package-manager.desktop.in.h" line="3"/>
         <source>PiSi Package Manager Graphical User Interface</source>
-        <translation type="obsolete">Grafinė vartotojo sąsaja Pisi paketų menadžerio </translation>
+        <translation type="obsolete">Interface Gráfica de Usuário do Gerenciador de Pacotes PiSi</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Add/Remove/Update Packages</source>
-        <translation type="obsolete">Pridėti/Pašalinti/atnaujinti Paketus</translation>
+        <translation type="obsolete">Adicionar/Remover/Atualizar Pacotes</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>BasketDialog</source>
-        <translation type="obsolete">krepšis </translation>
+        <translation type="obsolete">Cesta</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>MainWidget</source>
-        <translation type="obsolete">Rodyti pagrindinė langą </translation>
+        <translation type="obsolete">Mostrar tela principal</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>MainWindow</source>
-        <translation type="obsolete">Rodyti pagrindinė langą </translation>
+        <translation type="obsolete">Mostrar tela principal</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>PmWindow</source>
-        <translation type="obsolete">Rodyti pagrindinė langą </translation>
+        <translation type="obsolete">Mostrar tela principal</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>RepoDialog</source>
-        <translation type="obsolete">krepšis </translation>
+        <translation type="obsolete">Cesta</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>SettingsDialog</source>
-        <translation type="obsolete">nustatymai</translation>
+        <translation type="obsolete">Configurações</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>WebDialog</source>
-        <translation type="obsolete">krepšis </translation>
+        <translation type="obsolete">Cesta</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Type to filter files</source>
-        <translation type="obsolete">Tipas bylų filtrui</translation>
+        <translation type="obsolete">Digite para filtrar arquivos</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Search Bar</source>
-        <translation type="obsolete">Paieškos laukas</translation>
+        <translation type="obsolete">Barra de Busca</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Ignore</source>
-        <translation type="obsolete">Ignuoroti</translation>
+        <translation type="obsolete">Ignorar</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Show Updates</source>
-        <translation type="obsolete">Rodyti naujinimų</translation>
+        <translation type="obsolete">Exibir Atualizações</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Hide summary screen</source>
-        <translation type="obsolete">Paslepti bendrinimo ekrana</translation>
+        <translation type="obsolete">Esconder tela de resumo</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Your emails</source>
         <comment>EMAIL OF TRANSLATORS</comment>
-        <translation type="obsolete">Jūsų e-paštas </translation>
+        <translation type="obsolete">Seus emails</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Your names</source>
         <comment>NAME OF TRANSLATORS</comment>
-        <translation type="obsolete">Jūsų vardas </translation>
+        <translation type="obsolete">Seus nomes</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>First Author</source>
-        <translation type="obsolete">Pirmas autorius </translation>
+        <translation type="obsolete">Primeiro Autor</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Faik Uygur</source>
-        <translation type="obsolete">Faik Uygur </translation>
+        <translation type="obsolete">Faik Uygur</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>Developer</source>
-        <translation type="obsolete">Kūrėjas </translation>
+        <translation type="obsolete">Desenvolvedor</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
         <source>G&#xf6;kmen G&#xf6;ksel</source>
-        <translation type="obsolete">Gökmen Göksel </translation>
+        <translation type="obsolete">Gökmen Göksel</translation>
     </message>
     <message>
         <location filename="data/packagemanager-helper.desktop.in.h" line="2"/>
@@ -1207,7 +1168,7 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="ui_appitem.py" line="54"/>
         <source>Application</source>
-        <translation type="unfinished">Aplikacija</translation>
+        <translation type="unfinished">Aplicativos</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="ui_appitem.py" line="55"/>
@@ -1225,47 +1186,47 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="ui_basketdialog.py" line="182"/>
         <source>Basket</source>
-        <translation type="unfinished">rodyti krepšį</translation>
+        <translation type="unfinished">Mostrar Cesta</translation>
     </message>
     <message>
         <location filename="ui_basketdialog.py" line="183"/>
         <source>Selected package(s) for install:</source>
-        <translation type="unfinished">Pažimeti paketai įdegymui:</translation>
+        <translation type="unfinished">Pacote(s) selecionado(s) para instalar:</translation>
     </message>
     <message>
         <location filename="ui_basketdialog.py" line="184"/>
         <source>Extra dependencies of the selected package(s) that are also going to be installed:</source>
-        <translation type="unfinished">Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:</translation>
+        <translation type="unfinished">Dependências extras para o(s) pacote(s) selecionado(s) que também serão instaladas:</translation>
     </message>
     <message>
         <location filename="ui_basketdialog.py" line="185"/>
         <source>Total Size:</source>
-        <translation type="unfinished">bendras dydis: </translation>
+        <translation type="unfinished">Tamanho Total:</translation>
     </message>
     <message>
         <location filename="ui_basketdialog.py" line="186"/>
         <source>&lt;b&gt;2.2 MB&lt;/b&gt;</source>
-        <translation type="unfinished">&lt;b&gt;2.2Mb&lt;b&gt;</translation>
+        <translation type="unfinished">&lt;b&gt;2.2 MB&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="ui_basketdialog.py" line="187"/>
         <source>Clear Basket</source>
-        <translation type="unfinished">išsivalyti krepše </translation>
+        <translation type="unfinished">Limpar Cesta</translation>
     </message>
     <message>
         <location filename="ui_basketdialog.py" line="188"/>
         <source>Install Package(s)</source>
-        <translation type="unfinished">Įdegti paketo(us)</translation>
+        <translation type="unfinished">Instalar Pacote(s)</translation>
     </message>
     <message>
         <location filename="ui_basketdialog.py" line="189"/>
         <source>Download Size:</source>
-        <translation type="unfinished">Parsisiuntymų dydis:</translation>
+        <translation type="unfinished">Tamanho para Download:</translation>
     </message>
     <message>
         <location filename="ui_basketdialog.py" line="190"/>
         <source>&lt;b&gt;2.0 MB&lt;/</source>
-        <translation type="unfinished">&lt;b&gt;2.0Mb&lt;/</translation>
+        <translation type="unfinished">&lt;b&gt;2.0 MB&lt;/</translation>
     </message>
 </context>
 <context>
@@ -1273,7 +1234,7 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="main.py" line="64"/>
         <source>Package Manager</source>
-        <translation type="unfinished">Paketų menadžeris</translation>
+        <translation type="unfinished">Gerenciador de Pacotes</translation>
     </message>
 </context>
 <context>
@@ -1281,47 +1242,47 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="ui_mainwidget_v3.py" line="159"/>
         <source>Form</source>
-        <translation type="unfinished">Forma</translation>
+        <translation type="unfinished">Form</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="160"/>
         <source>Settings</source>
-        <translation type="unfinished">nustatymai</translation>
+        <translation type="unfinished">Configurações</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="161"/>
         <source>Type to search...</source>
-        <translation type="unfinished">paspausti kad ieškoti</translation>
+        <translation type="unfinished">Clique para Buscar</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="162"/>
         <source>Update Types</source>
-        <translation type="unfinished">atnaujinti tipą</translation>
+        <translation type="unfinished">Tipos de Atualizações</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="163"/>
         <source>Category Panel</source>
-        <translation type="unfinished">Kategorijų panele </translation>
+        <translation type="unfinished">Painel de Categorias</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="164"/>
         <source>Package List</source>
-        <translation type="unfinished">Paketų sąrašas</translation>
+        <translation type="unfinished">Lista de Pacotes</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="165"/>
         <source>Show Basket</source>
-        <translation type="unfinished">rodyti krepšį</translation>
+        <translation type="unfinished">Mostrar Cesta</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="166"/>
         <source>Check for Updates</source>
-        <translation type="unfinished">patikrinti ar yra atnaujinimai</translation>
+        <translation type="unfinished">Verificar por atualizações</translation>
     </message>
     <message>
         <location filename="ui_mainwidget_v3.py" line="167"/>
         <source>Install Package(s)</source>
-        <translation type="unfinished">Įdegti paketo(us)</translation>
+        <translation type="unfinished">Instalar Pacote(s)</translation>
     </message>
 </context>
 <context>
@@ -1329,7 +1290,7 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="ui_mainwindow.py" line="27"/>
         <source>Package Manager</source>
-        <translation type="unfinished">Paketų menadžeris</translation>
+        <translation type="unfinished">Gerenciador de Pacotes</translation>
     </message>
 </context>
 <context>
@@ -1337,7 +1298,7 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="ui_message.py" line="38"/>
         <source>Form</source>
-        <translation type="unfinished">Forma</translation>
+        <translation type="unfinished">Form</translation>
     </message>
 </context>
 <context>
@@ -1345,147 +1306,147 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="basketdialog.py" line="57"/>
         <source>Clear Basket</source>
-        <translation type="unfinished">išsivalyti krepše </translation>
+        <translation type="unfinished">Limpar Cesta</translation>
     </message>
     <message>
         <location filename="basketdialog.py" line="57"/>
         <source>Do you want to clear all selections ?</source>
-        <translation type="unfinished">Ar jūs norite atsisakyti nuo visko, ką pasirinkote? </translation>
+        <translation type="unfinished">Você deseja limpar todas as seleções ?</translation>
     </message>
     <message>
         <location filename="settingsdialog.py" line="266"/>
         <source>Pisi Error</source>
-        <translation type="unfinished">Klaipa Pisi</translation>
+        <translation type="unfinished">Erro do PiSi</translation>
     </message>
     <message>
         <location filename="basketdialog.py" line="165"/>
         <source>You must restart your system for the updates to take effect</source>
-        <translation type="unfinished">Jums reiki a paleisti iš naujo sistema kad atnaujinti padarytus efektus </translation>
+        <translation type="unfinished">Você deve &lt;b&gt;reinicializar&lt;/b&gt; o seu sistema para que a atualização tenha efeito:</translation>
     </message>
     <message>
         <location filename="basketdialog.py" line="174"/>
         <source>Update Requirements</source>
-        <translation type="unfinished">Reikalingos naujinimus</translation>
+        <translation type="unfinished">Atualizar Requerimentos</translation>
     </message>
     <message>
         <location filename="basketdialog.py" line="165"/>
         <source>Packages Require System Restart</source>
-        <translation type="unfinished">Paketai reikalauja paleisti sistema iš naujo</translation>
+        <translation type="unfinished">Pacote requer reinicialização do sistema</translation>
     </message>
     <message>
         <location filename="basketdialog.py" line="174"/>
         <source>You must restart related system services for the updated package(s) to take effect</source>
-        <translation type="unfinished">Jus turite paleisti iš naujo atitinkamus procesus, kad pritaikyti paketu(o) efektus</translation>
+        <translation type="unfinished">Você deve reinicializar os seguintes serviços de sistema para que as atualizações dos pacotes tenham efeito:</translation>
     </message>
     <message>
         <location filename="basketdialog.py" line="174"/>
         <source>Packages Require Service Restart</source>
-        <translation type="unfinished">Paketas reikalauja paleisti iš naujo procesą </translation>
+        <translation type="unfinished">Pacote requer reinicialização de serviço</translation>
     </message>
     <message>
         <location filename="basketdialog.py" line="188"/>
         <source>Selected packages are considered critical for the system. Removing them may cause your system to be unusable.</source>
-        <translation type="unfinished">Pasirinkti paketai yra būtinos sistemai. Jų pašalinimas gresia sistemos žlugimui.</translation>
+        <translation type="unfinished">O pacote selecionado é considerado crítico para o sistema, Remove-lo pode deixar seu sistema instável</translation>
     </message>
     <message>
         <location filename="settingsdialog.py" line="179"/>
         <source>Warning</source>
-        <translation type="unfinished">Demesio</translation>
+        <translation type="unfinished">Aviso</translation>
     </message>
     <message>
         <location filename="basketdialog.py" line="188"/>
         <source>Critical Packages</source>
-        <translation type="unfinished">kritine paketai </translation>
+        <translation type="unfinished">Pacotes Críticos</translation>
     </message>
     <message>
         <location filename="pmwindow.py" line="136"/>
         <source>Selected packages are already installed.&lt;br&gt;If you continue, the packages will be reinstalled</source>
-        <translation type="unfinished">pasirinkti paketai jau įdegti. &lt;br&gt;jei jūs tesit, je bus įdegti iš naujo</translation>
+        <translation type="unfinished">Os pacotes já estão instalados.&lt;br&gt; Se continuar, os pacotes serão reinstalados</translation>
     </message>
     <message>
         <location filename="pmwindow.py" line="136"/>
         <source>Already Installed Packages</source>
-        <translation type="unfinished">Tikrai įdegti paketai</translation>
+        <translation type="unfinished">Pacote(s) já instalado(s)</translation>
     </message>
     <message>
         <location filename="pmwindow.py" line="136"/>
         <source>Installed Packages</source>
-        <translation type="unfinished">Įdegti paketai</translation>
+        <translation type="unfinished">Pacote(s) Instalado(s)</translation>
     </message>
     <message>
         <location filename="grouplist.py" line="50"/>
         <source>All</source>
-        <translation type="unfinished">Visi</translation>
+        <translation type="unfinished">Todos</translation>
     </message>
     <message>
         <location filename="helpdialog.py" line="34"/>
         <source>Package Manager Help</source>
-        <translation type="unfinished">Paketų menadžerio pagalba</translation>
+        <translation type="unfinished">Ajuda do Gerenciador de Pacote</translation>
     </message>
     <message>
         <location filename="mainwidget.py" line="153"/>
         <source>All packages are up to date</source>
-        <translation type="unfinished">Visi paketai aktualios busenos</translation>
+        <translation type="unfinished">Todos os pacotes estão atualizados</translation>
     </message>
     <message>
         <location filename="mainwidget.py" line="263"/>
         <source>Searching...</source>
-        <translation type="unfinished">Paješka... </translation>
+        <translation type="unfinished">Buscando...</translation>
     </message>
     <message>
         <location filename="mainwidget.py" line="275"/>
         <source>No results found.</source>
-        <translation type="unfinished">Nieko ne rasta </translation>
+        <translation type="unfinished">Sem resultados encontrados</translation>
     </message>
     <message>
         <location filename="mainwidget.py" line="436"/>
         <source>Select packages</source>
-        <translation type="unfinished">pasirinkti paketus</translation>
+        <translation type="unfinished">Selecionar pacotes</translation>
     </message>
     <message>
         <location filename="mainwidget.py" line="436"/>
         <source>You must select at least one installed package</source>
-        <translation type="unfinished">Jūs turite pasirinkti bent viena paketą </translation>
+        <translation type="unfinished">Você precisar selecionar ao menos um pacote instalado</translation>
     </message>
     <message>
         <location filename="mainwidget.py" line="449"/>
         <source>All Updates</source>
-        <translation type="unfinished">visi naujinimai</translation>
+        <translation type="unfinished">Todas as Atualizações</translation>
     </message>
     <message>
         <location filename="mainwidget.py" line="450"/>
         <source>Security Updates</source>
-        <translation type="unfinished">Saugumo naujinimai</translation>
+        <translation type="unfinished">Atualizações de Segurança</translation>
     </message>
     <message>
         <location filename="mainwidget.py" line="451"/>
         <source>Critical Updates</source>
-        <translation type="unfinished">Kritinė naujinimai</translation>
+        <translation type="unfinished">Atualizações Críticas</translation>
     </message>
     <message>
         <location filename="mainwindow.py" line="142"/>
         <source>All Packages</source>
-        <translation type="unfinished">visi paketai</translation>
+        <translation type="unfinished">Todos os Pacotes</translation>
     </message>
     <message>
         <location filename="mainwindow.py" line="146"/>
         <source>Installable Packages</source>
-        <translation type="unfinished">Įdegti paketai</translation>
+        <translation type="unfinished">Pacotes Instaláveis</translation>
     </message>
     <message>
         <location filename="tray.py" line="201"/>
         <source>Updates</source>
-        <translation type="unfinished">naujinimai</translation>
+        <translation type="unfinished">Atualizações</translation>
     </message>
     <message>
         <location filename="mainwindow.py" line="156"/>
         <source>Settings</source>
-        <translation type="unfinished">nustatymai</translation>
+        <translation type="unfinished">Configurações</translation>
     </message>
     <message>
         <location filename="mainwindow.py" line="159"/>
         <source>Help</source>
-        <translation type="unfinished">&amp;pagalba</translation>
+        <translation type="unfinished">&amp;Ajuda</translation>
     </message>
     <message>
         <location filename="tray.py" line="197"/>
@@ -1495,77 +1456,77 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="mainwindow.py" line="193"/>
         <source>Calculating dependencies...</source>
-        <translation type="unfinished">Skaičiuojami priklausomybės... </translation>
+        <translation type="unfinished">Calculando dependências...</translation>
     </message>
     <message>
         <location filename="mainwindow.py" line="213"/>
         <source>Currently your basket is empty.</source>
-        <translation type="unfinished">Dabarinis jūsų krepšis yra tuščias</translation>
+        <translation type="unfinished">Sua cesta está atualmente vazia.</translation>
     </message>
     <message>
         <location filename="operationmanager.py" line="51"/>
         <source>installing</source>
-        <translation type="unfinished">Įdegimas </translation>
+        <translation type="unfinished">instalando</translation>
     </message>
     <message>
         <location filename="operationmanager.py" line="52"/>
         <source>removing</source>
-        <translation type="unfinished">šalinimas</translation>
+        <translation type="unfinished">removendo</translation>
     </message>
     <message>
         <location filename="progressdialog.py" line="82"/>
         <source>extracting</source>
-        <translation type="unfinished">išemimas</translation>
+        <translation type="unfinished">extraindo</translation>
     </message>
     <message>
         <location filename="progressdialog.py" line="82"/>
         <source>configuring</source>
-        <translation type="unfinished">konfigūravimas </translation>
+        <translation type="unfinished">configurando</translation>
     </message>
     <message>
         <location filename="operationmanager.py" line="148"/>
         <source>downloading</source>
-        <translation type="unfinished">Parsisiuntimas  </translation>
+        <translation type="unfinished">fazendo download</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="83"/>
         <source>critical</source>
-        <translation type="unfinished">kritinis</translation>
+        <translation type="unfinished">critico</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="84"/>
         <source>security</source>
-        <translation type="unfinished">saugumas</translation>
+        <translation type="unfinished">segurança</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="100"/>
         <source>Description:</source>
-        <translation type="unfinished">prie</translation>
+        <translation type="unfinished">Descrição:</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="101"/>
         <source>Website:</source>
-        <translation type="unfinished">Interneto puslapis</translation>
+        <translation type="unfinished">Site:</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="102"/>
         <source>Release:</source>
-        <translation type="unfinished">Relizas:</translation>
+        <translation type="unfinished">Lançamento:</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="103"/>
         <source>Repository:</source>
-        <translation type="unfinished">Saugykla:</translation>
+        <translation type="unfinished">repositório:</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="104"/>
         <source>Package Size:</source>
-        <translation type="unfinished">Paketo dydis:</translation>
+        <translation type="unfinished">Tamanho do Pacote:</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="105"/>
         <source>Installed Version:</source>
-        <translation type="unfinished">Įdegta versija</translation>
+        <translation type="unfinished">Versão Instalada:</translation>
     </message>
     <message>
         <location filename="packagedelegate.py" line="320"/>
@@ -1575,223 +1536,218 @@ Prašom patikrinti jūsų ryšį</translation>
     <message>
         <location filename="packagedelegate.py" line="348"/>
         <source>Details</source>
-        <translation type="unfinished">detales</translation>
+        <translation type="unfinished">Detalhes</translation>
     </message>
     <message>
         <location filename="packageview.py" line="28"/>
         <source>Select all packages in this group</source>
-        <translation type="unfinished">Pasirinkti visus paketus esančius grupėje</translation>
-    </message>
-    <message>
-        <location filename="pm-install.py" line="49"/>
-        <source>%prog packages_to_install</source>
-        <translation type="obsolete">%prog paketų_įdegymui</translation>
+        <translation type="unfinished">Selecione todos os pacotes nesse grupo</translation>
     </message>
     <message>
         <location filename="progressdialog.py" line="66"/>
         <source>Package Manager</source>
-        <translation type="unfinished">Paketų menadžeris</translation>
+        <translation type="unfinished">Gerenciador de Pacotes</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="249"/>
         <source>Network Error</source>
-        <translation type="unfinished">Tinklo klaida</translation>
+        <translation type="unfinished">Erro de Conectividade de Rede</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="249"/>
         <source>Please check your network connections and try again.</source>
-        <translation type="unfinished">Prašom patikrinti jūsų interneto ryšį ir papanditi dar karta</translation>
+        <translation type="unfinished">Por favor cheque as conexões de rede e tente novamente.</translation>
     </message>
     <message>
         <location filename="pmutils.py" line="86"/>
         <source>Authorization Error</source>
-        <translation type="unfinished">Autorizavymoklaida</translation>
+        <translation type="unfinished">Erro de Autorização</translation>
     </message>
     <message>
         <location filename="pmutils.py" line="87"/>
         <source>You are not authorized for this operation.</source>
-        <translation type="unfinished">Jūs neturite teisių vykdyti šią operaciją</translation>
+        <translation type="unfinished">Você não está autorizado para executar essa operação.</translation>
     </message>
     <message>
         <location filename="pmutils.py" line="90"/>
         <source>Package &lt;b&gt;%s&lt;/b&gt; not found in repositories.&lt;br&gt;It may be upgraded or removed from the repository.&lt;br&gt;Please try upgrading repository informations.</source>
-        <translation type="obsolete">Paketas &lt;b&gt;%s&lt;/b&gt; nerastas saugykloje. &lt;br&gt; Jis gali būti atnaujintas ar pašalintas iš saugyklos. &lt;br&gt;Prašom pabandyti atnaujinti saugyklos informaciją</translation>
+        <translation type="obsolete">Pacote &lt;b&gt;%s&lt;/b&gt; não encontrado no(s) repositório(s).&lt;br&gt;Ele pode ter sido atualizado ou removido do(s) repositório(s).&lt;br&gt;Por Favor tente atualizar as informações dos repositórios</translation>
     </message>
     <message>
         <location filename="pmutils.py" line="95"/>
         <source>Mixing file names and package names not supported yet.</source>
-        <translation type="unfinished">Sumaišymas failų vardus ir paketų pavadinimus dar nepalaikoma.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="pmutils.py" line="98"/>
         <source>File &lt;b&gt;%s&lt;/b&gt; doesn&apos;t exists.</source>
-        <translation type="obsolete">byla  &lt;b&gt;%s&lt;/b&gt; neekzistoja</translation>
+        <translation type="obsolete">Arquivo &lt;b&gt;%s&lt;/b&gt; não existe.</translation>
     </message>
     <message>
         <location filename="pmutils.py" line="101"/>
         <source>Another instance of PiSi is running. Only one instance is allowed.</source>
-        <translation type="unfinished">Kitas Pisi procesas jau vykdomas. Leidžiama paleisti tik viena Pisi proceso</translation>
+        <translation type="unfinished">Outra instância do PiSi está rodando. Só é permitido uma por vez.</translation>
     </message>
     <message>
         <location filename="pmutils.py" line="135"/>
         <source>Do you want to continue ?</source>
-        <translation type="unfinished">Norite testi?</translation>
+        <translation type="unfinished">Você quer continuar ?</translation>
     </message>
     <message>
         <location filename="progressdialog.py" line="117"/>
         <source>Preparing PiSi...</source>
-        <translation type="unfinished">PISI pasiruošiamas...</translation>
+        <translation type="unfinished">Preparando o PiSi...</translation>
     </message>
     <message>
         <location filename="progressdialog.py" line="128"/>
         <source>&lt;b&gt;Cancelling operation...&lt;/b&gt;</source>
-        <translation type="unfinished">&lt;b&gt;Operacija baigesi&lt;b&gt;</translation>
+        <translation type="unfinished">&lt;b&gt;Cancelando a operação...&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="settingsdialog.py" line="171"/>
         <source>Open Directory</source>
-        <translation type="unfinished">atverti kataogą</translation>
+        <translation type="unfinished">Abrir Diretório</translation>
     </message>
     <message>
         <location filename="settingsdialog.py" line="179"/>
         <source>All the cached packages will be deleted. Are you sure? </source>
-        <translation type="unfinished">Visi kešuoti paketai bus pašalinti. jūs sutinkate?</translation>
+        <translation type="unfinished">Todos os pacotes em cache serão deletados. Você tem certeza?</translation>
     </message>
     <message>
         <location filename="settingsdialog.py" line="260"/>
         <source>Not a valid repository name</source>
-        <translation type="unfinished">Nekorektiškas saugyklos vardas</translation>
+        <translation type="unfinished">Não é um nome de repositório válido</translation>
     </message>
     <message>
         <location filename="settingsdialog.py" line="266"/>
         <source>&lt;qt&gt;Repository address should end with xml or xml.bz2 or xz suffix.&lt;p&gt;Please try again.&lt;/qt&gt;</source>
-        <translation type="unfinished">&lt;qt&gt;Saugyklos adresas privalo pasibaigti su xml ar xml.bz2 arba xz sufiksų.&lt;p&gt;Prašom bandyti dar karta.&lt;/qt&gt; </translation>
+        <translation type="unfinished">&lt;qt&gt;Endereço de repositório deveria terminar com o sufixo xml, xml.bz2. ou xz&lt;p&gt;Por favor tente novamente.&lt;/qt&gt;</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="91"/>
         <source>Installing Package(s)</source>
-        <translation type="unfinished">Įdegiamos paketas (ai)</translation>
+        <translation type="unfinished">Instalando Pacote(s)</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="92"/>
         <source>Removing Package(s)</source>
-        <translation type="unfinished">Šalinamos paketai(as)</translation>
+        <translation type="unfinished">Removendo Pacote(s)</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="93"/>
         <source>Upgrading Package(s)</source>
-        <translation type="unfinished">atnaujinamos paketai(as)</translation>
+        <translation type="unfinished">Atualizando Pacote(s)</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="94"/>
         <source>Applying Repository Changes</source>
-        <translation type="unfinished">Pritaikoma saugyklos pakeiktymai</translation>
+        <translation type="unfinished">Aplicando Modificações do Repositório</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="95"/>
         <source>Updating Repository</source>
-        <translation type="unfinished">Saugykla atnaujinama</translation>
+        <translation type="unfinished">Atualizando Repositório</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="96"/>
         <source>Updating Repository(s)</source>
-        <translation type="unfinished">Saugyklos(a) atnaujinama </translation>
+        <translation type="unfinished">Atualizando Repositório(s)</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="99"/>
         <source>installed</source>
-        <translation type="unfinished">įdegtos</translation>
+        <translation type="unfinished">instalado</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="100"/>
         <source>removed</source>
-        <translation type="unfinished">pašalintos</translation>
+        <translation type="unfinished">removido</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="101"/>
         <source>upgraded</source>
-        <translation type="unfinished">atnaujintos</translation>
+        <translation type="unfinished">atualizado</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="102"/>
         <source>modified</source>
-        <translation type="unfinished">modifikuotos</translation>
+        <translation type="unfinished">modificado</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="106"/>
         <source>Install Package(s)</source>
-        <translation type="unfinished">Įdegti paketo(us)</translation>
+        <translation type="unfinished">Instalar Pacote(s)</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="107"/>
         <source>Remove Package(s)</source>
-        <translation type="unfinished">pašalinti paketo(us)</translation>
+        <translation type="unfinished">Removendo Pacote(s)</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="108"/>
         <source>Upgrade Package(s)</source>
-        <translation type="unfinished">atnaujinti paketus(o)</translation>
+        <translation type="unfinished">Atualizando Pacote(s)</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="109"/>
         <source>Select Operation</source>
-        <translation type="unfinished">Pasirinkti operacicija</translation>
+        <translation type="unfinished">Selecione Operação</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="125"/>
         <source>You have selected the following package(s) to install:</source>
-        <translation type="unfinished">Jūs turite pažymėtus paketus(o) įdegimui:</translation>
+        <translation type="unfinished">Você selecionou o(s) seguinte(s) pacote(s) para instalar:</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="126"/>
         <source>You have selected the following package(s) to removal:</source>
-        <translation type="unfinished">Jūs turite pažymėtus paketus(o) pašalinymui</translation>
+        <translation type="unfinished">Você selecionou o(s) seguinte(s) pacote(s) para remover:</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="127"/>
         <source>You have selected the following package(s) to upgrade:</source>
-        <translation type="unfinished">Jūs turite pažymėtus paketus(o) atnaujinimui:</translation>
+        <translation type="unfinished">Você selecionou o(s) seguinte(s) pacote(s) para atualização:</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="128"/>
         <source>You have selected the following package(s) to modify:</source>
-        <translation type="unfinished">Jūs turite pažymėtus paketus(o) modifikacijai:</translation>
+        <translation type="unfinished">Você selecionou o(s) seguinte(s) pacote(s) para modificar:</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="131"/>
         <source>Extra dependencies of the selected package(s) that are also going to be installed:</source>
-        <translation type="unfinished">Papildomos priklausomybes pasirinktų paketų(o) taip pat bus įdegti:</translation>
+        <translation type="unfinished">Dependências extras para o(s) pacote(s) selecionado(s) que também serão instaladas:</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="132"/>
         <source>Reverse dependencies of the selected package(s) that are also going to be removed:</source>
-        <translation type="unfinished">Grįžtamieji priklausomybes pasirinkto paketo (-ų), kurie taip pat bus pašalinti:</translation>
+        <translation type="unfinished">Dependências reversas para o(s) pacote(s) selecionado(s) que também serão removidas:</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="133"/>
         <source>Extra dependencies of the selected package(s) that are also going to be upgraded:</source>
-        <translation type="unfinished">Papildomos priklausomybes pažimetų paketų(o) tad galite dabar atnaujinti</translation>
+        <translation type="unfinished">Dependências extras para o(s) pacote(s) selecionado(s) que também serão atualizadas:</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="134"/>
         <source>Extra dependencies of the selected package(s) that are also going to be modified:</source>
-        <translation type="unfinished">Būtinos priklausomybės pasirinktų paketų(o) tad dabar galite jų keisti </translation>
+        <translation type="unfinished">Dependências extras para o(s) pacote(s) selecionado(s) que também serão atualizadas:</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="181"/>
         <source>in your basket.</source>
-        <translation type="unfinished">Jūsų krepšjie</translation>
+        <translation type="unfinished">na sua cesta.</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="225"/>
         <source>Conflict Error</source>
-        <translation type="unfinished">Konflikto klaida</translation>
+        <translation type="unfinished">Erro de Conflito</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="221"/>
         <source>The following packages conflicts:
 </source>
-        <translation type="unfinished">Sekančios paketai konfliktuoja
+        <translation type="unfinished">Os seguintes conflitos de pacotes:
 </translation>
     </message>
     <message>
@@ -1799,22 +1755,22 @@ Prašom patikrinti jūsų ryšį</translation>
         <source>
 Remove the conflicting packages from the system?</source>
         <translation type="unfinished">
-Pašalinti konfliktuojantį paketą iš sistemos?</translation>
+Remover pacotes conflitantes do sistema?</translation>
     </message>
     <message>
         <location filename="tray.py" line="187"/>
         <source>Update</source>
-        <translation type="unfinished">Naujinimas</translation>
+        <translation type="unfinished">Atualizar</translation>
     </message>
     <message>
         <location filename="tray.py" line="194"/>
         <source>Update All Repositories</source>
-        <translation type="unfinished">Saugykla atnaujinama</translation>
+        <translation type="unfinished">Atualizando Repositório</translation>
     </message>
     <message>
         <location filename="webdialog.py" line="128"/>
         <source>Package Files</source>
-        <translation type="unfinished">Paketo bylos</translation>
+        <translation type="unfinished">Arquivos do Pacote</translation>
     </message>
     <message>
         <location filename="statemanager.py" line="175"/>
@@ -1918,27 +1874,27 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
     <message>
         <location filename="ui_pminstall.py" line="80"/>
         <source>Package Manager Quick Install</source>
-        <translation type="unfinished">greitas įdegymas paketo menadžerio</translation>
+        <translation type="unfinished">Gerenciador de pacotes instalação rápida</translation>
     </message>
     <message>
         <location filename="ui_pminstall.py" line="81"/>
         <source>Following packages are selected to install. Do you want to install these packages ?</source>
-        <translation type="unfinished">sekančios paketai pažimeti įdegimui. jūs norite įdegti šių paketų?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="ui_pminstall.py" line="82"/>
         <source>Package List</source>
-        <translation type="unfinished">Paketų sąrašas</translation>
+        <translation type="unfinished">Lista de Pacotes</translation>
     </message>
     <message>
         <location filename="ui_pminstall.py" line="83"/>
         <source>Install</source>
-        <translation type="unfinished">Įdegimas</translation>
+        <translation type="unfinished">instalado</translation>
     </message>
     <message>
         <location filename="ui_pminstall.py" line="84"/>
         <source>Cancel</source>
-        <translation type="unfinished">Atsisakyti</translation>
+        <translation type="unfinished">Cancelar</translation>
     </message>
 </context>
 <context>
@@ -1946,7 +1902,7 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
     <message>
         <location filename="ui_preview.py" line="48"/>
         <source>Preview</source>
-        <translation type="unfinished">Peržiura</translation>
+        <translation type="unfinished">Visualizar</translation>
     </message>
 </context>
 <context>
@@ -1954,7 +1910,7 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
     <message>
         <location filename="ui_progressdialog_v4.py" line="220"/>
         <source>Form</source>
-        <translation type="unfinished">Forma</translation>
+        <translation type="unfinished">Form</translation>
     </message>
     <message>
         <location filename="ui_progressdialog_v4.py" line="221"/>
@@ -1967,22 +1923,22 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
     <message>
         <location filename="ui_repodialog.py" line="50"/>
         <source>Add New Repository</source>
-        <translation type="unfinished">Pridėti nauja saugykla</translation>
+        <translation type="unfinished">Adicionar Novo Repositório</translation>
     </message>
     <message>
         <location filename="ui_repodialog.py" line="51"/>
         <source>Name of the repository, e.g &lt;b&gt;pardus-devel&lt;/b&gt;</source>
-        <translation type="unfinished">Saugyklos vardas, pav. &lt;b&gt;</translation>
+        <translation type="unfinished">Nome do Repositório, ex. &lt;b&gt;pardus-devel&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="ui_repodialog.py" line="52"/>
         <source>Repository Name</source>
-        <translation type="unfinished">Saugyklos pavadinimas</translation>
+        <translation type="unfinished">Nome do Repositório</translation>
     </message>
     <message>
         <location filename="ui_repodialog.py" line="53"/>
         <source>Repository Address</source>
-        <translation type="unfinished">Saugyklos adresas</translation>
+        <translation type="unfinished">Endereço do Repositório</translation>
     </message>
 </context>
 <context>
@@ -1990,127 +1946,127 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
     <message>
         <location filename="ui_settingsdialog.py" line="399"/>
         <source>Package Manager Settings</source>
-        <translation type="unfinished"> paketų menadžerio nustatimai</translation>
+        <translation type="unfinished">Configurações do Gerenciador de Pacotes</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="400"/>
         <source>Package list</source>
-        <translation type="unfinished">Paketų sąrašas</translation>
+        <translation type="unfinished">Lista de pacote</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="401"/>
         <source>&amp;Show only desktop applications</source>
-        <translation type="unfinished">&amp;Rodyti tik darbastalio aplikacijų</translation>
+        <translation type="unfinished">&amp;Mostrar apenas aplicativos da área de trabalho</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="402"/>
         <source>Show Component information </source>
-        <translation type="unfinished">Rodyti informaciją apie komponentus</translation>
+        <translation type="unfinished">Mostrar informação do componente </translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="403"/>
         <source>Show package type tags</source>
-        <translation type="unfinished">Rodyti paketo tipo tagus</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="404"/>
         <source>System tray icon</source>
-        <translation type="unfinished">Ikona sistemos lauko</translation>
+        <translation type="unfinished">Ícone de bandeja do sistema</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="405"/>
         <source>Enable system tray icon</source>
-        <translation type="unfinished">leidžiamos sistemos juostos ikonos</translation>
+        <translation type="unfinished">Habilitar ícone de bandeja do sistema</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="406"/>
         <source>Hide system tray if there is no update.</source>
-        <translation type="unfinished">Slepti sistemos juosta jei ji ne atnaujinta</translation>
+        <translation type="unfinished">Ocultar o ícone de bandeja do sistema quando não houver nenhuma atualização.</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="407"/>
         <source>Enable &amp;periodic update check</source>
-        <translation type="unfinished">leisti &amp;periodine atnaujinimų patikra </translation>
+        <translation type="unfinished">Habilitar checagem de atualizações &amp;periódicas</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="408"/>
         <source>Check interval :</source>
-        <translation type="unfinished">Patikros tarpas:</translation>
+        <translation type="unfinished">Intervalo de checagem :</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="409"/>
         <source> min</source>
-        <translation type="unfinished">min</translation>
+        <translation type="unfinished"> min</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="410"/>
         <source>Install updates automatically</source>
-        <translation type="unfinished">Degti naujinimus automatiškai</translation>
+        <translation type="unfinished">Instalar atualizações automaticamente</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="411"/>
         <source>&amp;General Settings</source>
-        <translation type="unfinished">&amp;Bendri nustatymai</translation>
+        <translation type="unfinished">&amp;Configurações Padrões</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="412"/>
         <source>Cache Limit</source>
-        <translation type="unfinished">Kešo ribojimas</translation>
+        <translation type="unfinished">Limite de cache</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="413"/>
         <source>&amp;Use hard disk cache for downloaded software</source>
-        <translation type="unfinished">&amp;nauduoti standujį disko programoms parsisiusti</translation>
+        <translation type="unfinished">&amp;Usar cache de disco para download de aplicativos</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="414"/>
         <source>Maximum cache size:</source>
-        <translation type="unfinished">Maksimalus kešo dydis:</translation>
+        <translation type="unfinished">Tamanho máximo de cache:</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="415"/>
         <source>Unlimited</source>
-        <translation type="unfinished">Be limito</translation>
+        <translation type="unfinished">Ilimitado</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="416"/>
         <source> Mib</source>
-        <translation type="unfinished">Mib</translation>
+        <translation type="unfinished"> Mib</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="417"/>
         <source>Current cache dir:</source>
-        <translation type="unfinished">Dabartinis kešo direktorija</translation>
+        <translation type="unfinished">Diretório do cache atual:</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="418"/>
         <source>Select...</source>
-        <translation type="unfinished">Pasirinkti...</translation>
+        <translation type="unfinished">Selecionar...</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="419"/>
         <source>Open</source>
-        <translation type="unfinished">Atverti</translation>
+        <translation type="unfinished">Abrir</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="420"/>
         <source>Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability.</source>
-        <translation type="unfinished">Išvalyti disko kešo po programų parsisiuntimo. Tai ne pašalins jūsų įdegtų programų ar kažkaip paveiks sistemos stabilumui</translation>
+        <translation type="unfinished">Limpar o cache do disco vai remover todos os downloads de softwares. Isso não remove os aplicativos instalados ou afeta a estabilidade do seu sistema.</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="421"/>
         <source>C&amp;lean disk cache now</source>
-        <translation type="unfinished">V&amp;alyti disko kešo dabar</translation>
+        <translation type="unfinished">&amp;Limpar cache do disco agora</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="422"/>
         <source>Bandwidth limit</source>
-        <translation type="unfinished">praleidumo rybojimas </translation>
+        <translation type="unfinished">Limite de Banda</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="423"/>
         <source>Use bandwidth limit :</source>
-        <translation type="unfinished">naudoti pralaidumo limito:</translation>
+        <translation type="unfinished">Usar limite de banda :</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="424"/>
@@ -2120,82 +2076,82 @@ Pašalinti konfliktuojantį paketą iš sistemos?</translation>
     <message>
         <location filename="ui_settingsdialog.py" line="425"/>
         <source>C&amp;ache</source>
-        <translation type="unfinished">K&amp;ešas</translation>
+        <translation type="unfinished">C&amp;ache</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="427"/>
         <source>Repository Name</source>
-        <translation type="unfinished">Saugyklos pavadinimas</translation>
+        <translation type="unfinished">Nome do Repositório</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="429"/>
         <source>Repository Address</source>
-        <translation type="unfinished">Saugyklos adresas</translation>
+        <translation type="unfinished">Endereço do Repositório</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="430"/>
         <source>&amp;Add New Repository</source>
-        <translation type="unfinished">&amp;pridėti nauja saugykla </translation>
+        <translation type="unfinished">&amp;Adicionar Novo Repositório</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="431"/>
         <source>Remove Repository</source>
-        <translation type="unfinished">pašalinti saugykla</translation>
+        <translation type="unfinished">Remover Repositório</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="432"/>
         <source>Move &amp;Up</source>
-        <translation type="unfinished">Kelti &amp;į viršų</translation>
+        <translation type="unfinished">Mover para &amp;Cima</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="433"/>
         <source>Move &amp;Down</source>
-        <translation type="unfinished">leisti &amp;į apačia</translation>
+        <translation type="unfinished">Mover para &amp;Baixo</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="434"/>
         <source>&amp;Repositories</source>
-        <translation type="unfinished">&amp;Saugyklos</translation>
+        <translation type="unfinished">&amp;Repositórios</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="435"/>
         <source>Use Proxy</source>
-        <translation type="unfinished">naudoti proxy</translation>
+        <translation type="unfinished">&amp;Proxy</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="436"/>
         <source>HTTP proxy server:</source>
-        <translation type="unfinished">HTTP proxy serveris:</translation>
+        <translation type="unfinished">Servidor de Proxy HTTP:</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="441"/>
         <source>Port:</source>
-        <translation type="unfinished">Portas:</translation>
+        <translation type="unfinished">Porta:</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="438"/>
         <source>HTTPS proxy server:</source>
-        <translation type="unfinished">HTTPS proxy serveris:</translation>
+        <translation type="unfinished">Servidor de Proxy HTTPS:</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="440"/>
         <source>FTP proxy server:</source>
-        <translation type="unfinished">FTP proxy serveris:</translation>
+        <translation type="unfinished">Servidor de Proxy FTP:</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="442"/>
         <source>Domain:</source>
-        <translation type="unfinished">Domain:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="443"/>
         <source>Username:</source>
-        <translation type="unfinished">Vartotojo vardas:</translation>
+        <translation type="unfinished">Nome de Usuário:</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="444"/>
         <source>Password:</source>
-        <translation type="unfinished">Slaptažodis:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="445"/>
@@ -2209,7 +2165,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="ui_settingsdialog.py" line="450"/>
         <source>&lt;a href=#&gt;Use this proxy server for all protocols&lt;/a&gt;</source>
-        <translation type="unfinished">&lt;a href=#&gt;Naudoti šį proxy serverį visiems protokolams&lt;/a&gt;</translation>
+        <translation type="unfinished">&lt;a href=#&gt;Usar esse servidor de proxy para todos os protocolos&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="451"/>
@@ -2219,17 +2175,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="ui_settingsdialog.py" line="452"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;pagalba</translation>
+        <translation type="unfinished">&amp;Ajuda</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="453"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;gerai</translation>
+        <translation type="unfinished">&amp;OK</translation>
     </message>
     <message>
         <location filename="ui_settingsdialog.py" line="454"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;atsisakyti</translation>
+        <translation type="unfinished">&amp;Cancelar</translation>
     </message>
 </context>
 <context>
@@ -2237,17 +2193,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="ui_summarydialog.py" line="60"/>
         <source>Operation Summary</source>
-        <translation type="unfinished">operacijų suvestynė </translation>
+        <translation type="unfinished">Resumo da Operação</translation>
     </message>
     <message>
         <location filename="ui_summarydialog.py" line="61"/>
         <source>You can start the new installed application by double-clicking on the list below or later from the applications menu.</source>
-        <translation type="unfinished">Jūs galite paleist naujai įdegta programa 2kart paspaudus ant juos sąraše arba veliau iš aplikacijų menių</translation>
+        <translation type="unfinished">Você pode iniciar a nova aplicação instalado com um clique duplo na lista abaixo ou depois através do menu de aplicativos.</translation>
     </message>
     <message>
         <location filename="ui_summarydialog.py" line="62"/>
         <source>&amp;Ok</source>
-        <translation type="unfinished">&amp;Gerai</translation>
+        <translation type="unfinished">&amp;Ok</translation>
     </message>
 </context>
 <context>
@@ -2255,24 +2211,24 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="ui_webdialog.py" line="153"/>
         <source>Basket</source>
-        <translation type="unfinished">rodyti krepšį</translation>
+        <translation type="unfinished">Mostrar Cesta</translation>
     </message>
     <message>
         <location filename="ui_webdialog.py" line="154"/>
         <source>Package Files</source>
-        <translation type="unfinished">Paketo bylos</translation>
+        <translation type="unfinished">Arquivos do Pacote</translation>
     </message>
     <message>
         <location filename="ui_webdialog.py" line="155"/>
         <source>AppInfo Server is not reachable
 Please check your network connection</source>
-        <translation type="unfinished">AppInfo Serveris nepasiekiamas.
-Prašom patikrinti jūsų ryšį</translation>
+        <translation type="unfinished">Servidor do AppInfo não está disponível
+Por favor verifique sua conexão de internet</translation>
     </message>
     <message>
         <location filename="ui_webdialog.py" line="158"/>
         <source>Package Details</source>
-        <translation type="unfinished">Paketo detales</translation>
+        <translation type="unfinished">Detalhes do Pacote</translation>
     </message>
 </context>
 </TS>
