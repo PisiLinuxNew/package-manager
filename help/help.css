@@ -10,7 +10,7 @@ body {
 	margin-bottom: 10px !important;
 	margin-top: 10px !important;
 	text-align: justify !important;
-	font-family: "Bitstream Vera Sans",sans-serif !important;
+/*	font-family: "Bitstream Vera Sans",sans-serif !important;*/
 }
 
 ul, li {
@@ -25,7 +25,7 @@ b, strong {
 h1 {
 	border: 0.5px solid rgb(204, 204, 204);
 	padding: 1px 3px;
-	font-family: "Bitstream Vera Sans",Arial,sans-serif;
+/*	font-family: "Bitstream Vera Sans",Arial,sans-serif;*/
 	font-weight: bold;
 	vertical-align: bottom;
 	color: rgb(27, 87, 177);
@@ -35,7 +35,7 @@ h1 {
 
 h2 {
 	padding: 0pt;
-	font-family: "Bitstream Vera Sans",Arial,sans-serif;
+/*	font-family: "Bitstream Vera Sans",Arial,sans-serif;*/
 	font-size: medium;
 	font-weight: bold;
 	vertical-align: bottom;

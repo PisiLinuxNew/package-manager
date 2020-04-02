@@ -66,8 +66,8 @@ class GroupList(QListWidget):
             localName, icon_path = content[0], content[1]
             package_count = content[2]
 
-        icon = KIcon(icon_path, KIconLoader.SizeSmallMedium)
-        #icon = QIcon(QPixmap(icon_path).scaled(32,32))
+        #icon = KIcon(icon_path, KIconLoader.SizeSmallMedium)
+        icon = QIcon.fromTheme(icon_path)
         if icon.isNull():
             icon = self.defaultIcon
         text = "%s (%d)" % (localName, package_count)
