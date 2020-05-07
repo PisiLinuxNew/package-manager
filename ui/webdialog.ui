@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true">#Basket {
 background-color: palette(window);
-border: 1px solid palette(mid);
+border: 1px solid palette(Dark);
 border-radius: 4px;
 }</string>
   </property>
@@ -221,7 +221,7 @@ Please check your network connection</string>
                 <string notr="true"/>
               </property>
               <property name="flat">
-               <bool>true</bool>
+               <bool>false</bool>
               </property>
              </widget>
             </item>
