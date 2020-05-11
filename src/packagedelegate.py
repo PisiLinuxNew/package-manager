@@ -60,7 +60,8 @@ DARKGREEN = QColor('#32775F')
 CHECK_ICON = 'list-add'      #add
 RECT = QRect()
 DETAIL_LINE_OFFSET = 36
-ICON_PADDING = 0
+ICON_PADDING = 10
+ICON_HEIGHT = 32
 ROW_HEIGHT = 52
 ICON_SIZE = 2
 
@@ -75,9 +76,9 @@ class PackageDelegate(QStyledItemDelegate):
         self.show_details_button = showDetailsButton
 
         self.rowAnimator = RowAnimator(parent.packageList)
-        self.defaultIcon = QIcon(QPixmap('/usr/share/package-manager/data/tray-zero.svg').scaled(32, 32))
+        self.defaultIcon = QIcon('/usr/share/package-manager/data/tray-zero.svg')
         #self.defaultIcon = KIcon(('package-x-generic', 'package_applications'), 32)
-        self.defaultInstalledIcon = QIcon(QPixmap('/usr/share/package-manager/data/installed.svg').scaled(32, 32))
+        self.defaultInstalledIcon = QIcon('/usr/share/package-manager/data/installed.svg')
         #self.defaultInstalledIcon = KIcon(KIconLoader.loadOverlayed(('package-x-generic', 'package_applications'), CHECK_ICON, 32))
         self.animatable = animatable
         self._max_height = ROW_HEIGHT
@@ -157,8 +158,8 @@ class PackageDelegate(QStyledItemDelegate):
         p.setRenderHint(QPainter.Antialiasing, True)
         p.translate(-option.rect.topLeft())
 
-        textInner = 2 * ICON_PADDING + ROW_HEIGHT - 10
-        itemHeight = ROW_HEIGHT + 2 * ICON_PADDING
+        textInner = 2 * 0 + ROW_HEIGHT - 10
+        itemHeight = ROW_HEIGHT + 2 * 0
 
         margin = left + ICON_PADDING - 10
 
@@ -195,7 +196,7 @@ class PackageDelegate(QStyledItemDelegate):
             icon = self.defaultIcon if not installed else self.defaultInstalledIcon
 
         # Paint the Icon
-        icon.paint(p, margin, top + ICON_PADDING, ROW_HEIGHT, ROW_HEIGHT, Qt.AlignCenter)
+        icon.paint(p, margin, top + ICON_PADDING, ICON_HEIGHT, ICON_HEIGHT, Qt.AlignCenter)
 
         fix_pos = 0
         if index.model().columnCount() <= 1:
