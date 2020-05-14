@@ -1310,7 +1310,7 @@ Spróbuj sprawdzić swoje połączenie internetowe.</translation>
     </message>
 </context>
 <context>
-    <name>Packaga Manager</name>
+    <name>Package Manager</name>
     <message>
         <location filename="basketdialog.py" line="57"/>
         <source>Clear Basket</source>

@@ -55,8 +55,8 @@ class BasketDialog(PAbstractBox, Ui_BasketDialog):
         self.clearButton.setIcon(QIcon.fromTheme("list-remove"))
 
     def clearSelections(self):
-        sure = QtWidgets.QMessageBox.question(self, _translate("Packaga Manager","Clear Basket"),
-                                                _translate("Packaga Manager","Do you want to clear all selections ?"),
+        sure = QtWidgets.QMessageBox.question(self, _translate("Package Manager","Clear Basket"),
+                                                _translate("Package Manager","Do you want to clear all selections ?"),
                                                 QtWidgets.QMessageBox.Yes | QtWidgets.QMessageBox.No)
         if sure == QtWidgets.QMessageBox.Yes:
             self._hide()
@@ -70,7 +70,7 @@ class BasketDialog(PAbstractBox, Ui_BasketDialog):
         try:
             self.filterExtras()
         except Exception, e:
-            messageBox = QtWidgets.QMessageBox(_translate("Packaga Manager","Pisi Error"), unicode(e),
+            messageBox = QtWidgets.QMessageBox(_translate("Package Manager","Pisi Error"), unicode(e),
                     QtWidgets.QMessageBox.Critical, QtWidgets.QMessageBox.Ok, 0, 0)
             QTimer.singleShot(0, restoreCursor)
             messageBox.exec_()
@@ -164,19 +164,19 @@ class BasketDialog(PAbstractBox, Ui_BasketDialog):
                 self.model.selectedPackages() + self.model.extraPackages())
             if actions[0]:
                 answer = askForActions(actions[0],
-                       _translate("Packaga Manager","You must restart your system for the "
+                       _translate("Package Manager","You must restart your system for the "
                             "updates to take effect"),
-                       _translate("Packaga Manager","Update Requirements"),
-                       _translate("Packaga Manager","Packages Require System Restart"))
+                       _translate("Package Manager","Update Requirements"),
+                       _translate("Package Manager","Packages Require System Restart"))
             if not answer:
                 self.setActionEnabled(True)
                 return
             if actions[1]:
                 answer = askForActions(actions[1],
-                       _translate("Packaga Manager","You must restart related system services for "
+                       _translate("Package Manager","You must restart related system services for "
                             "the updated package(s) to take effect"),
-                       _translate("Packaga Manager","Update Requirements"),
-                       _translate("Packaga Manager","Packages Require Service Restart"))
+                       _translate("Package Manager","Update Requirements"),
+                       _translate("Package Manager","Packages Require Service Restart"))
             if not answer:
                 self.setActionEnabled(True)
                 return
@@ -187,11 +187,11 @@ class BasketDialog(PAbstractBox, Ui_BasketDialog):
                 self.model.selectedPackages() + self.model.extraPackages())
             if actions:
                 answer = askForActions(actions,
-                       _translate("Packaga Manager","Selected packages are considered critical "
+                       _translate("Package Manager","Selected packages are considered critical "
                             "for the system. Removing them may cause your "
                             "system to be unusable."),
-                       _translate("Packaga Manager","Warning"),
-                       _translate("Packaga Manager","Critical Packages"))
+                       _translate("Package Manager","Warning"),
+                       _translate("Package Manager","Critical Packages"))
             if not answer:
                 self.setActionEnabled(True)
                 return
@@ -202,10 +202,10 @@ class BasketDialog(PAbstractBox, Ui_BasketDialog):
             actions = self.state.checkInstallActions(self.model.selectedPackages())
             if actions:
                 answer = askForActions(actions,
-                       _translate("Packaga Manager","Selected packages are already installed.<br>"
+                       _translate("Package Manager","Selected packages are already installed.<br>"
                             "If you continue, the packages will be reinstalled"),
-                       _translate("Packaga Manager","Already Installed Packages"),
-                       _translate("Packaga Manager","Installed Packages"))
+                       _translate("Package Manager","Already Installed Packages"),
+                       _translate("Package Manager","Installed Packages"))
             if not answer:
                 self.setActionEnabled(True)
                 return

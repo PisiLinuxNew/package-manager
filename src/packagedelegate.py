@@ -86,8 +86,8 @@ class PackageDelegate(QStyledItemDelegate):
         self._rt_0 = QIcon(":/data/star_0.svg")
         self._rt_1 = QIcon(":/data/star_1.svg")
 
-        self.types = {'critical':(RED,     _translate("Packaga Manager",'critical')),
-                      'security':(DARKRED, _translate("Packaga Manager",'security'))}
+        self.types = {'critical':(RED,     _translate("Package Manager",'critical')),
+                      'security':(DARKRED, _translate("Package Manager",'security'))}
 
         self.font = Pds.settings('font','Sans,10').split(',')[0]
 
@@ -103,12 +103,12 @@ class PackageDelegate(QStyledItemDelegate):
         self.normalFontFM = QFontMetrics(self.normalFont)
         self.normalDetailFontFM = QFontMetrics(self.normalDetailFont)
 
-        self._titles = {'description': _translate("Packaga Manager","Description:"),
-                        'website'    : _translate("Packaga Manager","Website:"),
-                        'release'    : _translate("Packaga Manager","Release:"),
-                        'repository' : _translate("Packaga Manager","Repository:"),
-                        'size'       : _translate("Packaga Manager","Package Size:"),
-                        'installVers': _translate("Packaga Manager","Installed Version:")}
+        self._titles = {'description': _translate("Package Manager","Description:"),
+                        'website'    : _translate("Package Manager","Website:"),
+                        'release'    : _translate("Package Manager","Release:"),
+                        'repository' : _translate("Package Manager","Repository:"),
+                        'size'       : _translate("Package Manager","Package Size:"),
+                        'installVers': _translate("Package Manager","Installed Version:")}
 
         self._titleFM = {}
         for key, value in self._titles.items():
@@ -323,7 +323,7 @@ class PackageDelegate(QStyledItemDelegate):
             # Package Detail Repository
             repository = QVariant.value(index.model().data(index, RepositoryRole))
             if not repository == '':
-                repository = _translate("Packaga Manager",'Unknown')  if repository == 'N/A' else repository
+                repository = _translate("Package Manager",'Unknown')  if repository == 'N/A' else repository
                 position += rect.height()
 
                 p.setFont(self.boldDetailFont)
@@ -351,7 +351,7 @@ class PackageDelegate(QStyledItemDelegate):
                 buttonStyle.state |= QStyle.State_HasFocus
             
             buttonStyle.state |= QStyle.State_Enabled
-            buttonStyle.text = _translate("Packaga Manager","Details")
+            buttonStyle.text = _translate("Package Manager","Details")
 
             buttonStyle.rect = QRect(width - 100, position - 22, 100, 22)
 

@@ -126,7 +126,7 @@ class WebDialog(PAbstractBox, Ui_WebDialog):
         self.filesList.clear()
         
         
-        self.tabWidget.insertTab(0, self.packageFiles, _translate("Packaga Manager",'Package Files'))
+        self.tabWidget.insertTab(0, self.packageFiles, _translate("Package Manager",'Package Files'))
         self.tabWidget.currentChanged.connect(self._tabSwitched)
 
         if config.USE_APPINFO:

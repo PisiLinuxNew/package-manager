@@ -137,30 +137,30 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def initializeOperationActions(self):
 
-        self.showAllAction = QAction(QIcon.fromTheme("media-optical"), _translate("Packaga Manager","All Packages"), self)
+        self.showAllAction = QAction(QIcon.fromTheme("media-optical"), _translate("Package Manager","All Packages"), self)
         self.showAllAction.triggered.connect(lambda:self.cw.switchState(StateManager.ALL))
-        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("media-optical"), _translate("Packaga Manager","All Packages"))
+        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("media-optical"), _translate("Package Manager","All Packages"))
 
-        self.showInstallAction = QAction(QIcon.fromTheme("list-remove"), _translate("Packaga Manager","Installable Packages"), self)
+        self.showInstallAction = QAction(QIcon.fromTheme("list-remove"), _translate("Package Manager","Installable Packages"), self)
         self.showInstallAction.triggered.connect(lambda:self.cw.switchState(StateManager.INSTALL))
-        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("list-add"), _translate("Packaga Manager","Installable Packages"))
+        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("list-add"), _translate("Package Manager","Installable Packages"))
 
-        self.showRemoveAction = QAction(QIcon.fromTheme("list-add"), _translate("Packaga Manager","Installed Packages"), self)
+        self.showRemoveAction = QAction(QIcon.fromTheme("list-add"), _translate("Package Manager","Installed Packages"), self)
         self.showRemoveAction.triggered.connect(lambda:self.cw.switchState(StateManager.REMOVE))
-        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("list-remove"), _translate("Packaga Manager","Installed Packages"))
+        self.cw.stateTab.addTab(QWidget(), QIcon.fromTheme("list-remove"), _translate("Package Manager","Installed Packages"))
 
-        self.showUpgradeAction = QAction(QIcon.fromTheme("system-software-update"), _translate("Packaga Manager","Updates"), self)
+        self.showUpgradeAction = QAction(QIcon.fromTheme("system-software-update"), _translate("Package Manager","Updates"), self)
         self.showUpgradeAction.triggered.connect(lambda:self.cw.switchState(StateManager.UPGRADE))
-        self.cw.stateTab.addTab(QWidget(), QIcon("/usr/share/package-manager/data/star_1.svg"), _translate("Packaga Manager","Updates"))
+        self.cw.stateTab.addTab(QWidget(), QIcon("/usr/share/package-manager/data/star_1.svg"), _translate("Package Manager","Updates"))
 
-        self.showPreferences = QAction(QIcon.fromTheme("preferences-system"), _translate("Packaga Manager","Settings"), self)
+        self.showPreferences = QAction(QIcon.fromTheme("preferences-system"), _translate("Package Manager","Settings"), self)
         self.showPreferences.triggered.connect(self.settingsDialog.show_)
 
-        self.actionHelp = QAction(QIcon.fromTheme("help-about"), _translate("Packaga Manager","Help"), self)
+        self.actionHelp = QAction(QIcon.fromTheme("help-about"), _translate("Package Manager","Help"), self)
         self.actionHelp.setShortcuts(QKeySequence.HelpContents)
         self.actionHelp.triggered.connect(self.showHelp)
 
-        self.actionQuit = QAction(QIcon.fromTheme("media-eject"), _translate("Packaga Manager","Quit"), self)
+        self.actionQuit = QAction(QIcon.fromTheme("media-eject"), _translate("Package Manager","Quit"), self)
         self.actionQuit.setShortcuts(QKeySequence.Quit)
         self.actionQuit.triggered.connect(qApp.exit)
 
@@ -190,7 +190,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.cw.switchState(self.cw.state.ALL)
 
     def statusWaiting(self):
-        self.updateStatusBar(_translate("Packaga Manager",'Calculating dependencies...'), busy = True)
+        self.updateStatusBar(_translate("Package Manager",'Calculating dependencies...'), busy = True)
 
     def showHelp(self):
         self.Pds = pds.Pds()
@@ -210,7 +210,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def updateStatusBar(self, text, busy = False):
         if text == '':
-            text = _translate("Packaga Manager","Currently your basket is empty.")
+            text = _translate("Package Manager","Currently your basket is empty.")
             self.busy.hide()
             self.cw.showBasketButton.hide()
         else:

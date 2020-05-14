@@ -134,10 +134,10 @@ class PmWindow(QDialog, PM, Ui_PmWindow):
         actions = self.state.checkInstallActions(self.model.selectedPackages())
         if actions:
             answer = askForActions(actions,
-                   _translate("Packaga Manager","Selected packages are already installed.<br>"
+                   _translate("Package Manager","Selected packages are already installed.<br>"
                         "If you continue, the packages will be reinstalled"),
-                   _translate("Packaga Manager","Already Installed Packages"),
-                   _translate("Packaga Manager","Installed Packages"))
+                   _translate("Package Manager","Already Installed Packages"),
+                   _translate("Package Manager","Installed Packages"))
 
         if not answer:
             self.button_install.setEnabled(True)
