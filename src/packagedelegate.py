@@ -83,8 +83,8 @@ class PackageDelegate(QStyledItemDelegate):
         self.animatable = animatable
         self._max_height = ROW_HEIGHT
 
-        self._rt_0 = QIcon(":/data/star_0.svg")
-        self._rt_1 = QIcon(":/data/star_1.svg")
+        self._rt_0 = QIcon(":/data/unstar.svg")
+        self._rt_1 = QIcon(":/data/star.svg")
 
         self.types = {'critical':(RED,     _translate("Package Manager",'critical')),
                       'security':(DARKRED, _translate("Package Manager",'security'))}

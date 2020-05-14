@@ -151,7 +151,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         self.showUpgradeAction = QAction(QIcon.fromTheme("system-software-update"), _translate("Package Manager","Updates"), self)
         self.showUpgradeAction.triggered.connect(lambda:self.cw.switchState(StateManager.UPGRADE))
-        self.cw.stateTab.addTab(QWidget(), QIcon("/usr/share/package-manager/data/star_1.svg"), _translate("Package Manager","Updates"))
+        self.cw.stateTab.addTab(QWidget(), QIcon("/usr/share/package-manager/data/star.svg"), _translate("Package Manager","Updates"))
 
         self.showPreferences = QAction(QIcon.fromTheme("preferences-system"), _translate("Package Manager","Settings"), self)
         self.showPreferences.triggered.connect(self.settingsDialog.show_)
