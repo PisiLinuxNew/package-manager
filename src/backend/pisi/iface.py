@@ -184,6 +184,9 @@ class Iface(Singleton):
     def getPackageList(self):
         return self.getInstalledPackages() + self.getNewPackages()
 
+    def getUpgradablePackages(self):
+        return pisi.api.list_upgradable()
+
     def getInstalledPackages(self):
         return pisi.api.list_installed()
 

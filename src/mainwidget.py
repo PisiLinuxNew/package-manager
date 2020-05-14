@@ -119,10 +119,10 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         self.actionButton.clicked.connect(self.showBasket)
         self.checkUpdatesButton.clicked.connect(self.state.updateRepoAction)
         self.searchButton.clicked.connect(self.searchActivated)
-        self.searchLine.textEdited[str].connect(self.searchLineChanged)
+        self.searchLine.textChanged[str].connect(self.searchLineChanged)
         self.searchLine.returnPressed.connect(self.searchActivated)
         
-        self.searchLine.textChanged[str].connect(self.slotSearchLineClear)       
+        self.searchLine.textChanged[str].connect(self.slotSearchLineClear)
         
         self.typeCombo.activated[int].connect(self.typeFilter)
         self.stateTab.currentChanged[int].connect(self.switchState)
@@ -198,7 +198,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
 
     def searchLineChanged(self, text):
         self.searchButton.setEnabled(bool(text))
-        if text == '':
+        if text == 'true':
             self.searchActivated()
 
     def statusUpdated(self):
@@ -239,7 +239,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
                 self.state._typeFilter = filter
                 self.initializeGroupList()
     def slotSearchLineClear(self):
-        if self.searchLine.text()!="":
+        if self.searchLine.text() != 'true':
             return
         
         self.groupFilter()

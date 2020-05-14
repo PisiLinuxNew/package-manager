@@ -49,6 +49,7 @@ class StateManager(QObject):
 
     def initializePackageLists(self):
         self.__groups = self.iface.getGroups()
+        self.__upgradable_packages = self.iface.getUpgradablePackages()
         self.__installed_packages = self.iface.getInstalledPackages()
         self.__new_packages = self.iface.getNewPackages()
         self.__all_packages = self.__installed_packages + self.__new_packages
@@ -60,6 +61,8 @@ class StateManager(QObject):
             return self.__new_packages
         elif self.state == self.REMOVE:
             return self.__installed_packages
+        elif self.state == self.UPGRADE:
+            return self.__upgradable_packages
     
     def setState(self, state):
         self.state = state
