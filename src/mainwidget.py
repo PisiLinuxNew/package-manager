@@ -31,7 +31,7 @@ from PyQt5.QtCore import QModelIndex
 from PyQt5.QtCore import QCoreApplication
 
 
-from ui_mainwidget_v3 import Ui_MainWidget
+from ui_mainwidget import Ui_MainWidget
 
 from config import PMConfig
 

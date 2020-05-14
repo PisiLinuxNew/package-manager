@@ -621,55 +621,55 @@ Rimuovere i pacchetti in conflitto dal sistema?</translation>
         <translation type="obsolete">&lt;b&gt;2.0 MB&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="159"/>
+        <location filename="build/ui_mainwidget.py" line="159"/>
         <source>Form</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Form</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="160"/>
+        <location filename="build/ui_mainwidget.py" line="160"/>
         <source>Settings</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Impostazioni</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="161"/>
+        <location filename="build/ui_mainwidget.py" line="161"/>
         <source>Type to search...</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Clicca per cercare</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="162"/>
+        <location filename="build/ui_mainwidget.py" line="162"/>
         <source>Update Types</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Tipi di Aggiornamento</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="163"/>
+        <location filename="build/ui_mainwidget.py" line="163"/>
         <source>Category Panel</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Pannello Categoria</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="164"/>
+        <location filename="build/ui_mainwidget.py" line="164"/>
         <source>Package List</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Lista pacchetti</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="165"/>
+        <location filename="build/ui_mainwidget.py" line="165"/>
         <source>Show Basket</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Mostra il Cestino</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="166"/>
+        <location filename="build/ui_mainwidget.py" line="166"/>
         <source>Check for Updates</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Controlla gli Aggiornamenti</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="167"/>
+        <location filename="build/ui_mainwidget.py" line="167"/>
         <source>Install Package(s)</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Installa pacchetto/i</translation>
@@ -723,13 +723,13 @@ Rimuovere i pacchetti in conflitto dal sistema?</translation>
         <translation type="obsolete">Anteprima</translation>
     </message>
     <message>
-        <location filename="build/ui_progressdialog_v4.py" line="220"/>
+        <location filename="build/ui_progressdialog.py" line="220"/>
         <source>Form</source>
         <comment>ProgressDialog</comment>
         <translation type="obsolete">Form</translation>
     </message>
     <message>
-        <location filename="build/ui_progressdialog_v4.py" line="221"/>
+        <location filename="build/ui_progressdialog.py" line="221"/>
         <source>Alt+C</source>
         <comment>ProgressDialog</comment>
         <translation type="obsolete">Alt+C</translation>
@@ -1290,47 +1290,47 @@ Per favore controllare la connessione di rete</translation>
 <context>
     <name>MainWidget</name>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="159"/>
+        <location filename="ui_mainwidget.py" line="159"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="160"/>
+        <location filename="ui_mainwidget.py" line="160"/>
         <source>Settings</source>
         <translation type="unfinished">Impostazioni</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="161"/>
+        <location filename="ui_mainwidget.py" line="161"/>
         <source>Type to search...</source>
         <translation type="unfinished">Clicca per cercare</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="162"/>
+        <location filename="ui_mainwidget.py" line="162"/>
         <source>Update Types</source>
         <translation type="unfinished">Tipi di Aggiornamento</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="163"/>
+        <location filename="ui_mainwidget.py" line="163"/>
         <source>Category Panel</source>
         <translation type="unfinished">Pannello Categoria</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="164"/>
+        <location filename="ui_mainwidget.py" line="164"/>
         <source>Package List</source>
         <translation type="unfinished">Lista pacchetti</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="165"/>
+        <location filename="ui_mainwidget.py" line="165"/>
         <source>Show Basket</source>
         <translation type="unfinished">Mostra il Cestino</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="166"/>
+        <location filename="ui_mainwidget.py" line="166"/>
         <source>Check for Updates</source>
         <translation type="unfinished">Controlla gli Aggiornamenti</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="167"/>
+        <location filename="ui_mainwidget.py" line="167"/>
         <source>Install Package(s)</source>
         <translation type="unfinished">Installa pacchetto/i</translation>
     </message>
@@ -1963,12 +1963,12 @@ Rimuovere i pacchetti in conflitto dal sistema?</translation>
 <context>
     <name>ProgressDialog</name>
     <message>
-        <location filename="ui_progressdialog_v4.py" line="220"/>
+        <location filename="ui_progressdialog.py" line="220"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
-        <location filename="ui_progressdialog_v4.py" line="221"/>
+        <location filename="ui_progressdialog.py" line="221"/>
         <source>Alt+C</source>
         <translation type="unfinished">Alt+C</translation>
     </message>

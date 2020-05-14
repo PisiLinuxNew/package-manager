@@ -19,7 +19,7 @@ from PyQt5.QtGui import *
 from pmutils import *
 from pds.gui import *
 from pds.qprogressindicator import QProgressIndicator
-from ui_progressdialog_v4 import Ui_ProgressDialog
+from ui_progressdialog import Ui_ProgressDialog
 import backend
 
 _translate = QCoreApplication.translate
