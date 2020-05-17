@@ -60,7 +60,7 @@ class ProgressDialog(PAbstractBox, Ui_ProgressDialog):
     def _show(self):
         self.animate(start = MIDCENTER, stop = MIDCENTER)
         self._shown = True
-        print("staart")
+        print("start")
 
     def _hide(self):
         if self._shown:
