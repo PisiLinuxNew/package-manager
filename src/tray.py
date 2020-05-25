@@ -184,19 +184,19 @@ class Tray(QtWidgets.QSystemTrayIcon, PTray):
 
     def initializePopup(self):
         self.setIcon(self.defaultIcon)
-        self.actionMenu = QtWidgets.QMenu(_translate("Packaga Manager","Update"))
+        self.actionMenu = QtWidgets.QMenu(_translate("Package Manager","Update"))
         self.populateRepositoryMenu()
 
     def populateRepositoryMenu(self):
         self.actionMenu.clear()
         for name, address in self.iface.getRepositories(only_active = True):
-            self._addAction(_translate("Packaga Manager","Update {0} repository").format(name), self.actionMenu, name, "applications-system")
-        self._addAction(_translate("Packaga Manager","Update All Repositories"), self.actionMenu, "all", "update-manager")
+            self._addAction(_translate("Package Manager","Update {0} repository").format(name), self.actionMenu, name, "applications-system")
+        self._addAction(_translate("Package Manager","Update All Repositories"), self.actionMenu, "all", "update-manager")
         self.setContextMenu(self.actionMenu)
         self.contextMenu().addSeparator()
-        self.contextMenu().addAction(QtGui.QIcon.fromTheme("exit"), _translate("Packaga Manager","Quit"), QtWidgets.qApp.quit)
+        self.contextMenu().addAction(QtGui.QIcon.fromTheme("exit"), _translate("Package Manager","Quit"), QtWidgets.qApp.quit)
 
     def showPopup(self):
         if self._ready_to_popup():
-            Pds.notify(_translate("Packaga Manager",'Updates'), _translate("Packaga Manager","There are {0} updates available!").format(self.unread))
+            Pds.notify(_translate("Package Manager",'Updates'), _translate("Package Manager","There are {0} updates available!").format(self.unread))
 

@@ -8,8 +8,8 @@
     <file>wheel.mng</file>
     <file>pisianime.mng</file>
     <file>search.svg</file>
-    <file>star_0.svg</file>
-    <file>star_1.svg</file>
+    <file>unstar.svg</file>
+    <file>star.svg</file>
     <file>animated-tray.mng</file>
   </qresource>
 </RCC>

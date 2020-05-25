@@ -311,13 +311,13 @@
         </property>
         <property name="icon">
          <iconset resource="../data/data.qrc">
-          <normaloff>:/data/slide_up.png</normaloff>:/data/slide_up.png</iconset>
+          <normaloff>:/data/slide_up.svg</normaloff>:/data/slide_up.svg</iconset>
         </property>
         <property name="shortcut">
          <string notr="true">F7</string>
         </property>
         <property name="flat">
-         <bool>true</bool>
+         <bool>false</bool>
         </property>
        </widget>
       </item>

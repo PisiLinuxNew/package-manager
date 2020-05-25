@@ -31,7 +31,7 @@ from PyQt5.QtCore import QModelIndex
 from PyQt5.QtCore import QCoreApplication
 
 
-from ui_mainwidget_v3 import Ui_MainWidget
+from ui_mainwidget import Ui_MainWidget
 
 from config import PMConfig
 
@@ -119,10 +119,10 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         self.actionButton.clicked.connect(self.showBasket)
         self.checkUpdatesButton.clicked.connect(self.state.updateRepoAction)
         self.searchButton.clicked.connect(self.searchActivated)
-        self.searchLine.textEdited[str].connect(self.searchLineChanged)
+        self.searchLine.textChanged[str].connect(self.searchLineChanged)
         self.searchLine.returnPressed.connect(self.searchActivated)
         
-        self.searchLine.textChanged[str].connect(self.slotSearchLineClear)       
+        self.searchLine.textChanged[str].connect(self.slotSearchLineClear)
         
         self.typeCombo.activated[int].connect(self.typeFilter)
         self.stateTab.currentChanged[int].connect(self.switchState)
@@ -151,7 +151,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         if self.currentState == self.state.UPGRADE:
             if self.groupList.count() == 0:
                 QTimer.singleShot(0, \
-                lambda: self.pdsMessageBox.showMessage(_translate("Packaga Manager","All packages are up to date"), icon = "info"))
+                lambda: self.pdsMessageBox.showMessage(_translate("Package Manager","All packages are up to date"), icon = "info"))
         if self.groupList.count() > 0:
             if self.state.inUpgrade():
                 self.pdsMessageBox.hideMessage(force = True)
@@ -198,7 +198,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
 
     def searchLineChanged(self, text):
         self.searchButton.setEnabled(bool(text))
-        if text == '':
+        if text == 'true':
             self.searchActivated()
 
     def statusUpdated(self):
@@ -239,7 +239,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
                 self.state._typeFilter = filter
                 self.initializeGroupList()
     def slotSearchLineClear(self):
-        if self.searchLine.text()!="":
+        if self.searchLine.text() != 'true':
             return
         
         self.groupFilter()
@@ -260,7 +260,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
                 return
                 
         if not self.searchLine.text() == '':
-            self.pdsMessageBox.showMessage(_translate("Packaga Manager","Searching..."), busy = True)
+            self.pdsMessageBox.showMessage(_translate("Package Manager","Searching..."), busy = True)
             self.groupList.lastSelected = None
             self._searchThread.start()
             self.searchUsed = True
@@ -272,7 +272,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
 
     def searchFinished(self):
         if self.state.cached_packages == []:
-            self.pdsMessageBox.showMessage(_translate("Packaga Manager","No results found."), "dialog-information")
+            self.pdsMessageBox.showMessage(_translate("Package Manager","No results found."), "dialog-information")
         else:
             self.pdsMessageBox.hideMessage()
         self.initializeGroupList()
@@ -433,8 +433,8 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
                     filtered_packages = filter(lambda x: x not in installed_packages, self.basket.model.selectedPackages())
                     if filtered_packages == self.basket.model.selectedPackages():
                         restoreCursor()
-                        QMessageBox(_translate("Packaga Manager","Select packages"),
-                                    _translate("Packaga Manager","You must select at least one installed package"),
+                        QMessageBox(_translate("Package Manager","Select packages"),
+                                    _translate("Package Manager","You must select at least one installed package"),
                                     QMessageBox.Information, QMessageBox.Ok, 0, 0).exec_()
                         return
                     self.packageList.model().sourceModel().selectPackages(filtered_packages, state = False)
@@ -446,13 +446,13 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
 
     def initializeUpdateTypeList(self):
         self.typeCombo.clear()
-        self.typeCombo.addItem(QIcon.fromTheme('system-software-update'), _translate("Packaga Manager",'All Updates'), 'normal')
-        self.typeCombo.addItem(QIcon.fromTheme('security-medium'), _translate("Packaga Manager",'Security Updates'), 'security')
-        self.typeCombo.addItem(QIcon.fromTheme('security-low'), _translate("Packaga Manager",'Critical Updates'), 'critical')
+        self.typeCombo.addItem(QIcon.fromTheme('system-software-update'), _translate("Package Manager",'All Updates'), 'normal')
+        self.typeCombo.addItem(QIcon.fromTheme('security-medium'), _translate("Package Manager",'Security Updates'), 'security')
+        self.typeCombo.addItem(QIcon.fromTheme('security-low'), _translate("Package Manager",'Critical Updates'), 'critical')
         
-        #UPDATE_TYPES = [['normal', _translate("Packaga Manager",'All Updates'), ('system-software-update', 'ledgreen')],
-                        #['security', _translate("Packaga Manager",'Security Updates'), ('security-medium', 'ledyellow')],
-                        #['critical', _translate("Packaga Manager",'Critical Updates'), ('security-low', 'ledred')]]
+        #UPDATE_TYPES = [['normal', _translate("Package Manager",'All Updates'), ('system-software-update', 'ledgreen')],
+                        #['security', _translate("Package Manager",'Security Updates'), ('security-medium', 'ledyellow')],
+                        #['critical', _translate("Package Manager",'Critical Updates'), ('security-low', 'ledred')]]
 
         #for type in UPDATE_TYPES:
             #self.typeCombo.addItem(KIcon(type[2]), type[1], QVariant(type[0]))

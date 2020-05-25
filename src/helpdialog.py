@@ -31,7 +31,7 @@ class HelpDialog(QDialog):
         super(HelpDialog, self).__init__(parent)
         #QDialog.__init__(self, parent)
 
-        self.setWindowTitle(_translate("Packaga Manager","Package Manager Help"))
+        self.setWindowTitle(_translate("Package Manager","Package Manager Help"))
         self.resize(700,500)
         self.setModal(True)
 

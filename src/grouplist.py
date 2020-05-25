@@ -50,7 +50,7 @@ class GroupList(QListWidget):
                 self.createGroupItem(name)
         else:
             self.createGroupItem('all',
-                    (_translate("Packaga Manager",'All'), 'media-optical', len(self.state.packages())))
+                    (_translate("Package Manager",'All'), 'media-optical', len(self.state.packages())))
         self.sortItems()
         self.moveAllToFirstLine()
         self.setCurrentItem(self.item(0))

@@ -632,55 +632,55 @@ Remove the conflicting packages from the system?</source>
         <translation type="obsolete">&lt;b&gt;2.0 MB&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="159"/>
+        <location filename="build/ui_mainwidget.py" line="159"/>
         <source>Form</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Form</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="160"/>
+        <location filename="build/ui_mainwidget.py" line="160"/>
         <source>Settings</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Ayarlar</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="161"/>
+        <location filename="build/ui_mainwidget.py" line="161"/>
         <source>Type to search...</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Aramak için tıklayın...</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="162"/>
+        <location filename="build/ui_mainwidget.py" line="162"/>
         <source>Update Types</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Güncelleme Tipleri</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="163"/>
+        <location filename="build/ui_mainwidget.py" line="163"/>
         <source>Category Panel</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Kategori Paneli</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="164"/>
+        <location filename="build/ui_mainwidget.py" line="164"/>
         <source>Package List</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Paket Listesi</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="165"/>
+        <location filename="build/ui_mainwidget.py" line="165"/>
         <source>Show Basket</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Sepeti Göster</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="166"/>
+        <location filename="build/ui_mainwidget.py" line="166"/>
         <source>Check for Updates</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Güncellemeleri Kontrol Et</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="167"/>
+        <location filename="build/ui_mainwidget.py" line="167"/>
         <source>Install Package(s)</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Paket(ler)i Kur</translation>
@@ -734,13 +734,13 @@ Remove the conflicting packages from the system?</source>
         <translation type="obsolete">Önizleme</translation>
     </message>
     <message>
-        <location filename="build/ui_progressdialog_v4.py" line="220"/>
+        <location filename="build/ui_progressdialog.py" line="220"/>
         <source>Form</source>
         <comment>ProgressDialog</comment>
         <translation type="obsolete">Form</translation>
     </message>
     <message>
-        <location filename="build/ui_progressdialog_v4.py" line="221"/>
+        <location filename="build/ui_progressdialog.py" line="221"/>
         <source>Alt+C</source>
         <comment>ProgressDialog</comment>
         <translation type="obsolete">Alt+C</translation>
@@ -1309,47 +1309,47 @@ Lütfen ağ ayarlarınızı kontrol edin</translation>
 <context>
     <name>MainWidget</name>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="159"/>
+        <location filename="ui_mainwidget.py" line="159"/>
         <source>Form</source>
         <translation>Form</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="160"/>
+        <location filename="ui_mainwidget.py" line="160"/>
         <source>Settings</source>
         <translation>Ayarlar</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="161"/>
+        <location filename="ui_mainwidget.py" line="161"/>
         <source>Type to search...</source>
         <translation>Aramak için tıklayın...</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="162"/>
+        <location filename="ui_mainwidget.py" line="162"/>
         <source>Update Types</source>
         <translation>Güncelleme Tipleri</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="163"/>
+        <location filename="ui_mainwidget.py" line="163"/>
         <source>Category Panel</source>
         <translation>Kategori Paneli</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="164"/>
+        <location filename="ui_mainwidget.py" line="164"/>
         <source>Package List</source>
         <translation>Paket Listesi</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="165"/>
+        <location filename="ui_mainwidget.py" line="165"/>
         <source>Show Basket</source>
         <translation>Sepeti Göster</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="166"/>
+        <location filename="ui_mainwidget.py" line="166"/>
         <source>Check for Updates</source>
         <translation>Güncellemeleri Kontrol Et</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="167"/>
+        <location filename="ui_mainwidget.py" line="167"/>
         <source>Install Package(s)</source>
         <translation>Paket(ler)i Kur</translation>
     </message>
@@ -1371,7 +1371,7 @@ Lütfen ağ ayarlarınızı kontrol edin</translation>
     </message>
 </context>
 <context>
-    <name>Packaga Manager</name>
+    <name>Package Manager</name>
     <message>
         <location filename="basketdialog.py" line="57"/>
         <source>Clear Basket</source>
@@ -1983,12 +1983,12 @@ Remove the conflicting packages from the system?</source>
 <context>
     <name>ProgressDialog</name>
     <message>
-        <location filename="ui_progressdialog_v4.py" line="220"/>
+        <location filename="ui_progressdialog.py" line="220"/>
         <source>Form</source>
         <translation>Form</translation>
     </message>
     <message>
-        <location filename="ui_progressdialog_v4.py" line="221"/>
+        <location filename="ui_progressdialog.py" line="221"/>
         <source>Alt+C</source>
         <translation>Alt+C</translation>
     </message>

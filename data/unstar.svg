@@ -16,18 +16,18 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="star_1.svg">
+   sodipodi:docname="unstar.svg">
   <defs
      id="defs4">
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4160">
       <stop
-         style="stop-color:#ffeeaa;stop-opacity:1"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="0"
          id="stop4162" />
       <stop
-         style="stop-color:#ffcc00;stop-opacity:1"
+         style="stop-color:#cccccc;stop-opacity:1"
          offset="1"
          id="stop4164" />
     </linearGradient>
@@ -40,7 +40,7 @@
        fx="128.00006"
        fy="917.32037"
        r="118.00058"
-       gradientTransform="matrix(1.210137,-0.01527456,0.01460133,1.1567981,-40.791708,-134.84811)"
+       gradientTransform="matrix(1.0635541,0,0,1.0000865,-8.6349928,6.9515499)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -50,9 +50,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="604.43758"
-     inkscape:cy="97.708118"
+     inkscape:zoom="0.7"
+     inkscape:cx="148.55142"
+     inkscape:cy="121.10739"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,7 +70,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

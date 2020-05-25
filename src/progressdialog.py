@@ -19,7 +19,7 @@ from PyQt5.QtGui import *
 from pmutils import *
 from pds.gui import *
 from pds.qprogressindicator import QProgressIndicator
-from ui_progressdialog_v4 import Ui_ProgressDialog
+from ui_progressdialog import Ui_ProgressDialog
 import backend
 
 _translate = QCoreApplication.translate
@@ -60,12 +60,12 @@ class ProgressDialog(PAbstractBox, Ui_ProgressDialog):
     def _show(self):
         self.animate(start = MIDCENTER, stop = MIDCENTER)
         self._shown = True
-        print("staart")
+        print("start")
 
     def _hide(self):
         if self._shown:
             self.animate(direction = OUT, start = MIDCENTER, stop = MIDCENTER)
-            self.parent.setWindowTitle(_translate("Packaga Manager","Package Manager"))
+            self.parent.setWindowTitle(_translate("Package Manager","Package Manager"))
             self._shown = False
 
     def updateProgress(self, progress):
@@ -77,29 +77,29 @@ class ProgressDialog(PAbstractBox, Ui_ProgressDialog):
                 self.disableCancel()
             self._show()
         self.progressBar.setValue(progress)
-        self.percentage.setText(_translate("Packaga Manager","<p align='right'>{0} %</p>").format(progress))
-        self.parent.setWindowTitle(_translate("Packaga Manager","Operation - {0}%").format(progress))
+        self.percentage.setText(_translate("Package Manager","<p align='right'>{0} %</p>").format(progress))
+        self.parent.setWindowTitle(_translate("Package Manager","Operation - {0}%").format(progress))
 
     def updateOperation(self, operation, arg):
-        if operation in [_translate("Packaga Manager","configuring"),  _translate("Packaga Manager","extracting")]:
+        if operation in [_translate("Package Manager","configuring"),  _translate("Package Manager","extracting")]:
             self.disableCancel()
 
         if operation == "updatingrepo":
-            operationInfo = _translate("Packaga Manager","Downloading package list of {0}").format(arg)
+            operationInfo = _translate("Package Manager","Downloading package list of {0}").format(arg)
         else:
-            operationInfo = _translate("Packaga Manager",'{0} {1}').format(operation, arg)
+            operationInfo = _translate("Package Manager",'{0} {1}').format(operation, arg)
 
         self.operationInfo.setText(operationInfo)
 
     def updateStatus(self, packageNo, totalPackages, operation):
-        text = _translate("Packaga Manager","[{0} / {1}]").format(packageNo, totalPackages)
+        text = _translate("Package Manager","[{0} / {1}]").format(packageNo, totalPackages)
         self.actionLabel.setText("%s %s" % (text, self._last_action))
 
     def updateRemainingTime(self, time):
         self.timeRemaining.setText("<p align='right'>%s</p>" % time)
 
     def updateCompletedInfo(self, completed, total, rate):
-        text = _translate("Packaga Manager","{0} / {1}, {2}").format(completed, total, rate)
+        text = _translate("Package Manager","{0} / {1}, {2}").format(completed, total, rate)
         self.completedInfo.setText(text)
 
     def updateActionLabel(self, action):
@@ -116,7 +116,7 @@ class ProgressDialog(PAbstractBox, Ui_ProgressDialog):
         self.widget.hide()
         self.busy.show()
 
-        self.actionLabel.setText(_translate("Packaga Manager","Preparing PiSi..."))
+        self.actionLabel.setText(_translate("Package Manager","Preparing PiSi..."))
         self.progressBar.setValue(0)
         self.operationInfo.setText("")
         self.completedInfo.setText("")
@@ -127,7 +127,7 @@ class ProgressDialog(PAbstractBox, Ui_ProgressDialog):
         self.widget.hide()
         self.busy.show()
 
-        self.actionLabel.setText(_translate("Packaga Manager","<b>Cancelling operation...</b>"))
+        self.actionLabel.setText(_translate("Package Manager","<b>Cancelling operation...</b>"))
         self.disableCancel()
         QTimer.singleShot(100, self.iface.cancel)
 

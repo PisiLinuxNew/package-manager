@@ -621,55 +621,55 @@ Ta bort paket i konflikt från systemet?</translation>
         <translation type="obsolete">&lt;b&gt;2.0 MB&lt;/</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="159"/>
+        <location filename="build/ui_mainwidget.py" line="159"/>
         <source>Form</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Form</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="160"/>
+        <location filename="build/ui_mainwidget.py" line="160"/>
         <source>Settings</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Inställningar</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="161"/>
+        <location filename="build/ui_mainwidget.py" line="161"/>
         <source>Type to search...</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Sök</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="162"/>
+        <location filename="build/ui_mainwidget.py" line="162"/>
         <source>Update Types</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Uppdateringstyper</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="163"/>
+        <location filename="build/ui_mainwidget.py" line="163"/>
         <source>Category Panel</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Kategoripanel</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="164"/>
+        <location filename="build/ui_mainwidget.py" line="164"/>
         <source>Package List</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Paketlista</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="165"/>
+        <location filename="build/ui_mainwidget.py" line="165"/>
         <source>Show Basket</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Visa korg</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="166"/>
+        <location filename="build/ui_mainwidget.py" line="166"/>
         <source>Check for Updates</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Leta efter uppdateringar</translation>
     </message>
     <message>
-        <location filename="build/ui_mainwidget_v3.py" line="167"/>
+        <location filename="build/ui_mainwidget.py" line="167"/>
         <source>Install Package(s)</source>
         <comment>MainWidget</comment>
         <translation type="obsolete">Installera paket</translation>
@@ -723,13 +723,13 @@ Ta bort paket i konflikt från systemet?</translation>
         <translation type="obsolete">Förhandsgranska</translation>
     </message>
     <message>
-        <location filename="build/ui_progressdialog_v4.py" line="220"/>
+        <location filename="build/ui_progressdialog.py" line="220"/>
         <source>Form</source>
         <comment>ProgressDialog</comment>
         <translation type="obsolete">Form</translation>
     </message>
     <message>
-        <location filename="build/ui_progressdialog_v4.py" line="221"/>
+        <location filename="build/ui_progressdialog.py" line="221"/>
         <source>Alt+C</source>
         <comment>ProgressDialog</comment>
         <translation type="obsolete">Alt+C</translation>
@@ -1293,47 +1293,47 @@ Kontrollera din nätverksanslutning.</translation>
 <context>
     <name>MainWidget</name>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="159"/>
+        <location filename="ui_mainwidget.py" line="159"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="160"/>
+        <location filename="ui_mainwidget.py" line="160"/>
         <source>Settings</source>
         <translation type="unfinished">Inställningar</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="161"/>
+        <location filename="ui_mainwidget.py" line="161"/>
         <source>Type to search...</source>
         <translation type="unfinished">Sök</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="162"/>
+        <location filename="ui_mainwidget.py" line="162"/>
         <source>Update Types</source>
         <translation type="unfinished">Uppdateringstyper</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="163"/>
+        <location filename="ui_mainwidget.py" line="163"/>
         <source>Category Panel</source>
         <translation type="unfinished">Kategoripanel</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="164"/>
+        <location filename="ui_mainwidget.py" line="164"/>
         <source>Package List</source>
         <translation type="unfinished">Paketlista</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="165"/>
+        <location filename="ui_mainwidget.py" line="165"/>
         <source>Show Basket</source>
         <translation type="unfinished">Visa korg</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="166"/>
+        <location filename="ui_mainwidget.py" line="166"/>
         <source>Check for Updates</source>
         <translation type="unfinished">Leta efter uppdateringar</translation>
     </message>
     <message>
-        <location filename="ui_mainwidget_v3.py" line="167"/>
+        <location filename="ui_mainwidget.py" line="167"/>
         <source>Install Package(s)</source>
         <translation type="unfinished">Installera paket</translation>
     </message>
@@ -1355,7 +1355,7 @@ Kontrollera din nätverksanslutning.</translation>
     </message>
 </context>
 <context>
-    <name>Packaga Manager</name>
+    <name>Package Manager</name>
     <message>
         <location filename="basketdialog.py" line="57"/>
         <source>Clear Basket</source>
@@ -1966,12 +1966,12 @@ Ta bort paket i konflikt från systemet?</translation>
 <context>
     <name>ProgressDialog</name>
     <message>
-        <location filename="ui_progressdialog_v4.py" line="220"/>
+        <location filename="ui_progressdialog.py" line="220"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
-        <location filename="ui_progressdialog_v4.py" line="221"/>
+        <location filename="ui_progressdialog.py" line="221"/>
         <source>Alt+C</source>
         <translation type="unfinished">Alt+C</translation>
     </message>
