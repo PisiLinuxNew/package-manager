@@ -140,9 +140,9 @@ class Install(install):
         else:
             root_dir = "/usr/share"
             bin_dir = "/usr/bin"
-        theme_name="breeze"                                     #  "hicolor"
+        #theme_name="breeze"                                     #  "hicolor"
         #mime_icons_dir = os.path.join(root_dir, "icons/{}".format(theme_name))
-        #icon_dir = os.path.join(root_dir, "pixmaps".format(theme_name))
+        #icon_dir = os.path.join(root_dir, "pixmaps".format(theme_name)
         mime_dir = os.path.join(root_dir, "mime/packages")
         #locale_dir = os.path.join(root_dir, "locale")
         apps_dir = os.path.join(root_dir, "applications")
@@ -258,6 +258,8 @@ setup(
     data_files = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
                   ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"])
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/*.svg"])
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/*.png"])
                   ],
     cmdclass = {
                 'build': Build,
