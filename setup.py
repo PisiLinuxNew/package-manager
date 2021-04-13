@@ -258,8 +258,8 @@ setup(
     data_files = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
                   ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"])
-                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/*.svg"])
-                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/*.png"])
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/*"])
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/*"])
                   ],
     cmdclass = {
                 'build': Build,
