@@ -67,7 +67,7 @@ class GroupList(QListWidget):
             package_count = content[2]
 
         #icon = KIcon(icon_path, KIconLoader.SizeSmallMedium)
-        icon = QIcon.fromTheme(icon_path)
+        icon = QIcon("/usr/share/package-manager/data/desktops/%s" % icon_path)
         if icon.isNull():
             icon = self.defaultIcon
         text = "%s (%d)" % (localName, package_count)
