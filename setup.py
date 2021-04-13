@@ -102,6 +102,7 @@ class Build(build):
         # Copy icons
         print "Copying Images..."
         os.system("cp -R data/ build/")
+        os.system("cp -R data/desktops build/desktops")
 
         print "Generating .desktop files..."
         for filename in glob.glob("data/*.desktop.in"):
@@ -257,9 +258,8 @@ setup(
     url = about.homePage,
     data_files = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
                   ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"]),
-                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"])
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/*.svg"])
-                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/*.png"])
                   ],
     cmdclass = {
                 'build': Build,
