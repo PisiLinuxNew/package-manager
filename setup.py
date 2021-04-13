@@ -102,7 +102,6 @@ class Build(build):
         # Copy icons
         print "Copying Images..."
         os.system("cp -R data/ build/")
-        os.system("cp -R data/desktops build/desktops")
 
         print "Generating .desktop files..."
         for filename in glob.glob("data/*.desktop.in"):
