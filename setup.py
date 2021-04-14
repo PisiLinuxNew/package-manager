@@ -257,7 +257,18 @@ setup(
     url = about.homePage,
     data_files = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
                   ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"]),
-                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"])
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/cinnemon-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/deepin-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/elementary-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/enlightenment-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/gnome-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/kde-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/lumina-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/lxqt-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/mate-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/ukui-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/xfce-desktop.svg"])
                   ],
     cmdclass = {
                 'build': Build,
