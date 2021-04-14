@@ -258,7 +258,7 @@ setup(
     data_files = [('/usr/share/doc/%s' % PROJECT, ['AUTHORS', 'ChangeLog']),
                   ("/usr/share/icons/hicolor/scalable/mimetypes/", ["data/application-x-pisi.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/package-manager.svg"]),
-                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/cinnemon-desktop.svg"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/cinnamon-desktop.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/deepin-desktop.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/elementary-desktop.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/enlightenment-desktop.svg"]),
