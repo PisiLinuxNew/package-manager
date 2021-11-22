@@ -119,7 +119,8 @@ class Build(build):
         makeDirs("build/lang")
         #Temporary bindir to avoid qt4 conflicts
         #os.system("lrelease-qt5 lang/*.ts")
-        os.system("lrelease lang/*.ts")
+        #os.system("lrelease lang/*.ts")
+        os.system("lsb_release lang/*.ts")
         for filename in glob.glob1("lang", "*.qm"):
             shutil.copy("lang/{}".format(filename), "build/lang")
             

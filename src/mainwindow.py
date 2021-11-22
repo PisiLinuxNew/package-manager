@@ -70,8 +70,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.connectMainSignals()
 
         self.pdsMessageBox = PMessageBox(self)
-        
-
+   
     def connectMainSignals(self):
         self.cw.connectMainSignals()
         

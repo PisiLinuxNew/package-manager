@@ -39,6 +39,7 @@ from PyQt5.QtNetwork import QNetworkProxy
 import pds
 from pds.qiconloader import QIconLoader
 
+
 Pds = pds.Pds('package-manager', debug = False)
 #Force to use Default Session for testing
 #Pds.session = pds.DefaultDe
@@ -162,7 +163,7 @@ def reset_proxy_settings():
     QNetworkProxy.setApplicationProxy(QNetworkProxy())
 
 def network_available():
-    return pisi.fetcher.Fetcher('http://appinfo.pisilinux.org').test()
+    return pisi.fetcher.Fetcher('https://pisilinux.org').test()
 
 def parse_proxy(line):
     settings = {'domain':None,'user':None,'pass':None,'host':None,'port':None}

@@ -77,6 +77,7 @@ class PackageDelegate(QStyledItemDelegate):
 
         self.rowAnimator = RowAnimator(parent.packageList)
         self.defaultIcon = QIcon('/usr/share/package-manager/data/tray-zero.svg')
+        
         #self.defaultIcon = KIcon(('package-x-generic', 'package_applications'), 32)
         self.defaultInstalledIcon = QIcon('/usr/share/package-manager/data/installed.svg')
         #self.defaultInstalledIcon = KIcon(KIconLoader.loadOverlayed(('package-x-generic', 'package_applications'), CHECK_ICON, 32))

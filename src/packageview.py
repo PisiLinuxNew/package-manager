@@ -28,7 +28,7 @@ class PackageView(QtWidgets.QTableView):
         self.select_all = QtWidgets.QCheckBox(_translate("Package Manager",'Select all packages in this group'), self)
         self.select_all.resize(parent.width(), 32)
         self.select_all.move(3,3)
-        self.select_all.setStyleSheet('padding:8px;padding-left:4px;')
+        self.select_all.setStyleSheet('padding:8px;padding-left:4px;font-weight: bolder;border-bottom:1px solid #ccc')
         self.select_all.setAutoFillBackground(True)
 
         self.needs_select_all = True
