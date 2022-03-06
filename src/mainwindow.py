@@ -68,9 +68,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.initializeStatusBar()
         self.initializeTray()
         self.connectMainSignals()
+        self.pdsMessageBox = PMessageBox(self)        
 
-        self.pdsMessageBox = PMessageBox(self)
-   
     def connectMainSignals(self):
         self.cw.connectMainSignals()
         

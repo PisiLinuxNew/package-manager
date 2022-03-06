@@ -11,10 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Package Manager-test-Erkan</string>
+   <string>Package Manager</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="tray-zero.png"/>
+   <iconset>
+    <normaloff>:/data/package-manager.png</normaloff>:/data/package-manager.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget"/>
  </widget>

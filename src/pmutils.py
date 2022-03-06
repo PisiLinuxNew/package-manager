@@ -163,6 +163,7 @@ def reset_proxy_settings():
     QNetworkProxy.setApplicationProxy(QNetworkProxy())
 
 def network_available():
+    #return pisi.fetcher.Fetcher('http://appinfo.pisilinux.org').test()
     return pisi.fetcher.Fetcher('https://pisilinux.org').test()
 
 def parse_proxy(line):
