@@ -265,6 +265,7 @@ setup(
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/Gnome-desktop.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/Kde-desktop.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/Lumina-desktop.png"]),
+                  ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/Lxde-desktop.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/Lxqt-desktop.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/Mate-desktop.svg"]),
                   ("/usr/share/icons/hicolor/scalable/apps/", ["data/desktops/Ukui-desktop.svg"]),
