@@ -15,7 +15,7 @@
 _=lambda s: s
 
 # Package Manager Version String
-version = "4.1.2"
+version = "4.2.7.1"
 PACKAGE = "Package Manager"
 
 # Application Data
@@ -26,7 +26,7 @@ catalog     = appName
 # license     = KAboutData.License_GPL
 # copyright   = _("(c) 2009-2010 TUBITAK/UEKAE")
 # text        = _(None)
-homePage    = "https://github.com/pisilinux/project/tree/master/package-manager-pds"
+homePage    = "https://github.com/PisiLinuxNew/package-manager"
 bugEmail    = "bugs@pisilinux.org"
 # aboutData   = KAboutData(appName, catalog, programName, version,
 #                          description, license, copyright, text,
