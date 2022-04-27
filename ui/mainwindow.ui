@@ -14,7 +14,7 @@
    <string>Package Manager</string>
   </property>
   <property name="windowIcon">
-   <iconset>
+   <iconset resource="../data/data.qrc">
     <normaloff>:/data/package-manager.png</normaloff>:/data/package-manager.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget"/>
