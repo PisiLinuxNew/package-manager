@@ -2,7 +2,7 @@
 Name=Package Manager
 Name[tr]=Paket Yöneticisi-Yardımcı
 GenericName=Add/Remove/Update Packages
-GenericName[tr]=Ekle/Kaldır/Paketleri Güncelle
+GenericName[tr]=Paketleri Ekle/Kaldır/Güncelle
 Icon=application-x-pisi
 Type=Application
 StartupNotify=False
