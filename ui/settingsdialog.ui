@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="../data/data.qrc">
-    <normaloff>:/data/package-manager.png</normaloff>:/data/package-manager.png</iconset>
+    <normaloff>:/data/tray-zero.png</normaloff>:/data/tray-zero.png</iconset>
   </property>
   <property name="modal">
    <bool>true</bool>

@@ -299,12 +299,12 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
             self.actionButton.setMenu(menu)
         elif self.state.state == self.state.REMOVE:
             menu = QMenu(self.actionButton)
-            self.__install_action = menu.addAction(self.state.getActionIcon(self.state.INSTALL),
-                                                   self.state.getActionName(self.state.INSTALL),
-                                                   self.showBasket)
             self.__remove_action = menu.addAction(self.state.getActionIcon(self.state.REMOVE),
                                                   self.state.getActionName(self.state.REMOVE),
                                                   self.showBasket)
+            self.__install_action = menu.addAction(self.state.getActionIcon(self.state.INSTALL),
+                                                   self.state.getActionName(self.state.INSTALL),
+                                                   self.showBasket)
             self.actionButton.setMenu(menu)
         else:
             self.actionButton.setMenu(None)
@@ -433,7 +433,7 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         waitCursor()
         self.statusUpdater.wait()
 
-        if self.currentState == self.state.ALL:
+        if self.currentState == self.state.ALL or self.state.REMOVE:
             action = {self.__remove_action:self.state.REMOVE,
                       self.__install_action:self.state.INSTALL}.get(self.sender(), self.state.INSTALL)
             if action:
