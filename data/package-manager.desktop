@@ -8,4 +8,4 @@ Comment[tr]=PiSi Paket Yöneticisi Grafik Arayüzü
 Icon=application-x-pisi
 Type=Application
 Exec=package-manager --show-mainwindow
-Categories=Qt;KDE;System;
+Categories=LxQt;KDE;Mate;Gnome;System;
