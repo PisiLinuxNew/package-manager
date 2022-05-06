@@ -297,6 +297,15 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
                                                   self.state.getActionName(self.state.REMOVE),
                                                   self.showBasket)
             self.actionButton.setMenu(menu)
+        elif self.state.state == self.state.REMOVE:
+            menu = QMenu(self.actionButton)
+            self.__install_action = menu.addAction(self.state.getActionIcon(self.state.INSTALL),
+                                                   self.state.getActionName(self.state.INSTALL),
+                                                   self.showBasket)
+            self.__remove_action = menu.addAction(self.state.getActionIcon(self.state.REMOVE),
+                                                  self.state.getActionName(self.state.REMOVE),
+                                                  self.showBasket)
+            self.actionButton.setMenu(menu)
         else:
             self.actionButton.setMenu(None)
         self.actionButton.setIcon(self.state.getActionIcon())
