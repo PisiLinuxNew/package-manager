@@ -36,7 +36,7 @@ def makeDirs(directory):
 
 def remove(path):
     if os.path.exists(path):
-        print ' removing: ', path
+        print(' removing: ', path)
         if os.path.isdir(path):
             shutil.rmtree(path)
         else:
@@ -58,7 +58,7 @@ def update_messages():
 
     filelist = os.popen("find data -name '*.h'").read().strip().split("\n")
     filelist.sort()
-    print filter(lambda x : x.find(".h")>=0,filelist)
+    print(filter(lambda x : x.find(".h")>=0,filelist))
     with open(files, "w") as _files:
         _files.write("\n".join(filelist))
     # Generate POT file
@@ -96,26 +96,26 @@ class Build(build):
         os.system("rm -rf build")
         build.run(self)
         # Copy codes
-        print "Copying PYs..."
+        print("Copying PYs...")
         os.system("cp -R src/ build/")
 
         # Copy icons
-        print "Copying Images..."
+        print("Copying Images...")
         os.system("cp -R data/ build/")
 
-        print "Generating .desktop files..."
+        print("Generating .desktop files...")
         for filename in glob.glob("data/*.desktop.in"):
             os.system("intltool-merge -d po %s %s" % (filename, filename[:-3]))
 
-        print "Generating UIs..."
+        print("Generating UIs...")
         for filename in glob.glob1("ui", "*.ui"):
             os.system("py2uic5 -o build/ui_%s.py ui/%s" % (filename.split(".")[0], filename))#, PROJECT))
 
-        print "Generating RCs..."
+        print("Generating RCs...")
         for filename in glob.glob1("data", "*.qrc"):
             os.system("py2rcc5 data/%s -o build/%s_rc.py" % (filename, filename.split(".")[0]))
         
-        print "Generating QMs..."
+        print("Generating QMs...")
         makeDirs("build/lang")
         #Temporary bindir to avoid qt4 conflicts
         #os.system("lrelease-qt5 lang/*.ts")
@@ -149,7 +149,7 @@ class Install(install):
         project_dir = os.path.join(root_dir, PROJECT)
 
         # Make directories
-        print "Making directories..."
+        print("Making directories...")
         #makeDirs(mime_icons_dir)
         #makeDirs(icon_dir)
         makeDirs(mime_dir)
@@ -159,7 +159,7 @@ class Install(install):
         makeDirs(project_dir)
 
         # Install desktop files
-        print "Installing desktop files..."
+        print("Installing desktop files...")
 
         for filename in glob.glob("data/*.desktop"):
             shutil.copy(filename, apps_dir)
@@ -168,7 +168,7 @@ class Install(install):
         shutil.copy("data/%s.xml" % PROJECT, mime_dir)
 
         # Install codes
-        print "Installing codes..."
+        print("Installing codes...")
         os.system("cp -R build/* %s/" % project_dir)
 
         # Install locales
@@ -186,15 +186,15 @@ class Install(install):
         #     shutil.copy("po/%s.mo" % lang, os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % PROJECT))
         rst2doc('en')
         if os.path.exists('help'):
-            print "Installing help files..."
+            print("Installing help files...")
             os.system("cp -R help %s/" % project_dir)
 
         # Rename
-        print "Renaming application.py..."
+        print("Renaming application.py...")
         shutil.move(os.path.join(project_dir, "main.py"), os.path.join(project_dir, "%s.py" % PROJECT))
 
         # Modes
-        print "Changing file modes..."
+        print("Changing file modes...")
         os.chmod(os.path.join(project_dir, "%s.py" % PROJECT), 0755)
         os.chmod(os.path.join(project_dir, "pm-install.py"), 0755)
 
@@ -224,7 +224,7 @@ class Uninstall(Command):
         apps_dir = os.path.join(root_dir, "applications")
         project_dir = os.path.join(root_dir, PROJECT)
 
-        print 'Uninstalling ...'
+        print ('Uninstalling ...')
         remove(project_dir)
         remove(apps_dir +"/%s.desktop" % PROJECT)
         #for filename in glob.glob1('po', '*.po'):
@@ -234,12 +234,12 @@ class Uninstall(Command):
 
 class Clean(clean):
     def run(self):
-        print 'Cleaning ...'
+        print('Cleaning ...')
         os.system('find -name *.pyc|xargs rm -rf')
         #os.system('find -name *.mo|xargs rm -rf')
         for dirs in ('build', 'dist'):
             if os.path.exists(dirs):
-                print ' removing: ', dirs
+                print(' removing: ', dirs)
                 shutil.rmtree(dirs)
         clean.run(self)
 
