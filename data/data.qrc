@@ -11,18 +11,5 @@
     <file>unstar.svg</file>
     <file>star.svg</file>
     <file>animated-tray.mng</file>
-    <file>desktops/Cinnamon-desktop.svg</file>
-    <file>desktops/Deepin-desktop.svg</file>
-    <file>desktops/Elementary-desktop.svg</file>
-    <file>desktops/Enlightenment-desktop.svg</file>
-    <file>desktops/Gnome-desktop.svg</file>
-    <file>desktops/Kde-desktop.svg</file>
-    <file>desktops/Lumina-desktop.png</file>
-    <file>desktops/Lxde-desktop.svg</file>
-    <file>desktops/Lxqt-desktop.svg</file>
-    <file>desktops/Mate-desktop.svg</file>
-    <file>desktops/Pantheon-desktop.svg</file>
-    <file>desktops/Ukui-desktop.svg</file>
-    <file>desktops/Xfce-desktop.svg</file>
   </qresource>
 </RCC>

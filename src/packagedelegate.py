@@ -57,7 +57,8 @@ LIGHTBLUE = QColor('#DEE5F2')
 DARKVIOLET = QColor('#3B414F')
 LIGHTGREEN = QColor('#F1F5EC')
 DARKGREEN = QColor('#32775F')
-CHECK_ICON = 'check'      #add
+CHECK_ICON = 'check'
+PLUS_ICON = 'plus'
 RECT = QRect()
 DETAIL_LINE_OFFSET = 36
 ICON_PADDING = 10
@@ -76,10 +77,8 @@ class PackageDelegate(QStyledItemDelegate):
         self.show_details_button = showDetailsButton
 
         self.rowAnimator = RowAnimator(parent.packageList)
-        self.defaultIcon = QIcon('/usr/share/package-manager/data/tray-zero.svg')
-        #self.defaultIcon = KIcon(('package-x-generic', 'package_applications'), 32)
-        self.defaultInstalledIcon = QIcon('/usr/share/package-manager/data/installed.svg')
-        #self.defaultInstalledIcon = KIcon(KIconLoader.loadOverlayed(('package-x-generic', 'package_applications'), CHECK_ICON, 32))
+        self.defaultIcon = QIcon('/usr/share/pixmaps/installable_pisi.png')
+        self.defaultInstalledIcon = QIcon('/usr/share/pixmaps/installed_pisi.png')
         self.animatable = animatable
         self._max_height = ROW_HEIGHT
 
@@ -184,11 +183,11 @@ class PackageDelegate(QStyledItemDelegate):
         icon = None
 
         if _icon:
-            overlay = [CHECK_ICON] if installed else []
+            overlay = [CHECK_ICON] if installed else [PLUS_ICON]
             KIconLoader._forceCache = True
             pix = KIconLoader.loadOverlayed(_icon, overlay, 32)
-            #if not pix.isNull():
-                #icon = QIcon(pix.scaled(QSize(32, 32), Qt.KeepAspectRatio, Qt.SmoothTransformation))
+            if not pix.isNull():
+                icon = QIcon(pix.scaled(QSize(32, 32), Qt.KeepAspectRatio, Qt.SmoothTransformation))
             KIconLoader._forceCache = False
                
 
