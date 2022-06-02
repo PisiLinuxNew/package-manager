@@ -82,7 +82,7 @@ class SummaryDialog(QtWidgets.QDialog, Ui_SummaryDialog):
 
     def checkIcon(self, iconFileName):
         extensions = ['png', 'jpg','jpeg', 'svg']
-        pixmapsDir = ['/usr/share/pixmaps/', '/usr/share/icons']
+        pixmapsDir = ['/usr/share/pixmaps/icons', '/usr/share/icons']
         if os.path.isfile(iconFileName) == True:
             return iconFileName
         else:

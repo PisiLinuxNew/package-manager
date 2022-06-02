@@ -77,8 +77,8 @@ class PackageDelegate(QStyledItemDelegate):
         self.show_details_button = showDetailsButton
 
         self.rowAnimator = RowAnimator(parent.packageList)
-        self.defaultIcon = QIcon('/usr/share/pixmaps/installable_pisi.png')
-        self.defaultInstalledIcon = QIcon('/usr/share/pixmaps/installed_pisi.png')
+        self.defaultIcon = QIcon('/usr/share/pixmaps/icons/installable_pisi.png')
+        self.defaultInstalledIcon = QIcon('/usr/share/pixmaps/icons/installed_pisi.png')
         self.animatable = animatable
         self._max_height = ROW_HEIGHT
 

@@ -433,23 +433,36 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         waitCursor()
         self.statusUpdater.wait()
 
-        if self.currentState == self.state.ALL or self.state.REMOVE:
+        if self.currentState == self.state.ALL:
             action = {self.__remove_action:self.state.REMOVE,
                       self.__install_action:self.state.INSTALL}.get(self.sender(), self.state.INSTALL)
             if action:
-                if action == self.state.ALL:
+                if action == self.state.REMOVE:
                     installed_packages = self.state.iface.getInstalledPackages()
                     filtered_packages = filter(lambda x: x not in installed_packages, self.basket.model.selectedPackages())
                     if filtered_packages == self.basket.model.selectedPackages():
                         restoreCursor()
-                        QMessageBox(_translate("Package Manager","Select packages"),
-                                    _translate("Package Manager","You must select at least one installed package"),
-                                    QMessageBox.Information, QMessageBox.Ok, 0, 0).exec_()
+                        QMessageBox(QMessageBox.Information, _translate("Package Manager","Select packages"),
+                                    _translate("Package Manager","You must select at least one installed package"), QMessageBox.Ok).exec_()
                         return
                     self.packageList.model().sourceModel().selectPackages(filtered_packages, state = False)
 
                 self.state.state = action
 
+        #FIXME:Added reinstall action to actionsButton in the installed tabbed
+        elif self.currentState == self.state.REMOVE:
+            action = {self.__remove_action:self.state.REMOVE,
+                      self.__install_action:self.state.INSTALL}.get(self.sender(), self.state.INSTALL)
+            if action:
+                if action == self.state.REMOVE:
+                    installed_packages = self.state.iface.getInstalledPackages()
+                    filtered_packages = filter(lambda x: x not in installed_packages, self.basket.model.selectedPackages())
+                    
+                    if filtered_packages == self.basket.model.selectedPackages():
+                        return
+                    self.packageList.model().sourceModel().selectPackages(filtered_packages, state = False)
+
+                self.state.state = action	          
         self.basket._show()
         restoreCursor()
 

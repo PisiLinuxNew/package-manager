@@ -24,7 +24,7 @@ class PTray:
     def __init__(self, iface):
         self.defaultIcon = QtGui.QIcon(":/data/tray-zero.png")
         self.countIcon = QtGui.QIcon(":/data/tray-count.png")
-        self.clip = QtGui.QMovie(":/data/animated-tray.mng")
+        self.clip = QtGui.QMovie(":/data/pisianime.mng")
         self.lastIcon = self.defaultIcon
         self.setIcon(self.defaultIcon)
         self.lastUpgrades = []
