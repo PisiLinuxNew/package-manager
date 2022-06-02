@@ -30,4 +30,7 @@
  -  #20 (New): Show repository changelogs with updates
  -  #18 (New): Basket Dialog Improvements
  -  #17 (New): Conflict Package Dialog Improvements
-
+ 
+ - İconcan paketine gerekli simgelerin taşınması
+ - Kurulan paketlerde simge çakışması sonrası bozulma olursa ana paketten simgenin silinmesi
+ - python paketleri python, gtk paketleri için gtk, kitaplıklar ve devel paketleri için library simgelerinin kullanılması

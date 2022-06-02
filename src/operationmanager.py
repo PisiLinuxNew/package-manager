@@ -115,8 +115,7 @@ class OperationManager(QObject):
             return
 
         places = ('usr/share/applications/',
-                  'usr/kde/4/share/applications/kde4/',
-                  'usr/kde/3.5/share/applications/kde/')
+                  'usr/share/kde4/apps')
 
         for place in places:
             if desktopFile.startswith(place):
