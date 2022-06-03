@@ -183,7 +183,7 @@ class PackageDelegate(QStyledItemDelegate):
         icon = None
 
         if _icon:
-            overlay = [CHECK_ICON] if installed else [PLUS_ICON]
+            overlay = [CHECK_ICON] if installed else []
             KIconLoader._forceCache = True
             pix = KIconLoader.loadOverlayed(_icon, overlay, 32)
             if not pix.isNull():
