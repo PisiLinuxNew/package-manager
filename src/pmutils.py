@@ -82,6 +82,9 @@ class PM:
         if any(warning in message for warning in ('urlopen error','Socket Error', 'PYCURL ERROR')):
             errorTitle = _translate("Package Manager","Network Error")
             errorMessage = _translate("Package Manager","Please check your network connections and try again.")
+            if message:
+                logger.error("Network-related operation error: %s" % unicode(message))
+                errorMessage = u"%s\n\n%s" % (errorMessage, unicode(message))
         elif "Access denied" in message or "tr.org.pardus.comar.Comar.PolicyKit" in message:
             errorTitle = _translate("Package Manager","Authorization Error")
             errorMessage = _translate("Package Manager","You are not authorized for this operation.")
@@ -162,7 +165,11 @@ def reset_proxy_settings():
     QNetworkProxy.setApplicationProxy(QNetworkProxy())
 
 def network_available():
-    return pisi.fetcher.Fetcher('http://appinfo.pisilinux.org').test()
+    try:
+        return repos_available(backend.pm.Iface())
+    except Exception, e:
+        logger.debug("network_available check failed: %s" % unicode(e))
+        return False
 
 def parse_proxy(line):
     settings = {'domain':None,'user':None,'pass':None,'host':None,'port':None}

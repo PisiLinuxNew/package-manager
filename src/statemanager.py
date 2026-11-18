@@ -195,11 +195,10 @@ class StateManager(QObject):
 
     def operationAction(self, packages, silence = False, reinstall = False, connection_required = True):
 
-        if connection_required:
-            if not network_available() and not self.state == self.REMOVE:
-                if not repos_available(self.iface):
-                    self.showFailMessage()
-                    return False
+        if connection_required and not self.state == self.REMOVE:
+            if not repos_available(self.iface):
+                self.showFailMessage()
+                return False
 
         if not silence and not self.state == self.REMOVE:
             if not self.conflictCheckPasses(packages):
